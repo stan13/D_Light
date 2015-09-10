@@ -36,6 +36,8 @@
 //Eye Slider
 - (IBAction)eyeSlider:(id)sender {
     
+    //blah
+    
 }
 
 //Skin Slider
