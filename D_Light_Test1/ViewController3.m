@@ -31,12 +31,15 @@
     
     NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
     NSInteger sex = [defaults integerForKey:@"sex"];
+    CGFloat r = [defaults floatForKey:@"skinRed"];
+    CGFloat g = [defaults floatForKey:@"skinGreen"];
+    CGFloat b = [defaults floatForKey:@"skinBlue"];
     if (sex == 0) {
-        self.boyOrGirl.text = @"BOY";
+        self.boyOrGirl.text = [NSString stringWithFormat:@"BOY %f %f %f", r, g, b];
         
     }
     else if (sex == 1) {
-        self.boyOrGirl.text = @"GIRL";
+        self.boyOrGirl.text = [NSString stringWithFormat:@"BOY %f %f %f", r, g, b];
 
     }
     

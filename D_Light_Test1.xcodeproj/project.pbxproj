@@ -22,6 +22,8 @@
 		50C292621B837C9C007944C4 /* Constants.m in Sources */ = {isa = PBXBuildFile; fileRef = 50C292611B837C9C007944C4 /* Constants.m */; };
 		E524AA1C1BA15FC5003B6AD5 /* eyes.png in Resources */ = {isa = PBXBuildFile; fileRef = E524AA1B1BA15FC5003B6AD5 /* eyes.png */; };
 		E5BB4DE61BA2849800C9C7A0 /* face.png in Resources */ = {isa = PBXBuildFile; fileRef = E5BB4DE51BA2849800C9C7A0 /* face.png */; };
+		E5BB4DE81BA2862D00C9C7A0 /* Character.m in Sources */ = {isa = PBXBuildFile; fileRef = E5BB4DE71BA2862D00C9C7A0 /* Character.m */; };
+		E5BB4DEB1BA2895A00C9C7A0 /* hair.png in Resources */ = {isa = PBXBuildFile; fileRef = E5BB4DEA1BA2895A00C9C7A0 /* hair.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +62,9 @@
 		50C292631B837CAF007944C4 /* Constants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
 		E524AA1B1BA15FC5003B6AD5 /* eyes.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = eyes.png; sourceTree = "<group>"; };
 		E5BB4DE51BA2849800C9C7A0 /* face.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = face.png; sourceTree = "<group>"; };
+		E5BB4DE71BA2862D00C9C7A0 /* Character.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Character.m; sourceTree = "<group>"; };
+		E5BB4DE91BA2863B00C9C7A0 /* Character.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Character.h; sourceTree = "<group>"; };
+		E5BB4DEA1BA2895A00C9C7A0 /* hair.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hair.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,16 +112,19 @@
 				50398CA21B7DBB8B00E39663 /* ViewController.m */,
 				50398CA41B7DBB8B00E39663 /* Main.storyboard */,
 				501029631B7DF2D500118A4F /* GameLogic.h */,
+				501029641B7DF2E600118A4F /* GameLogic.m */,
+				E5BB4DE91BA2863B00C9C7A0 /* Character.h */,
+				E5BB4DE71BA2862D00C9C7A0 /* Character.m */,
 				50C292611B837C9C007944C4 /* Constants.m */,
 				50C292631B837CAF007944C4 /* Constants.h */,
-				501029641B7DF2E600118A4F /* GameLogic.m */,
-				508540F81B7DCE2600CE867C /* ViewController2.m */,
-				501029661B7E068E00118A4F /* ViewController3.m */,
-				501029681B7E069F00118A4F /* ViewController3.h */,
 				508540FA1B7DD0A300CE867C /* ViewController2.h */,
+				508540F81B7DCE2600CE867C /* ViewController2.m */,
+				501029681B7E069F00118A4F /* ViewController3.h */,
+				501029661B7E068E00118A4F /* ViewController3.m */,
 				50398CA71B7DBB8B00E39663 /* Images.xcassets */,
 				E524AA1B1BA15FC5003B6AD5 /* eyes.png */,
 				E5BB4DE51BA2849800C9C7A0 /* face.png */,
+				E5BB4DEA1BA2895A00C9C7A0 /* hair.png */,
 				508540FB1B7DD92E00CE867C /* boy1.png */,
 				508540FC1B7DD92E00CE867C /* girl1.jpeg */,
 				50398CA91B7DBB8B00E39663 /* LaunchScreen.xib */,
@@ -238,6 +246,7 @@
 				50398CA81B7DBB8B00E39663 /* Images.xcassets in Resources */,
 				E524AA1C1BA15FC5003B6AD5 /* eyes.png in Resources */,
 				E5BB4DE61BA2849800C9C7A0 /* face.png in Resources */,
+				E5BB4DEB1BA2895A00C9C7A0 /* hair.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,6 +267,7 @@
 				50398CA31B7DBB8B00E39663 /* ViewController.m in Sources */,
 				508540F91B7DCE2600CE867C /* ViewController2.m in Sources */,
 				501029671B7E068E00118A4F /* ViewController3.m in Sources */,
+				E5BB4DE81BA2862D00C9C7A0 /* Character.m in Sources */,
 				501029651B7DF2E600118A4F /* GameLogic.m in Sources */,
 				50398CA01B7DBB8B00E39663 /* AppDelegate.m in Sources */,
 				50C292621B837C9C007944C4 /* Constants.m in Sources */,

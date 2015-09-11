@@ -181,16 +181,23 @@
                                     <action selector="skinSlider:" destination="1g2-jH-XVG" eventType="valueChanged" id="m9k-TH-C6q"/>
                                 </connections>
                             </slider>
-                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="girl1.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="4D6-lE-fEB">
-                                <rect key="frame" x="23" y="67" width="338" height="336"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="face.png" translatesAutoresizingMaskIntoConstraints="NO" id="e3r-fv-6xU">
+                                <rect key="frame" x="16" y="67" width="336" height="336"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="eyes.png" translatesAutoresizingMaskIntoConstraints="NO" id="YI0-PZ-4dW">
+                                <rect key="frame" x="16" y="72" width="336" height="331"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="hair.png" translatesAutoresizingMaskIntoConstraints="NO" id="Ook-wG-6Pw">
+                                <rect key="frame" x="16" y="67" width="336" height="329"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <connections>
-                        <outlet property="Character" destination="4D6-lE-fEB" id="f8K-hh-aLs"/>
                         <outlet property="Scene2" destination="He8-Oc-Lf9" id="Fbb-Jx-tun"/>
-                        <outlet property="character" destination="4D6-lE-fEB" id="4P4-gJ-6tl"/>
+                        <outlet property="eyes" destination="YI0-PZ-4dW" id="nyf-Ty-WK2"/>
+                        <outlet property="face" destination="e3r-fv-6xU" id="bqI-CL-Rce"/>
+                        <outlet property="hair" destination="Ook-wG-6Pw" id="zdQ-5a-16m"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="U40-0m-iAB" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -238,7 +245,9 @@
         </scene>
     </scenes>
     <resources>
-        <image name="girl1.jpeg" width="189" height="267"/>
+        <image name="eyes.png" width="400" height="400"/>
+        <image name="face.png" width="400" height="400"/>
+        <image name="hair.png" width="400" height="400"/>
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="I51-PT-CDk"/>
