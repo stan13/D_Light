@@ -12,9 +12,16 @@
 @interface ViewController2 ()
 //Private Variables
 
-//@property (strong, nonatomic) Character *character;
+
+
 @property NSString *currentFace;
 @property NSString *currentHair;
+@property int sex;
+@property CGFloat currentEyeHue;
+@property CGFloat currentSkinRed;
+@property CGFloat currentSkinGreen;
+@property CGFloat currentSkinBlue;
+@property CGFloat currentHairHue;
 
 
 @end
@@ -23,33 +30,55 @@
 //Methods
 //Boy box
 - (IBAction)chooseBoy:(id)sender {
-    //Set userDefaults to boy
     
-    NSUserDefaults *userDefaults = [NSUserDefaults standardUserDefaults];
-    [userDefaults setInteger:0 forKey:@"sex"];
-    //change the picture to boy
-    //self.Character.image = [UIImage imageNamed:@"boy1.png"];
+    //store values as variables
+    self.sex = 0;
+    self.currentFace = @"boyFace";
+    self.face.image = [UIImage imageNamed:self.currentFace];
+    self.currentHair = @"boyHair0";
+    self.hair.image = [UIImage imageNamed:self.currentHair];
+    
+    //TODO change this to number of hair images
+    for (int i=0; i<2; i++) {
+        UIButton *hair = self.hairImages[i];
+        hair.imageView.image = [UIImage imageNamed:[NSString stringWithFormat:@"boyHair%i", i]];
+    }
+    
+    [self setDefaults];
+    [self updateLook];
 }
+
+
 //Girl box
 - (IBAction)chooseGirl:(id)sender {
-    //self.character.sex = 1;
     
-    NSUserDefaults *userDefaults = [NSUserDefaults standardUserDefaults];
-    [userDefaults setInteger:1 forKey:@"sex"];
-    //change the picture to girl
-    //self.Character.image = [UIImage imageNamed:@"girl1.jpeg"];
+    //store values as variables
+    self.sex = 1;
+    self.currentFace = @"girlFace";
+    self.face.image = [UIImage imageNamed:self.currentFace];
+    self.currentHair = @"girlHair0";
+    self.hair.image = [UIImage imageNamed:self.currentHair];
+    
+    
+    //TODO change this to number of hair images
+    for (int i=0; i<2; i++) {
+        UIButton *hair = self.hairImages[i];
+        hair.imageView.image = [UIImage imageNamed:[NSString stringWithFormat:@"girlHair%i", i]];
+    }
+    
+    [self setDefaults];
+    [self updateLook];
+
 }
-//random
+
 
 //Eye Slider
 - (IBAction)eyeSlider:(UISlider *)sender {
     
-    CGFloat sliderVal = sender.value;
+    self.currentEyeHue = sender.value;
     
-    NSUserDefaults *userDefaults = [NSUserDefaults standardUserDefaults];
-    [userDefaults setFloat:sliderVal forKey:@"eyeHue"];
-    
-    self.face.image = [self changeImage:[UIImage imageNamed:@"eyes"] toColour:[UIColor colorWithHue:sliderVal saturation:0.5 brightness:0.5 alpha:1]];
+    [self setDefaults];
+    [self updateLook];
 }
 
 //Skin Slider
@@ -62,21 +91,22 @@
      *converting to RGB values and using algebra to determine a linear equation
      *to get these values with sliderVal from 0 to 1.
      */
+
+    self.currentSkinRed = (248.0 - 161.0*sliderVal)/255;
+    self.currentSkinGreen = (205.0 - 150.0*sliderVal)/255;
+    self.currentSkinBlue = (168.0 - 145.0*sliderVal)/255;
     
-    CGFloat r = (248.0 - 161.0*sliderVal)/255;
-    CGFloat g = (205.0 - 150.0*sliderVal)/255;
-    CGFloat b = (168.0 - 145.0*sliderVal)/255;
-    
-    NSUserDefaults *userDefaults = [NSUserDefaults standardUserDefaults];
-    [userDefaults setFloat:r forKey:@"skinRed"];
-    [userDefaults setFloat:g forKey:@"skinGreen"];
-    [userDefaults setFloat:b forKey:@"skinBlue"];
-    
-    self.face.image = [self changeImage:[UIImage imageNamed:@"face"] toColour:[UIColor colorWithRed:r green:g blue:b alpha:1]];
+    [self setDefaults];
+    [self updateLook];
 }
 
 //Hair Slider
 - (IBAction)hairSlider:(UISlider *)sender {
+    
+    self.currentHairHue = sender.value;
+    
+    [self setDefaults];
+    [self updateLook];
 }
 
 
@@ -84,9 +114,18 @@
 {
     [super viewDidLoad];
     //put code here or call another method
-    [self showDefaults];
+    //[self showDefaults];
+    [self setUp];
 }
-- (void) showDefaults
+
+-(void) setUp
+{
+    self.currentHair = @"boyHair1";
+    self.currentFace = @"boyFace";
+    [self updateLook];
+}
+
+/*- (void) showDefaults
 {
     //self.boyOrGirl.textColor = [UIColor redColor];
     
@@ -102,7 +141,7 @@
         
     }
     
-}
+}*/
 
 
 
@@ -126,9 +165,63 @@
     return newImg;
 }
 
+//updates the images based on what is stored in the variables
+- (void) updateLook
+{
+    
+    self.face.image = [self changeImage:[UIImage imageNamed:self.currentFace] toColour:[UIColor colorWithRed:self.currentSkinRed green:self.currentSkinGreen blue:self.currentSkinBlue alpha:1]];
+    self.hair.image = [self changeImage:[UIImage imageNamed:self.currentHair] toColour:[UIColor colorWithHue:self.currentHairHue saturation:0.5 brightness:0.5 alpha:1]];
+    self.eyes.image = [self changeImage:[UIImage imageNamed:@"eyes"] toColour:[UIColor colorWithHue:self.currentEyeHue saturation:0.5 brightness:0.5 alpha:1]];
+}
+
+//sets all user defaults based on variables
+- (void) setDefaults
+{
+    NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
+    [defaults setInteger:self.sex forKey:@"sex"];
+    [defaults setFloat:self.currentEyeHue forKey:@"eyeHue"];
+    [defaults setFloat:self.currentSkinRed forKey:@"skinRed"];
+    [defaults setFloat:self.currentSkinGreen forKey:@"skinGreen"];
+    [defaults setFloat:self.currentSkinBlue forKey:@"skinBlue"];
+    [defaults setFloat:self.currentHairHue forKey:@"hairHue"];
+}
 
 
 
+- (IBAction)hair1:(UIButton *)sender {
+    NSString *boyOrGirl;
+    
+    if (self.sex == 0) {
+        boyOrGirl = @"boy";
+    }else if (self.sex == 1){
+        boyOrGirl = @"girl";
+    }
+    
+    self.currentHair = [NSString stringWithFormat:@"%@Hair%i", boyOrGirl, 0];
+    [self setDefaults];
+    [self updateLook];
+}
 
+- (IBAction)hair2:(UIButton *)sender {
+    NSString *boyOrGirl;
+    
+    if (self.sex == 0) {
+        boyOrGirl = @"boy";
+    }else if (self.sex == 1){
+        boyOrGirl = @"girl";
+    }
+    
+    self.currentHair = [NSString stringWithFormat:@"%@Hair%i", boyOrGirl, 1];
+    [self setDefaults];
+    [self updateLook];
+}
 
+- (IBAction)hair3:(UIButton *)sender {
+}
+
+- (IBAction)hair4:(UIButton *)sender {
+}
+
+- (IBAction)hair5:(UIButton *)sender {
+}
 @end

@@ -21,9 +21,13 @@
 		508540FE1B7DD92E00CE867C /* girl1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 508540FC1B7DD92E00CE867C /* girl1.jpeg */; };
 		50C292621B837C9C007944C4 /* Constants.m in Sources */ = {isa = PBXBuildFile; fileRef = 50C292611B837C9C007944C4 /* Constants.m */; };
 		E524AA1C1BA15FC5003B6AD5 /* eyes.png in Resources */ = {isa = PBXBuildFile; fileRef = E524AA1B1BA15FC5003B6AD5 /* eyes.png */; };
-		E5BB4DE61BA2849800C9C7A0 /* face.png in Resources */ = {isa = PBXBuildFile; fileRef = E5BB4DE51BA2849800C9C7A0 /* face.png */; };
+		E5BB4DE61BA2849800C9C7A0 /* boyFace.png in Resources */ = {isa = PBXBuildFile; fileRef = E5BB4DE51BA2849800C9C7A0 /* boyFace.png */; };
 		E5BB4DE81BA2862D00C9C7A0 /* Character.m in Sources */ = {isa = PBXBuildFile; fileRef = E5BB4DE71BA2862D00C9C7A0 /* Character.m */; };
-		E5BB4DEB1BA2895A00C9C7A0 /* hair.png in Resources */ = {isa = PBXBuildFile; fileRef = E5BB4DEA1BA2895A00C9C7A0 /* hair.png */; };
+		E5BB4DEB1BA2895A00C9C7A0 /* boyHair0.png in Resources */ = {isa = PBXBuildFile; fileRef = E5BB4DEA1BA2895A00C9C7A0 /* boyHair0.png */; };
+		E5BB4DF01BA2B07A00C9C7A0 /* boyHair1.png in Resources */ = {isa = PBXBuildFile; fileRef = E5BB4DEC1BA2B07A00C9C7A0 /* boyHair1.png */; };
+		E5BB4DF11BA2B07A00C9C7A0 /* girlFace.png in Resources */ = {isa = PBXBuildFile; fileRef = E5BB4DED1BA2B07A00C9C7A0 /* girlFace.png */; };
+		E5BB4DF21BA2B07A00C9C7A0 /* girlHair0.png in Resources */ = {isa = PBXBuildFile; fileRef = E5BB4DEE1BA2B07A00C9C7A0 /* girlHair0.png */; };
+		E5BB4DF31BA2B07A00C9C7A0 /* girlHair1.png in Resources */ = {isa = PBXBuildFile; fileRef = E5BB4DEF1BA2B07A00C9C7A0 /* girlHair1.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,10 +65,14 @@
 		50C292611B837C9C007944C4 /* Constants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Constants.m; sourceTree = "<group>"; };
 		50C292631B837CAF007944C4 /* Constants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
 		E524AA1B1BA15FC5003B6AD5 /* eyes.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = eyes.png; sourceTree = "<group>"; };
-		E5BB4DE51BA2849800C9C7A0 /* face.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = face.png; sourceTree = "<group>"; };
+		E5BB4DE51BA2849800C9C7A0 /* boyFace.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = boyFace.png; sourceTree = "<group>"; };
 		E5BB4DE71BA2862D00C9C7A0 /* Character.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Character.m; sourceTree = "<group>"; };
 		E5BB4DE91BA2863B00C9C7A0 /* Character.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Character.h; sourceTree = "<group>"; };
-		E5BB4DEA1BA2895A00C9C7A0 /* hair.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hair.png; sourceTree = "<group>"; };
+		E5BB4DEA1BA2895A00C9C7A0 /* boyHair0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = boyHair0.png; sourceTree = "<group>"; };
+		E5BB4DEC1BA2B07A00C9C7A0 /* boyHair1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = boyHair1.png; sourceTree = "<group>"; };
+		E5BB4DED1BA2B07A00C9C7A0 /* girlFace.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = girlFace.png; sourceTree = "<group>"; };
+		E5BB4DEE1BA2B07A00C9C7A0 /* girlHair0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = girlHair0.png; sourceTree = "<group>"; };
+		E5BB4DEF1BA2B07A00C9C7A0 /* girlHair1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = girlHair1.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,8 +131,12 @@
 				501029661B7E068E00118A4F /* ViewController3.m */,
 				50398CA71B7DBB8B00E39663 /* Images.xcassets */,
 				E524AA1B1BA15FC5003B6AD5 /* eyes.png */,
-				E5BB4DE51BA2849800C9C7A0 /* face.png */,
-				E5BB4DEA1BA2895A00C9C7A0 /* hair.png */,
+				E5BB4DE51BA2849800C9C7A0 /* boyFace.png */,
+				E5BB4DED1BA2B07A00C9C7A0 /* girlFace.png */,
+				E5BB4DEA1BA2895A00C9C7A0 /* boyHair0.png */,
+				E5BB4DEC1BA2B07A00C9C7A0 /* boyHair1.png */,
+				E5BB4DEE1BA2B07A00C9C7A0 /* girlHair0.png */,
+				E5BB4DEF1BA2B07A00C9C7A0 /* girlHair1.png */,
 				508540FB1B7DD92E00CE867C /* boy1.png */,
 				508540FC1B7DD92E00CE867C /* girl1.jpeg */,
 				50398CA91B7DBB8B00E39663 /* LaunchScreen.xib */,
@@ -239,14 +251,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E5BB4DF31BA2B07A00C9C7A0 /* girlHair1.png in Resources */,
+				E5BB4DF11BA2B07A00C9C7A0 /* girlFace.png in Resources */,
 				50398CA61B7DBB8B00E39663 /* Main.storyboard in Resources */,
 				508540FE1B7DD92E00CE867C /* girl1.jpeg in Resources */,
 				50398CAB1B7DBB8B00E39663 /* LaunchScreen.xib in Resources */,
 				508540FD1B7DD92E00CE867C /* boy1.png in Resources */,
 				50398CA81B7DBB8B00E39663 /* Images.xcassets in Resources */,
 				E524AA1C1BA15FC5003B6AD5 /* eyes.png in Resources */,
-				E5BB4DE61BA2849800C9C7A0 /* face.png in Resources */,
-				E5BB4DEB1BA2895A00C9C7A0 /* hair.png in Resources */,
+				E5BB4DE61BA2849800C9C7A0 /* boyFace.png in Resources */,
+				E5BB4DF21BA2B07A00C9C7A0 /* girlHair0.png in Resources */,
+				E5BB4DEB1BA2895A00C9C7A0 /* boyHair0.png in Resources */,
+				E5BB4DF01BA2B07A00C9C7A0 /* boyHair1.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

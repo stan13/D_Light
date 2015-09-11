@@ -17,6 +17,15 @@
 @property (weak, nonatomic) IBOutlet UIImageView *face;
 @property (weak, nonatomic) IBOutlet UIImageView *eyes;
 @property (weak, nonatomic) IBOutlet UIImageView *hair;
+- (IBAction)hair1:(UIButton *)sender;
+- (IBAction)hair2:(UIButton *)sender;
+- (IBAction)hair3:(UIButton *)sender;
+- (IBAction)hair4:(UIButton *)sender;
+- (IBAction)hair5:(UIButton *)sender;
+@property (strong, nonatomic) IBOutletCollection(UIButton) NSArray *hairImages;
+
+
+
 
 //Public Variables
 

@@ -123,35 +123,50 @@
                                     <action selector="skinSlider:" destination="1g2-jH-XVG" eventType="valueChanged" id="unJ-rX-vN6"/>
                                 </connections>
                             </slider>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7Wt-2e-Jhh">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7Wt-2e-Jhh">
                                 <rect key="frame" x="54" y="462" width="83" height="86"/>
-                                <state key="normal" title="Button">
+                                <state key="normal" title="Button" image="boyHair0.png">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="hair1:" destination="1g2-jH-XVG" eventType="touchUpInside" id="ew1-IL-oqM"/>
+                                </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qZl-Op-FfN">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qZl-Op-FfN">
                                 <rect key="frame" x="145" y="462" width="83" height="86"/>
-                                <state key="normal" title="Button">
+                                <state key="normal" title="Button" image="boyHair1.png">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="hair2:" destination="1g2-jH-XVG" eventType="touchUpInside" id="nkm-W8-wfj"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KUX-kj-Oq4">
                                 <rect key="frame" x="236" y="462" width="83" height="86"/>
                                 <state key="normal" title="Button">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="hair3:" destination="1g2-jH-XVG" eventType="touchUpInside" id="2u4-Qd-4nd"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dPN-qo-CVv">
                                 <rect key="frame" x="327" y="462" width="83" height="86"/>
                                 <state key="normal" title="Button">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="hair4:" destination="1g2-jH-XVG" eventType="touchUpInside" id="wYd-z6-PfS"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VIo-A7-4HV">
                                 <rect key="frame" x="418" y="462" width="83" height="86"/>
                                 <state key="normal" title="Button">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="hair5:" destination="1g2-jH-XVG" eventType="touchUpInside" id="xwY-Je-aOu"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Hair Style" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GiD-lE-bN9">
                                 <rect key="frame" x="54" y="411" width="75" height="21"/>
@@ -178,16 +193,15 @@
                                 <rect key="frame" x="424" y="411" width="145" height="31"/>
                                 <connections>
                                     <action selector="hairSlider:" destination="1g2-jH-XVG" eventType="valueChanged" id="a8F-sL-u0m"/>
-                                    <action selector="skinSlider:" destination="1g2-jH-XVG" eventType="valueChanged" id="m9k-TH-C6q"/>
                                 </connections>
                             </slider>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="face.png" translatesAutoresizingMaskIntoConstraints="NO" id="e3r-fv-6xU">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="boyFace.png" translatesAutoresizingMaskIntoConstraints="NO" id="e3r-fv-6xU">
                                 <rect key="frame" x="16" y="67" width="336" height="336"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="eyes.png" translatesAutoresizingMaskIntoConstraints="NO" id="YI0-PZ-4dW">
-                                <rect key="frame" x="16" y="72" width="336" height="331"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="boyHair0.png" translatesAutoresizingMaskIntoConstraints="NO" id="Ook-wG-6Pw">
+                                <rect key="frame" x="16" y="67" width="336" height="329"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="hair.png" translatesAutoresizingMaskIntoConstraints="NO" id="Ook-wG-6Pw">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="eyes.png" translatesAutoresizingMaskIntoConstraints="NO" id="YI0-PZ-4dW">
                                 <rect key="frame" x="16" y="67" width="336" height="329"/>
                             </imageView>
                         </subviews>
@@ -198,6 +212,11 @@
                         <outlet property="eyes" destination="YI0-PZ-4dW" id="nyf-Ty-WK2"/>
                         <outlet property="face" destination="e3r-fv-6xU" id="bqI-CL-Rce"/>
                         <outlet property="hair" destination="Ook-wG-6Pw" id="zdQ-5a-16m"/>
+                        <outletCollection property="hairImages" destination="7Wt-2e-Jhh" id="WyF-Ng-8t5"/>
+                        <outletCollection property="hairImages" destination="qZl-Op-FfN" id="gMO-qp-dgv"/>
+                        <outletCollection property="hairImages" destination="KUX-kj-Oq4" id="Hf9-Ph-gqm"/>
+                        <outletCollection property="hairImages" destination="dPN-qo-CVv" id="XqJ-Qn-uYm"/>
+                        <outletCollection property="hairImages" destination="VIo-A7-4HV" id="hj5-r2-WFc"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="U40-0m-iAB" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -245,9 +264,10 @@
         </scene>
     </scenes>
     <resources>
+        <image name="boyFace.png" width="400" height="400"/>
+        <image name="boyHair0.png" width="400" height="400"/>
+        <image name="boyHair1.png" width="400" height="400"/>
         <image name="eyes.png" width="400" height="400"/>
-        <image name="face.png" width="400" height="400"/>
-        <image name="hair.png" width="400" height="400"/>
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="I51-PT-CDk"/>
