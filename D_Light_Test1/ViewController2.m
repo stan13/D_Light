@@ -31,6 +31,7 @@
     //change the picture to girl
     self.Character.image = [UIImage imageNamed:@"girl1.jpeg"];
 }
+//random
 
 //Eye Slider
 - (IBAction)eyeSlider:(id)sender {
