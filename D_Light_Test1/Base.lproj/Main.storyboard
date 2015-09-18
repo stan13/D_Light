@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6250" systemVersion="13F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6244"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -605,7 +605,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FtM-7w-LsT">
-                                <rect key="frame" x="16" y="550" width="35" height="30"/>
+                                <rect key="frame" x="542" y="550" width="35" height="30"/>
                                 <state key="normal" title="Back">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -613,17 +613,8 @@
                                     <segue destination="9Hz-or-0E6" kind="show" id="cKy-yV-VbF"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eJf-uP-v9X">
-                                <rect key="frame" x="538" y="550" width="32" height="30"/>
-                                <state key="normal" title="Next">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <segue destination="jcp-Aj-XbN" kind="presentation" id="mqp-OH-yle"/>
-                                </connections>
-                            </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Minutes: " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="brj-Qg-2Uv">
-                                <rect key="frame" x="16" y="511" width="568" height="31"/>
+                                <rect key="frame" x="16" y="476" width="568" height="31"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
@@ -647,18 +638,27 @@
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="Xcd-fg-BtI">
-                                <rect key="frame" x="14" y="337" width="558" height="31"/>
+                                <rect key="frame" x="21" y="243" width="558" height="31"/>
                                 <connections>
                                     <action selector="changeMinutes:" destination="327-o1-09d" eventType="valueChanged" id="k41-HK-EYf"/>
                                 </connections>
                             </slider>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="XI4-mB-9Pi">
-                                <rect key="frame" x="16" y="375" width="554" height="128"/>
+                                <rect key="frame" x="30" y="69" width="554" height="128"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <string key="text">It's a beautiful day! You only have a little time before you have to go battle Dr. Dastardly in his castle in the centre of the earth to save the world, though. Time is of the essence! How much time should you spend outside to get your vitamin D today?</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eJf-uP-v9X">
+                                <rect key="frame" x="30" y="550" width="32" height="30"/>
+                                <state key="normal" title="Next">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="jcp-Aj-XbN" kind="presentation" id="mqp-OH-yle"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -851,16 +851,16 @@
         <image name="eyes.png" width="400" height="400"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="gkr-w4-QPu"/>
-        <segue reference="u4w-kW-SMf"/>
-        <segue reference="7Ul-wQ-XNy"/>
-        <segue reference="cKy-yV-VbF"/>
-        <segue reference="xgw-W0-gfG"/>
-        <segue reference="0uv-YX-gsc"/>
         <segue reference="axW-Dq-vLC"/>
-        <segue reference="Ew2-bb-xcG"/>
+        <segue reference="mqp-OH-yle"/>
+        <segue reference="xgw-W0-gfG"/>
+        <segue reference="cKy-yV-VbF"/>
+        <segue reference="7Ul-wQ-XNy"/>
+        <segue reference="u4w-kW-SMf"/>
         <segue reference="q8I-4R-MJd"/>
+        <segue reference="Ew2-bb-xcG"/>
         <segue reference="BFx-l4-4dp"/>
         <segue reference="EIm-f0-m8f"/>
+        <segue reference="gkr-w4-QPu"/>
     </inferredMetricsTieBreakers>
 </document>
