@@ -21,6 +21,8 @@
 		508540FE1B7DD92E00CE867C /* girl1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 508540FC1B7DD92E00CE867C /* girl1.jpeg */; };
 		50C292621B837C9C007944C4 /* Constants.m in Sources */ = {isa = PBXBuildFile; fileRef = 50C292611B837C9C007944C4 /* Constants.m */; };
 		E524AA1C1BA15FC5003B6AD5 /* eyes.png in Resources */ = {isa = PBXBuildFile; fileRef = E524AA1B1BA15FC5003B6AD5 /* eyes.png */; };
+		E5258AF71BABC5CC00CD9674 /* Decision1.m in Sources */ = {isa = PBXBuildFile; fileRef = E5258AF61BABC5CC00CD9674 /* Decision1.m */; };
+		E5258AFB1BABCD0800CD9674 /* Answer1.m in Sources */ = {isa = PBXBuildFile; fileRef = E5258AFA1BABCD0800CD9674 /* Answer1.m */; };
 		E5BB4DE61BA2849800C9C7A0 /* boyFace.png in Resources */ = {isa = PBXBuildFile; fileRef = E5BB4DE51BA2849800C9C7A0 /* boyFace.png */; };
 		E5BB4DE81BA2862D00C9C7A0 /* Character.m in Sources */ = {isa = PBXBuildFile; fileRef = E5BB4DE71BA2862D00C9C7A0 /* Character.m */; };
 		E5BB4DEB1BA2895A00C9C7A0 /* boyHair0.png in Resources */ = {isa = PBXBuildFile; fileRef = E5BB4DEA1BA2895A00C9C7A0 /* boyHair0.png */; };
@@ -65,6 +67,10 @@
 		50C292611B837C9C007944C4 /* Constants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Constants.m; sourceTree = "<group>"; };
 		50C292631B837CAF007944C4 /* Constants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
 		E524AA1B1BA15FC5003B6AD5 /* eyes.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = eyes.png; sourceTree = "<group>"; };
+		E5258AF61BABC5CC00CD9674 /* Decision1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Decision1.m; sourceTree = "<group>"; };
+		E5258AF81BABC60700CD9674 /* Decision1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Decision1.h; sourceTree = "<group>"; };
+		E5258AFA1BABCD0800CD9674 /* Answer1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Answer1.m; sourceTree = "<group>"; };
+		E5258AFC1BABCD1A00CD9674 /* Answer1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Answer1.h; sourceTree = "<group>"; };
 		E5BB4DE51BA2849800C9C7A0 /* boyFace.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = boyFace.png; sourceTree = "<group>"; };
 		E5BB4DE71BA2862D00C9C7A0 /* Character.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Character.m; sourceTree = "<group>"; };
 		E5BB4DE91BA2863B00C9C7A0 /* Character.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Character.h; sourceTree = "<group>"; };
@@ -129,6 +135,10 @@
 				508540F81B7DCE2600CE867C /* ViewController2.m */,
 				501029681B7E069F00118A4F /* ViewController3.h */,
 				501029661B7E068E00118A4F /* ViewController3.m */,
+				E5258AF81BABC60700CD9674 /* Decision1.h */,
+				E5258AF61BABC5CC00CD9674 /* Decision1.m */,
+				E5258AFC1BABCD1A00CD9674 /* Answer1.h */,
+				E5258AFA1BABCD0800CD9674 /* Answer1.m */,
 				50398CA71B7DBB8B00E39663 /* Images.xcassets */,
 				E524AA1B1BA15FC5003B6AD5 /* eyes.png */,
 				E5BB4DE51BA2849800C9C7A0 /* boyFace.png */,
@@ -287,7 +297,9 @@
 				501029651B7DF2E600118A4F /* GameLogic.m in Sources */,
 				50398CA01B7DBB8B00E39663 /* AppDelegate.m in Sources */,
 				50C292621B837C9C007944C4 /* Constants.m in Sources */,
+				E5258AFB1BABCD0800CD9674 /* Answer1.m in Sources */,
 				50398C9D1B7DBB8B00E39663 /* main.m in Sources */,
+				E5258AF71BABC5CC00CD9674 /* Decision1.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
