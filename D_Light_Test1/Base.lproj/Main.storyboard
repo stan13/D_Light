@@ -719,10 +719,10 @@
             </objects>
             <point key="canvasLocation" x="7306" y="136"/>
         </scene>
-        <!--Decision Slide 2-->
+        <!--Decision Slide 3-->
         <scene sceneID="Sxg-RG-YOb">
             <objects>
-                <viewController title="Decision Slide 2" id="rc7-u5-mAg" customClass="Decision2" sceneMemberID="viewController">
+                <viewController title="Decision Slide 3" id="rc7-u5-mAg" customClass="Decision2" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="vG8-Of-b8i"/>
                         <viewControllerLayoutGuide type="bottom" id="n0R-uw-o8i"/>
@@ -773,16 +773,9 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="6gx-cZ-s6q">
-                                <rect key="frame" x="14" y="337" width="558" height="31"/>
-                                <connections>
-                                    <action selector="changeMinutes:" destination="rc7-u5-mAg" eventType="valueChanged" id="1nJ-92-dFi"/>
-                                </connections>
-                            </slider>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="dbi-UG-NQS">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="This is gonna say something else." translatesAutoresizingMaskIntoConstraints="NO" id="dbi-UG-NQS">
                                 <rect key="frame" x="16" y="375" width="554" height="128"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <string key="text">It's a beautiful day! You only have a little time before you have to go battle Dr. Dastardly in his castle in the centre of the earth to save the world, though. Time is of the essence! How much time should you spend outside to get your vitamin D today?</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -798,10 +791,10 @@
             </objects>
             <point key="canvasLocation" x="7960" y="136"/>
         </scene>
-        <!--Answer Slide 2-->
+        <!--Answer Slide 3-->
         <scene sceneID="goM-BZ-51Y">
             <objects>
-                <viewController title="Answer Slide 2" id="BVh-UC-gvu" customClass="Answer1" sceneMemberID="viewController">
+                <viewController title="Answer Slide 3" id="BVh-UC-gvu" customClass="Answer1" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="6OD-BM-rFh"/>
                         <viewControllerLayoutGuide type="bottom" id="EIM-Ui-Jd5"/>
@@ -819,7 +812,7 @@
                                     <segue destination="rc7-u5-mAg" kind="show" id="Y4C-RA-HFM"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="odc-ZL-0hK">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="This is a new label" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="odc-ZL-0hK">
                                 <rect key="frame" x="16" y="28" width="568" height="175"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
