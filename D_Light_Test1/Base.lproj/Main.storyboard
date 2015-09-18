@@ -722,7 +722,7 @@
         <!--Decision Slide 3-->
         <scene sceneID="Sxg-RG-YOb">
             <objects>
-                <viewController title="Decision Slide 3" id="rc7-u5-mAg" customClass="Decision2" sceneMemberID="viewController">
+                <viewController title="Decision Slide 3" id="rc7-u5-mAg" customClass="Decision3" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="vG8-Of-b8i"/>
                         <viewControllerLayoutGuide type="bottom" id="n0R-uw-o8i"/>
@@ -749,12 +749,6 @@
                                     <segue destination="BVh-UC-gvu" kind="presentation" id="zO8-II-pce"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Minutes: " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6a2-NC-koB">
-                                <rect key="frame" x="16" y="511" width="568" height="31"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="rdZ-3H-J6Y">
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <string key="text">It's a beautiful day! You only have a little time before you have to go battle Dr. Dastardly in his castle in the centre of the earth to save the world, though. Time is of the essence! How much time should you spend outside to get your vitamin D today?</string>
@@ -773,18 +767,45 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="This is gonna say something else." translatesAutoresizingMaskIntoConstraints="NO" id="dbi-UG-NQS">
-                                <rect key="frame" x="16" y="375" width="554" height="128"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="dbi-UG-NQS">
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <string key="text">For a vacation, your secret identity's family take you out to the country. It'd be much faster to fly, but you take the car. After you arrive, your family immediately beckons you inside the bouncy castle you’re staying in tonight. You know you won't get another chance in the sun today if you go in.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fTx-hG-SIq">
+                                <rect key="frame" x="16" y="414" width="554" height="128"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <string key="text">For a vacation, your secret identity's family take you out to the country. It'd be much faster to fly, but you take the car. After you arrive, your family immediately beckons you inside the bouncy castle you’re staying in tonight. You know you won't get another chance in the sun today if you go in.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wmO-r0-P8j">
+                                <rect key="frame" x="319" y="242" width="251" height="72"/>
+                                <state key="normal" title="Stay outside">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="chooseOutside:" destination="rc7-u5-mAg" eventType="touchUpInside" id="7q6-nP-gsE"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AV4-Dr-Pnd">
+                                <rect key="frame" x="16" y="242" width="251" height="72"/>
+                                <state key="normal" title="Head inside">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
+                                <connections>
+                                    <action selector="chooseInside:" destination="rc7-u5-mAg" eventType="touchUpInside" id="A5P-9L-UaR"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" id="Cov-JL-D7l"/>
                     <connections>
-                        <outlet property="minutesLabel" destination="6a2-NC-koB" id="fbk-aF-cfa"/>
+                        <outlet property="insideButton" destination="AV4-Dr-Pnd" id="y0n-kj-Kyy"/>
+                        <outlet property="outsideButton" destination="wmO-r0-P8j" id="8xB-xs-Vjk"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Eu8-k2-BgU" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -794,7 +815,7 @@
         <!--Answer Slide 3-->
         <scene sceneID="goM-BZ-51Y">
             <objects>
-                <viewController title="Answer Slide 3" id="BVh-UC-gvu" customClass="Answer1" sceneMemberID="viewController">
+                <viewController title="Answer Slide 3" id="BVh-UC-gvu" customClass="Answer3" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="6OD-BM-rFh"/>
                         <viewControllerLayoutGuide type="bottom" id="EIM-Ui-Jd5"/>
@@ -832,7 +853,7 @@
                     </view>
                     <navigationItem key="navigationItem" id="jfs-Xk-NB8"/>
                     <connections>
-                        <outlet property="answerLabel" destination="odc-ZL-0hK" id="7nG-Br-5K1"/>
+                        <outlet property="answerLabel" destination="odc-ZL-0hK" id="1XQ-BC-oMi"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="XmA-Ej-sf0" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -1622,16 +1643,10 @@
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="Y4C-RA-HFM"/>
-        <segue reference="KbB-w3-S4e"/>
-        <segue reference="MSS-3A-zlW"/>
-        <segue reference="z3u-Mt-DTG"/>
-        <segue reference="Ogg-Jz-Ar9"/>
-        <segue reference="HXE-c3-rDF"/>
-        <segue reference="MPr-Bf-8n3"/>
-        <segue reference="J6b-Uu-fG9"/>
-        <segue reference="6GF-6v-d9i"/>
-        <segue reference="iWB-yu-uBZ"/>
-        <segue reference="q5m-AR-iHb"/>
+        <segue reference="zO8-II-pce"/>
+        <segue reference="5GA-T9-COc"/>
+        <segue reference="0uv-YX-gsc"/>
+        <segue reference="xgw-W0-gfG"/>
         <segue reference="gkr-w4-QPu"/>
         <segue reference="BFx-l4-4dp"/>
         <segue reference="Ew2-bb-xcG"/>
@@ -1639,8 +1654,14 @@
         <segue reference="EIm-f0-m8f"/>
         <segue reference="7Ul-wQ-XNy"/>
         <segue reference="Cha-hP-xda"/>
-        <segue reference="ama-Ho-scH"/>
-        <segue reference="mqp-OH-yle"/>
         <segue reference="u4w-kW-SMf"/>
+        <segue reference="q5m-AR-iHb"/>
+        <segue reference="iWB-yu-uBZ"/>
+        <segue reference="6GF-6v-d9i"/>
+        <segue reference="J6b-Uu-fG9"/>
+        <segue reference="MPr-Bf-8n3"/>
+        <segue reference="HXE-c3-rDF"/>
+        <segue reference="Ogg-Jz-Ar9"/>
+        <segue reference="z3u-Mt-DTG"/>
     </inferredMetricsTieBreakers>
 </document>
