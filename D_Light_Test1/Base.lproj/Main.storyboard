@@ -576,9 +576,6 @@
                                 <state key="normal" title="Next">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
-                                <connections>
-                                    <segue destination="327-o1-09d" kind="presentation" id="ama-Ho-scH"/>
-                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -606,11 +603,14 @@
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FtM-7w-LsT">
                                 <rect key="frame" x="542" y="550" width="35" height="30"/>
-                                <state key="normal" title="Back">
+                                <state key="normal" title="Next">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="542" y="550" width="32" height="30"/>
+                                </variation>
                                 <connections>
-                                    <segue destination="9Hz-or-0E6" kind="show" id="cKy-yV-VbF"/>
+                                    <segue destination="jcp-Aj-XbN" kind="presentation" id="S6r-9I-Rim"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Minutes: " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="brj-Qg-2Uv">
@@ -640,23 +640,26 @@
                             <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="Xcd-fg-BtI">
                                 <rect key="frame" x="21" y="243" width="558" height="31"/>
                                 <connections>
-                                    <action selector="changeMinutes:" destination="327-o1-09d" eventType="valueChanged" id="k41-HK-EYf"/>
+                                    <action selector="changeMinutes:" destination="327-o1-09d" eventType="valueChanged" id="Edt-mw-Cm7"/>
                                 </connections>
                             </slider>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="XI4-mB-9Pi">
                                 <rect key="frame" x="30" y="69" width="554" height="128"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <string key="text">It's a beautiful day! You only have a little time before you have to go battle Dr. Dastardly in his castle in the centre of the earth to save the world, though. Time is of the essence! How much time should you spend outside to get your vitamin D today?</string>
+                                <string key="text">Aliens have teamed up with Dr. Dastardly and have covered the world in cloud to stop telescopes from seeing their oncoming invasion! Before warning all of earth and stopping their nefarious plans, how long should you spend outside to get your vitamin D for the day?</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eJf-uP-v9X">
                                 <rect key="frame" x="30" y="550" width="32" height="30"/>
-                                <state key="normal" title="Next">
+                                <state key="normal" title="Back">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="30" y="550" width="35" height="30"/>
+                                </variation>
                                 <connections>
-                                    <segue destination="jcp-Aj-XbN" kind="presentation" id="mqp-OH-yle"/>
+                                    <segue destination="THY-7o-61o" kind="show" id="IbB-YP-MtX"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -664,7 +667,7 @@
                     </view>
                     <navigationItem key="navigationItem" id="DDl-58-m4J"/>
                     <connections>
-                        <outlet property="minutesLabel" destination="brj-Qg-2Uv" id="uEK-mS-Ids"/>
+                        <outlet property="minutesLabel" destination="brj-Qg-2Uv" id="Ldv-7v-1Ou"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tzv-nI-EOp" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -674,7 +677,7 @@
         <!--Answer Slide 2-->
         <scene sceneID="4Tl-dB-UN0">
             <objects>
-                <viewController title="Answer Slide 2" id="jcp-Aj-XbN" customClass="Answer1" sceneMemberID="viewController">
+                <viewController title="Answer Slide 2" id="jcp-Aj-XbN" customClass="Answer2" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="qWI-Dh-0e4"/>
                         <viewControllerLayoutGuide type="bottom" id="FKF-7x-olY"/>
@@ -689,7 +692,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="327-o1-09d" kind="show" id="xgw-W0-gfG"/>
+                                    <segue destination="327-o1-09d" kind="show" id="oeO-9L-x2D"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JYL-F7-eiq">
@@ -712,7 +715,7 @@
                     </view>
                     <navigationItem key="navigationItem" id="Qo9-K5-sGq"/>
                     <connections>
-                        <outlet property="answerLabel" destination="JYL-F7-eiq" id="XjL-5a-RUx"/>
+                        <outlet property="answerLabel" destination="JYL-F7-eiq" id="Ypo-Wq-O71"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="TUs-V2-jYF" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -963,14 +966,30 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SzH-Pm-ecK">
-                                <rect key="frame" x="538" y="550" width="32" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jya-aM-NBu">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
                                 <state key="normal" title="Next">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="642" y="588" width="32" height="30"/>
+                                </variation>
+                                <connections>
+                                    <segue destination="327-o1-09d" kind="presentation" id="ETZ-IG-fnz"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="jya-aM-NBu"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular-widthClass=regular">
+                            <mask key="subviews">
+                                <include reference="jya-aM-NBu"/>
+                            </mask>
+                        </variation>
                     </view>
                     <navigationItem key="navigationItem" id="H4M-zc-IeE"/>
                     <connections>
@@ -979,7 +998,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7NI-X3-3SM" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="5956" y="136"/>
+            <point key="canvasLocation" x="5955.75" y="135.75"/>
         </scene>
         <!--Decision Slide 4-->
         <scene sceneID="2et-7n-rVN">
@@ -1642,19 +1661,6 @@
         <image name="eyes.png" width="400" height="400"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="Y4C-RA-HFM"/>
-        <segue reference="zO8-II-pce"/>
-        <segue reference="5GA-T9-COc"/>
-        <segue reference="0uv-YX-gsc"/>
-        <segue reference="xgw-W0-gfG"/>
-        <segue reference="gkr-w4-QPu"/>
-        <segue reference="BFx-l4-4dp"/>
-        <segue reference="Ew2-bb-xcG"/>
-        <segue reference="q8I-4R-MJd"/>
-        <segue reference="EIm-f0-m8f"/>
-        <segue reference="7Ul-wQ-XNy"/>
-        <segue reference="Cha-hP-xda"/>
-        <segue reference="u4w-kW-SMf"/>
         <segue reference="q5m-AR-iHb"/>
         <segue reference="iWB-yu-uBZ"/>
         <segue reference="6GF-6v-d9i"/>
@@ -1663,5 +1669,18 @@
         <segue reference="HXE-c3-rDF"/>
         <segue reference="Ogg-Jz-Ar9"/>
         <segue reference="z3u-Mt-DTG"/>
+        <segue reference="axW-Dq-vLC"/>
+        <segue reference="S6r-9I-Rim"/>
+        <segue reference="ETZ-IG-fnz"/>
+        <segue reference="LR2-Im-k8R"/>
+        <segue reference="zO8-II-pce"/>
+        <segue reference="5GA-T9-COc"/>
+        <segue reference="u4w-kW-SMf"/>
+        <segue reference="7Ul-wQ-XNy"/>
+        <segue reference="I51-PT-CDk"/>
+        <segue reference="q8I-4R-MJd"/>
+        <segue reference="Ew2-bb-xcG"/>
+        <segue reference="BFx-l4-4dp"/>
+        <segue reference="EIm-f0-m8f"/>
     </inferredMetricsTieBreakers>
 </document>

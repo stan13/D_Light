@@ -22,6 +22,8 @@
 		50C292621B837C9C007944C4 /* Constants.m in Sources */ = {isa = PBXBuildFile; fileRef = 50C292611B837C9C007944C4 /* Constants.m */; };
 		C14EA51A1BABE29500B9661F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C14EA5191BABE29500B9661F /* UIKit.framework */; };
 		C14EA51C1BABE49800B9661F /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C14EA51B1BABE49800B9661F /* AVFoundation.framework */; };
+		C14EA51F1BAC03B300B9661F /* Decision2.m in Sources */ = {isa = PBXBuildFile; fileRef = C14EA51E1BAC03B300B9661F /* Decision2.m */; };
+		C14EA5211BAC03D600B9661F /* Answer2.m in Sources */ = {isa = PBXBuildFile; fileRef = C14EA5201BAC03D600B9661F /* Answer2.m */; };
 		E524AA1C1BA15FC5003B6AD5 /* eyes.png in Resources */ = {isa = PBXBuildFile; fileRef = E524AA1B1BA15FC5003B6AD5 /* eyes.png */; };
 		E5258AF71BABC5CC00CD9674 /* Decision1.m in Sources */ = {isa = PBXBuildFile; fileRef = E5258AF61BABC5CC00CD9674 /* Decision1.m */; };
 		E5258AFB1BABCD0800CD9674 /* Answer1.m in Sources */ = {isa = PBXBuildFile; fileRef = E5258AFA1BABCD0800CD9674 /* Answer1.m */; };
@@ -74,6 +76,10 @@
 		50C292631B837CAF007944C4 /* Constants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
 		C14EA5191BABE29500B9661F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		C14EA51B1BABE49800B9661F /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		C14EA51D1BAC039000B9661F /* Decision2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Decision2.h; sourceTree = "<group>"; };
+		C14EA51E1BAC03B300B9661F /* Decision2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Decision2.m; sourceTree = "<group>"; };
+		C14EA5201BAC03D600B9661F /* Answer2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Answer2.m; sourceTree = "<group>"; };
+		C14EA5221BAC03EA00B9661F /* Answer2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Answer2.h; sourceTree = "<group>"; };
 		E524AA1B1BA15FC5003B6AD5 /* eyes.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = eyes.png; sourceTree = "<group>"; };
 		E5258AF61BABC5CC00CD9674 /* Decision1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Decision1.m; sourceTree = "<group>"; };
 		E5258AF81BABC60700CD9674 /* Decision1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Decision1.h; sourceTree = "<group>"; };
@@ -163,6 +169,10 @@
 				E5258AF61BABC5CC00CD9674 /* Decision1.m */,
 				E5258AFC1BABCD1A00CD9674 /* Answer1.h */,
 				E5258AFA1BABCD0800CD9674 /* Answer1.m */,
+				C14EA51D1BAC039000B9661F /* Decision2.h */,
+				C14EA51E1BAC03B300B9661F /* Decision2.m */,
+				C14EA5221BAC03EA00B9661F /* Answer2.h */,
+				C14EA5201BAC03D600B9661F /* Answer2.m */,
 				E5258B051BABF6F900CD9674 /* Decision3.h */,
 				E5258B031BABF6DC00CD9674 /* Decision3.m */,
 				E5258B081BABF72000CD9674 /* Answer3.h */,
@@ -327,6 +337,8 @@
 				E5BB4DE81BA2862D00C9C7A0 /* Character.m in Sources */,
 				501029651B7DF2E600118A4F /* GameLogic.m in Sources */,
 				50398CA01B7DBB8B00E39663 /* AppDelegate.m in Sources */,
+				C14EA51F1BAC03B300B9661F /* Decision2.m in Sources */,
+				C14EA5211BAC03D600B9661F /* Answer2.m in Sources */,
 				50C292621B837C9C007944C4 /* Constants.m in Sources */,
 				E5258AFB1BABCD0800CD9674 /* Answer1.m in Sources */,
 				50398C9D1B7DBB8B00E39663 /* main.m in Sources */,
