@@ -14,5 +14,4 @@
 //Public Variables
 @property (weak, nonatomic) IBOutlet UILabel *answerLabel;
 
-
 @end
