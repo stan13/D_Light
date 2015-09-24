@@ -16,9 +16,6 @@
 @end
 
 @implementation ViewController
-- (IBAction)ChangeTitle:(UIButton *)sender {
-    self.FirstScene.textColor = [UIColor redColor];
-}
 
 - (void)viewDidLoad {
     [super viewDidLoad];

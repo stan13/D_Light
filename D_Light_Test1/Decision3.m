@@ -25,7 +25,6 @@
 }
 
 
-
 - (IBAction)chooseInside:(UIButton *)sender {
     self.insideButton.backgroundColor = [UIColor grayColor];
     self.outsideButton.backgroundColor = [UIColor clearColor];
