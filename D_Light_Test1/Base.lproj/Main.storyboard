@@ -1776,6 +1776,7 @@
     <inferredMetricsTieBreakers>
         <segue reference="GiL-OM-iIk"/>
         <segue reference="QnE-VF-aHs"/>
+        <segue reference="GiL-OM-iIk"/>
         <segue reference="jXW-zi-QpK"/>
         <segue reference="UoJ-Oq-EHp"/>
         <segue reference="MPr-Bf-8n3"/>
