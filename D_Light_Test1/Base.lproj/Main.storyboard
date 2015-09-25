@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6250" systemVersion="13F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6244"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -447,6 +447,9 @@
                                 <string key="text">Vitamin D is one of the essential things needed by your body to be healthy, especially important in bone health. While vitamin d can be gained through other means, like eating fish, meat, or some other foods, the main method for your body to make it is from having direct sunlight on your skin. It’s created by having a particular kind of the sun’s rays, called UV (ultraviolet) rays, interact with the cells on your skin.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="0.0" y="0.0" width="0.0" height="0.0"/>
+                                </variation>
                             </textView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="d70-7m-wgU">
                                 <rect key="frame" x="552" y="550" width="32" height="30"/>
@@ -493,6 +496,9 @@
                                 <string key="text">While it only takes a few minutes (if the character has a dark skin tone, this might be changed to an hour) in direct sunlight per day to make all the vitamin d your body needs, this is modified by the uv index tooltip here Clothes that cover lots of your skin or naturally darker skin (which is higher in melanin) also reduce the amount of vitamin D created. </string>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="0.0" y="0.0" width="0.0" height="0.0"/>
+                                </variation>
                             </textView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SiS-x4-0Cb">
                                 <rect key="frame" x="552" y="550" width="32" height="30"/>
@@ -785,6 +791,9 @@
                                 <string key="text">Aliens have teamed up with Dr. Dastardly and have covered the world in cloud to stop telescopes from seeing their oncoming invasion! Before warning all of earth and stopping their nefarious plans, how long should you spend outside to get your vitamin D for the day?</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="0.0" y="0.0" width="0.0" height="0.0"/>
+                                </variation>
                             </textView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pBQ-u7-pUn">
                                 <rect key="frame" x="16" y="550" width="35" height="30"/>
@@ -884,6 +893,9 @@
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zMH-NV-VsA">
                                 <rect key="frame" x="552" y="550" width="32" height="30"/>
+                                <accessibility key="accessibilityConfiguration">
+                                    <bool key="isElement" value="NO"/>
+                                </accessibility>
                                 <state key="normal" title="Next">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -947,6 +959,7 @@
                     <navigationItem key="navigationItem" id="Cov-JL-D7l"/>
                     <connections>
                         <outlet property="insideButton" destination="AV4-Dr-Pnd" id="y0n-kj-Kyy"/>
+                        <outlet property="nextButton" destination="zMH-NV-VsA" id="iPb-HF-rks"/>
                         <outlet property="outsideButton" destination="wmO-r0-P8j" id="8xB-xs-Vjk"/>
                     </connections>
                 </viewController>
@@ -995,7 +1008,7 @@
                     </view>
                     <navigationItem key="navigationItem" id="jfs-Xk-NB8"/>
                     <connections>
-                        <outlet property="answerLabel" destination="odc-ZL-0hK" id="1XQ-BC-oMi"/>
+                        <outlet property="answerLabel" destination="odc-ZL-0hK" id="vnw-JD-OVQ"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="XmA-Ej-sf0" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -1648,6 +1661,9 @@
                                 <state key="normal" title="Return to start">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="presentation" id="KI8-gQ-xcA"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -1655,7 +1671,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Vdn-x1-f4r" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="15896" y="136"/>
+            <point key="canvasLocation" x="400" y="-680"/>
         </scene>
     </scenes>
     <resources>
@@ -1665,26 +1681,27 @@
         <image name="eyes.png" width="400" height="400"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="Eba-2p-zyL"/>
-        <segue reference="GiL-OM-iIk"/>
-        <segue reference="QnE-VF-aHs"/>
-        <segue reference="jXW-zi-QpK"/>
-        <segue reference="UoJ-Oq-EHp"/>
-        <segue reference="axW-Dq-vLC"/>
-        <segue reference="S6r-9I-Rim"/>
-        <segue reference="oeO-9L-x2D"/>
-        <segue reference="H3j-T1-rY0"/>
-        <segue reference="P6f-oQ-ivq"/>
-        <segue reference="5GA-T9-COc"/>
-        <segue reference="Wcn-pK-AeW"/>
-        <segue reference="6GF-6v-d9i"/>
-        <segue reference="iWB-yu-uBZ"/>
+        <segue reference="KI8-gQ-xcA"/>
         <segue reference="q5m-AR-iHb"/>
+        <segue reference="iWB-yu-uBZ"/>
+        <segue reference="6GF-6v-d9i"/>
         <segue reference="J6b-Uu-fG9"/>
         <segue reference="MPr-Bf-8n3"/>
         <segue reference="HXE-c3-rDF"/>
         <segue reference="Ogg-Jz-Ar9"/>
-        <segue reference="KiD-nC-HDg"/>
+        <segue reference="QnE-VF-aHs"/>
+        <segue reference="GiL-OM-iIk"/>
+        <segue reference="jXW-zi-QpK"/>
+        <segue reference="UoJ-Oq-EHp"/>
+        <segue reference="5GA-T9-COc"/>
+        <segue reference="P6f-oQ-ivq"/>
+        <segue reference="Y4C-RA-HFM"/>
+        <segue reference="0uv-YX-gsc"/>
+        <segue reference="oeO-9L-x2D"/>
+        <segue reference="H3j-T1-rY0"/>
+        <segue reference="Wcn-pK-AeW"/>
         <segue reference="cD7-i1-IGH"/>
+        <segue reference="KiD-nC-HDg"/>
+        <segue reference="I51-PT-CDk"/>
     </inferredMetricsTieBreakers>
 </document>

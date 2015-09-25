@@ -16,6 +16,7 @@
 @property (weak, nonatomic) IBOutlet UIButton *outsideButton;
 - (IBAction)chooseInside:(UIButton *)sender;
 - (IBAction)chooseOutside:(UIButton *)sender;
+@property (weak, nonatomic) IBOutlet UIButton *nextButton;
 
 @end
 
