@@ -24,13 +24,24 @@
 		C14EA51C1BABE49800B9661F /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C14EA51B1BABE49800B9661F /* AVFoundation.framework */; };
 		C14EA51F1BAC03B300B9661F /* Decision2.m in Sources */ = {isa = PBXBuildFile; fileRef = C14EA51E1BAC03B300B9661F /* Decision2.m */; };
 		C14EA5211BAC03D600B9661F /* Answer2.m in Sources */ = {isa = PBXBuildFile; fileRef = C14EA5201BAC03D600B9661F /* Answer2.m */; };
+		C14EA5251BB501A400B9661F /* Answer3.m in Sources */ = {isa = PBXBuildFile; fileRef = C14EA5241BB501A400B9661F /* Answer3.m */; };
+		C14EA5271BB50A5100B9661F /* Decision4.m in Sources */ = {isa = PBXBuildFile; fileRef = C14EA5261BB50A5100B9661F /* Decision4.m */; };
+		C14EA52B1BB50D6300B9661F /* sunscreen.gif in Resources */ = {isa = PBXBuildFile; fileRef = C14EA52A1BB50D6300B9661F /* sunscreen.gif */; };
+		C14EA52E1BB5138100B9661F /* Answer4.m in Sources */ = {isa = PBXBuildFile; fileRef = C14EA52D1BB5138100B9661F /* Answer4.m */; };
+		C14EA5311BB51D3A00B9661F /* Decision5.m in Sources */ = {isa = PBXBuildFile; fileRef = C14EA5301BB51D3A00B9661F /* Decision5.m */; };
+		C14EA5341BB5216E00B9661F /* Answer5.m in Sources */ = {isa = PBXBuildFile; fileRef = C14EA5331BB5216E00B9661F /* Answer5.m */; };
+		C14EA5371BB526AF00B9661F /* Decision6.m in Sources */ = {isa = PBXBuildFile; fileRef = C14EA5361BB526AF00B9661F /* Decision6.m */; };
+		C14EA5391BB52C2700B9661F /* food1.png in Resources */ = {isa = PBXBuildFile; fileRef = C14EA5381BB52C2700B9661F /* food1.png */; };
+		C14EA53C1BB52C3A00B9661F /* food2.png in Resources */ = {isa = PBXBuildFile; fileRef = C14EA53A1BB52C3A00B9661F /* food2.png */; };
+		C14EA53D1BB52C3A00B9661F /* food3.png in Resources */ = {isa = PBXBuildFile; fileRef = C14EA53B1BB52C3A00B9661F /* food3.png */; };
+		C14EA53F1BB52C4E00B9661F /* plate.png in Resources */ = {isa = PBXBuildFile; fileRef = C14EA53E1BB52C4E00B9661F /* plate.png */; };
+		C14EA5411BB543BE00B9661F /* Answer6.m in Sources */ = {isa = PBXBuildFile; fileRef = C14EA5401BB543BE00B9661F /* Answer6.m */; };
 		E524AA1C1BA15FC5003B6AD5 /* eyes.png in Resources */ = {isa = PBXBuildFile; fileRef = E524AA1B1BA15FC5003B6AD5 /* eyes.png */; };
 		E5258AF71BABC5CC00CD9674 /* Decision1.m in Sources */ = {isa = PBXBuildFile; fileRef = E5258AF61BABC5CC00CD9674 /* Decision1.m */; };
 		E5258AFB1BABCD0800CD9674 /* Answer1.m in Sources */ = {isa = PBXBuildFile; fileRef = E5258AFA1BABCD0800CD9674 /* Answer1.m */; };
 		E5258AFE1BABD7C700CD9674 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5258AFD1BABD7C700CD9674 /* AudioToolbox.framework */; };
 		E5258B011BABD8EE00CD9674 /* Explanation1.m in Sources */ = {isa = PBXBuildFile; fileRef = E5258B001BABD8EE00CD9674 /* Explanation1.m */; };
 		E5258B041BABF6DC00CD9674 /* Decision3.m in Sources */ = {isa = PBXBuildFile; fileRef = E5258B031BABF6DC00CD9674 /* Decision3.m */; };
-		E5258B071BABF71200CD9674 /* Answer3.m in Sources */ = {isa = PBXBuildFile; fileRef = E5258B061BABF71200CD9674 /* Answer3.m */; };
 		E5BB4DE61BA2849800C9C7A0 /* boyFace.png in Resources */ = {isa = PBXBuildFile; fileRef = E5BB4DE51BA2849800C9C7A0 /* boyFace.png */; };
 		E5BB4DE81BA2862D00C9C7A0 /* Character.m in Sources */ = {isa = PBXBuildFile; fileRef = E5BB4DE71BA2862D00C9C7A0 /* Character.m */; };
 		E5BB4DEB1BA2895A00C9C7A0 /* boyHair0.png in Resources */ = {isa = PBXBuildFile; fileRef = E5BB4DEA1BA2895A00C9C7A0 /* boyHair0.png */; };
@@ -80,6 +91,25 @@
 		C14EA51E1BAC03B300B9661F /* Decision2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Decision2.m; sourceTree = "<group>"; };
 		C14EA5201BAC03D600B9661F /* Answer2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Answer2.m; sourceTree = "<group>"; };
 		C14EA5221BAC03EA00B9661F /* Answer2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Answer2.h; sourceTree = "<group>"; };
+		C14EA5231BB5015F00B9661F /* Answer3.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Answer3.h; sourceTree = "<group>"; };
+		C14EA5241BB501A400B9661F /* Answer3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Answer3.m; sourceTree = "<group>"; };
+		C14EA5261BB50A5100B9661F /* Decision4.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Decision4.m; sourceTree = "<group>"; };
+		C14EA5291BB50AA200B9661F /* Decision4.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Decision4.h; sourceTree = "<group>"; };
+		C14EA52A1BB50D6300B9661F /* sunscreen.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = sunscreen.gif; sourceTree = "<group>"; };
+		C14EA52C1BB5135300B9661F /* Answer4.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Answer4.h; sourceTree = "<group>"; };
+		C14EA52D1BB5138100B9661F /* Answer4.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Answer4.m; sourceTree = "<group>"; };
+		C14EA52F1BB51D2300B9661F /* Decision5.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Decision5.h; sourceTree = "<group>"; };
+		C14EA5301BB51D3A00B9661F /* Decision5.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Decision5.m; sourceTree = "<group>"; };
+		C14EA5321BB5214900B9661F /* Answer5.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Answer5.h; sourceTree = "<group>"; };
+		C14EA5331BB5216E00B9661F /* Answer5.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Answer5.m; sourceTree = "<group>"; };
+		C14EA5351BB5269900B9661F /* Decision6.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Decision6.h; sourceTree = "<group>"; };
+		C14EA5361BB526AF00B9661F /* Decision6.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Decision6.m; sourceTree = "<group>"; };
+		C14EA5381BB52C2700B9661F /* food1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = food1.png; sourceTree = "<group>"; };
+		C14EA53A1BB52C3A00B9661F /* food2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = food2.png; sourceTree = "<group>"; };
+		C14EA53B1BB52C3A00B9661F /* food3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = food3.png; sourceTree = "<group>"; };
+		C14EA53E1BB52C4E00B9661F /* plate.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = plate.png; sourceTree = "<group>"; };
+		C14EA5401BB543BE00B9661F /* Answer6.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Answer6.m; sourceTree = "<group>"; };
+		C14EA5421BB543D300B9661F /* Answer6.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Answer6.h; sourceTree = "<group>"; };
 		E524AA1B1BA15FC5003B6AD5 /* eyes.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = eyes.png; sourceTree = "<group>"; };
 		E5258AF61BABC5CC00CD9674 /* Decision1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Decision1.m; sourceTree = "<group>"; };
 		E5258AF81BABC60700CD9674 /* Decision1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Decision1.h; sourceTree = "<group>"; };
@@ -91,8 +121,6 @@
 		E5258B021BABDBF500CD9674 /* audio1.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = audio1.m4a; sourceTree = "<group>"; };
 		E5258B031BABF6DC00CD9674 /* Decision3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Decision3.m; sourceTree = "<group>"; };
 		E5258B051BABF6F900CD9674 /* Decision3.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Decision3.h; sourceTree = "<group>"; };
-		E5258B061BABF71200CD9674 /* Answer3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Answer3.m; sourceTree = "<group>"; };
-		E5258B081BABF72000CD9674 /* Answer3.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Answer3.h; sourceTree = "<group>"; };
 		E5BB4DE51BA2849800C9C7A0 /* boyFace.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = boyFace.png; sourceTree = "<group>"; };
 		E5BB4DE71BA2862D00C9C7A0 /* Character.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Character.m; sourceTree = "<group>"; };
 		E5BB4DE91BA2863B00C9C7A0 /* Character.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Character.h; sourceTree = "<group>"; };
@@ -175,9 +203,25 @@
 				C14EA5201BAC03D600B9661F /* Answer2.m */,
 				E5258B051BABF6F900CD9674 /* Decision3.h */,
 				E5258B031BABF6DC00CD9674 /* Decision3.m */,
-				E5258B081BABF72000CD9674 /* Answer3.h */,
-				E5258B061BABF71200CD9674 /* Answer3.m */,
+				C14EA5231BB5015F00B9661F /* Answer3.h */,
+				C14EA5241BB501A400B9661F /* Answer3.m */,
+				C14EA5291BB50AA200B9661F /* Decision4.h */,
+				C14EA5261BB50A5100B9661F /* Decision4.m */,
+				C14EA52C1BB5135300B9661F /* Answer4.h */,
+				C14EA52D1BB5138100B9661F /* Answer4.m */,
+				C14EA52F1BB51D2300B9661F /* Decision5.h */,
+				C14EA5301BB51D3A00B9661F /* Decision5.m */,
+				C14EA5321BB5214900B9661F /* Answer5.h */,
+				C14EA5331BB5216E00B9661F /* Answer5.m */,
+				C14EA5351BB5269900B9661F /* Decision6.h */,
+				C14EA5361BB526AF00B9661F /* Decision6.m */,
+				C14EA5421BB543D300B9661F /* Answer6.h */,
+				C14EA5401BB543BE00B9661F /* Answer6.m */,
 				50398CA71B7DBB8B00E39663 /* Images.xcassets */,
+				C14EA5381BB52C2700B9661F /* food1.png */,
+				C14EA53A1BB52C3A00B9661F /* food2.png */,
+				C14EA53B1BB52C3A00B9661F /* food3.png */,
+				C14EA53E1BB52C4E00B9661F /* plate.png */,
 				E524AA1B1BA15FC5003B6AD5 /* eyes.png */,
 				E5BB4DE51BA2849800C9C7A0 /* boyFace.png */,
 				E5BB4DED1BA2B07A00C9C7A0 /* girlFace.png */,
@@ -187,6 +231,7 @@
 				E5BB4DEF1BA2B07A00C9C7A0 /* girlHair1.png */,
 				508540FB1B7DD92E00CE867C /* boy1.png */,
 				508540FC1B7DD92E00CE867C /* girl1.jpeg */,
+				C14EA52A1BB50D6300B9661F /* sunscreen.gif */,
 				50398CA91B7DBB8B00E39663 /* LaunchScreen.xib */,
 				50398C9A1B7DBB8B00E39663 /* Supporting Files */,
 			);
@@ -301,10 +346,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				E5BB4DF31BA2B07A00C9C7A0 /* girlHair1.png in Resources */,
+				C14EA5391BB52C2700B9661F /* food1.png in Resources */,
 				E5BB4DF11BA2B07A00C9C7A0 /* girlFace.png in Resources */,
 				50398CA61B7DBB8B00E39663 /* Main.storyboard in Resources */,
 				508540FE1B7DD92E00CE867C /* girl1.jpeg in Resources */,
+				C14EA53F1BB52C4E00B9661F /* plate.png in Resources */,
 				50398CAB1B7DBB8B00E39663 /* LaunchScreen.xib in Resources */,
+				C14EA53C1BB52C3A00B9661F /* food2.png in Resources */,
+				C14EA53D1BB52C3A00B9661F /* food3.png in Resources */,
+				C14EA52B1BB50D6300B9661F /* sunscreen.gif in Resources */,
 				508540FD1B7DD92E00CE867C /* boy1.png in Resources */,
 				50398CA81B7DBB8B00E39663 /* Images.xcassets in Resources */,
 				E524AA1C1BA15FC5003B6AD5 /* eyes.png in Resources */,
@@ -331,11 +381,18 @@
 			files = (
 				E5258B011BABD8EE00CD9674 /* Explanation1.m in Sources */,
 				50398CA31B7DBB8B00E39663 /* ViewController.m in Sources */,
+				C14EA5371BB526AF00B9661F /* Decision6.m in Sources */,
 				E5258B041BABF6DC00CD9674 /* Decision3.m in Sources */,
+				C14EA5341BB5216E00B9661F /* Answer5.m in Sources */,
 				508540F91B7DCE2600CE867C /* ViewController2.m in Sources */,
 				501029671B7E068E00118A4F /* ViewController3.m in Sources */,
+				C14EA5311BB51D3A00B9661F /* Decision5.m in Sources */,
+				C14EA52E1BB5138100B9661F /* Answer4.m in Sources */,
+				C14EA5411BB543BE00B9661F /* Answer6.m in Sources */,
 				E5BB4DE81BA2862D00C9C7A0 /* Character.m in Sources */,
 				501029651B7DF2E600118A4F /* GameLogic.m in Sources */,
+				C14EA5251BB501A400B9661F /* Answer3.m in Sources */,
+				C14EA5271BB50A5100B9661F /* Decision4.m in Sources */,
 				50398CA01B7DBB8B00E39663 /* AppDelegate.m in Sources */,
 				C14EA51F1BAC03B300B9661F /* Decision2.m in Sources */,
 				C14EA5211BAC03D600B9661F /* Answer2.m in Sources */,
@@ -343,7 +400,6 @@
 				E5258AFB1BABCD0800CD9674 /* Answer1.m in Sources */,
 				50398C9D1B7DBB8B00E39663 /* main.m in Sources */,
 				E5258AF71BABC5CC00CD9674 /* Decision1.m in Sources */,
-				E5258B071BABF71200CD9674 /* Answer3.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

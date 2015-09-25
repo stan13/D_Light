@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6250" systemVersion="13F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6244"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -447,6 +447,9 @@
                                 <string key="text">Vitamin D is one of the essential things needed by your body to be healthy, especially important in bone health. While vitamin d can be gained through other means, like eating fish, meat, or some other foods, the main method for your body to make it is from having direct sunlight on your skin. It’s created by having a particular kind of the sun’s rays, called UV (ultraviolet) rays, interact with the cells on your skin.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="0.0" y="0.0" width="0.0" height="0.0"/>
+                                </variation>
                             </textView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="d70-7m-wgU">
                                 <rect key="frame" x="552" y="550" width="32" height="30"/>
@@ -493,6 +496,9 @@
                                 <string key="text">While it only takes a few minutes (if the character has a dark skin tone, this might be changed to an hour) in direct sunlight per day to make all the vitamin d your body needs, this is modified by the uv index tooltip here Clothes that cover lots of your skin or naturally darker skin (which is higher in melanin) also reduce the amount of vitamin D created. </string>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="0.0" y="0.0" width="0.0" height="0.0"/>
+                                </variation>
                             </textView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SiS-x4-0Cb">
                                 <rect key="frame" x="552" y="550" width="32" height="30"/>
@@ -785,6 +791,9 @@
                                 <string key="text">Aliens have teamed up with Dr. Dastardly and have covered the world in cloud to stop telescopes from seeing their oncoming invasion! Before warning all of earth and stopping their nefarious plans, how long should you spend outside to get your vitamin D for the day?</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="0.0" y="0.0" width="0.0" height="0.0"/>
+                                </variation>
                             </textView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pBQ-u7-pUn">
                                 <rect key="frame" x="16" y="550" width="35" height="30"/>
@@ -884,6 +893,9 @@
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zMH-NV-VsA">
                                 <rect key="frame" x="552" y="550" width="32" height="30"/>
+                                <accessibility key="accessibilityConfiguration">
+                                    <bool key="isElement" value="NO"/>
+                                </accessibility>
                                 <state key="normal" title="Next">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -947,6 +959,7 @@
                     <navigationItem key="navigationItem" id="Cov-JL-D7l"/>
                     <connections>
                         <outlet property="insideButton" destination="AV4-Dr-Pnd" id="y0n-kj-Kyy"/>
+                        <outlet property="nextButton" destination="zMH-NV-VsA" id="iPb-HF-rks"/>
                         <outlet property="outsideButton" destination="wmO-r0-P8j" id="8xB-xs-Vjk"/>
                     </connections>
                 </viewController>
@@ -995,7 +1008,7 @@
                     </view>
                     <navigationItem key="navigationItem" id="jfs-Xk-NB8"/>
                     <connections>
-                        <outlet property="answerLabel" destination="odc-ZL-0hK" id="1XQ-BC-oMi"/>
+                        <outlet property="answerLabel" destination="odc-ZL-0hK" id="vnw-JD-OVQ"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="XmA-Ej-sf0" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -1005,7 +1018,7 @@
         <!--Decision Slide 4-->
         <scene sceneID="2et-7n-rVN">
             <objects>
-                <viewController title="Decision Slide 4" id="cu6-6a-4d8" customClass="Decision1" sceneMemberID="viewController">
+                <viewController title="Decision Slide 4" id="cu6-6a-4d8" customClass="Decision4" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="IoR-hH-aTz"/>
                         <viewControllerLayoutGuide type="bottom" id="PFq-FA-TpP"/>
@@ -1023,12 +1036,6 @@
                                     <segue destination="BVh-UC-gvu" kind="show" id="KbB-w3-S4e"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Minutes: " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="npe-j5-Z8f">
-                                <rect key="frame" x="16" y="511" width="568" height="31"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="CWU-5u-Cn0">
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <string key="text">It's a beautiful day! You only have a little time before you have to go battle Dr. Dastardly in his castle in the centre of the earth to save the world, though. Time is of the essence! How much time should you spend outside to get your vitamin D today?</string>
@@ -1047,13 +1054,6 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="0Kg-LR-Krl">
-                                <rect key="frame" x="16" y="375" width="554" height="128"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <string key="text">It's a beautiful day! You only have a little time before you have to go battle Dr. Dastardly in his castle in the centre of the earth to save the world, though. Time is of the essence! How much time should you spend outside to get your vitamin D today?</string>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="J0b-XX-LgQ">
                                 <rect key="frame" x="552" y="550" width="32" height="30"/>
                                 <state key="normal" title="Next">
@@ -1063,12 +1063,92 @@
                                     <segue destination="F46-dU-CqZ" kind="presentation" id="Wcn-pK-AeW"/>
                                 </connections>
                             </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fno-y8-kWL">
+                                <rect key="frame" x="16" y="146" width="292" height="351"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="iPZ-wd-WIS">
+                                <rect key="frame" x="16" y="20" width="568" height="118"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <string key="text">Your secret identity's class goes for a day trip to the beach, but the bus driver got the directions wrong and took hours getting here! You’ve only got an hour or so before you have to head back to the bus. You have to pick what to wear out of the clothes you brought to get enough vitamin D and not get burnt. Also, there’s some sunscreen the class brought with them - should you put that on too?</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="t4k-jD-0Je">
+                                <rect key="frame" x="316" y="146" width="132" height="115"/>
+                                <state key="normal" title="Swimwear option 1">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="option1:" destination="cu6-6a-4d8" eventType="touchUpInside" id="Eao-OS-xWg"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1xm-Jh-uZP">
+                                <rect key="frame" x="454" y="146" width="132" height="115"/>
+                                <state key="normal" title="Swimwear option 2">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="option2:" destination="cu6-6a-4d8" eventType="touchUpInside" id="MKA-mB-FcK"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="sunscreen.gif" translatesAutoresizingMaskIntoConstraints="NO" id="91k-8R-ef6">
+                                <rect key="frame" x="316" y="422" width="81" height="75"/>
+                            </imageView>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Caf-Xc-JdL">
+                                <rect key="frame" x="496" y="444" width="51" height="31"/>
+                                <connections>
+                                    <action selector="chooseSunscreen:" destination="cu6-6a-4d8" eventType="valueChanged" id="kpQ-7M-XPa"/>
+                                </connections>
+                            </switch>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zgW-Ik-Iol">
+                                <rect key="frame" x="316" y="302" width="132" height="112"/>
+                                <state key="normal" title="Swimwear option 3">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="option3:" destination="cu6-6a-4d8" eventType="touchUpInside" id="X7A-RW-KXm"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Okz-3L-8ZW">
+                                <rect key="frame" x="454" y="307" width="132" height="107"/>
+                                <state key="normal" title="Swimwear option 4">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="option4:" destination="cu6-6a-4d8" eventType="touchUpInside" id="bdh-1s-ihn"/>
+                                </connections>
+                            </button>
+                            <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="JNg-5r-nPL">
+                                <rect key="frame" x="14" y="505" width="572" height="31"/>
+                                <connections>
+                                    <action selector="changeMinutes:" destination="cu6-6a-4d8" eventType="valueChanged" id="Zhi-aQ-bNL"/>
+                                </connections>
+                            </slider>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Minutes: " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="okM-cW-cNg">
+                                <rect key="frame" x="59" y="543" width="486" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="YNx-pi-bTP">
+                                <rect key="frame" x="378" y="269" width="208" height="31"/>
+                                <connections>
+                                    <action selector="changeColour:" destination="cu6-6a-4d8" eventType="valueChanged" id="3Z6-Ky-Rhc"/>
+                                </connections>
+                            </slider>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Colour:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9tl-fp-Pgf">
+                                <rect key="frame" x="316" y="273" width="56" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" id="LFi-Qb-Afo"/>
                     <connections>
-                        <outlet property="minutesLabel" destination="npe-j5-Z8f" id="Z7X-jk-yfR"/>
+                        <outlet property="minutesLabel" destination="okM-cW-cNg" id="aPS-JW-yRu"/>
+                        <outlet property="sunscreenSwitch" destination="Caf-Xc-JdL" id="wMT-2Z-scw"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cdh-YU-k5p" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -1078,7 +1158,7 @@
         <!--Answer Slide 4-->
         <scene sceneID="l0l-GP-iLD">
             <objects>
-                <viewController title="Answer Slide 4" id="F46-dU-CqZ" customClass="Answer1" sceneMemberID="viewController">
+                <viewController title="Answer Slide 4" id="F46-dU-CqZ" customClass="Answer4" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="C16-5x-SWp"/>
                         <viewControllerLayoutGuide type="bottom" id="uzC-L1-eXg"/>
@@ -1126,7 +1206,7 @@
         <!--Decision Slide 5-->
         <scene sceneID="Kig-Om-Tuz">
             <objects>
-                <viewController title="Decision Slide 5" id="eXg-CJ-cf5" customClass="Decision1" sceneMemberID="viewController">
+                <viewController title="Decision Slide 5" id="eXg-CJ-cf5" customClass="Decision5" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="zqF-6a-EPt"/>
                         <viewControllerLayoutGuide type="bottom" id="LZ3-Yn-FBk"/>
@@ -1144,12 +1224,6 @@
                                     <segue destination="F46-dU-CqZ" kind="show" id="z3u-Mt-DTG"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Minutes: " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="omE-xF-kil">
-                                <rect key="frame" x="16" y="511" width="568" height="31"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="XiC-vL-2jy">
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <string key="text">It's a beautiful day! You only have a little time before you have to go battle Dr. Dastardly in his castle in the centre of the earth to save the world, though. Time is of the essence! How much time should you spend outside to get your vitamin D today?</string>
@@ -1168,19 +1242,6 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="IBZ-fx-fyV">
-                                <rect key="frame" x="14" y="337" width="558" height="31"/>
-                                <connections>
-                                    <action selector="changeMinutes:" destination="eXg-CJ-cf5" eventType="valueChanged" id="OiX-kJ-IEo"/>
-                                </connections>
-                            </slider>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ewN-a4-BVr">
-                                <rect key="frame" x="16" y="375" width="554" height="128"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <string key="text">It's a beautiful day! You only have a little time before you have to go battle Dr. Dastardly in his castle in the centre of the earth to save the world, though. Time is of the essence! How much time should you spend outside to get your vitamin D today?</string>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Y7L-kV-TJJ">
                                 <rect key="frame" x="552" y="550" width="32" height="30"/>
                                 <state key="normal" title="Next">
@@ -1190,12 +1251,49 @@
                                     <segue destination="yy7-Re-9Kd" kind="presentation" id="tFT-K4-j4Z"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BrX-pc-0xM">
+                                <rect key="frame" x="16" y="164" width="184" height="140"/>
+                                <state key="normal" title="Midday">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="chooseMidday:" destination="eXg-CJ-cf5" eventType="touchUpInside" id="dGE-2m-XfN"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1sn-ca-Yyd">
+                                <rect key="frame" x="208" y="164" width="184" height="140"/>
+                                <state key="normal" title="Afternoon">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="chooseAfternoon:" destination="eXg-CJ-cf5" eventType="touchUpInside" id="cFE-Z6-fuV"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VJh-u5-5Qj">
+                                <rect key="frame" x="400" y="164" width="184" height="140"/>
+                                <state key="normal" title="Night">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="chooseNight:" destination="eXg-CJ-cf5" eventType="touchUpInside" id="xxr-Ct-SBf"/>
+                                </connections>
+                            </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ewN-a4-BVr">
+                                <rect key="frame" x="16" y="28" width="554" height="128"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <string key="text">You’ve been captured by Dr. Dastardly’s minions! While you carefully plan your escape, his guards only let you out for five minutes a day! At least you get to pick the time, though. What time of day should you pick to get the most vitamin D out of your time in the sunlight?</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" id="qhA-pR-GNG"/>
                     <connections>
-                        <outlet property="minutesLabel" destination="omE-xF-kil" id="ScJ-lD-CiP"/>
+                        <outlet property="afternoonButton" destination="1sn-ca-Yyd" id="S9L-Vj-5gK"/>
+                        <outlet property="middayButton" destination="BrX-pc-0xM" id="gPQ-9n-1EV"/>
+                        <outlet property="nextButton" destination="Y7L-kV-TJJ" id="UXd-bZ-sPo"/>
+                        <outlet property="nightButton" destination="VJh-u5-5Qj" id="omd-4r-uej"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="IJb-ka-7rG" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -1205,7 +1303,7 @@
         <!--Answer Slide 5-->
         <scene sceneID="pBH-A0-TUu">
             <objects>
-                <viewController title="Answer Slide 5" id="yy7-Re-9Kd" customClass="Answer1" sceneMemberID="viewController">
+                <viewController title="Answer Slide 5" id="yy7-Re-9Kd" customClass="Answer5" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="C3O-yC-jUR"/>
                         <viewControllerLayoutGuide type="bottom" id="BPH-v4-9fo"/>
@@ -1243,7 +1341,7 @@
                     </view>
                     <navigationItem key="navigationItem" id="h4e-Mj-ORF"/>
                     <connections>
-                        <outlet property="answerLabel" destination="vic-hb-gBN" id="jrM-za-eQA"/>
+                        <outlet property="answerLabel" destination="vic-hb-gBN" id="DN3-Se-P8U"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hAy-qJ-efk" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -1253,7 +1351,7 @@
         <!--Decision Slide 6-->
         <scene sceneID="iWG-oA-hkW">
             <objects>
-                <viewController title="Decision Slide 6" id="YiR-f4-jdd" customClass="Decision1" sceneMemberID="viewController">
+                <viewController title="Decision Slide 6" id="YiR-f4-jdd" customClass="Decision6" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Xiv-NF-cfE"/>
                         <viewControllerLayoutGuide type="bottom" id="VhQ-oJ-Ush"/>
@@ -1271,12 +1369,6 @@
                                     <segue destination="yy7-Re-9Kd" kind="show" id="HXE-c3-rDF"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Minutes: " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BZy-ou-ydk">
-                                <rect key="frame" x="16" y="511" width="568" height="31"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fhZ-c1-DrM">
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <string key="text">It's a beautiful day! You only have a little time before you have to go battle Dr. Dastardly in his castle in the centre of the earth to save the world, though. Time is of the essence! How much time should you spend outside to get your vitamin D today?</string>
@@ -1295,19 +1387,6 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="DAu-av-J5T">
-                                <rect key="frame" x="14" y="337" width="558" height="31"/>
-                                <connections>
-                                    <action selector="changeMinutes:" destination="YiR-f4-jdd" eventType="valueChanged" id="gUn-la-tcd"/>
-                                </connections>
-                            </slider>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="k1U-Lj-mr2">
-                                <rect key="frame" x="16" y="375" width="554" height="128"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <string key="text">It's a beautiful day! You only have a little time before you have to go battle Dr. Dastardly in his castle in the centre of the earth to save the world, though. Time is of the essence! How much time should you spend outside to get your vitamin D today?</string>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="s40-z8-oQ9">
                                 <rect key="frame" x="552" y="550" width="32" height="30"/>
                                 <state key="normal" title="Next">
@@ -1317,12 +1396,34 @@
                                     <segue destination="sOW-Jp-z0S" kind="presentation" id="flJ-Uj-mxe"/>
                                 </connections>
                             </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="k1U-Lj-mr2">
+                                <rect key="frame" x="16" y="28" width="554" height="103"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <string key="text">It’s dinnertime, and you’ve been caught up all day making plans for your trip taking your new rocket to the planet Neptune to fight the Neptu-men. You’re pretty hungry, but you know you didn’t get any vitamin D from being outside today. What food should you choose to make it up?</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="plate.png" translatesAutoresizingMaskIntoConstraints="NO" id="3nJ-Wt-fyT">
+                                <rect key="frame" x="180" y="350" width="240" height="200"/>
+                            </imageView>
+                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="food1.png" translatesAutoresizingMaskIntoConstraints="NO" id="iVL-dC-WXK">
+                                <rect key="frame" x="16" y="139" width="184" height="140"/>
+                            </imageView>
+                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="food2.png" translatesAutoresizingMaskIntoConstraints="NO" id="bWE-7z-lUi">
+                                <rect key="frame" x="208" y="139" width="184" height="140"/>
+                            </imageView>
+                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="food3.png" translatesAutoresizingMaskIntoConstraints="NO" id="kxr-nW-fQ6">
+                                <rect key="frame" x="400" y="139" width="184" height="140"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" id="UbZ-qQ-IfO"/>
                     <connections>
-                        <outlet property="minutesLabel" destination="BZy-ou-ydk" id="C6D-xc-lC1"/>
+                        <outlet property="foodWithEnough" destination="kxr-nW-fQ6" id="IPb-Du-IBV"/>
+                        <outlet property="foodWithNone" destination="iVL-dC-WXK" id="beG-Rk-X32"/>
+                        <outlet property="foodWithSome" destination="bWE-7z-lUi" id="gYO-fK-txL"/>
+                        <outlet property="plate" destination="3nJ-Wt-fyT" id="m9z-aX-G3H"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7ja-Kf-eQ4" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -1332,7 +1433,7 @@
         <!--Answer Slide 6-->
         <scene sceneID="LG2-Th-z7w">
             <objects>
-                <viewController title="Answer Slide 6" id="sOW-Jp-z0S" customClass="Answer1" sceneMemberID="viewController">
+                <viewController title="Answer Slide 6" id="sOW-Jp-z0S" customClass="Answer6" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="xpA-jh-3sa"/>
                         <viewControllerLayoutGuide type="bottom" id="gqb-os-Fct"/>
@@ -1648,6 +1749,9 @@
                                 <state key="normal" title="Return to start">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="presentation" id="KI8-gQ-xcA"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -1655,7 +1759,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Vdn-x1-f4r" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="15896" y="136"/>
+            <point key="canvasLocation" x="400" y="-680"/>
         </scene>
     </scenes>
     <resources>
@@ -1663,28 +1767,34 @@
         <image name="boyHair0.png" width="400" height="400"/>
         <image name="boyHair1.png" width="400" height="400"/>
         <image name="eyes.png" width="400" height="400"/>
+        <image name="food1.png" width="400" height="400"/>
+        <image name="food2.png" width="400" height="400"/>
+        <image name="food3.png" width="400" height="400"/>
+        <image name="plate.png" width="400" height="400"/>
+        <image name="sunscreen.gif" width="250" height="333"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="Eba-2p-zyL"/>
         <segue reference="GiL-OM-iIk"/>
         <segue reference="QnE-VF-aHs"/>
         <segue reference="jXW-zi-QpK"/>
         <segue reference="UoJ-Oq-EHp"/>
-        <segue reference="axW-Dq-vLC"/>
-        <segue reference="S6r-9I-Rim"/>
-        <segue reference="oeO-9L-x2D"/>
-        <segue reference="H3j-T1-rY0"/>
-        <segue reference="P6f-oQ-ivq"/>
-        <segue reference="5GA-T9-COc"/>
-        <segue reference="Wcn-pK-AeW"/>
-        <segue reference="6GF-6v-d9i"/>
-        <segue reference="iWB-yu-uBZ"/>
-        <segue reference="q5m-AR-iHb"/>
-        <segue reference="J6b-Uu-fG9"/>
         <segue reference="MPr-Bf-8n3"/>
+        <segue reference="flJ-Uj-mxe"/>
+        <segue reference="8EK-Rt-s2P"/>
         <segue reference="HXE-c3-rDF"/>
         <segue reference="Ogg-Jz-Ar9"/>
+        <segue reference="z3u-Mt-DTG"/>
+        <segue reference="MSS-3A-zlW"/>
+        <segue reference="KI8-gQ-xcA"/>
+        <segue reference="q5m-AR-iHb"/>
+        <segue reference="iWB-yu-uBZ"/>
+        <segue reference="I51-PT-CDk"/>
         <segue reference="KiD-nC-HDg"/>
         <segue reference="cD7-i1-IGH"/>
+        <segue reference="P6f-oQ-ivq"/>
+        <segue reference="Y4C-RA-HFM"/>
+        <segue reference="0uv-YX-gsc"/>
+        <segue reference="oeO-9L-x2D"/>
+        <segue reference="H3j-T1-rY0"/>
     </inferredMetricsTieBreakers>
 </document>

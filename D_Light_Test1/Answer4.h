@@ -1,5 +1,5 @@
 //
-//  Answer3.h
+//  Answer4.h
 //  D_Light_Test1
 //
 //  Created by Candice Christiansen on 25/09/2015.
@@ -10,7 +10,7 @@
 #import "ViewController.h"
 #import <Foundation/Foundation.h>
 
-@interface Answer3 : ViewController
+@interface Answer4 : ViewController
 
 //Public Variables
 @property (weak, nonatomic) IBOutlet UILabel *answerLabel;

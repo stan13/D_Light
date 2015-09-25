@@ -21,11 +21,12 @@
 {
     [super viewDidLoad];
     //put code here or call another method
-    
+    self.nextButton.enabled = NO;
 }
 
 
 - (IBAction)chooseInside:(UIButton *)sender {
+    self.nextButton.enabled = YES;
     self.insideButton.backgroundColor = [UIColor grayColor];
     self.outsideButton.backgroundColor = [UIColor clearColor];
     NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
@@ -33,6 +34,7 @@
 }
 
 - (IBAction)chooseOutside:(UIButton *)sender {
+    self.nextButton.enabled = YES;
     self.outsideButton.backgroundColor = [UIColor grayColor];
     self.insideButton.backgroundColor = [UIColor clearColor];
     NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
