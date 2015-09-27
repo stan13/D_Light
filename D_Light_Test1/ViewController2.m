@@ -172,6 +172,20 @@
     self.face.image = [self changeImage:[UIImage imageNamed:self.currentFace] toColour:[UIColor colorWithRed:self.currentSkinRed green:self.currentSkinGreen blue:self.currentSkinBlue alpha:1]];
     self.hair.image = [self changeImage:[UIImage imageNamed:self.currentHair] toColour:[UIColor colorWithHue:self.currentHairHue saturation:0.5 brightness:0.5 alpha:1]];
     self.eyes.image = [self changeImage:[UIImage imageNamed:@"eyes"] toColour:[UIColor colorWithHue:self.currentEyeHue saturation:0.5 brightness:0.5 alpha:1]];
+    
+    //fixes the changing image problem
+    NSString *boyOrGirl;
+    if (self.sex == 0) {
+        boyOrGirl = @"boy";
+    } else if (self.sex == 1){
+        boyOrGirl = @"girl";
+    }
+    for (int i=0; i<2; i++) {
+        UIButton *hair = self.hairImages[i];
+        UIImage *temp = [UIImage imageNamed:[NSString stringWithFormat:@"%@Hair%i", boyOrGirl, i]];
+        hair.imageView.image = temp;
+        [hair setImage:temp forState:UIControlStateNormal];
+    }
 }
 
 //sets all user defaults based on variables
