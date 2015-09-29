@@ -1872,27 +1872,27 @@
         <image name="sunscreen.gif" width="250" height="333"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="Ogg-Jz-Ar9"/>
-        <segue reference="tFT-K4-j4Z"/>
-        <segue reference="z3u-Mt-DTG"/>
-        <segue reference="MSS-3A-zlW"/>
-        <segue reference="GiL-OM-iIk"/>
-        <segue reference="QnE-VF-aHs"/>
-        <segue reference="jXW-zi-QpK"/>
-        <segue reference="UoJ-Oq-EHp"/>
-        <segue reference="PdL-iG-df5"/>
-        <segue reference="6GF-6v-d9i"/>
-        <segue reference="J6b-Uu-fG9"/>
-        <segue reference="MPr-Bf-8n3"/>
-        <segue reference="I51-PT-CDk"/>
-        <segue reference="KiD-nC-HDg"/>
-        <segue reference="cD7-i1-IGH"/>
-        <segue reference="Y4C-RA-HFM"/>
         <segue reference="P6f-oQ-ivq"/>
+        <segue reference="Y4C-RA-HFM"/>
         <segue reference="0uv-YX-gsc"/>
         <segue reference="oeO-9L-x2D"/>
         <segue reference="H3j-T1-rY0"/>
+        <segue reference="z3u-Mt-DTG"/>
+        <segue reference="Ogg-Jz-Ar9"/>
+        <segue reference="tFT-K4-j4Z"/>
+        <segue reference="MSS-3A-zlW"/>
         <segue reference="KI8-gQ-xcA"/>
         <segue reference="q5m-AR-iHb"/>
+        <segue reference="iWB-yu-uBZ"/>
+        <segue reference="6GF-6v-d9i"/>
+        <segue reference="J6b-Uu-fG9"/>
+        <segue reference="MPr-Bf-8n3"/>
+        <segue reference="jXW-zi-QpK"/>
+        <segue reference="QnE-VF-aHs"/>
+        <segue reference="GiL-OM-iIk"/>
+        <segue reference="UoJ-Oq-EHp"/>
+        <segue reference="I51-PT-CDk"/>
+        <segue reference="KiD-nC-HDg"/>
+        <segue reference="cD7-i1-IGH"/>
     </inferredMetricsTieBreakers>
 </document>
