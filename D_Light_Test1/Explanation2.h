@@ -13,11 +13,11 @@
 #import <AVFoundation/AVFoundation.h>
 
 @interface Explanation2 : ViewController
-{
-    SystemSoundID PlaySoundID;
-}
 
 //Public Variables
 - (IBAction)listenToVoiceOver:(UIButton *)sender;
+
+- (IBAction)stopVoiceOver:(UIButton *)sender;
+@property (weak, nonatomic) IBOutlet UIButton *nextButton;
 
 @end

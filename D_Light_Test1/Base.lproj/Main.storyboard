@@ -293,6 +293,9 @@
                             </label>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="aWX-7Y-AOu">
                                 <rect key="frame" x="43" y="72" width="240" height="448"/>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="0.0" y="0.0" width="0.0" height="0.0"/>
+                                </variation>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Top" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="m0m-N0-ybD">
                                 <rect key="frame" x="338" y="72" width="30" height="21"/>
@@ -482,15 +485,6 @@
                                     <segue destination="BYZ-38-t0r" kind="show" id="7V0-UE-hFd"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PtC-6F-KUT">
-                                <rect key="frame" x="266" y="500" width="81" height="58"/>
-                                <state key="normal" title="Listen">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="listenToVoiceOver:" destination="LbW-FU-Aoh" eventType="touchUpInside" id="g1f-lb-KwJ"/>
-                                </connections>
-                            </button>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="a39-3z-2Gl">
                                 <rect key="frame" x="16" y="396" width="568" height="103"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -510,10 +504,32 @@
                                     <segue destination="443-tj-wG7" kind="presentation" id="BFx-l4-4dp"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PtC-6F-KUT">
+                                <rect key="frame" x="215" y="507" width="81" height="58"/>
+                                <state key="normal" title="Listen">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="listenToVoiceOver:" destination="LbW-FU-Aoh" eventType="touchUpInside" id="g1f-lb-KwJ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zVu-YH-LbM">
+                                <rect key="frame" x="304" y="507" width="81" height="58"/>
+                                <state key="normal" title="Stop">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="listenToVoiceOver:" destination="LbW-FU-Aoh" eventType="touchUpInside" id="2uY-Sp-0As"/>
+                                    <action selector="stopVoiceOver:" destination="LbW-FU-Aoh" eventType="touchUpInside" id="Exf-cq-kvv"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" id="bPa-xq-tVT"/>
+                    <connections>
+                        <outlet property="nextButton" destination="d70-7m-wgU" id="9pA-8a-QkC"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ddd-8L-deN" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -560,18 +576,33 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1gt-3W-g0J">
-                                <rect key="frame" x="260" y="500" width="81" height="58"/>
+                                <rect key="frame" x="215" y="500" width="81" height="58"/>
                                 <state key="normal" title="Listen">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
                                     <action selector="listenToVoiceOver:" destination="LbW-FU-Aoh" eventType="touchUpInside" id="f7b-Jp-4oa"/>
+                                    <action selector="listenToVoiceOver:" destination="443-tj-wG7" eventType="touchUpInside" id="mu4-ub-KG0"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2PC-oc-en1">
+                                <rect key="frame" x="304" y="500" width="81" height="58"/>
+                                <state key="normal" title="Stop">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="listenToVoiceOver:" destination="LbW-FU-Aoh" eventType="touchUpInside" id="yoQ-yN-BdW"/>
+                                    <action selector="stopVoiceOver:" destination="LbW-FU-Aoh" eventType="touchUpInside" id="19h-tG-wcB"/>
+                                    <action selector="stopVoiceOver:" destination="443-tj-wG7" eventType="touchUpInside" id="Jhf-Hd-8vK"/>
                                 </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" id="b6t-JV-7wd"/>
+                    <connections>
+                        <outlet property="nextButton" destination="SiS-x4-0Cb" id="Iz7-Nu-SEd"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="pyG-n8-Ssq" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -615,18 +646,33 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FY6-n0-8oq">
-                                <rect key="frame" x="260" y="490" width="81" height="58"/>
+                                <rect key="frame" x="215" y="490" width="81" height="58"/>
                                 <state key="normal" title="Listen">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
+                                    <action selector="listenToVoiceOver:" destination="Y42-qM-Okw" eventType="touchUpInside" id="NO3-ST-0FK"/>
                                     <action selector="listenToVoiceOver:" destination="LbW-FU-Aoh" eventType="touchUpInside" id="unO-ew-S0J"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dej-1y-tIg">
+                                <rect key="frame" x="304" y="490" width="81" height="58"/>
+                                <state key="normal" title="Stop">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="listenToVoiceOver:" destination="LbW-FU-Aoh" eventType="touchUpInside" id="b6T-xc-Sve"/>
+                                    <action selector="stopVoiceOver:" destination="Y42-qM-Okw" eventType="touchUpInside" id="gKN-iV-hgq"/>
+                                    <action selector="stopVoiceOver:" destination="LbW-FU-Aoh" eventType="touchUpInside" id="lqL-j2-hFc"/>
                                 </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" id="Nys-hg-gcq"/>
+                    <connections>
+                        <outlet property="nextButton" destination="XXk-sD-SHM" id="fO3-lj-6MJ"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4TS-MV-VIn" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -670,18 +716,33 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Y4a-HI-qx9">
-                                <rect key="frame" x="260" y="473" width="81" height="58"/>
+                                <rect key="frame" x="215" y="473" width="81" height="58"/>
                                 <state key="normal" title="Listen">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
                                     <action selector="listenToVoiceOver:" destination="LbW-FU-Aoh" eventType="touchUpInside" id="10v-Kc-Ij4"/>
+                                    <action selector="listenToVoiceOver:" destination="tS6-BI-SVO" eventType="touchUpInside" id="AMr-lY-JaR"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eBq-Mr-Y1m">
+                                <rect key="frame" x="304" y="473" width="81" height="58"/>
+                                <state key="normal" title="Stop">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="listenToVoiceOver:" destination="LbW-FU-Aoh" eventType="touchUpInside" id="hA3-hJ-U5s"/>
+                                    <action selector="stopVoiceOver:" destination="tS6-BI-SVO" eventType="touchUpInside" id="D3T-X5-63t"/>
+                                    <action selector="stopVoiceOver:" destination="LbW-FU-Aoh" eventType="touchUpInside" id="Rb3-UJ-PXO"/>
                                 </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" id="w5q-nj-tmF"/>
+                    <connections>
+                        <outlet property="nextButton" destination="ggD-wX-097" id="yuz-V0-Ycf"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fjX-kJ-RlM" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -747,6 +808,9 @@
                                 <string key="text">It's a beautiful day! You only have a little time before you have to go battle Dr. Dastardly in his castle in the centre of the earth to save the world, though. Time is of the essence! How much time should you spend outside to get your vitamin D today?</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="0.0" y="0.0" width="0.0" height="0.0"/>
+                                </variation>
                             </textView>
                             <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="079-WL-Hbt">
                                 <rect key="frame" x="21" y="401" width="558" height="31"/>
@@ -1142,6 +1206,9 @@
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fno-y8-kWL">
                                 <rect key="frame" x="16" y="146" width="292" height="351"/>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="0.0" y="0.0" width="0.0" height="0.0"/>
+                                </variation>
                             </imageView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="iPZ-wd-WIS">
                                 <rect key="frame" x="16" y="20" width="568" height="118"/>
@@ -1149,6 +1216,9 @@
                                 <string key="text">Your secret identity's class goes for a day trip to the beach, but the bus driver got the directions wrong and took hours getting here! You’ve only got an hour or so before you have to head back to the bus. You have to pick what to wear out of the clothes you brought to get enough vitamin D and not get burnt. Also, there’s some sunscreen the class brought with them - should you put that on too?</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="0.0" y="0.0" width="0.0" height="0.0"/>
+                                </variation>
                             </textView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="t4k-jD-0Je">
                                 <rect key="frame" x="316" y="146" width="132" height="115"/>
@@ -1479,6 +1549,9 @@
                                 <string key="text">It’s dinnertime, and you’ve been caught up all day making plans for your trip taking your new rocket to the planet Neptune to fight the Neptu-men. You’re pretty hungry, but you know you didn’t get any vitamin D from being outside today. What food should you choose to make it up?</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="0.0" y="0.0" width="0.0" height="0.0"/>
+                                </variation>
                             </textView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="plate.png" translatesAutoresizingMaskIntoConstraints="NO" id="3nJ-Wt-fyT">
                                 <rect key="frame" x="180" y="350" width="240" height="200"/>
@@ -1600,6 +1673,9 @@
                                 <string key="text"> Dr. Dastardly has set a massive fire as a distraction for him stealing the city’s supply of kittens, and the smoke hangs overhead, thick as clouds.Before going to help the fire brigade put it out (and put a stop to the villain’s plans!), you need to power up. In order to get your vitamin D for the day, how much time should you spend outside compared to your usual amount?</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="0.0" y="0.0" width="0.0" height="0.0"/>
+                                </variation>
                             </textView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LiY-UG-VZz">
                                 <rect key="frame" x="552" y="550" width="32" height="30"/>
@@ -1899,27 +1975,27 @@
         <image name="sunscreen.gif" width="250" height="333"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="P6f-oQ-ivq"/>
-        <segue reference="Y4C-RA-HFM"/>
         <segue reference="0uv-YX-gsc"/>
+        <segue reference="Y4C-RA-HFM"/>
+        <segue reference="P6f-oQ-ivq"/>
         <segue reference="oeO-9L-x2D"/>
         <segue reference="H3j-T1-rY0"/>
-        <segue reference="J6b-Uu-fG9"/>
-        <segue reference="6GF-6v-d9i"/>
-        <segue reference="PdL-iG-df5"/>
-        <segue reference="MPr-Bf-8n3"/>
+        <segue reference="tFT-K4-j4Z"/>
+        <segue reference="Ogg-Jz-Ar9"/>
+        <segue reference="z3u-Mt-DTG"/>
+        <segue reference="MSS-3A-zlW"/>
+        <segue reference="GiL-OM-iIk"/>
+        <segue reference="QnE-VF-aHs"/>
+        <segue reference="Eba-2p-zyL"/>
         <segue reference="7V0-UE-hFd"/>
         <segue reference="UoJ-Oq-EHp"/>
-        <segue reference="jXW-zi-QpK"/>
-        <segue reference="QnE-VF-aHs"/>
-        <segue reference="GiL-OM-iIk"/>
-        <segue reference="Eba-2p-zyL"/>
-        <segue reference="cD7-i1-IGH"/>
-        <segue reference="KiD-nC-HDg"/>
-        <segue reference="MSS-3A-zlW"/>
-        <segue reference="z3u-Mt-DTG"/>
-        <segue reference="Ogg-Jz-Ar9"/>
-        <segue reference="tFT-K4-j4Z"/>
+        <segue reference="BFx-l4-4dp"/>
         <segue reference="q5m-AR-iHb"/>
+        <segue reference="PdL-iG-df5"/>
+        <segue reference="6GF-6v-d9i"/>
+        <segue reference="J6b-Uu-fG9"/>
+        <segue reference="MPr-Bf-8n3"/>
+        <segue reference="KiD-nC-HDg"/>
+        <segue reference="cD7-i1-IGH"/>
     </inferredMetricsTieBreakers>
 </document>

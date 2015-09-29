@@ -5,11 +5,14 @@
 //  Created by Candice Christiansen on 29/09/2015.
 //  Copyright (c) 2015 Nathan Stanley. All rights reserved.
 //
+// code altered from http://www.techotopia.com/index.php/Playing_Audio_on_an_iPhone_using_AVAudioPlayer_(iOS_6)
 
 #import "Explanation2.h"
 
 @interface Explanation2 ()
-//Private Variables
+<AVAudioPlayerDelegate>
+
+@property (strong, nonatomic) AVAudioPlayer *audioPlayer;
 
 
 @end
@@ -19,14 +22,25 @@
 
 - (void)viewDidLoad{
     
-    NSString *path = [NSString stringWithFormat:@"%@/applause.mp3", [[NSBundle mainBundle] resourcePath]];
-    NSURL *SoundURL = [NSURL fileURLWithPath:path];
-    
-    AudioServicesCreateSystemSoundID((__bridge CFURLRef)SoundURL, &PlaySoundID);
-    //&PlaySoundID = [[AVAudioPlayer alloc] initWithContentsOfURL:SoundURL error:nil];
-    
     [super viewDidLoad];
     
+    
+    NSURL *url = [NSURL fileURLWithPath:[[NSBundle mainBundle]
+                                         pathForResource:@"applause"
+                                         ofType:@"mp3"]];
+    
+    NSError *error;
+    _audioPlayer = [[AVAudioPlayer alloc]
+                    initWithContentsOfURL:url
+                    error:&error];
+    if (error)
+    {
+        NSLog(@"Error in audioPlayer: %@",
+              [error localizedDescription]);
+    } else {
+        _audioPlayer.delegate = self;
+        [_audioPlayer prepareToPlay];
+    }
     
 }
 
@@ -34,9 +48,20 @@
 
 - (IBAction)listenToVoiceOver:(UIButton *)sender {
     
-    AudioServicesPlaySystemSound(PlaySoundID);
-    //[PlaySoundID play];
+    self.nextButton.enabled = NO;
+    [_audioPlayer play];
 }
+
+- (IBAction)stopVoiceOver:(UIButton *)sender {
+    [_audioPlayer stop];
+    self.nextButton.enabled = YES;
+}
+
+- (void) audioPlayerDidFinishPlaying:(AVAudioPlayer *)player successfully:(BOOL)flag
+{
+    self.nextButton.enabled = YES;
+}
+
 
 
 @end
