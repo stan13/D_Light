@@ -27,9 +27,11 @@
 -(void)showAnswer{
     NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
     int answer = (int)[defaults integerForKey:@"inOrOut"];
+    int result = (int)[defaults integerForKey:@"result"];
     switch (answer) {
         case 1:
             self.answerLabel.text = @"unfortunately, the car windows stop the sunlight from making vitamin d, so you didn't get any today.";
+            result--;
             break;
         case 2:
             self.answerLabel.text = @"well done! The tinting in car windows stops sunlight from making vitamin d, so you had to make it up after. ";
@@ -38,6 +40,7 @@
         default:
             break;
     }
+    [defaults setInteger:result forKey:@"result"];
 }
 
 @end

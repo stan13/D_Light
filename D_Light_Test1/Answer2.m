@@ -30,14 +30,17 @@
 {
     NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
     int answer = (int)[defaults integerForKey:@"timeInSunCloudy"];
+    int result = (int)[defaults integerForKey:@"result"];
     if (answer < LOWER_BOUND) {
         self.answerLabel.text = [NSString stringWithFormat:@"You selected %i minutes. Not enough - not enough vitamin d today! Remember it only takes a few more minutes. Dr. Dastardly escapes!", answer];
+        result--;
     }else if (answer <= UPPER_BOUND){
         self.answerLabel.text = [NSString stringWithFormat:@"You selected %i minutes. Just right - right on! You stayed out in the sun long enough to stay healthy, but not enough to get burnt. Well done! ", answer];
     } else {
         self.answerLabel.text = [NSString stringWithFormat:@"You selected %i minutes. Too much - ouch! You stayed out in the sun too long. You'll have a nasty sunburn for a few days. Dr. Dastardly escapes!", answer];
+        result++;
     }
-    
+    [defaults setInteger:result forKey:@"result"];
 }
 
 @end
