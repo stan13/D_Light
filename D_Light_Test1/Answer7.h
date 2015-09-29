@@ -11,5 +11,6 @@
 
 @interface Answer7 : ViewController
 @property (weak, nonatomic) IBOutlet UILabel *answerLabel;
+@property (weak, nonatomic) IBOutlet UIProgressView *resultsProgress;
 
 @end

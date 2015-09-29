@@ -13,5 +13,6 @@
 
 //Public Variables
 @property (weak, nonatomic) IBOutlet UILabel *answerLabel;
+@property (weak, nonatomic) IBOutlet UIProgressView *resultsProgress;
 
 @end

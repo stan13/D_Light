@@ -40,6 +40,7 @@
         default:
             break;
     }
+    self.resultsProgress.progress = result/20.0;
     [defaults setInteger:result forKey:@"result"];
 }
 

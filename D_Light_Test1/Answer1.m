@@ -40,6 +40,7 @@
         self.answerLabel.text = [NSString stringWithFormat:@"You selected %i minutes. Too much - ouch! You stayed out in the sun too long. You'll have a nasty sunburn for a few days. Dr. Dastardly escapes!", answer];
         result++;
     }
+    self.resultsProgress.progress = result/20.0;
     [defaults setInteger:result forKey:@"result"];
 }
 

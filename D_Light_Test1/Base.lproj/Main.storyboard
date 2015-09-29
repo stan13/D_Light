@@ -866,12 +866,16 @@
                                     <segue destination="327-o1-09d" kind="presentation" id="UFl-Iv-vf9"/>
                                 </connections>
                             </button>
+                            <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" fixedFrame="YES" progress="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="BXu-RY-b5X">
+                                <rect key="frame" x="16" y="299" width="568" height="2"/>
+                            </progressView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" id="k8H-Wg-Y3c"/>
                     <connections>
                         <outlet property="answerLabel" destination="m8x-sk-Z17" id="nF7-Qi-vMz"/>
+                        <outlet property="resultsProgress" destination="BXu-RY-b5X" id="I5o-Nt-ooR"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="AEM-Om-THu" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -999,12 +1003,16 @@
                                     <segue destination="rc7-u5-mAg" kind="presentation" id="axW-Dq-vLC"/>
                                 </connections>
                             </button>
+                            <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" fixedFrame="YES" progress="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="6zg-sx-KEs">
+                                <rect key="frame" x="16" y="299" width="568" height="2"/>
+                            </progressView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" id="Qo9-K5-sGq"/>
                     <connections>
                         <outlet property="answerLabel" destination="JYL-F7-eiq" id="Ypo-Wq-O71"/>
+                        <outlet property="resultsProgress" destination="6zg-sx-KEs" id="SEv-7i-2ow"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="TUs-V2-jYF" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -1068,8 +1076,15 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="fTx-hG-SIq">
+                                <rect key="frame" x="16" y="28" width="554" height="90"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <string key="text">For a vacation, your secret identity's family take you out to the country. It'd be much faster to fly, but you take the car. After you arrive, your family immediately beckons you inside the bouncy castle you’re staying in tonight. You know you won't get another chance in the sun today if you go in.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wmO-r0-P8j">
-                                <rect key="frame" x="319" y="242" width="251" height="72"/>
+                                <rect key="frame" x="319" y="126" width="251" height="72"/>
                                 <state key="normal" title="Stay outside">
                                     <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
@@ -1079,7 +1094,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AV4-Dr-Pnd">
-                                <rect key="frame" x="16" y="242" width="251" height="72"/>
+                                <rect key="frame" x="16" y="126" width="251" height="72"/>
                                 <state key="normal" title="Head inside">
                                     <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                 </state>
@@ -1087,13 +1102,6 @@
                                     <action selector="chooseInside:" destination="rc7-u5-mAg" eventType="touchUpInside" id="A5P-9L-UaR"/>
                                 </connections>
                             </button>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="fTx-hG-SIq">
-                                <rect key="frame" x="23" y="431" width="554" height="90"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <string key="text">For a vacation, your secret identity's family take you out to the country. It'd be much faster to fly, but you take the car. After you arrive, your family immediately beckons you inside the bouncy castle you’re staying in tonight. You know you won't get another chance in the sun today if you go in.</string>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -1144,12 +1152,16 @@
                                     <segue destination="cu6-6a-4d8" kind="presentation" id="5GA-T9-COc"/>
                                 </connections>
                             </button>
+                            <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" fixedFrame="YES" progress="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="nRs-DX-5Lp">
+                                <rect key="frame" x="16" y="299" width="568" height="2"/>
+                            </progressView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" id="jfs-Xk-NB8"/>
                     <connections>
                         <outlet property="answerLabel" destination="odc-ZL-0hK" id="vnw-JD-OVQ"/>
+                        <outlet property="resultsProgress" destination="nRs-DX-5Lp" id="wvB-d0-17l"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="XmA-Ej-sf0" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -1338,12 +1350,16 @@
                                     <segue destination="eXg-CJ-cf5" kind="presentation" id="AVT-uC-7be"/>
                                 </connections>
                             </button>
+                            <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" fixedFrame="YES" progress="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="Wsm-Sl-rwa">
+                                <rect key="frame" x="16" y="299" width="568" height="2"/>
+                            </progressView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" id="I7l-EY-Uud"/>
                     <connections>
                         <outlet property="answerLabel" destination="t5r-5g-GMR" id="ZXP-6p-aTC"/>
+                        <outlet property="resultsProgress" destination="Wsm-Sl-rwa" id="oPO-28-1qk"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="zH8-Vd-YDY" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -1483,12 +1499,16 @@
                                     <segue destination="YiR-f4-jdd" kind="presentation" id="7Tj-fy-I7o"/>
                                 </connections>
                             </button>
+                            <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" fixedFrame="YES" progress="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="3SQ-2h-r6d">
+                                <rect key="frame" x="16" y="299" width="568" height="2"/>
+                            </progressView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" id="h4e-Mj-ORF"/>
                     <connections>
                         <outlet property="answerLabel" destination="vic-hb-gBN" id="DN3-Se-P8U"/>
+                        <outlet property="resultsProgress" destination="3SQ-2h-r6d" id="jnf-GW-JfD"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hAy-qJ-efk" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -1616,12 +1636,16 @@
                                     <segue destination="SPC-EZ-u9d" kind="presentation" id="8EK-Rt-s2P"/>
                                 </connections>
                             </button>
+                            <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" fixedFrame="YES" progress="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="MFE-K2-32Q">
+                                <rect key="frame" x="16" y="299" width="568" height="2"/>
+                            </progressView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" id="U7n-Zq-TR4"/>
                     <connections>
                         <outlet property="answerLabel" destination="yVr-cO-LNy" id="SB1-Ym-7eN"/>
+                        <outlet property="resultsProgress" destination="MFE-K2-32Q" id="N9O-uF-IGP"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="L9m-1W-H45" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -1770,12 +1794,16 @@
                                     <segue destination="Dv3-9o-dtw" kind="presentation" id="IHS-3h-TWr"/>
                                 </connections>
                             </button>
+                            <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" fixedFrame="YES" progress="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="hrk-KP-qqT">
+                                <rect key="frame" x="16" y="299" width="568" height="2"/>
+                            </progressView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" id="VaX-qr-ATv"/>
                     <connections>
                         <outlet property="answerLabel" destination="mkm-eB-JY5" id="Gk2-dv-1p0"/>
+                        <outlet property="resultsProgress" destination="hrk-KP-qqT" id="tuL-CT-Zh9"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="MMX-zV-jnw" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -1908,12 +1936,16 @@
                                     <segue destination="CF2-8p-TX7" kind="presentation" id="gWr-xs-ssc"/>
                                 </connections>
                             </button>
+                            <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" fixedFrame="YES" progress="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="EZg-YI-36d">
+                                <rect key="frame" x="16" y="299" width="568" height="2"/>
+                            </progressView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" id="BLh-p4-fpy"/>
                     <connections>
                         <outlet property="answerLabel" destination="iDJ-MT-OAd" id="q7C-pa-poo"/>
+                        <outlet property="resultsProgress" destination="EZg-YI-36d" id="NSM-7P-btb"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="W6e-cc-lNN" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -1979,7 +2011,6 @@
         <segue reference="Y4C-RA-HFM"/>
         <segue reference="P6f-oQ-ivq"/>
         <segue reference="oeO-9L-x2D"/>
-        <segue reference="H3j-T1-rY0"/>
         <segue reference="tFT-K4-j4Z"/>
         <segue reference="Ogg-Jz-Ar9"/>
         <segue reference="z3u-Mt-DTG"/>
@@ -1990,12 +2021,13 @@
         <segue reference="7V0-UE-hFd"/>
         <segue reference="UoJ-Oq-EHp"/>
         <segue reference="BFx-l4-4dp"/>
+        <segue reference="Cha-hP-xda"/>
+        <segue reference="cD7-i1-IGH"/>
+        <segue reference="KiD-nC-HDg"/>
         <segue reference="q5m-AR-iHb"/>
         <segue reference="PdL-iG-df5"/>
         <segue reference="6GF-6v-d9i"/>
         <segue reference="J6b-Uu-fG9"/>
         <segue reference="MPr-Bf-8n3"/>
-        <segue reference="KiD-nC-HDg"/>
-        <segue reference="cD7-i1-IGH"/>
     </inferredMetricsTieBreakers>
 </document>
