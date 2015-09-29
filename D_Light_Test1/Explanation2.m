@@ -1,15 +1,15 @@
 //
-//  Explanation1.m
+//  Explanation2.m
 //  D_Light_Test1
 //
-//  Created by Candice Christiansen on 18/09/2015.
+//  Created by Candice Christiansen on 29/09/2015.
 //  Copyright (c) 2015 Nathan Stanley. All rights reserved.
 //
 // code altered from http://www.techotopia.com/index.php/Playing_Audio_on_an_iPhone_using_AVAudioPlayer_(iOS_6)
 
-#import "Explanation1.h"
+#import "Explanation2.h"
 
-@interface Explanation1 ()
+@interface Explanation2 ()
 <AVAudioPlayerDelegate>
 
 @property (strong, nonatomic) AVAudioPlayer *audioPlayer;
@@ -17,11 +17,11 @@
 
 @end
 
-@implementation Explanation1
+@implementation Explanation2
 
 
 - (void)viewDidLoad{
-
+    
     [super viewDidLoad];
     
     
@@ -65,3 +65,4 @@
 
 
 @end
+
