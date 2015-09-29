@@ -1,20 +1,20 @@
 //
-//  Explanation1.m
+//  Explanation3.m
 //  D_Light_Test1
 //
-//  Created by Candice Christiansen on 18/09/2015.
+//  Created by Candice Christiansen on 29/09/2015.
 //  Copyright (c) 2015 Nathan Stanley. All rights reserved.
 //
 
-#import "Explanation1.h"
+#import "Explanation3.h"
 
-@interface Explanation1 ()
+@interface Explanation3 ()
 //Private Variables
 
 
 @end
 
-@implementation Explanation1
+@implementation Explanation3
 
 
 - (void)viewDidLoad{

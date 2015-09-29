@@ -522,7 +522,7 @@
         <!--Explanation Slide 2-->
         <scene sceneID="DNf-TR-OAW">
             <objects>
-                <viewController title="Explanation Slide 2" id="443-tj-wG7" sceneMemberID="viewController">
+                <viewController title="Explanation Slide 2" id="443-tj-wG7" customClass="Explanation2" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="rGX-D2-dji"/>
                         <viewControllerLayoutGuide type="bottom" id="Pkk-RT-yOo"/>
@@ -541,7 +541,7 @@
                                 </connections>
                             </button>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="RBh-em-XhP">
-                                <rect key="frame" x="16" y="396" width="568" height="146"/>
+                                <rect key="frame" x="16" y="396" width="568" height="96"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <string key="text">While it only takes a few minutes (if the character has a dark skin tone, this might be changed to an hour) in direct sunlight per day to make all the vitamin d your body needs, this is modified by the uv index tooltip here Clothes that cover lots of your skin or naturally darker skin (which is higher in melanin) also reduce the amount of vitamin D created. </string>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -559,6 +559,15 @@
                                     <segue destination="Y42-qM-Okw" kind="presentation" id="EIm-f0-m8f"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1gt-3W-g0J">
+                                <rect key="frame" x="260" y="500" width="81" height="58"/>
+                                <state key="normal" title="Listen">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="listenToVoiceOver:" destination="LbW-FU-Aoh" eventType="touchUpInside" id="f7b-Jp-4oa"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -571,7 +580,7 @@
         <!--Explanation Slide 3-->
         <scene sceneID="F72-zp-hS1">
             <objects>
-                <viewController title="Explanation Slide 3" id="Y42-qM-Okw" sceneMemberID="viewController">
+                <viewController title="Explanation Slide 3" id="Y42-qM-Okw" customClass="Explanation3" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="6li-ld-3K9"/>
                         <viewControllerLayoutGuide type="bottom" id="MFa-HJ-vKc"/>
@@ -590,7 +599,7 @@
                                 </connections>
                             </button>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="Uaj-cJ-vWb">
-                                <rect key="frame" x="16" y="396" width="568" height="146"/>
+                                <rect key="frame" x="16" y="396" width="568" height="86"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <string key="text">Remember not to spend too long in the sun though!  If you spend too long, you'll get sunburnt. Sunburn increases your chance of skin cancer later in life. Also, too much sun breaks down the vitamin d your body made, undoing all that work. Not to mention you’ll get a nasty burn!</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -605,6 +614,15 @@
                                     <segue destination="tS6-BI-SVO" kind="presentation" id="GiL-OM-iIk"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FY6-n0-8oq">
+                                <rect key="frame" x="260" y="490" width="81" height="58"/>
+                                <state key="normal" title="Listen">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="listenToVoiceOver:" destination="LbW-FU-Aoh" eventType="touchUpInside" id="unO-ew-S0J"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -617,7 +635,7 @@
         <!--Explanation Slide 4-->
         <scene sceneID="1lt-bN-0md">
             <objects>
-                <viewController title="Explanation Slide 4" id="tS6-BI-SVO" sceneMemberID="viewController">
+                <viewController title="Explanation Slide 4" id="tS6-BI-SVO" customClass="Explanation4" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="O1S-yH-w5w"/>
                         <viewControllerLayoutGuide type="bottom" id="7PH-Lm-ng4"/>
@@ -636,7 +654,7 @@
                                 </connections>
                             </button>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="hQg-X3-Mpd">
-                                <rect key="frame" x="16" y="396" width="568" height="146"/>
+                                <rect key="frame" x="16" y="396" width="568" height="69"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <string key="text">For this adventure, you're playing a superhero fueled by the mighty power of vitamin D. Just getting as much as a normal person fills you with power! Remember, if you're in the sun for any long period of time, [cancer council slogan here]</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -649,6 +667,15 @@
                                 </state>
                                 <connections>
                                     <segue destination="1g2-jH-XVG" kind="presentation" id="Eba-2p-zyL"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Y4a-HI-qx9">
+                                <rect key="frame" x="260" y="473" width="81" height="58"/>
+                                <state key="normal" title="Listen">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="listenToVoiceOver:" destination="LbW-FU-Aoh" eventType="touchUpInside" id="10v-Kc-Ij4"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -1877,22 +1904,22 @@
         <segue reference="0uv-YX-gsc"/>
         <segue reference="oeO-9L-x2D"/>
         <segue reference="H3j-T1-rY0"/>
-        <segue reference="z3u-Mt-DTG"/>
-        <segue reference="Ogg-Jz-Ar9"/>
-        <segue reference="tFT-K4-j4Z"/>
-        <segue reference="MSS-3A-zlW"/>
-        <segue reference="KI8-gQ-xcA"/>
-        <segue reference="q5m-AR-iHb"/>
-        <segue reference="iWB-yu-uBZ"/>
-        <segue reference="6GF-6v-d9i"/>
         <segue reference="J6b-Uu-fG9"/>
+        <segue reference="6GF-6v-d9i"/>
+        <segue reference="PdL-iG-df5"/>
         <segue reference="MPr-Bf-8n3"/>
+        <segue reference="7V0-UE-hFd"/>
+        <segue reference="UoJ-Oq-EHp"/>
         <segue reference="jXW-zi-QpK"/>
         <segue reference="QnE-VF-aHs"/>
         <segue reference="GiL-OM-iIk"/>
-        <segue reference="UoJ-Oq-EHp"/>
-        <segue reference="I51-PT-CDk"/>
-        <segue reference="KiD-nC-HDg"/>
+        <segue reference="Eba-2p-zyL"/>
         <segue reference="cD7-i1-IGH"/>
+        <segue reference="KiD-nC-HDg"/>
+        <segue reference="MSS-3A-zlW"/>
+        <segue reference="z3u-Mt-DTG"/>
+        <segue reference="Ogg-Jz-Ar9"/>
+        <segue reference="tFT-K4-j4Z"/>
+        <segue reference="q5m-AR-iHb"/>
     </inferredMetricsTieBreakers>
 </document>
