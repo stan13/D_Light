@@ -1,0 +1,5 @@
+- Worried
+- Thoughtful
+- Happy
+- Tired
+- Pained (in physical pain)
