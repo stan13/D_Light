@@ -30,7 +30,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="LbW-FU-Aoh" kind="presentation" id="Hpz-Hv-igb"/>
+                                    <segue destination="1g2-jH-XVG" kind="presentation" id="udh-kP-udg"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gpy-94-pNe">
@@ -216,7 +216,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="tS6-BI-SVO" kind="show" id="DNp-t8-zbG"/>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="RO5-1v-MuV"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Name" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8eZ-B8-8dT">
@@ -253,7 +253,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="U40-0m-iAB" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3763" y="136"/>
+            <point key="canvasLocation" x="165" y="862"/>
         </scene>
         <!--View Controller3-->
         <scene sceneID="UNI-3C-ye2">
@@ -282,7 +282,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="ohO-wC-Nsv" kind="presentation" id="cD7-i1-IGH"/>
+                                    <segue destination="LbW-FU-Aoh" kind="presentation" id="S3c-bv-99a"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Scene4 - Clothes Customisation" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lEz-Dt-lAO">
@@ -462,7 +462,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="eaO-MW-3fa" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4522" y="136"/>
+            <point key="canvasLocation" x="944" y="875"/>
         </scene>
         <!--Explanation Slide 1-->
         <scene sceneID="xxM-Fh-jp0">
@@ -482,7 +482,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="BYZ-38-t0r" kind="show" id="7V0-UE-hFd"/>
+                                    <segue destination="Ggn-UF-x71" kind="show" id="raE-9l-FqN"/>
                                 </connections>
                             </button>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="a39-3z-2Gl">
@@ -712,7 +712,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="1g2-jH-XVG" kind="presentation" id="Eba-2p-zyL"/>
+                                    <segue destination="ohO-wC-Nsv" kind="presentation" id="LiG-tP-g8H"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Y4a-HI-qx9">
@@ -766,7 +766,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="Ggn-UF-x71" kind="show" id="KiD-nC-HDg"/>
+                                    <segue destination="tS6-BI-SVO" kind="show" id="uMc-9n-CXc"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Dha-LI-WOr">
@@ -784,26 +784,14 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="JMz-r0-JWU">
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <string key="text">It's a beautiful day! You only have a little time before you have to go battle Dr. Dastardly in his castle in the centre of the earth to save the world, though. Time is of the essence! How much time should you spend outside to get your vitamin D today?</string>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="qTm-EG-QK0">
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="SXg-ZX-t3m">
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <string key="text">It's a beautiful day! You only have a little time before you have to go battle Dr. Dastardly in his castle in the centre of the earth to save the world, though. Time is of the essence! How much time should you spend outside to get your vitamin D today?</string>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
+                            <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="079-WL-Hbt">
+                                <rect key="frame" x="21" y="401" width="558" height="31"/>
+                                <connections>
+                                    <action selector="changeMinutes:" destination="ohO-wC-Nsv" eventType="valueChanged" id="2Ny-Rk-iag"/>
+                                </connections>
+                            </slider>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="jY6-IU-PRJ">
-                                <rect key="frame" x="23" y="433" width="554" height="75"/>
+                                <rect key="frame" x="16" y="20" width="561" height="373"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <string key="text">It's a beautiful day! You only have a little time before you have to go battle Dr. Dastardly in his castle in the centre of the earth to save the world, though. Time is of the essence! How much time should you spend outside to get your vitamin D today?</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -812,12 +800,6 @@
                                     <rect key="frame" x="0.0" y="0.0" width="0.0" height="0.0"/>
                                 </variation>
                             </textView>
-                            <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="079-WL-Hbt">
-                                <rect key="frame" x="21" y="401" width="558" height="31"/>
-                                <connections>
-                                    <action selector="changeMinutes:" destination="ohO-wC-Nsv" eventType="valueChanged" id="2Ny-Rk-iag"/>
-                                </connections>
-                            </slider>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -828,7 +810,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="f4a-kM-uIM" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="5228" y="136"/>
+            <point key="canvasLocation" x="5231" y="144"/>
         </scene>
         <!--Answer Slide 1-->
         <scene sceneID="CyX-NS-IK0">
@@ -912,24 +894,6 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="oYE-zW-G2P">
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <string key="text">It's a beautiful day! You only have a little time before you have to go battle Dr. Dastardly in his castle in the centre of the earth to save the world, though. Time is of the essence! How much time should you spend outside to get your vitamin D today?</string>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fte-fs-rRs">
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="kp7-Wa-jLW">
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <string key="text">It's a beautiful day! You only have a little time before you have to go battle Dr. Dastardly in his castle in the centre of the earth to save the world, though. Time is of the essence! How much time should you spend outside to get your vitamin D today?</string>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="XI4-mB-9Pi">
                                 <rect key="frame" x="23" y="428" width="554" height="84"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -2007,27 +1971,27 @@
         <image name="sunscreen.gif" width="250" height="333"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="0uv-YX-gsc"/>
-        <segue reference="Y4C-RA-HFM"/>
-        <segue reference="P6f-oQ-ivq"/>
-        <segue reference="oeO-9L-x2D"/>
+        <segue reference="RO5-1v-MuV"/>
+        <segue reference="I51-PT-CDk"/>
+        <segue reference="raE-9l-FqN"/>
+        <segue reference="S3c-bv-99a"/>
+        <segue reference="BFx-l4-4dp"/>
+        <segue reference="q5m-AR-iHb"/>
+        <segue reference="uMc-9n-CXc"/>
+        <segue reference="LiG-tP-g8H"/>
+        <segue reference="Cha-hP-xda"/>
+        <segue reference="QnE-VF-aHs"/>
         <segue reference="tFT-K4-j4Z"/>
         <segue reference="Ogg-Jz-Ar9"/>
         <segue reference="z3u-Mt-DTG"/>
         <segue reference="MSS-3A-zlW"/>
-        <segue reference="GiL-OM-iIk"/>
-        <segue reference="QnE-VF-aHs"/>
-        <segue reference="Eba-2p-zyL"/>
-        <segue reference="7V0-UE-hFd"/>
-        <segue reference="UoJ-Oq-EHp"/>
-        <segue reference="BFx-l4-4dp"/>
-        <segue reference="Cha-hP-xda"/>
-        <segue reference="cD7-i1-IGH"/>
-        <segue reference="KiD-nC-HDg"/>
-        <segue reference="q5m-AR-iHb"/>
-        <segue reference="PdL-iG-df5"/>
         <segue reference="6GF-6v-d9i"/>
+        <segue reference="PdL-iG-df5"/>
         <segue reference="J6b-Uu-fG9"/>
         <segue reference="MPr-Bf-8n3"/>
+        <segue reference="0uv-YX-gsc"/>
+        <segue reference="Y4C-RA-HFM"/>
+        <segue reference="P6f-oQ-ivq"/>
+        <segue reference="oeO-9L-x2D"/>
     </inferredMetricsTieBreakers>
 </document>
