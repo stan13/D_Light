@@ -760,6 +760,9 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="VillainSuccess.png" translatesAutoresizingMaskIntoConstraints="NO" id="NAE-sI-BPn">
+                                <rect key="frame" x="356" y="116" width="221" height="426"/>
+                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HAz-A9-dMq">
                                 <rect key="frame" x="16" y="550" width="35" height="30"/>
                                 <state key="normal" title="Back">
@@ -791,7 +794,7 @@
                                 </connections>
                             </slider>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="jY6-IU-PRJ">
-                                <rect key="frame" x="16" y="20" width="561" height="373"/>
+                                <rect key="frame" x="16" y="20" width="561" height="88"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <string key="text">It's a beautiful day! You only have a little time before you have to go battle Dr. Dastardly in his castle in the centre of the earth to save the world, though. Time is of the essence! How much time should you spend outside to get your vitamin D today?</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -894,16 +897,6 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="XI4-mB-9Pi">
-                                <rect key="frame" x="23" y="428" width="554" height="84"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <string key="text">Aliens have teamed up with Dr. Dastardly and have covered the world in cloud to stop telescopes from seeing their oncoming invasion! Before warning all of earth and stopping their nefarious plans, how long should you spend outside to get your vitamin D for the day?</string>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
-                                    <rect key="frame" x="0.0" y="0.0" width="0.0" height="0.0"/>
-                                </variation>
-                            </textView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pBQ-u7-pUn">
                                 <rect key="frame" x="16" y="550" width="35" height="30"/>
                                 <state key="normal" title="Back">
@@ -919,6 +912,19 @@
                                     <action selector="changeMinutes:" destination="327-o1-09d" eventType="valueChanged" id="Edt-mw-Cm7"/>
                                 </connections>
                             </slider>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="VillainSuccess.png" translatesAutoresizingMaskIntoConstraints="NO" id="OcS-9c-omn">
+                                <rect key="frame" x="337" y="20" width="240" height="362"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="XI4-mB-9Pi">
+                                <rect key="frame" x="16" y="428" width="568" height="114"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <string key="text">Aliens have teamed up with Dr. Dastardly and have covered the world in cloud to stop telescopes from seeing their oncoming invasion! Before warning all of earth and stopping their nefarious plans, how long should you spend outside to get your vitamin D for the day?</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="0.0" y="0.0" width="0.0" height="0.0"/>
+                                </variation>
+                            </textView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -1744,7 +1750,7 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mkm-eB-JY5">
-                                <rect key="frame" x="16" y="28" width="568" height="175"/>
+                                <rect key="frame" x="16" y="28" width="568" height="96"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
@@ -1759,14 +1765,18 @@
                                 </connections>
                             </button>
                             <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" fixedFrame="YES" progress="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="hrk-KP-qqT">
-                                <rect key="frame" x="16" y="299" width="568" height="2"/>
+                                <rect key="frame" x="16" y="122" width="568" height="2"/>
                             </progressView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="PRJ-XN-Xvf">
+                                <rect key="frame" x="344" y="132" width="240" height="410"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" id="VaX-qr-ATv"/>
                     <connections>
                         <outlet property="answerLabel" destination="mkm-eB-JY5" id="Gk2-dv-1p0"/>
+                        <outlet property="drDastardly" destination="PRJ-XN-Xvf" id="IIL-hH-TKz"/>
                         <outlet property="resultsProgress" destination="hrk-KP-qqT" id="tuL-CT-Zh9"/>
                     </connections>
                 </viewController>
@@ -1938,7 +1948,7 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7NF-ZU-2FW">
-                                <rect key="frame" x="16" y="28" width="568" height="413"/>
+                                <rect key="frame" x="16" y="28" width="568" height="90"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
@@ -1946,10 +1956,14 @@
                             <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" fixedFrame="YES" progress="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="M5i-7Z-KsG">
                                 <rect key="frame" x="16" y="459" width="568" height="2"/>
                             </progressView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="AgU-NS-OFz">
+                                <rect key="frame" x="344" y="126" width="240" height="325"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <connections>
+                        <outlet property="drDastardly" destination="AgU-NS-OFz" id="lJe-7Z-BYm"/>
                         <outlet property="resultsLabel" destination="7NF-ZU-2FW" id="kdX-cK-sBP"/>
                         <outlet property="resultsProgress" destination="M5i-7Z-KsG" id="f3r-ya-lS6"/>
                     </connections>
@@ -1960,6 +1974,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="VillainSuccess.png" width="1210" height="2034"/>
         <image name="boyFace.png" width="400" height="400"/>
         <image name="boyHair0.png" width="400" height="400"/>
         <image name="boyHair1.png" width="400" height="400"/>
@@ -1971,27 +1986,27 @@
         <image name="sunscreen.gif" width="250" height="333"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="RO5-1v-MuV"/>
-        <segue reference="I51-PT-CDk"/>
-        <segue reference="raE-9l-FqN"/>
-        <segue reference="S3c-bv-99a"/>
         <segue reference="BFx-l4-4dp"/>
-        <segue reference="q5m-AR-iHb"/>
+        <segue reference="S3c-bv-99a"/>
+        <segue reference="raE-9l-FqN"/>
+        <segue reference="I51-PT-CDk"/>
+        <segue reference="6GF-6v-d9i"/>
+        <segue reference="PdL-iG-df5"/>
+        <segue reference="IHS-3h-TWr"/>
+        <segue reference="KI8-gQ-xcA"/>
+        <segue reference="J6b-Uu-fG9"/>
+        <segue reference="MPr-Bf-8n3"/>
         <segue reference="uMc-9n-CXc"/>
         <segue reference="LiG-tP-g8H"/>
-        <segue reference="Cha-hP-xda"/>
         <segue reference="QnE-VF-aHs"/>
         <segue reference="tFT-K4-j4Z"/>
         <segue reference="Ogg-Jz-Ar9"/>
         <segue reference="z3u-Mt-DTG"/>
         <segue reference="MSS-3A-zlW"/>
-        <segue reference="6GF-6v-d9i"/>
-        <segue reference="PdL-iG-df5"/>
-        <segue reference="J6b-Uu-fG9"/>
-        <segue reference="MPr-Bf-8n3"/>
-        <segue reference="0uv-YX-gsc"/>
-        <segue reference="Y4C-RA-HFM"/>
-        <segue reference="P6f-oQ-ivq"/>
+        <segue reference="S6r-9I-Rim"/>
         <segue reference="oeO-9L-x2D"/>
+        <segue reference="H3j-T1-rY0"/>
+        <segue reference="P6f-oQ-ivq"/>
+        <segue reference="Y4C-RA-HFM"/>
     </inferredMetricsTieBreakers>
 </document>

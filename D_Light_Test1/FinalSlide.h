@@ -13,5 +13,6 @@
 
 @property (weak, nonatomic) IBOutlet UILabel *resultsLabel;
 @property (weak, nonatomic) IBOutlet UIProgressView *resultsProgress;
+@property (weak, nonatomic) IBOutlet UIImageView *drDastardly;
 
 @end

@@ -7,7 +7,8 @@
 //
 
 #import "FinalSlide.h"
-
+#define LOWER_BOUND 5
+#define UPPER_BOUND 15
 
 @interface FinalSlide ()
 //Private Variables
@@ -44,6 +45,16 @@
     self.resultsProgress.progress = result/20.0;
     
     self.resultsLabel.text = [NSString stringWithFormat:@"Your final result is %i. You should aim to get as close to 10 as possible.", result];
+    
+    if (result < LOWER_BOUND) {
+        self.drDastardly.image = [UIImage imageNamed:@"VillainSuccess.png"];
+        
+    }else if (result <= UPPER_BOUND){
+        self.drDastardly.image = [UIImage imageNamed:@"VillainFailStanding.png"];
+    } else {
+        
+        self.drDastardly.image = [UIImage imageNamed:@"VillainSuccess.png"];
+    }
 }
 
 @end
