@@ -113,6 +113,8 @@ var character = {
         var file = new File(dest);
         options = new ImageCaptureOptions();
         options.resolution = 72;
+        options.antiAliasing = true;
+        options.transparency = true;
         doc.imageCapture(file, doc.artboards[0].artboardRect, options);
     },
 
