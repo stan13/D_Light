@@ -13,7 +13,15 @@
 @interface ViewController3 : ViewController
 //Image Views
 
+@property (weak, nonatomic) IBOutlet UIImageView *torsoView;
+@property (weak, nonatomic) IBOutlet UIImageView *legsView;
+@property (weak, nonatomic) IBOutlet UIImageView *armsView;
+@property (weak, nonatomic) IBOutlet UIImageView *headView;
 
+@property (weak, nonatomic) IBOutlet UIImageView *eyesView;
+
+@property (weak, nonatomic) IBOutlet UIImageView *hairBackView;
+@property (weak, nonatomic) IBOutlet UIImageView *hairFrontView;
 
 @property (weak, nonatomic) IBOutlet UIImageView *baseView;
 @property (weak, nonatomic) IBOutlet UIImageView *topView;

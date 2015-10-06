@@ -58,34 +58,34 @@
 		E54EFF601BC2686E00AD1EEA /* VillainSuccess.png in Resources */ = {isa = PBXBuildFile; fileRef = E54EFF5A1BC2686E00AD1EEA /* VillainSuccess.png */; };
 		E54EFF611BC2686E00AD1EEA /* VillainTongue1.png in Resources */ = {isa = PBXBuildFile; fileRef = E54EFF5B1BC2686E00AD1EEA /* VillainTongue1.png */; };
 		E560AED81BC223310060C059 /* bedroom_background.svg in Resources */ = {isa = PBXBuildFile; fileRef = E560AED71BC223310060C059 /* bedroom_background.svg */; };
-		E572C1291BC3A16800C4FCBB /* 1 0 Hair Back 1 Long.png in Resources */ = {isa = PBXBuildFile; fileRef = E572C10D1BC3A16700C4FCBB /* 1 0 Hair Back 1 Long.png */; };
-		E572C12A1BC3A16800C4FCBB /* 1 1 Clothing Back 1 Cape.png in Resources */ = {isa = PBXBuildFile; fileRef = E572C10E1BC3A16700C4FCBB /* 1 1 Clothing Back 1 Cape.png */; };
-		E572C12B1BC3A16800C4FCBB /* 1 2 Torso 0 Default.png in Resources */ = {isa = PBXBuildFile; fileRef = E572C10F1BC3A16700C4FCBB /* 1 2 Torso 0 Default.png */; };
-		E572C12C1BC3A16800C4FCBB /* 1 3 Legs 0 Default.png in Resources */ = {isa = PBXBuildFile; fileRef = E572C1101BC3A16700C4FCBB /* 1 3 Legs 0 Default.png */; };
-		E572C12D1BC3A16800C4FCBB /* 1 5 Arms 0 Default.png in Resources */ = {isa = PBXBuildFile; fileRef = E572C1111BC3A16700C4FCBB /* 1 5 Arms 0 Default.png */; };
-		E572C12E1BC3A16800C4FCBB /* 1 6 Clothing Front 1 Cape.png in Resources */ = {isa = PBXBuildFile; fileRef = E572C1121BC3A16700C4FCBB /* 1 6 Clothing Front 1 Cape.png */; };
-		E572C12F1BC3A16800C4FCBB /* 1 6 Clothing Front 2 Dress.png in Resources */ = {isa = PBXBuildFile; fileRef = E572C1131BC3A16700C4FCBB /* 1 6 Clothing Front 2 Dress.png */; };
-		E572C1301BC3A16800C4FCBB /* 1 6 Clothing Front 3 Shirt.png in Resources */ = {isa = PBXBuildFile; fileRef = E572C1141BC3A16700C4FCBB /* 1 6 Clothing Front 3 Shirt.png */; };
-		E572C1311BC3A16800C4FCBB /* 1 6 Clothing Front 4 Shorts.png in Resources */ = {isa = PBXBuildFile; fileRef = E572C1151BC3A16700C4FCBB /* 1 6 Clothing Front 4 Shorts.png */; };
-		E572C1321BC3A16800C4FCBB /* 1 7 Head 0 Default.png in Resources */ = {isa = PBXBuildFile; fileRef = E572C1161BC3A16700C4FCBB /* 1 7 Head 0 Default.png */; };
-		E572C1331BC3A16800C4FCBB /* 1 7 Head 1 Egg.png in Resources */ = {isa = PBXBuildFile; fileRef = E572C1171BC3A16700C4FCBB /* 1 7 Head 1 Egg.png */; };
-		E572C1341BC3A16800C4FCBB /* 1 8 Mouth 0 Default.png in Resources */ = {isa = PBXBuildFile; fileRef = E572C1181BC3A16700C4FCBB /* 1 8 Mouth 0 Default.png */; };
-		E572C1351BC3A16800C4FCBB /* 1 8 Mouth 1 Happy.png in Resources */ = {isa = PBXBuildFile; fileRef = E572C1191BC3A16700C4FCBB /* 1 8 Mouth 1 Happy.png */; };
-		E572C1361BC3A16800C4FCBB /* 1 8 Mouth 2 Worried.png in Resources */ = {isa = PBXBuildFile; fileRef = E572C11A1BC3A16700C4FCBB /* 1 8 Mouth 2 Worried.png */; };
-		E572C1371BC3A16800C4FCBB /* 1 8 Mouth 3 Thoughtful.png in Resources */ = {isa = PBXBuildFile; fileRef = E572C11B1BC3A16700C4FCBB /* 1 8 Mouth 3 Thoughtful.png */; };
-		E572C1381BC3A16800C4FCBB /* 1 8 Mouth 4 Tired.png in Resources */ = {isa = PBXBuildFile; fileRef = E572C11C1BC3A16700C4FCBB /* 1 8 Mouth 4 Tired.png */; };
-		E572C1391BC3A16800C4FCBB /* 1 8 Mouth 5 Pained.png in Resources */ = {isa = PBXBuildFile; fileRef = E572C11D1BC3A16700C4FCBB /* 1 8 Mouth 5 Pained.png */; };
-		E572C13A1BC3A16800C4FCBB /* 1 9 Eye Whites 0 Default.png in Resources */ = {isa = PBXBuildFile; fileRef = E572C11E1BC3A16700C4FCBB /* 1 9 Eye Whites 0 Default.png */; };
-		E572C13B1BC3A16800C4FCBB /* 1 9 Eye Whites 4 Tired.png in Resources */ = {isa = PBXBuildFile; fileRef = E572C11F1BC3A16700C4FCBB /* 1 9 Eye Whites 4 Tired.png */; };
-		E572C13C1BC3A16800C4FCBB /* 1 10 Eye Pupils 0 Default.png in Resources */ = {isa = PBXBuildFile; fileRef = E572C1201BC3A16800C4FCBB /* 1 10 Eye Pupils 0 Default.png */; };
-		E572C13D1BC3A16800C4FCBB /* 1 10 Eye Pupils 3 Thoughtful.png in Resources */ = {isa = PBXBuildFile; fileRef = E572C1211BC3A16800C4FCBB /* 1 10 Eye Pupils 3 Thoughtful.png */; };
-		E572C13E1BC3A16800C4FCBB /* 1 10 Eye Pupils 4 Tired.png in Resources */ = {isa = PBXBuildFile; fileRef = E572C1221BC3A16800C4FCBB /* 1 10 Eye Pupils 4 Tired.png */; };
-		E572C13F1BC3A16800C4FCBB /* 1 11 Eye Lashes 1 Visible.png in Resources */ = {isa = PBXBuildFile; fileRef = E572C1231BC3A16800C4FCBB /* 1 11 Eye Lashes 1 Visible.png */; };
-		E572C1401BC3A16800C4FCBB /* 1 12 Eye Brows 0 Default.png in Resources */ = {isa = PBXBuildFile; fileRef = E572C1241BC3A16800C4FCBB /* 1 12 Eye Brows 0 Default.png */; };
-		E572C1411BC3A16800C4FCBB /* 1 12 Eye Brows 3 Thoughtful.png in Resources */ = {isa = PBXBuildFile; fileRef = E572C1251BC3A16800C4FCBB /* 1 12 Eye Brows 3 Thoughtful.png */; };
-		E572C1421BC3A16800C4FCBB /* 1 12 Eye Brows 4 Tired.png in Resources */ = {isa = PBXBuildFile; fileRef = E572C1261BC3A16800C4FCBB /* 1 12 Eye Brows 4 Tired.png */; };
-		E572C1431BC3A16800C4FCBB /* 1 13 Hair Front 0 Short.png in Resources */ = {isa = PBXBuildFile; fileRef = E572C1271BC3A16800C4FCBB /* 1 13 Hair Front 0 Short.png */; };
-		E572C1441BC3A16800C4FCBB /* 1 13 Hair Front 1 Long.png in Resources */ = {isa = PBXBuildFile; fileRef = E572C1281BC3A16800C4FCBB /* 1 13 Hair Front 1 Long.png */; };
+		E572C1611BC3ABE000C4FCBB /* 1 0 Hair Back 1 Long.png in Resources */ = {isa = PBXBuildFile; fileRef = E572C1451BC3ABE000C4FCBB /* 1 0 Hair Back 1 Long.png */; };
+		E572C1621BC3ABE000C4FCBB /* 1 1 Clothing Back 1 Cape.png in Resources */ = {isa = PBXBuildFile; fileRef = E572C1461BC3ABE000C4FCBB /* 1 1 Clothing Back 1 Cape.png */; };
+		E572C1631BC3ABE000C4FCBB /* 1 2 Torso 0 Default.png in Resources */ = {isa = PBXBuildFile; fileRef = E572C1471BC3ABE000C4FCBB /* 1 2 Torso 0 Default.png */; };
+		E572C1641BC3ABE000C4FCBB /* 1 3 Legs 0 Default.png in Resources */ = {isa = PBXBuildFile; fileRef = E572C1481BC3ABE000C4FCBB /* 1 3 Legs 0 Default.png */; };
+		E572C1651BC3ABE000C4FCBB /* 1 5 Arms 0 Default.png in Resources */ = {isa = PBXBuildFile; fileRef = E572C1491BC3ABE000C4FCBB /* 1 5 Arms 0 Default.png */; };
+		E572C1661BC3ABE000C4FCBB /* 1 6 Clothing Front 1 Cape.png in Resources */ = {isa = PBXBuildFile; fileRef = E572C14A1BC3ABE000C4FCBB /* 1 6 Clothing Front 1 Cape.png */; };
+		E572C1671BC3ABE000C4FCBB /* 1 6 Clothing Front 2 Dress.png in Resources */ = {isa = PBXBuildFile; fileRef = E572C14B1BC3ABE000C4FCBB /* 1 6 Clothing Front 2 Dress.png */; };
+		E572C1681BC3ABE000C4FCBB /* 1 6 Clothing Front 3 Shirt.png in Resources */ = {isa = PBXBuildFile; fileRef = E572C14C1BC3ABE000C4FCBB /* 1 6 Clothing Front 3 Shirt.png */; };
+		E572C1691BC3ABE000C4FCBB /* 1 6 Clothing Front 4 Shorts.png in Resources */ = {isa = PBXBuildFile; fileRef = E572C14D1BC3ABE000C4FCBB /* 1 6 Clothing Front 4 Shorts.png */; };
+		E572C16A1BC3ABE000C4FCBB /* 1 7 Head 0 Default.png in Resources */ = {isa = PBXBuildFile; fileRef = E572C14E1BC3ABE000C4FCBB /* 1 7 Head 0 Default.png */; };
+		E572C16B1BC3ABE000C4FCBB /* 1 7 Head 1 Egg.png in Resources */ = {isa = PBXBuildFile; fileRef = E572C14F1BC3ABE000C4FCBB /* 1 7 Head 1 Egg.png */; };
+		E572C16C1BC3ABE000C4FCBB /* 1 8 Mouth 0 Default.png in Resources */ = {isa = PBXBuildFile; fileRef = E572C1501BC3ABE000C4FCBB /* 1 8 Mouth 0 Default.png */; };
+		E572C16D1BC3ABE000C4FCBB /* 1 8 Mouth 1 Happy.png in Resources */ = {isa = PBXBuildFile; fileRef = E572C1511BC3ABE000C4FCBB /* 1 8 Mouth 1 Happy.png */; };
+		E572C16E1BC3ABE000C4FCBB /* 1 8 Mouth 2 Worried.png in Resources */ = {isa = PBXBuildFile; fileRef = E572C1521BC3ABE000C4FCBB /* 1 8 Mouth 2 Worried.png */; };
+		E572C16F1BC3ABE000C4FCBB /* 1 8 Mouth 3 Thoughtful.png in Resources */ = {isa = PBXBuildFile; fileRef = E572C1531BC3ABE000C4FCBB /* 1 8 Mouth 3 Thoughtful.png */; };
+		E572C1701BC3ABE000C4FCBB /* 1 8 Mouth 4 Tired.png in Resources */ = {isa = PBXBuildFile; fileRef = E572C1541BC3ABE000C4FCBB /* 1 8 Mouth 4 Tired.png */; };
+		E572C1711BC3ABE000C4FCBB /* 1 8 Mouth 5 Pained.png in Resources */ = {isa = PBXBuildFile; fileRef = E572C1551BC3ABE000C4FCBB /* 1 8 Mouth 5 Pained.png */; };
+		E572C1721BC3ABE000C4FCBB /* 1 9 Eye Whites 0 Default.png in Resources */ = {isa = PBXBuildFile; fileRef = E572C1561BC3ABE000C4FCBB /* 1 9 Eye Whites 0 Default.png */; };
+		E572C1731BC3ABE000C4FCBB /* 1 9 Eye Whites 4 Tired.png in Resources */ = {isa = PBXBuildFile; fileRef = E572C1571BC3ABE000C4FCBB /* 1 9 Eye Whites 4 Tired.png */; };
+		E572C1741BC3ABE000C4FCBB /* 1 10 Eye Pupils 0 Default.png in Resources */ = {isa = PBXBuildFile; fileRef = E572C1581BC3ABE000C4FCBB /* 1 10 Eye Pupils 0 Default.png */; };
+		E572C1751BC3ABE000C4FCBB /* 1 10 Eye Pupils 3 Thoughtful.png in Resources */ = {isa = PBXBuildFile; fileRef = E572C1591BC3ABE000C4FCBB /* 1 10 Eye Pupils 3 Thoughtful.png */; };
+		E572C1761BC3ABE000C4FCBB /* 1 10 Eye Pupils 4 Tired.png in Resources */ = {isa = PBXBuildFile; fileRef = E572C15A1BC3ABE000C4FCBB /* 1 10 Eye Pupils 4 Tired.png */; };
+		E572C1771BC3ABE000C4FCBB /* 1 11 Eye Lashes 1 Visible.png in Resources */ = {isa = PBXBuildFile; fileRef = E572C15B1BC3ABE000C4FCBB /* 1 11 Eye Lashes 1 Visible.png */; };
+		E572C1781BC3ABE000C4FCBB /* 1 12 Eye Brows 0 Default.png in Resources */ = {isa = PBXBuildFile; fileRef = E572C15C1BC3ABE000C4FCBB /* 1 12 Eye Brows 0 Default.png */; };
+		E572C1791BC3ABE000C4FCBB /* 1 12 Eye Brows 3 Thoughtful.png in Resources */ = {isa = PBXBuildFile; fileRef = E572C15D1BC3ABE000C4FCBB /* 1 12 Eye Brows 3 Thoughtful.png */; };
+		E572C17A1BC3ABE000C4FCBB /* 1 12 Eye Brows 4 Tired.png in Resources */ = {isa = PBXBuildFile; fileRef = E572C15E1BC3ABE000C4FCBB /* 1 12 Eye Brows 4 Tired.png */; };
+		E572C17B1BC3ABE000C4FCBB /* 1 13 Hair Front 0 Short.png in Resources */ = {isa = PBXBuildFile; fileRef = E572C15F1BC3ABE000C4FCBB /* 1 13 Hair Front 0 Short.png */; };
+		E572C17C1BC3ABE000C4FCBB /* 1 13 Hair Front 1 Long.png in Resources */ = {isa = PBXBuildFile; fileRef = E572C1601BC3ABE000C4FCBB /* 1 13 Hair Front 1 Long.png */; };
 		E5BB4DE61BA2849800C9C7A0 /* boyFace.png in Resources */ = {isa = PBXBuildFile; fileRef = E5BB4DE51BA2849800C9C7A0 /* boyFace.png */; };
 		E5BB4DE81BA2862D00C9C7A0 /* Character.m in Sources */ = {isa = PBXBuildFile; fileRef = E5BB4DE71BA2862D00C9C7A0 /* Character.m */; };
 		E5BB4DEB1BA2895A00C9C7A0 /* boyHair0.png in Resources */ = {isa = PBXBuildFile; fileRef = E5BB4DEA1BA2895A00C9C7A0 /* boyHair0.png */; };
@@ -189,34 +189,34 @@
 		E54EFF5A1BC2686E00AD1EEA /* VillainSuccess.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = VillainSuccess.png; sourceTree = "<group>"; };
 		E54EFF5B1BC2686E00AD1EEA /* VillainTongue1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = VillainTongue1.png; sourceTree = "<group>"; };
 		E560AED71BC223310060C059 /* bedroom_background.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = bedroom_background.svg; path = Images.xcassets/Backgrounds/bedroom_background.svg; sourceTree = "<group>"; };
-		E572C10D1BC3A16700C4FCBB /* 1 0 Hair Back 1 Long.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "1 0 Hair Back 1 Long.png"; sourceTree = "<group>"; };
-		E572C10E1BC3A16700C4FCBB /* 1 1 Clothing Back 1 Cape.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "1 1 Clothing Back 1 Cape.png"; sourceTree = "<group>"; };
-		E572C10F1BC3A16700C4FCBB /* 1 2 Torso 0 Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "1 2 Torso 0 Default.png"; sourceTree = "<group>"; };
-		E572C1101BC3A16700C4FCBB /* 1 3 Legs 0 Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "1 3 Legs 0 Default.png"; sourceTree = "<group>"; };
-		E572C1111BC3A16700C4FCBB /* 1 5 Arms 0 Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "1 5 Arms 0 Default.png"; sourceTree = "<group>"; };
-		E572C1121BC3A16700C4FCBB /* 1 6 Clothing Front 1 Cape.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "1 6 Clothing Front 1 Cape.png"; sourceTree = "<group>"; };
-		E572C1131BC3A16700C4FCBB /* 1 6 Clothing Front 2 Dress.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "1 6 Clothing Front 2 Dress.png"; sourceTree = "<group>"; };
-		E572C1141BC3A16700C4FCBB /* 1 6 Clothing Front 3 Shirt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "1 6 Clothing Front 3 Shirt.png"; sourceTree = "<group>"; };
-		E572C1151BC3A16700C4FCBB /* 1 6 Clothing Front 4 Shorts.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "1 6 Clothing Front 4 Shorts.png"; sourceTree = "<group>"; };
-		E572C1161BC3A16700C4FCBB /* 1 7 Head 0 Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "1 7 Head 0 Default.png"; sourceTree = "<group>"; };
-		E572C1171BC3A16700C4FCBB /* 1 7 Head 1 Egg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "1 7 Head 1 Egg.png"; sourceTree = "<group>"; };
-		E572C1181BC3A16700C4FCBB /* 1 8 Mouth 0 Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "1 8 Mouth 0 Default.png"; sourceTree = "<group>"; };
-		E572C1191BC3A16700C4FCBB /* 1 8 Mouth 1 Happy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "1 8 Mouth 1 Happy.png"; sourceTree = "<group>"; };
-		E572C11A1BC3A16700C4FCBB /* 1 8 Mouth 2 Worried.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "1 8 Mouth 2 Worried.png"; sourceTree = "<group>"; };
-		E572C11B1BC3A16700C4FCBB /* 1 8 Mouth 3 Thoughtful.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "1 8 Mouth 3 Thoughtful.png"; sourceTree = "<group>"; };
-		E572C11C1BC3A16700C4FCBB /* 1 8 Mouth 4 Tired.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "1 8 Mouth 4 Tired.png"; sourceTree = "<group>"; };
-		E572C11D1BC3A16700C4FCBB /* 1 8 Mouth 5 Pained.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "1 8 Mouth 5 Pained.png"; sourceTree = "<group>"; };
-		E572C11E1BC3A16700C4FCBB /* 1 9 Eye Whites 0 Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "1 9 Eye Whites 0 Default.png"; sourceTree = "<group>"; };
-		E572C11F1BC3A16700C4FCBB /* 1 9 Eye Whites 4 Tired.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "1 9 Eye Whites 4 Tired.png"; sourceTree = "<group>"; };
-		E572C1201BC3A16800C4FCBB /* 1 10 Eye Pupils 0 Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "1 10 Eye Pupils 0 Default.png"; sourceTree = "<group>"; };
-		E572C1211BC3A16800C4FCBB /* 1 10 Eye Pupils 3 Thoughtful.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "1 10 Eye Pupils 3 Thoughtful.png"; sourceTree = "<group>"; };
-		E572C1221BC3A16800C4FCBB /* 1 10 Eye Pupils 4 Tired.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "1 10 Eye Pupils 4 Tired.png"; sourceTree = "<group>"; };
-		E572C1231BC3A16800C4FCBB /* 1 11 Eye Lashes 1 Visible.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "1 11 Eye Lashes 1 Visible.png"; sourceTree = "<group>"; };
-		E572C1241BC3A16800C4FCBB /* 1 12 Eye Brows 0 Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "1 12 Eye Brows 0 Default.png"; sourceTree = "<group>"; };
-		E572C1251BC3A16800C4FCBB /* 1 12 Eye Brows 3 Thoughtful.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "1 12 Eye Brows 3 Thoughtful.png"; sourceTree = "<group>"; };
-		E572C1261BC3A16800C4FCBB /* 1 12 Eye Brows 4 Tired.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "1 12 Eye Brows 4 Tired.png"; sourceTree = "<group>"; };
-		E572C1271BC3A16800C4FCBB /* 1 13 Hair Front 0 Short.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "1 13 Hair Front 0 Short.png"; sourceTree = "<group>"; };
-		E572C1281BC3A16800C4FCBB /* 1 13 Hair Front 1 Long.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "1 13 Hair Front 1 Long.png"; sourceTree = "<group>"; };
+		E572C1451BC3ABE000C4FCBB /* 1 0 Hair Back 1 Long.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "1 0 Hair Back 1 Long.png"; sourceTree = "<group>"; };
+		E572C1461BC3ABE000C4FCBB /* 1 1 Clothing Back 1 Cape.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "1 1 Clothing Back 1 Cape.png"; sourceTree = "<group>"; };
+		E572C1471BC3ABE000C4FCBB /* 1 2 Torso 0 Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "1 2 Torso 0 Default.png"; sourceTree = "<group>"; };
+		E572C1481BC3ABE000C4FCBB /* 1 3 Legs 0 Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "1 3 Legs 0 Default.png"; sourceTree = "<group>"; };
+		E572C1491BC3ABE000C4FCBB /* 1 5 Arms 0 Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "1 5 Arms 0 Default.png"; sourceTree = "<group>"; };
+		E572C14A1BC3ABE000C4FCBB /* 1 6 Clothing Front 1 Cape.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "1 6 Clothing Front 1 Cape.png"; sourceTree = "<group>"; };
+		E572C14B1BC3ABE000C4FCBB /* 1 6 Clothing Front 2 Dress.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "1 6 Clothing Front 2 Dress.png"; sourceTree = "<group>"; };
+		E572C14C1BC3ABE000C4FCBB /* 1 6 Clothing Front 3 Shirt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "1 6 Clothing Front 3 Shirt.png"; sourceTree = "<group>"; };
+		E572C14D1BC3ABE000C4FCBB /* 1 6 Clothing Front 4 Shorts.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "1 6 Clothing Front 4 Shorts.png"; sourceTree = "<group>"; };
+		E572C14E1BC3ABE000C4FCBB /* 1 7 Head 0 Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "1 7 Head 0 Default.png"; sourceTree = "<group>"; };
+		E572C14F1BC3ABE000C4FCBB /* 1 7 Head 1 Egg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "1 7 Head 1 Egg.png"; sourceTree = "<group>"; };
+		E572C1501BC3ABE000C4FCBB /* 1 8 Mouth 0 Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "1 8 Mouth 0 Default.png"; sourceTree = "<group>"; };
+		E572C1511BC3ABE000C4FCBB /* 1 8 Mouth 1 Happy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "1 8 Mouth 1 Happy.png"; sourceTree = "<group>"; };
+		E572C1521BC3ABE000C4FCBB /* 1 8 Mouth 2 Worried.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "1 8 Mouth 2 Worried.png"; sourceTree = "<group>"; };
+		E572C1531BC3ABE000C4FCBB /* 1 8 Mouth 3 Thoughtful.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "1 8 Mouth 3 Thoughtful.png"; sourceTree = "<group>"; };
+		E572C1541BC3ABE000C4FCBB /* 1 8 Mouth 4 Tired.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "1 8 Mouth 4 Tired.png"; sourceTree = "<group>"; };
+		E572C1551BC3ABE000C4FCBB /* 1 8 Mouth 5 Pained.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "1 8 Mouth 5 Pained.png"; sourceTree = "<group>"; };
+		E572C1561BC3ABE000C4FCBB /* 1 9 Eye Whites 0 Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "1 9 Eye Whites 0 Default.png"; sourceTree = "<group>"; };
+		E572C1571BC3ABE000C4FCBB /* 1 9 Eye Whites 4 Tired.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "1 9 Eye Whites 4 Tired.png"; sourceTree = "<group>"; };
+		E572C1581BC3ABE000C4FCBB /* 1 10 Eye Pupils 0 Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "1 10 Eye Pupils 0 Default.png"; sourceTree = "<group>"; };
+		E572C1591BC3ABE000C4FCBB /* 1 10 Eye Pupils 3 Thoughtful.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "1 10 Eye Pupils 3 Thoughtful.png"; sourceTree = "<group>"; };
+		E572C15A1BC3ABE000C4FCBB /* 1 10 Eye Pupils 4 Tired.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "1 10 Eye Pupils 4 Tired.png"; sourceTree = "<group>"; };
+		E572C15B1BC3ABE000C4FCBB /* 1 11 Eye Lashes 1 Visible.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "1 11 Eye Lashes 1 Visible.png"; sourceTree = "<group>"; };
+		E572C15C1BC3ABE000C4FCBB /* 1 12 Eye Brows 0 Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "1 12 Eye Brows 0 Default.png"; sourceTree = "<group>"; };
+		E572C15D1BC3ABE000C4FCBB /* 1 12 Eye Brows 3 Thoughtful.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "1 12 Eye Brows 3 Thoughtful.png"; sourceTree = "<group>"; };
+		E572C15E1BC3ABE000C4FCBB /* 1 12 Eye Brows 4 Tired.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "1 12 Eye Brows 4 Tired.png"; sourceTree = "<group>"; };
+		E572C15F1BC3ABE000C4FCBB /* 1 13 Hair Front 0 Short.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "1 13 Hair Front 0 Short.png"; sourceTree = "<group>"; };
+		E572C1601BC3ABE000C4FCBB /* 1 13 Hair Front 1 Long.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "1 13 Hair Front 1 Long.png"; sourceTree = "<group>"; };
 		E5BB4DE51BA2849800C9C7A0 /* boyFace.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = boyFace.png; sourceTree = "<group>"; };
 		E5BB4DE71BA2862D00C9C7A0 /* Character.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Character.m; sourceTree = "<group>"; };
 		E5BB4DE91BA2863B00C9C7A0 /* Character.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Character.h; sourceTree = "<group>"; };
@@ -330,34 +330,34 @@
 				E532F33F1BBA6F14004406B8 /* FinalSlide.h */,
 				E532F3401BBA6F23004406B8 /* FinalSlide.m */,
 				50398CA71B7DBB8B00E39663 /* Images.xcassets */,
-				E572C10D1BC3A16700C4FCBB /* 1 0 Hair Back 1 Long.png */,
-				E572C10E1BC3A16700C4FCBB /* 1 1 Clothing Back 1 Cape.png */,
-				E572C10F1BC3A16700C4FCBB /* 1 2 Torso 0 Default.png */,
-				E572C1101BC3A16700C4FCBB /* 1 3 Legs 0 Default.png */,
-				E572C1111BC3A16700C4FCBB /* 1 5 Arms 0 Default.png */,
-				E572C1121BC3A16700C4FCBB /* 1 6 Clothing Front 1 Cape.png */,
-				E572C1131BC3A16700C4FCBB /* 1 6 Clothing Front 2 Dress.png */,
-				E572C1141BC3A16700C4FCBB /* 1 6 Clothing Front 3 Shirt.png */,
-				E572C1151BC3A16700C4FCBB /* 1 6 Clothing Front 4 Shorts.png */,
-				E572C1161BC3A16700C4FCBB /* 1 7 Head 0 Default.png */,
-				E572C1171BC3A16700C4FCBB /* 1 7 Head 1 Egg.png */,
-				E572C1181BC3A16700C4FCBB /* 1 8 Mouth 0 Default.png */,
-				E572C1191BC3A16700C4FCBB /* 1 8 Mouth 1 Happy.png */,
-				E572C11A1BC3A16700C4FCBB /* 1 8 Mouth 2 Worried.png */,
-				E572C11B1BC3A16700C4FCBB /* 1 8 Mouth 3 Thoughtful.png */,
-				E572C11C1BC3A16700C4FCBB /* 1 8 Mouth 4 Tired.png */,
-				E572C11D1BC3A16700C4FCBB /* 1 8 Mouth 5 Pained.png */,
-				E572C11E1BC3A16700C4FCBB /* 1 9 Eye Whites 0 Default.png */,
-				E572C11F1BC3A16700C4FCBB /* 1 9 Eye Whites 4 Tired.png */,
-				E572C1201BC3A16800C4FCBB /* 1 10 Eye Pupils 0 Default.png */,
-				E572C1211BC3A16800C4FCBB /* 1 10 Eye Pupils 3 Thoughtful.png */,
-				E572C1221BC3A16800C4FCBB /* 1 10 Eye Pupils 4 Tired.png */,
-				E572C1231BC3A16800C4FCBB /* 1 11 Eye Lashes 1 Visible.png */,
-				E572C1241BC3A16800C4FCBB /* 1 12 Eye Brows 0 Default.png */,
-				E572C1251BC3A16800C4FCBB /* 1 12 Eye Brows 3 Thoughtful.png */,
-				E572C1261BC3A16800C4FCBB /* 1 12 Eye Brows 4 Tired.png */,
-				E572C1271BC3A16800C4FCBB /* 1 13 Hair Front 0 Short.png */,
-				E572C1281BC3A16800C4FCBB /* 1 13 Hair Front 1 Long.png */,
+				E572C1451BC3ABE000C4FCBB /* 1 0 Hair Back 1 Long.png */,
+				E572C1461BC3ABE000C4FCBB /* 1 1 Clothing Back 1 Cape.png */,
+				E572C1471BC3ABE000C4FCBB /* 1 2 Torso 0 Default.png */,
+				E572C1481BC3ABE000C4FCBB /* 1 3 Legs 0 Default.png */,
+				E572C1491BC3ABE000C4FCBB /* 1 5 Arms 0 Default.png */,
+				E572C14A1BC3ABE000C4FCBB /* 1 6 Clothing Front 1 Cape.png */,
+				E572C14B1BC3ABE000C4FCBB /* 1 6 Clothing Front 2 Dress.png */,
+				E572C14C1BC3ABE000C4FCBB /* 1 6 Clothing Front 3 Shirt.png */,
+				E572C14D1BC3ABE000C4FCBB /* 1 6 Clothing Front 4 Shorts.png */,
+				E572C14E1BC3ABE000C4FCBB /* 1 7 Head 0 Default.png */,
+				E572C14F1BC3ABE000C4FCBB /* 1 7 Head 1 Egg.png */,
+				E572C1501BC3ABE000C4FCBB /* 1 8 Mouth 0 Default.png */,
+				E572C1511BC3ABE000C4FCBB /* 1 8 Mouth 1 Happy.png */,
+				E572C1521BC3ABE000C4FCBB /* 1 8 Mouth 2 Worried.png */,
+				E572C1531BC3ABE000C4FCBB /* 1 8 Mouth 3 Thoughtful.png */,
+				E572C1541BC3ABE000C4FCBB /* 1 8 Mouth 4 Tired.png */,
+				E572C1551BC3ABE000C4FCBB /* 1 8 Mouth 5 Pained.png */,
+				E572C1561BC3ABE000C4FCBB /* 1 9 Eye Whites 0 Default.png */,
+				E572C1571BC3ABE000C4FCBB /* 1 9 Eye Whites 4 Tired.png */,
+				E572C1581BC3ABE000C4FCBB /* 1 10 Eye Pupils 0 Default.png */,
+				E572C1591BC3ABE000C4FCBB /* 1 10 Eye Pupils 3 Thoughtful.png */,
+				E572C15A1BC3ABE000C4FCBB /* 1 10 Eye Pupils 4 Tired.png */,
+				E572C15B1BC3ABE000C4FCBB /* 1 11 Eye Lashes 1 Visible.png */,
+				E572C15C1BC3ABE000C4FCBB /* 1 12 Eye Brows 0 Default.png */,
+				E572C15D1BC3ABE000C4FCBB /* 1 12 Eye Brows 3 Thoughtful.png */,
+				E572C15E1BC3ABE000C4FCBB /* 1 12 Eye Brows 4 Tired.png */,
+				E572C15F1BC3ABE000C4FCBB /* 1 13 Hair Front 0 Short.png */,
+				E572C1601BC3ABE000C4FCBB /* 1 13 Hair Front 1 Long.png */,
 				E54EFF561BC2686E00AD1EEA /* VillainAngry1.png */,
 				E54EFF571BC2686E00AD1EEA /* VillainFailSitting1.png */,
 				E54EFF581BC2686E00AD1EEA /* VillainFailSitting2.png */,
@@ -496,55 +496,55 @@
 				E5BB4DF31BA2B07A00C9C7A0 /* girlHair1.png in Resources */,
 				E54EFF5C1BC2686E00AD1EEA /* VillainAngry1.png in Resources */,
 				E532F3431BBA74B5004406B8 /* applause.mp3 in Resources */,
-				E572C1331BC3A16800C4FCBB /* 1 7 Head 1 Egg.png in Resources */,
+				E572C16B1BC3ABE000C4FCBB /* 1 7 Head 1 Egg.png in Resources */,
 				C14EA5391BB52C2700B9661F /* food1.png in Resources */,
-				E572C13F1BC3A16800C4FCBB /* 1 11 Eye Lashes 1 Visible.png in Resources */,
+				E572C1771BC3ABE000C4FCBB /* 1 11 Eye Lashes 1 Visible.png in Resources */,
 				E54EFF611BC2686E00AD1EEA /* VillainTongue1.png in Resources */,
-				E572C1311BC3A16800C4FCBB /* 1 6 Clothing Front 4 Shorts.png in Resources */,
+				E572C1691BC3ABE000C4FCBB /* 1 6 Clothing Front 4 Shorts.png in Resources */,
 				E5BB4DF11BA2B07A00C9C7A0 /* girlFace.png in Resources */,
 				50398CA61B7DBB8B00E39663 /* Main.storyboard in Resources */,
 				508540FE1B7DD92E00CE867C /* girlBody.jpeg in Resources */,
-				E572C1361BC3A16800C4FCBB /* 1 8 Mouth 2 Worried.png in Resources */,
-				E572C12E1BC3A16800C4FCBB /* 1 6 Clothing Front 1 Cape.png in Resources */,
-				E572C1351BC3A16800C4FCBB /* 1 8 Mouth 1 Happy.png in Resources */,
+				E572C16E1BC3ABE000C4FCBB /* 1 8 Mouth 2 Worried.png in Resources */,
+				E572C1661BC3ABE000C4FCBB /* 1 6 Clothing Front 1 Cape.png in Resources */,
+				E572C16D1BC3ABE000C4FCBB /* 1 8 Mouth 1 Happy.png in Resources */,
 				C14EA53F1BB52C4E00B9661F /* plate.png in Resources */,
-				E572C1301BC3A16800C4FCBB /* 1 6 Clothing Front 3 Shirt.png in Resources */,
-				E572C13A1BC3A16800C4FCBB /* 1 9 Eye Whites 0 Default.png in Resources */,
+				E572C1681BC3ABE000C4FCBB /* 1 6 Clothing Front 3 Shirt.png in Resources */,
+				E572C1721BC3ABE000C4FCBB /* 1 9 Eye Whites 0 Default.png in Resources */,
 				50398CAB1B7DBB8B00E39663 /* LaunchScreen.xib in Resources */,
 				E54EFF5E1BC2686E00AD1EEA /* VillainFailSitting2.png in Resources */,
-				E572C12F1BC3A16800C4FCBB /* 1 6 Clothing Front 2 Dress.png in Resources */,
+				E572C1671BC3ABE000C4FCBB /* 1 6 Clothing Front 2 Dress.png in Resources */,
 				C14EA53C1BB52C3A00B9661F /* food2.png in Resources */,
-				E572C1291BC3A16800C4FCBB /* 1 0 Hair Back 1 Long.png in Resources */,
-				E572C1381BC3A16800C4FCBB /* 1 8 Mouth 4 Tired.png in Resources */,
+				E572C1611BC3ABE000C4FCBB /* 1 0 Hair Back 1 Long.png in Resources */,
+				E572C1701BC3ABE000C4FCBB /* 1 8 Mouth 4 Tired.png in Resources */,
 				C14EA53D1BB52C3A00B9661F /* food3.png in Resources */,
 				E54EFF5D1BC2686E00AD1EEA /* VillainFailSitting1.png in Resources */,
-				E572C13C1BC3A16800C4FCBB /* 1 10 Eye Pupils 0 Default.png in Resources */,
+				E572C1741BC3ABE000C4FCBB /* 1 10 Eye Pupils 0 Default.png in Resources */,
 				C14EA52B1BB50D6300B9661F /* sunscreen.gif in Resources */,
-				E572C13E1BC3A16800C4FCBB /* 1 10 Eye Pupils 4 Tired.png in Resources */,
+				E572C1761BC3ABE000C4FCBB /* 1 10 Eye Pupils 4 Tired.png in Resources */,
 				E560AED81BC223310060C059 /* bedroom_background.svg in Resources */,
-				E572C1411BC3A16800C4FCBB /* 1 12 Eye Brows 3 Thoughtful.png in Resources */,
-				E572C1391BC3A16800C4FCBB /* 1 8 Mouth 5 Pained.png in Resources */,
-				E572C1371BC3A16800C4FCBB /* 1 8 Mouth 3 Thoughtful.png in Resources */,
-				E572C1431BC3A16800C4FCBB /* 1 13 Hair Front 0 Short.png in Resources */,
+				E572C1791BC3ABE000C4FCBB /* 1 12 Eye Brows 3 Thoughtful.png in Resources */,
+				E572C1711BC3ABE000C4FCBB /* 1 8 Mouth 5 Pained.png in Resources */,
+				E572C16F1BC3ABE000C4FCBB /* 1 8 Mouth 3 Thoughtful.png in Resources */,
+				E572C17B1BC3ABE000C4FCBB /* 1 13 Hair Front 0 Short.png in Resources */,
 				508540FD1B7DD92E00CE867C /* boyBody.png in Resources */,
 				50398CA81B7DBB8B00E39663 /* Images.xcassets in Resources */,
-				E572C1441BC3A16800C4FCBB /* 1 13 Hair Front 1 Long.png in Resources */,
-				E572C13B1BC3A16800C4FCBB /* 1 9 Eye Whites 4 Tired.png in Resources */,
-				E572C12C1BC3A16800C4FCBB /* 1 3 Legs 0 Default.png in Resources */,
-				E572C1401BC3A16800C4FCBB /* 1 12 Eye Brows 0 Default.png in Resources */,
-				E572C1341BC3A16800C4FCBB /* 1 8 Mouth 0 Default.png in Resources */,
+				E572C17C1BC3ABE000C4FCBB /* 1 13 Hair Front 1 Long.png in Resources */,
+				E572C1731BC3ABE000C4FCBB /* 1 9 Eye Whites 4 Tired.png in Resources */,
+				E572C1641BC3ABE000C4FCBB /* 1 3 Legs 0 Default.png in Resources */,
+				E572C1781BC3ABE000C4FCBB /* 1 12 Eye Brows 0 Default.png in Resources */,
+				E572C16C1BC3ABE000C4FCBB /* 1 8 Mouth 0 Default.png in Resources */,
 				E524AA1C1BA15FC5003B6AD5 /* eyes.png in Resources */,
-				E572C12D1BC3A16800C4FCBB /* 1 5 Arms 0 Default.png in Resources */,
+				E572C1651BC3ABE000C4FCBB /* 1 5 Arms 0 Default.png in Resources */,
 				E5BB4DE61BA2849800C9C7A0 /* boyFace.png in Resources */,
-				E572C12B1BC3A16800C4FCBB /* 1 2 Torso 0 Default.png in Resources */,
+				E572C1631BC3ABE000C4FCBB /* 1 2 Torso 0 Default.png in Resources */,
 				E54EFF5F1BC2686E00AD1EEA /* VillainFailStanding.png in Resources */,
-				E572C12A1BC3A16800C4FCBB /* 1 1 Clothing Back 1 Cape.png in Resources */,
-				E572C1421BC3A16800C4FCBB /* 1 12 Eye Brows 4 Tired.png in Resources */,
+				E572C1621BC3ABE000C4FCBB /* 1 1 Clothing Back 1 Cape.png in Resources */,
+				E572C17A1BC3ABE000C4FCBB /* 1 12 Eye Brows 4 Tired.png in Resources */,
 				E5BB4DF21BA2B07A00C9C7A0 /* girlHair0.png in Resources */,
 				E54EFF601BC2686E00AD1EEA /* VillainSuccess.png in Resources */,
 				E5BB4DEB1BA2895A00C9C7A0 /* boyHair0.png in Resources */,
-				E572C1321BC3A16800C4FCBB /* 1 7 Head 0 Default.png in Resources */,
-				E572C13D1BC3A16800C4FCBB /* 1 10 Eye Pupils 3 Thoughtful.png in Resources */,
+				E572C16A1BC3ABE000C4FCBB /* 1 7 Head 0 Default.png in Resources */,
+				E572C1751BC3ABE000C4FCBB /* 1 10 Eye Pupils 3 Thoughtful.png in Resources */,
 				E5BB4DF01BA2B07A00C9C7A0 /* boyHair1.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

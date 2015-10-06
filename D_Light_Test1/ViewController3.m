@@ -54,10 +54,25 @@
         sexString = @"boy";
     }
     //sets up image for base
-    UIImage *temp = [UIImage imageNamed:[NSString stringWithFormat:@"%@Face",sexString]];
+    //UIImage *temp = [UIImage imageNamed:[NSString stringWithFormat:@"%@Face",sexString]];
     //applies image with skin tone from presets
-    self.baseView.image = [self changeImage:temp toColour: [UIColor colorWithRed:skinRed green:skinGreen blue:skinBlue alpha:1]];
+    //self.baseView.image = [self changeImage:temp toColour: [UIColor colorWithRed:skinRed green:skinGreen blue:skinBlue alpha:1]];
     
+    /*
+     self.face.image = [self changeImage:[UIImage imageNamed:self.currentFace] toColour:[UIColor colorWithRed:self.currentSkinRed green:self.currentSkinGreen blue:self.currentSkinBlue alpha:1]];
+     self.hair.image = [self changeImage:[UIImage imageNamed:self.currentHair] toColour:[UIColor colorWithHue:self.currentHairHue saturation:0.5 brightness:0.5 alpha:1]];
+     self.eyes.image = [self changeImage:[UIImage imageNamed:@"eyes"] toColour:[UIColor colorWithHue:self.currentEyeHue saturation:0.5 brightness:0.5 alpha:1]];
+     */
+    
+    self.torsoView.image = [self changeImage:self.torsoView.image toColour:[UIColor colorWithRed:skinRed green:skinGreen blue:skinBlue alpha:1]];
+    self.legsView.image = [self changeImage:self.legsView.image toColour:[UIColor colorWithRed:skinRed green:skinGreen blue:skinBlue alpha:1]];
+    self.armsView.image = [self changeImage:self.armsView.image toColour:[UIColor colorWithRed:skinRed green:skinGreen blue:skinBlue alpha:1]];
+    self.headView.image = [self changeImage:self.headView.image toColour:[UIColor colorWithRed:skinRed green:skinGreen blue:skinBlue alpha:1]];
+    
+    self.hairBackView.image = [self changeImage:self.hairBackView.image toColour:[UIColor colorWithHue:hairHue saturation:0.5 brightness:0.5 alpha:1]];
+    self.hairFrontView.image = [self changeImage:self.hairFrontView.image toColour:[UIColor colorWithHue:hairHue saturation:0.5 brightness:0.5 alpha:1]];
+    
+    self.eyesView.image = [self changeImage:self.eyesView.image toColour:[UIColor colorWithHue:eyeHue saturation:0.5 brightness:0.5 alpha:1]];
 }
 
 
@@ -103,7 +118,7 @@
     [colour setFill];
     CGContextTranslateCTM(context, 0, img.size.height);
     CGContextScaleCTM(context, 1.0, -1.0);
-    CGContextSetBlendMode(context, kCGBlendModeOverlay);
+    CGContextSetBlendMode(context, kCGBlendModeDarken);
     CGRect rect = CGRectMake(0, 0, img.size.width, img.size.height);
     CGContextDrawImage(context, rect, img.CGImage);
     CGContextClipToMask(context, rect, img.CGImage);

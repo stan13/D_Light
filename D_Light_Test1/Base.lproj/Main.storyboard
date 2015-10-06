@@ -375,7 +375,7 @@
                                     <rect key="frame" x="0.0" y="0.0" width="0.0" height="0.0"/>
                                 </variation>
                             </imageView>
-                            <imageView opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="1 13 Hair Front 0 Short.png" translatesAutoresizingMaskIntoConstraints="NO" id="r07-lE-T7S">
+                            <imageView opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="1 13 Hair Front 1 Long.png" translatesAutoresizingMaskIntoConstraints="NO" id="r07-lE-T7S">
                                 <rect key="frame" x="16" y="68" width="200" height="460"/>
                                 <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
                                     <rect key="frame" x="0.0" y="0.0" width="0.0" height="0.0"/>
@@ -530,7 +530,14 @@
                     </view>
                     <navigationItem key="navigationItem" id="gB4-8Y-T5n"/>
                     <connections>
+                        <outlet property="armsView" destination="7Of-09-gkg" id="ntA-gl-ESx"/>
                         <outlet property="baseView" destination="aWX-7Y-AOu" id="n5q-dV-uxc"/>
+                        <outlet property="eyesView" destination="RFJ-Bg-shn" id="JtZ-b1-AjS"/>
+                        <outlet property="hairBackView" destination="aWX-7Y-AOu" id="hRi-p8-Td7"/>
+                        <outlet property="hairFrontView" destination="r07-lE-T7S" id="Vxi-tV-30b"/>
+                        <outlet property="headView" destination="Z3z-PC-uTq" id="qZD-hz-nro"/>
+                        <outlet property="legsView" destination="bLW-cc-Mn6" id="Fsu-zL-pYc"/>
+                        <outlet property="torsoView" destination="10l-EJ-hTh" id="3I9-fx-SMn"/>
                         <outletCollection property="top" destination="jQD-03-Kvn" id="7nW-sC-yCk"/>
                         <outletCollection property="top" destination="Hjq-7U-r65" id="Gzt-Es-Fet"/>
                         <outletCollection property="top" destination="3GU-cu-abR" id="ZPO-zl-ooC"/>
@@ -2058,19 +2065,19 @@
         </scene>
     </scenes>
     <resources>
-        <image name="1 0 Hair Back 1 Long.png" width="2500" height="2500"/>
-        <image name="1 1 Clothing Back 1 Cape.png" width="2500" height="2500"/>
-        <image name="1 10 Eye Pupils 0 Default.png" width="2500" height="2500"/>
-        <image name="1 12 Eye Brows 0 Default.png" width="2500" height="2500"/>
-        <image name="1 13 Hair Front 0 Short.png" width="2500" height="2500"/>
-        <image name="1 2 Torso 0 Default.png" width="2500" height="2500"/>
-        <image name="1 3 Legs 0 Default.png" width="2500" height="2500"/>
-        <image name="1 5 Arms 0 Default.png" width="2500" height="2500"/>
-        <image name="1 6 Clothing Front 2 Dress.png" width="2500" height="2500"/>
-        <image name="1 6 Clothing Front 3 Shirt.png" width="2500" height="2500"/>
-        <image name="1 7 Head 0 Default.png" width="2500" height="2500"/>
-        <image name="1 8 Mouth 0 Default.png" width="2500" height="2500"/>
-        <image name="1 9 Eye Whites 0 Default.png" width="2500" height="2500"/>
+        <image name="1 0 Hair Back 1 Long.png" width="1000" height="2300"/>
+        <image name="1 1 Clothing Back 1 Cape.png" width="1000" height="2300"/>
+        <image name="1 10 Eye Pupils 0 Default.png" width="1000" height="2300"/>
+        <image name="1 12 Eye Brows 0 Default.png" width="1000" height="2300"/>
+        <image name="1 13 Hair Front 1 Long.png" width="1000" height="2300"/>
+        <image name="1 2 Torso 0 Default.png" width="1000" height="2300"/>
+        <image name="1 3 Legs 0 Default.png" width="1000" height="2300"/>
+        <image name="1 5 Arms 0 Default.png" width="1000" height="2300"/>
+        <image name="1 6 Clothing Front 2 Dress.png" width="1000" height="2300"/>
+        <image name="1 6 Clothing Front 3 Shirt.png" width="1000" height="2300"/>
+        <image name="1 7 Head 0 Default.png" width="1000" height="2300"/>
+        <image name="1 8 Mouth 0 Default.png" width="1000" height="2300"/>
+        <image name="1 9 Eye Whites 0 Default.png" width="1000" height="2300"/>
         <image name="VillainSuccess.png" width="1210" height="2034"/>
         <image name="boyFace.png" width="400" height="400"/>
         <image name="boyHair0.png" width="400" height="400"/>
