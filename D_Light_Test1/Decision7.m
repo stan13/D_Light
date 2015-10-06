@@ -23,8 +23,6 @@
     self.nextButton.enabled = NO;
 }
 
-
-
 - (IBAction)chooseMore:(UIButton *)sender {
     self.nextButton.enabled = YES;
     self.moreButton.backgroundColor = [UIColor grayColor];

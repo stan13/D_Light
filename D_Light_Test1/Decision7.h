@@ -19,5 +19,4 @@
 - (IBAction)chooseLess:(UIButton *)sender;
 @property (weak, nonatomic) IBOutlet UIButton *nextButton;
 
-
 @end
