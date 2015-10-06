@@ -120,8 +120,14 @@ var character = {
 
     exportEachLayer: function exportEachLayer(){
         var exportRoot = doc.path.selectDlg();
-        var exportFolder = null;
         var previousLayer = null, previousSublayer = null;
+        var layerName = "", sublayerName = "";
+        var sceneNumber = NaN;
+        
+        //Prompt for scene number
+        while((sceneNumber = Number(prompt("Enter a scene number:", 0))) == NaN){
+            alert("Please enter a valid number.");
+        }
         
         this.hideAllSublayers();
         
@@ -131,19 +137,19 @@ var character = {
             if(typeof y != "number"){
                 if(previousLayer) previousLayer.visible = false;
                 previousLayer = layer;
-                exportFolder = new Folder(exportRoot + "/" + layer.name);
-                if(!exportFolder.exists) exportFolder.create();
+                layerName = layer.name;
             }else{
                 if(previousSublayer) previousSublayer.visible = false;
                 previousSublayer = layer;
+                sublayerName = layer.name;
                 
-                character.exportPng(exportFolder + "/" + layer.name + ".png");
+                character.exportPng(exportRoot + "/" + sceneNumber + " " + layerName + " " + sublayerName + ".png");
             }
         });
     }
 };
 
-//character.exportEachLayer();
+character.exportEachLayer();
 
 character.showAllLayers();
 
@@ -154,7 +160,7 @@ character.selectSublayers([0, 13], [0]);
 character.selectSublayers([11], [0]);
 
 //Set expression
-character.selectSublayers([8, 9, 10, 12], [0]);
+character.selectSublayers([8, 9, 10, 12], [4]);
 
 //Set head shape
 character.selectSublayers([7], [1]);
