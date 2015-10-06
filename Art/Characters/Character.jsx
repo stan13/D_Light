@@ -110,17 +110,15 @@ var character = {
     },
 
     exportPng: function exportPng(dest){
-        var exportOptions = new ExportOptionsPNG24();
-        var type = ExportType.PNG24;
-        var fileSpec = new File(dest);
-        fileSpec.openDlg();
-        exportOptions.artboardClipping = true;
-        doc.exportFile(fileSpec, type, exportOptions);
+        var file = new File(dest);
+        options = new ImageCaptureOptions();
+        options.resolution = 72;
+        doc.imageCapture(file, doc.artboards[0].artboardRect, options);
     },
 
     exportEachLayer: function exportEachLayer(){
         var exportRoot = doc.path.selectDlg();
-        var exportFolder;
+        var exportFolder = null;
         var previousLayer = null, previousSublayer = null;
         
         this.hideAllSublayers();
@@ -131,13 +129,13 @@ var character = {
             if(typeof y != "number"){
                 if(previousLayer) previousLayer.visible = false;
                 previousLayer = layer;
-                exportFolder = new Folder(exportRoot.path + "/" + layer.name);
-                exportFolder.create();
+                exportFolder = new Folder(exportRoot + "/" + layer.name);
+                if(!exportFolder.exists) exportFolder.create();
             }else{
                 if(previousSublayer) previousSublayer.visible = false;
                 previousSublayer = layer;
                 
-                character.exportPng(exportFolder.path + "/" + layer.name + ".png");
+                character.exportPng(exportFolder + "/" + layer.name + ".png");
             }
         });
     }
@@ -154,11 +152,14 @@ character.selectSublayers([0, 13], [1]);
 character.selectSublayers([11], [1]);
 
 //Set expression
-character.selectSublayers([8, 9, 10, 12], [0]);
+character.selectSublayers([8, 9, 10, 12], [1]);
 
 //Set head shape
 character.selectSublayers([7], [0]);
 
 //Set clothing
-character.selectSublayers([1, 6], [2]);
+character.selectSublayers([1, 6], [1, 2]);
+
+//Set body and limbs
+character.selectSublayers([2, 3, 5], []);
 
