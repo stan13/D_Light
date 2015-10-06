@@ -109,28 +109,47 @@ var character = {
         }
     },
 
-    exportPng: function exportPng(dest){
+    exportPng: function exportPng(dest, artboard){
         var file = new File(dest);
+        
         options = new ImageCaptureOptions();
         options.resolution = 72;
         options.antiAliasing = true;
         options.transparency = true;
-        doc.imageCapture(file, doc.artboards[0].artboardRect, options);
+        
+        doc.imageCapture(
+            file,
+            doc.artboards[artboard ? artboard : 0].artboardRect,
+            options
+        );
     },
 
     exportEachLayer: function exportEachLayer(){
         var exportRoot = doc.path.selectDlg();
         var previousLayer = null, previousSublayer = null;
         var layerName = "", sublayerName = "";
-        var sceneNumber = NaN;
+        var sceneNumber = NaN, artboardNumber = NaN;
         
         //Prompt for scene number
-        while((sceneNumber = Number(prompt("Enter a scene number:", 0))) == NaN){
-            alert("Please enter a valid number.");
-        }
+        while(
+            (sceneNumber = Number(prompt(
+                "Enter a scene number to label exported images with:",
+                0
+            ))) == NaN
+        ) alert("Please enter a valid number.");
+    
+        //Prompt for artboard number
+        while(
+            (artboardNumber = Number(prompt(
+                "Enter the artboard number to crop to:",
+                0
+            ))) == NaN || !(artboardNumber >= 0 && artboardNumber < doc.artboards.length)
+        ) alert("Please enter a valid number.");
         
+        
+        
+        //Let the games begin!
         this.hideAllSublayers();
-        
         this.iterateLayers(function(layer, x, y){
             layer.visible = true;
             
@@ -143,7 +162,10 @@ var character = {
                 previousSublayer = layer;
                 sublayerName = layer.name;
                 
-                character.exportPng(exportRoot + "/" + sceneNumber + " " + layerName + " " + sublayerName + ".png");
+                character.exportPng(
+                    exportRoot + "/" + sceneNumber + " " + layerName + " " + sublayerName + ".png",
+                    artboardNumber
+                );
             }
         });
     }
