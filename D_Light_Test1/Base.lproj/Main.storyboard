@@ -291,8 +291,92 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="aWX-7Y-AOu">
-                                <rect key="frame" x="43" y="72" width="240" height="448"/>
+                            <imageView opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="1 0 Hair Back 1 Long.png" translatesAutoresizingMaskIntoConstraints="NO" id="aWX-7Y-AOu">
+                                <rect key="frame" x="16" y="68" width="200" height="460"/>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="0.0" y="0.0" width="0.0" height="0.0"/>
+                                </variation>
+                            </imageView>
+                            <imageView opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="1 1 Clothing Back 1 Cape.png" translatesAutoresizingMaskIntoConstraints="NO" id="H9f-6N-Isv">
+                                <rect key="frame" x="16" y="68" width="200" height="460"/>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="0.0" y="0.0" width="0.0" height="0.0"/>
+                                </variation>
+                            </imageView>
+                            <imageView opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="1 2 Torso 0 Default.png" translatesAutoresizingMaskIntoConstraints="NO" id="10l-EJ-hTh">
+                                <rect key="frame" x="16" y="68" width="200" height="460"/>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="0.0" y="0.0" width="0.0" height="0.0"/>
+                                </variation>
+                            </imageView>
+                            <imageView opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="1 3 Legs 0 Default.png" translatesAutoresizingMaskIntoConstraints="NO" id="bLW-cc-Mn6">
+                                <rect key="frame" x="16" y="68" width="200" height="460"/>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="0.0" y="0.0" width="0.0" height="0.0"/>
+                                </variation>
+                            </imageView>
+                            <imageView opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="1 5 Arms 0 Default.png" translatesAutoresizingMaskIntoConstraints="NO" id="7Of-09-gkg">
+                                <rect key="frame" x="16" y="68" width="200" height="460"/>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="0.0" y="0.0" width="0.0" height="0.0"/>
+                                </variation>
+                            </imageView>
+                            <imageView opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="bfi-Y2-56b">
+                                <rect key="frame" x="16" y="68" width="200" height="460"/>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="0.0" y="0.0" width="0.0" height="0.0"/>
+                                </variation>
+                            </imageView>
+                            <imageView opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="qur-U4-SHn">
+                                <rect key="frame" x="16" y="68" width="200" height="460"/>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="0.0" y="0.0" width="0.0" height="0.0"/>
+                                </variation>
+                            </imageView>
+                            <imageView opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="1 6 Clothing Front 2 Dress.png" translatesAutoresizingMaskIntoConstraints="NO" id="n7A-J1-bL7">
+                                <rect key="frame" x="16" y="68" width="200" height="460"/>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="0.0" y="0.0" width="0.0" height="0.0"/>
+                                </variation>
+                            </imageView>
+                            <imageView opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="1 7 Head 0 Default.png" translatesAutoresizingMaskIntoConstraints="NO" id="Z3z-PC-uTq">
+                                <rect key="frame" x="16" y="68" width="200" height="460"/>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="0.0" y="0.0" width="0.0" height="0.0"/>
+                                </variation>
+                            </imageView>
+                            <imageView opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="1 8 Mouth 0 Default.png" translatesAutoresizingMaskIntoConstraints="NO" id="DS3-ld-LLZ">
+                                <rect key="frame" x="16" y="68" width="200" height="460"/>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="0.0" y="0.0" width="0.0" height="0.0"/>
+                                </variation>
+                            </imageView>
+                            <imageView opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="1 9 Eye Whites 0 Default.png" translatesAutoresizingMaskIntoConstraints="NO" id="mPR-LS-NNr">
+                                <rect key="frame" x="16" y="68" width="200" height="460"/>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="0.0" y="0.0" width="0.0" height="0.0"/>
+                                </variation>
+                            </imageView>
+                            <imageView opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="1 10 Eye Pupils 0 Default.png" translatesAutoresizingMaskIntoConstraints="NO" id="RFJ-Bg-shn">
+                                <rect key="frame" x="16" y="68" width="200" height="460"/>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="0.0" y="0.0" width="0.0" height="0.0"/>
+                                </variation>
+                            </imageView>
+                            <imageView opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="nQ0-6U-SE3">
+                                <rect key="frame" x="16" y="68" width="200" height="460"/>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="0.0" y="0.0" width="0.0" height="0.0"/>
+                                </variation>
+                            </imageView>
+                            <imageView opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="1 12 Eye Brows 0 Default.png" translatesAutoresizingMaskIntoConstraints="NO" id="ie0-nz-8Sx">
+                                <rect key="frame" x="16" y="68" width="200" height="460"/>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="0.0" y="0.0" width="0.0" height="0.0"/>
+                                </variation>
+                            </imageView>
+                            <imageView opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="1 13 Hair Front 0 Short.png" translatesAutoresizingMaskIntoConstraints="NO" id="r07-lE-T7S">
+                                <rect key="frame" x="16" y="68" width="200" height="460"/>
                                 <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
                                     <rect key="frame" x="0.0" y="0.0" width="0.0" height="0.0"/>
                                 </variation>
@@ -330,9 +414,9 @@
                                     <action selector="Singlet:" destination="Ggn-UF-x71" eventType="touchUpInside" id="JFC-Fs-lxa"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hjq-7U-r65">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hjq-7U-r65">
                                 <rect key="frame" x="416" y="101" width="70" height="84"/>
-                                <state key="normal" title="Shirt">
+                                <state key="normal" title="Shirt" image="1 6 Clothing Front 3 Shirt.png">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
@@ -1974,6 +2058,19 @@
         </scene>
     </scenes>
     <resources>
+        <image name="1 0 Hair Back 1 Long.png" width="2500" height="2500"/>
+        <image name="1 1 Clothing Back 1 Cape.png" width="2500" height="2500"/>
+        <image name="1 10 Eye Pupils 0 Default.png" width="2500" height="2500"/>
+        <image name="1 12 Eye Brows 0 Default.png" width="2500" height="2500"/>
+        <image name="1 13 Hair Front 0 Short.png" width="2500" height="2500"/>
+        <image name="1 2 Torso 0 Default.png" width="2500" height="2500"/>
+        <image name="1 3 Legs 0 Default.png" width="2500" height="2500"/>
+        <image name="1 5 Arms 0 Default.png" width="2500" height="2500"/>
+        <image name="1 6 Clothing Front 2 Dress.png" width="2500" height="2500"/>
+        <image name="1 6 Clothing Front 3 Shirt.png" width="2500" height="2500"/>
+        <image name="1 7 Head 0 Default.png" width="2500" height="2500"/>
+        <image name="1 8 Mouth 0 Default.png" width="2500" height="2500"/>
+        <image name="1 9 Eye Whites 0 Default.png" width="2500" height="2500"/>
         <image name="VillainSuccess.png" width="1210" height="2034"/>
         <image name="boyFace.png" width="400" height="400"/>
         <image name="boyHair0.png" width="400" height="400"/>
@@ -1986,26 +2083,26 @@
         <image name="sunscreen.gif" width="250" height="333"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="BFx-l4-4dp"/>
-        <segue reference="S3c-bv-99a"/>
-        <segue reference="raE-9l-FqN"/>
-        <segue reference="I51-PT-CDk"/>
-        <segue reference="6GF-6v-d9i"/>
-        <segue reference="PdL-iG-df5"/>
+        <segue reference="Ogg-Jz-Ar9"/>
+        <segue reference="tFT-K4-j4Z"/>
+        <segue reference="z3u-Mt-DTG"/>
+        <segue reference="MSS-3A-zlW"/>
+        <segue reference="oeO-9L-x2D"/>
+        <segue reference="S6r-9I-Rim"/>
+        <segue reference="H3j-T1-rY0"/>
         <segue reference="IHS-3h-TWr"/>
-        <segue reference="KI8-gQ-xcA"/>
+        <segue reference="PdL-iG-df5"/>
+        <segue reference="6GF-6v-d9i"/>
         <segue reference="J6b-Uu-fG9"/>
         <segue reference="MPr-Bf-8n3"/>
+        <segue reference="S3c-bv-99a"/>
+        <segue reference="wVv-zj-ql1"/>
+        <segue reference="I51-PT-CDk"/>
+        <segue reference="RO5-1v-MuV"/>
+        <segue reference="BFx-l4-4dp"/>
         <segue reference="uMc-9n-CXc"/>
         <segue reference="LiG-tP-g8H"/>
         <segue reference="QnE-VF-aHs"/>
-        <segue reference="tFT-K4-j4Z"/>
-        <segue reference="Ogg-Jz-Ar9"/>
-        <segue reference="z3u-Mt-DTG"/>
-        <segue reference="MSS-3A-zlW"/>
-        <segue reference="S6r-9I-Rim"/>
-        <segue reference="oeO-9L-x2D"/>
-        <segue reference="H3j-T1-rY0"/>
         <segue reference="P6f-oQ-ivq"/>
         <segue reference="Y4C-RA-HFM"/>
     </inferredMetricsTieBreakers>
