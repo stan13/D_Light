@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6250" systemVersion="13F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6244"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -76,49 +76,39 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="zyB-xd-U11">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <color key="backgroundColor" red="0.36470588235294116" green="0.67843137254901964" blue="0.8784313725490196" alpha="1" colorSpace="deviceRGB"/>
+                                <color key="tintColor" red="0.36470588240000001" green="0.67843137249999996" blue="0.87843137250000003" alpha="1" colorSpace="deviceRGB"/>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="0.0" y="0.0" width="0.0" height="0.0"/>
+                                </variation>
+                            </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Scene3 - Face Customisation" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="He8-Oc-Lf9">
                                 <rect key="frame" x="162" y="0.0" width="306" height="64"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LIn-yC-fO4">
-                                <rect key="frame" x="406" y="189" width="83" height="57"/>
-                                <state key="normal" title="Boy">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="chooseBoy:" destination="1g2-jH-XVG" eventType="touchUpInside" id="rP5-E0-cmu"/>
-                                </connections>
-                            </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Lz6-8B-Oq5">
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Girl or Boy" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Rul-rc-MTc">
-                                <rect key="frame" x="451" y="160" width="82" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eyY-KU-ZqF">
-                                <rect key="frame" x="495" y="189" width="83" height="57"/>
-                                <state key="normal" title="Girl">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="chooseGirl:" destination="1g2-jH-XVG" eventType="touchUpInside" id="0L9-04-sNc"/>
-                                </connections>
-                            </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Eye Colour" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hmo-S0-ZRt">
                                 <rect key="frame" x="453" y="251" width="85" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="582" y="338" width="85" height="21"/>
+                                </variation>
                             </label>
                             <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="HDs-5A-I97">
                                 <rect key="frame" x="423" y="280" width="145" height="31"/>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="474" y="367" width="300" height="31"/>
+                                </variation>
                                 <connections>
                                     <action selector="eyeSlider:" destination="1g2-jH-XVG" eventType="valueChanged" id="IUb-xq-7Yr"/>
                                 </connections>
@@ -128,27 +118,45 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="579" y="410" width="90" height="21"/>
+                                </variation>
                             </label>
                             <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="DjA-H6-3e6">
                                 <rect key="frame" x="423" y="352" width="145" height="31"/>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="474" y="439" width="300" height="31"/>
+                                </variation>
                                 <connections>
                                     <action selector="skinSlider:" destination="1g2-jH-XVG" eventType="valueChanged" id="unJ-rX-vN6"/>
                                 </connections>
                             </slider>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="0 0 Hair Back 1 Long.png" translatesAutoresizingMaskIntoConstraints="NO" id="xDC-j7-zYt">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="210" y="554" width="186" height="186"/>
+                                </variation>
+                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7Wt-2e-Jhh">
                                 <rect key="frame" x="54" y="462" width="83" height="86"/>
-                                <state key="normal" title="Button" image="boyHair0.png">
+                                <state key="normal" title="Button" image="0 13 Hair Front 0 Short.png">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="16" y="556" width="186" height="186"/>
+                                </variation>
                                 <connections>
                                     <action selector="hair1:" destination="1g2-jH-XVG" eventType="touchUpInside" id="ew1-IL-oqM"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qZl-Op-FfN">
                                 <rect key="frame" x="145" y="462" width="83" height="86"/>
-                                <state key="normal" title="Button" image="boyHair1.png">
+                                <state key="normal" title="Button" image="0 13 Hair Front 1 Long.png">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="210" y="554" width="186" height="186"/>
+                                </variation>
                                 <connections>
                                     <action selector="hair2:" destination="1g2-jH-XVG" eventType="touchUpInside" id="nkm-W8-wfj"/>
                                 </connections>
@@ -158,26 +166,11 @@
                                 <state key="normal" title="Button">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="404" y="554" width="186" height="186"/>
+                                </variation>
                                 <connections>
                                     <action selector="hair3:" destination="1g2-jH-XVG" eventType="touchUpInside" id="2u4-Qd-4nd"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dPN-qo-CVv">
-                                <rect key="frame" x="327" y="462" width="83" height="86"/>
-                                <state key="normal" title="Button">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="hair4:" destination="1g2-jH-XVG" eventType="touchUpInside" id="wYd-z6-PfS"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VIo-A7-4HV">
-                                <rect key="frame" x="418" y="462" width="83" height="86"/>
-                                <state key="normal" title="Button">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="hair5:" destination="1g2-jH-XVG" eventType="touchUpInside" id="xwY-Je-aOu"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Hair Style" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GiD-lE-bN9">
@@ -185,75 +178,201 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="16" y="527" width="75" height="21"/>
+                                </variation>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RNW-4T-Qon">
-                                <rect key="frame" x="552" y="550" width="32" height="30"/>
-                                <state key="normal" title="Next">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <segue destination="Ggn-UF-x71" kind="modal" modalPresentationStyle="fullScreen" id="wVv-zj-ql1"/>
-                                </connections>
-                            </button>
                             <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="T69-Nt-naP">
                                 <rect key="frame" x="423" y="424" width="145" height="31"/>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="474" y="511" width="300" height="31"/>
+                                </variation>
                                 <connections>
                                     <action selector="hairSlider:" destination="1g2-jH-XVG" eventType="valueChanged" id="a8F-sL-u0m"/>
                                 </connections>
                             </slider>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="boyFace.png" translatesAutoresizingMaskIntoConstraints="NO" id="e3r-fv-6xU">
-                                <rect key="frame" x="16" y="67" width="336" height="336"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="XM4-m3-riM">
+                                <rect key="frame" x="16" y="67" width="330" height="330"/>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="0.0" y="0.0" width="0.0" height="0.0"/>
+                                </variation>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="boyHair0.png" translatesAutoresizingMaskIntoConstraints="NO" id="Ook-wG-6Pw">
-                                <rect key="frame" x="16" y="67" width="336" height="329"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="0 7 Head 0 Default.png" translatesAutoresizingMaskIntoConstraints="NO" id="e3r-fv-6xU">
+                                <rect key="frame" x="16" y="67" width="330" height="330"/>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="16" y="67" width="452" height="452"/>
+                                </variation>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="eyes.png" translatesAutoresizingMaskIntoConstraints="NO" id="YI0-PZ-4dW">
-                                <rect key="frame" x="16" y="67" width="336" height="329"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="0 8 Mouth 0 Default.png" translatesAutoresizingMaskIntoConstraints="NO" id="vdQ-RQ-Og0">
+                                <rect key="frame" x="16" y="67" width="330" height="330"/>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="16" y="67" width="452" height="452"/>
+                                </variation>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="0 9 Eye Whites 0 Default.png" translatesAutoresizingMaskIntoConstraints="NO" id="cea-xe-qc3">
+                                <rect key="frame" x="16" y="67" width="330" height="330"/>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="16" y="67" width="452" height="452"/>
+                                </variation>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="0 10 Eye Pupils 0 Default.png" translatesAutoresizingMaskIntoConstraints="NO" id="YI0-PZ-4dW">
+                                <rect key="frame" x="16" y="67" width="330" height="330"/>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="16" y="67" width="452" height="452"/>
+                                </variation>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="0 11 Eye Lashes 1 Visible.png" translatesAutoresizingMaskIntoConstraints="NO" id="kzK-Bp-RFn">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="16" y="67" width="452" height="452"/>
+                                </variation>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="0 13 Hair Front 0 Short.png" translatesAutoresizingMaskIntoConstraints="NO" id="Ook-wG-6Pw">
+                                <rect key="frame" x="16" y="67" width="330" height="330"/>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="16" y="67" width="452" height="452"/>
+                                </variation>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="awV-38-2JK">
                                 <rect key="frame" x="16" y="550" width="35" height="30"/>
                                 <state key="normal" title="Back">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="16" y="750" width="35" height="30"/>
+                                </variation>
                                 <connections>
                                     <segue destination="BYZ-38-t0r" kind="show" id="RO5-1v-MuV"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Name" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8eZ-B8-8dT">
-                                <rect key="frame" x="469" y="67" width="46" height="21"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RNW-4T-Qon">
+                                <rect key="frame" x="552" y="550" width="32" height="30"/>
+                                <state key="normal" title="Next">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="752" y="750" width="32" height="30"/>
+                                </variation>
+                                <connections>
+                                    <segue destination="Ggn-UF-x71" kind="modal" modalPresentationStyle="fullScreen" id="wVv-zj-ql1"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dPN-qo-CVv">
+                                <rect key="frame" x="327" y="462" width="83" height="86"/>
+                                <state key="normal" title="Button">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="598" y="554" width="186" height="186"/>
+                                </variation>
+                                <connections>
+                                    <action selector="hair4:" destination="1g2-jH-XVG" eventType="touchUpInside" id="wYd-z6-PfS"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Face" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BXg-5z-fTZ">
+                                <rect key="frame" x="54" y="411" width="75" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="476" y="67" width="38" height="21"/>
+                                </variation>
                             </label>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="EnX-Up-XlN">
-                                <rect key="frame" x="425" y="106" width="141" height="30"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ove-u6-uID">
+                                <rect key="frame" x="54" y="462" width="83" height="86"/>
+                                <state key="normal" title="Button" image="0 7 Head 1 Egg.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="628" y="96" width="144" height="144"/>
+                                </variation>
+                                <connections>
+                                    <action selector="hair1:" destination="1g2-jH-XVG" eventType="touchUpInside" id="vVZ-7I-NeE"/>
+                                    <action selector="head2:" destination="1g2-jH-XVG" eventType="touchUpInside" id="vnu-ls-1nq"/>
+                                </connections>
+                            </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Hair Colour" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Iex-Ti-vKS">
                                 <rect key="frame" x="452" y="395" width="87" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="581" y="482" width="87" height="21"/>
+                                </variation>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Eye Lashes?" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jg8-k8-yNC">
+                                <rect key="frame" x="453" y="251" width="85" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="476" y="302" width="186" height="21"/>
+                                </variation>
+                            </label>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="aoJ-03-g2D">
+                                <rect key="frame" x="-25" y="-15" width="51" height="31"/>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="723" y="292" width="51" height="31"/>
+                                </variation>
+                                <connections>
+                                    <action selector="eyelashes:" destination="1g2-jH-XVG" eventType="valueChanged" id="5ZS-XG-YIi"/>
+                                </connections>
+                            </switch>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gQy-sg-A1g">
+                                <rect key="frame" x="54" y="462" width="83" height="86"/>
+                                <state key="normal" title="Button" image="0 7 Head 0 Default.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="476" y="96" width="144" height="144"/>
+                                </variation>
+                                <connections>
+                                    <action selector="hair1:" destination="1g2-jH-XVG" eventType="touchUpInside" id="Kqa-ts-iex"/>
+                                    <action selector="head1:" destination="1g2-jH-XVG" eventType="touchUpInside" id="kRo-s1-WP5"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="zyB-xd-U11"/>
+                                <exclude reference="xDC-j7-zYt"/>
+                                <exclude reference="kzK-Bp-RFn"/>
+                                <exclude reference="BXg-5z-fTZ"/>
+                                <exclude reference="ove-u6-uID"/>
+                                <exclude reference="jg8-k8-yNC"/>
+                                <exclude reference="aoJ-03-g2D"/>
+                                <exclude reference="gQy-sg-A1g"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular-widthClass=regular">
+                            <mask key="subviews">
+                                <include reference="zyB-xd-U11"/>
+                                <include reference="xDC-j7-zYt"/>
+                                <include reference="kzK-Bp-RFn"/>
+                                <include reference="BXg-5z-fTZ"/>
+                                <include reference="ove-u6-uID"/>
+                                <include reference="jg8-k8-yNC"/>
+                                <include reference="aoJ-03-g2D"/>
+                                <include reference="gQy-sg-A1g"/>
+                            </mask>
+                        </variation>
                     </view>
                     <connections>
                         <outlet property="Scene2" destination="He8-Oc-Lf9" id="Fbb-Jx-tun"/>
                         <outlet property="eyes" destination="YI0-PZ-4dW" id="nyf-Ty-WK2"/>
                         <outlet property="face" destination="e3r-fv-6xU" id="bqI-CL-Rce"/>
                         <outlet property="hair" destination="Ook-wG-6Pw" id="zdQ-5a-16m"/>
+                        <outlet property="hairBack" destination="XM4-m3-riM" id="Tcd-Tz-fsr"/>
                         <outletCollection property="hairImages" destination="7Wt-2e-Jhh" id="WyF-Ng-8t5"/>
                         <outletCollection property="hairImages" destination="qZl-Op-FfN" id="gMO-qp-dgv"/>
                         <outletCollection property="hairImages" destination="KUX-kj-Oq4" id="Hf9-Ph-gqm"/>
                         <outletCollection property="hairImages" destination="dPN-qo-CVv" id="XqJ-Qn-uYm"/>
-                        <outletCollection property="hairImages" destination="VIo-A7-4HV" id="hj5-r2-WFc"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="U40-0m-iAB" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-531" y="136"/>
+            <point key="canvasLocation" x="-531" y="135.75"/>
         </scene>
         <!--View Controller3-->
         <scene sceneID="UNI-3C-ye2">
@@ -576,16 +695,6 @@
                                     <segue destination="Ggn-UF-x71" kind="show" id="raE-9l-FqN"/>
                                 </connections>
                             </button>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="a39-3z-2Gl">
-                                <rect key="frame" x="16" y="396" width="568" height="103"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <string key="text">Vitamin D is one of the essential things needed by your body to be healthy, especially important in bone health. While vitamin d can be gained through other means, like eating fish, meat, or some other foods, the main method for your body to make it is from having direct sunlight on your skin. It’s created by having a particular kind of the sun’s rays, called UV (ultraviolet) rays, interact with the cells on your skin.</string>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
-                                    <rect key="frame" x="0.0" y="0.0" width="0.0" height="0.0"/>
-                                </variation>
-                            </textView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="d70-7m-wgU">
                                 <rect key="frame" x="552" y="550" width="32" height="30"/>
                                 <state key="normal" title="Next">
@@ -614,6 +723,16 @@
                                     <action selector="stopVoiceOver:" destination="LbW-FU-Aoh" eventType="touchUpInside" id="Exf-cq-kvv"/>
                                 </connections>
                             </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="a39-3z-2Gl">
+                                <rect key="frame" x="16" y="396" width="568" height="103"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <string key="text">Vitamin D is one of the essential things needed by your body to be healthy, especially important in bone health. While vitamin d can be gained through other means, like eating fish, meat, or some other foods, the main method for your body to make it is from having direct sunlight on your skin. It’s created by having a particular kind of the sun’s rays, called UV (ultraviolet) rays, interact with the cells on your skin.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="16" y="20" width="768" height="329"/>
+                                </variation>
+                            </textView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -624,7 +743,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ddd-8L-deN" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="929" y="136"/>
+            <point key="canvasLocation" x="928.5" y="135.75"/>
         </scene>
         <!--Explanation Slide 2-->
         <scene sceneID="DNf-TR-OAW">
@@ -654,7 +773,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                 <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
-                                    <rect key="frame" x="0.0" y="0.0" width="0.0" height="0.0"/>
+                                    <rect key="frame" x="16" y="20" width="768" height="300"/>
                                 </variation>
                             </textView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SiS-x4-0Cb">
@@ -726,6 +845,9 @@
                                 <string key="text">Remember not to spend too long in the sun though!  If you spend too long, you'll get sunburnt. Sunburn increases your chance of skin cancer later in life. Also, too much sun breaks down the vitamin d your body made, undoing all that work. Not to mention you’ll get a nasty burn!</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="16" y="20" width="768" height="300"/>
+                                </variation>
                             </textView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XXk-sD-SHM">
                                 <rect key="frame" x="552" y="550" width="32" height="30"/>
@@ -796,6 +918,9 @@
                                 <string key="text">For this adventure, you're playing a superhero fueled by the mighty power of vitamin D. Just getting as much as a normal person fills you with power! Remember, if you're in the sun for any long period of time, [cancer council slogan here]</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="16" y="20" width="768" height="300"/>
+                                </variation>
                             </textView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ggD-wX-097">
                                 <rect key="frame" x="552" y="550" width="32" height="30"/>
@@ -1003,14 +1128,20 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="VillainSuccess.png" translatesAutoresizingMaskIntoConstraints="NO" id="NAE-sI-BPn">
-                                <rect key="frame" x="360" y="158" width="192" height="365"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background_beach.png" translatesAutoresizingMaskIntoConstraints="NO" id="OaJ-w4-Mla">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="0.0" y="0.0" width="800" height="800"/>
+                                </variation>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HAz-A9-dMq">
                                 <rect key="frame" x="16" y="550" width="35" height="30"/>
                                 <state key="normal" title="Back">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="16" y="750" width="35" height="30"/>
+                                </variation>
                                 <connections>
                                     <segue destination="MSc-Up-Wkt" kind="show" id="caU-3v-9bs"/>
                                 </connections>
@@ -1020,28 +1151,41 @@
                                 <state key="normal" title="Next">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="752" y="750" width="32" height="30"/>
+                                </variation>
                                 <connections>
                                     <segue destination="9Hz-or-0E6" kind="presentation" id="Cha-hP-xda"/>
                                 </connections>
                             </button>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="jY6-IU-PRJ">
                                 <rect key="frame" x="16" y="84" width="561" height="88"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <string key="text">It's a beautiful day! You only have a little time before you have to go battle Dr. Dastardly in his castle in the centre of the earth to save the world, though. Time is of the essence! How much time should you spend outside to get your vitamin D today?</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                 <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
-                                    <rect key="frame" x="0.0" y="0.0" width="0.0" height="0.0"/>
+                                    <rect key="frame" x="16" y="20" width="768" height="300"/>
                                 </variation>
                             </textView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="OaJ-w4-Mla"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular-widthClass=regular">
+                            <mask key="subviews">
+                                <include reference="OaJ-w4-Mla"/>
+                            </mask>
+                        </variation>
                     </view>
                     <navigationItem key="navigationItem" id="6AV-od-mcb"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="f4a-kM-uIM" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="6695" y="136"/>
+            <point key="canvasLocation" x="6694.5" y="135.75"/>
         </scene>
         <!--Answer Slide 1-->
         <scene sceneID="CyX-NS-IK0">
@@ -1055,6 +1199,12 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background_beach.png" translatesAutoresizingMaskIntoConstraints="NO" id="kw2-PH-u3s">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="0.0" y="0.0" width="800" height="800"/>
+                                </variation>
+                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wBU-l9-yim">
                                 <rect key="frame" x="16" y="550" width="35" height="30"/>
                                 <state key="normal" title="Back">
@@ -1084,6 +1234,16 @@
                             </progressView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="kw2-PH-u3s"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular-widthClass=regular">
+                            <mask key="subviews">
+                                <include reference="kw2-PH-u3s"/>
+                            </mask>
+                        </variation>
                     </view>
                     <navigationItem key="navigationItem" id="k8H-Wg-Y3c"/>
                     <connections>
@@ -1093,7 +1253,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="AEM-Om-THu" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="7395" y="128"/>
+            <point key="canvasLocation" x="7395" y="127.5"/>
         </scene>
         <!--Decision Slide 2-->
         <scene sceneID="jBW-1d-Ky8">
@@ -1107,13 +1267,19 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background_grass.png" translatesAutoresizingMaskIntoConstraints="NO" id="i1j-qc-g3m">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="0.0" y="0.0" width="800" height="800"/>
+                                </variation>
+                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FtM-7w-LsT">
                                 <rect key="frame" x="549" y="550" width="35" height="30"/>
                                 <state key="normal" title="Next">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
-                                    <rect key="frame" x="542" y="550" width="32" height="30"/>
+                                    <rect key="frame" x="752" y="750" width="32" height="30"/>
                                 </variation>
                                 <connections>
                                     <segue destination="jcp-Aj-XbN" kind="presentation" id="S6r-9I-Rim"/>
@@ -1124,31 +1290,50 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="116" y="703" width="568" height="31"/>
+                                </variation>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pBQ-u7-pUn">
                                 <rect key="frame" x="16" y="550" width="35" height="30"/>
                                 <state key="normal" title="Back">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="16" y="750" width="35" height="30"/>
+                                </variation>
                                 <connections>
                                     <segue destination="9Hz-or-0E6" kind="show" id="H3j-T1-rY0"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="VillainSuccess.png" translatesAutoresizingMaskIntoConstraints="NO" id="OcS-9c-omn">
-                                <rect key="frame" x="337" y="20" width="240" height="362"/>
-                            </imageView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="XI4-mB-9Pi">
                                 <rect key="frame" x="16" y="428" width="568" height="114"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <string key="text">Aliens have teamed up with Dr. Dastardly and have covered the world in cloud to stop telescopes from seeing their oncoming invasion! Before warning all of earth and stopping their nefarious plans, how long should you spend outside to get your vitamin D for the day?</string>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <string key="text">Aliens and Dr Dastardly have covered the world in thick cloud to stop you from knowing when they will attack! Before stopping them, you need to power up. If it’s cloudy, do you need to spend more or less time outside to get your vitamin D?</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                 <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
-                                    <rect key="frame" x="0.0" y="0.0" width="0.0" height="0.0"/>
+                                    <rect key="frame" x="16" y="28" width="768" height="70"/>
                                 </variation>
                             </textView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="VillainSuccess.png" translatesAutoresizingMaskIntoConstraints="NO" id="OcS-9c-omn">
+                                <rect key="frame" x="337" y="20" width="240" height="362"/>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="544" y="238" width="240" height="362"/>
+                                </variation>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="i1j-qc-g3m"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular-widthClass=regular">
+                            <mask key="subviews">
+                                <include reference="i1j-qc-g3m"/>
+                            </mask>
+                        </variation>
                     </view>
                     <navigationItem key="navigationItem" id="DDl-58-m4J"/>
                     <connections>
@@ -1157,7 +1342,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tzv-nI-EOp" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="8100" y="128"/>
+            <point key="canvasLocation" x="8100" y="127.5"/>
         </scene>
         <!--Answer Slide 2-->
         <scene sceneID="4Tl-dB-UN0">
@@ -2187,6 +2372,15 @@
         </scene>
     </scenes>
     <resources>
+        <image name="0 0 Hair Back 1 Long.png" width="600" height="600"/>
+        <image name="0 10 Eye Pupils 0 Default.png" width="600" height="600"/>
+        <image name="0 11 Eye Lashes 1 Visible.png" width="600" height="600"/>
+        <image name="0 13 Hair Front 0 Short.png" width="600" height="600"/>
+        <image name="0 13 Hair Front 1 Long.png" width="600" height="600"/>
+        <image name="0 7 Head 0 Default.png" width="600" height="600"/>
+        <image name="0 7 Head 1 Egg.png" width="600" height="600"/>
+        <image name="0 8 Mouth 0 Default.png" width="600" height="600"/>
+        <image name="0 9 Eye Whites 0 Default.png" width="600" height="600"/>
         <image name="1 0 Hair Back 1 Long.png" width="1000" height="2300"/>
         <image name="1 1 Clothing Back 1 Cape.png" width="1000" height="2300"/>
         <image name="1 10 Eye Pupils 0 Default.png" width="1000" height="2300"/>
@@ -2201,12 +2395,10 @@
         <image name="1 8 Mouth 0 Default.png" width="1000" height="2300"/>
         <image name="1 9 Eye Whites 0 Default.png" width="1000" height="2300"/>
         <image name="VillainSuccess.png" width="1210" height="2034"/>
-        <image name="boyFace.png" width="400" height="400"/>
-        <image name="boyHair0.png" width="400" height="400"/>
-        <image name="boyHair1.png" width="400" height="400"/>
+        <image name="background_beach.png" width="2000" height="1412"/>
+        <image name="background_grass.png" width="2000" height="1125"/>
         <image name="cage.png" width="745" height="1053"/>
         <image name="cat colored.png" width="745" height="1053"/>
-        <image name="eyes.png" width="400" height="400"/>
         <image name="food1.png" width="400" height="400"/>
         <image name="food2.png" width="400" height="400"/>
         <image name="food3.png" width="400" height="400"/>
@@ -2214,20 +2406,6 @@
         <image name="sunscreen.gif" width="250" height="333"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="QnE-VF-aHs"/>
-        <segue reference="2YE-jA-yif"/>
-        <segue reference="730-eO-kLg"/>
-        <segue reference="gtJ-gJ-dms"/>
-        <segue reference="SfT-xc-8QN"/>
-        <segue reference="caU-3v-9bs"/>
-        <segue reference="7Ul-wQ-XNy"/>
-        <segue reference="H3j-T1-rY0"/>
-        <segue reference="oeO-9L-x2D"/>
-        <segue reference="0uv-YX-gsc"/>
-        <segue reference="Y4C-RA-HFM"/>
-        <segue reference="KbB-w3-S4e"/>
-        <segue reference="MSS-3A-zlW"/>
-        <segue reference="z3u-Mt-DTG"/>
         <segue reference="Ogg-Jz-Ar9"/>
         <segue reference="HXE-c3-rDF"/>
         <segue reference="MPr-Bf-8n3"/>
@@ -2235,6 +2413,20 @@
         <segue reference="6GF-6v-d9i"/>
         <segue reference="iWB-yu-uBZ"/>
         <segue reference="q5m-AR-iHb"/>
+        <segue reference="z3u-Mt-DTG"/>
+        <segue reference="MSS-3A-zlW"/>
+        <segue reference="KbB-w3-S4e"/>
+        <segue reference="Y4C-RA-HFM"/>
+        <segue reference="UFl-Iv-vf9"/>
+        <segue reference="H3j-T1-rY0"/>
+        <segue reference="7Ul-wQ-XNy"/>
+        <segue reference="caU-3v-9bs"/>
+        <segue reference="SfT-xc-8QN"/>
+        <segue reference="gtJ-gJ-dms"/>
+        <segue reference="730-eO-kLg"/>
+        <segue reference="2YE-jA-yif"/>
+        <segue reference="QnE-VF-aHs"/>
+        <segue reference="S6r-9I-Rim"/>
         <segue reference="S3c-bv-99a"/>
         <segue reference="wVv-zj-ql1"/>
         <segue reference="udh-kP-udg"/>
