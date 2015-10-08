@@ -171,12 +171,12 @@ var character = {
     }
 };
 
-character.exportEachLayer();
+//character.exportEachLayer();
 
 character.showAllLayers();
 
 //Set hairstyle
-character.selectSublayers([0, 13], [1]);
+character.selectSublayers([0, 13], [0]);
 
 //Set eyelashes
 character.selectSublayers([11], [0]);
@@ -188,7 +188,7 @@ character.selectSublayers([8, 9, 10, 12], [1]);
 character.selectSublayers([7], [1]);
 
 //Set clothing
-character.selectSublayers([1, 6], [3, 4]);
+character.selectSublayers([1, 6], [1, 7]);
 
 //Set body and limbs
 character.selectSublayers([2, 3, 5], []);
