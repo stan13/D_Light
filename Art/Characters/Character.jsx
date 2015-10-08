@@ -176,13 +176,13 @@ character.exportEachLayer();
 character.showAllLayers();
 
 //Set hairstyle
-character.selectSublayers([0, 13], [0]);
+character.selectSublayers([0, 13], [1]);
 
 //Set eyelashes
 character.selectSublayers([11], [0]);
 
 //Set expression
-character.selectSublayers([8, 9, 10, 12], [4]);
+character.selectSublayers([8, 9, 10, 12], [1]);
 
 //Set head shape
 character.selectSublayers([7], [1]);
