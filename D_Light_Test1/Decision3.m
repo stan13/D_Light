@@ -24,7 +24,7 @@
     [super viewDidLoad];
     //put code here or call another method
     NSURL *url = [NSURL fileURLWithPath:[[NSBundle mainBundle]
-                                         pathForResource:@"Slide 9 - initial"
+                                         pathForResource:@"Slide 10 - initial"
                                          ofType:@"wav"]];
     
     NSError *error;

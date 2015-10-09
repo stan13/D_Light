@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6250" systemVersion="13F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6244"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -13,7 +13,7 @@
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="kBY-vj-hm5"/>
@@ -75,7 +75,7 @@
                         <viewControllerLayoutGuide type="bottom" id="KuW-V7-krO"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="q5M-kF-Cd9">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Lz6-8B-Oq5">
@@ -180,7 +180,6 @@
                                 </connections>
                             </slider>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="XM4-m3-riM">
-                                <rect key="frame" x="16" y="67" width="330" height="330"/>
                                 <variation key="heightClass=regular" fixedFrame="YES">
                                     <rect key="frame" x="0.0" y="0.0" width="0.0" height="0.0"/>
                                 </variation>
@@ -384,7 +383,7 @@
                         <viewControllerLayoutGuide type="bottom" id="fBK-mF-qRZ"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="bEK-fC-BAB">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="E8p-Qu-Vnw">
@@ -436,7 +435,6 @@
                                 </variation>
                             </imageView>
                             <imageView opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="bfi-Y2-56b">
-                                <rect key="frame" x="59" y="68" width="200" height="460"/>
                                 <variation key="heightClass=regular" fixedFrame="YES">
                                     <rect key="frame" x="0.0" y="0.0" width="0.0" height="0.0"/>
                                 </variation>
@@ -448,7 +446,6 @@
                                 </variation>
                             </imageView>
                             <imageView opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="qur-U4-SHn">
-                                <rect key="frame" x="59" y="68" width="200" height="460"/>
                                 <variation key="heightClass=regular" fixedFrame="YES">
                                     <rect key="frame" x="0.0" y="0.0" width="0.0" height="0.0"/>
                                 </variation>
@@ -490,7 +487,6 @@
                                 </variation>
                             </imageView>
                             <imageView opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="nQ0-6U-SE3">
-                                <rect key="frame" x="59" y="68" width="200" height="460"/>
                                 <variation key="heightClass=regular" fixedFrame="YES">
                                     <rect key="frame" x="0.0" y="0.0" width="0.0" height="0.0"/>
                                 </variation>
@@ -704,7 +700,7 @@
                         <viewControllerLayoutGuide type="bottom" id="D2B-bV-z2g"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="Eg3-xs-czc">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IFR-qk-L70">
@@ -745,7 +741,6 @@
                                 </connections>
                             </button>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="You need vitamin D for healthy bones. The main way you make vitamin D is by exposing your skin to the UV rays in sunlight. " textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="a39-3z-2Gl">
-                                <rect key="frame" x="16" y="396" width="568" height="103"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -782,7 +777,7 @@
                         <viewControllerLayoutGuide type="bottom" id="Pkk-RT-yOo"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="6W0-F2-jcM">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pvh-gf-ILk">
@@ -795,7 +790,6 @@
                                 </connections>
                             </button>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="RBh-em-XhP">
-                                <rect key="frame" x="16" y="396" width="568" height="96"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <string key="text">Your skin type determines how much time it takes to make the vitamin D your body needs. People with darker skin need to spend more time in the sun to make vitamin D.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -863,7 +857,7 @@
                         <viewControllerLayoutGuide type="bottom" id="MFa-HJ-vKc"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="cCr-so-SZ3">
-                        <rect key="frame" x="0.0" y="0.0" width="800" height="800"/>
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tKC-ta-rE3">
@@ -876,7 +870,6 @@
                                 </connections>
                             </button>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="Uaj-cJ-vWb">
-                                <rect key="frame" x="16" y="396" width="568" height="86"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <string key="text">How you make vitamin D also depends on how much UV light your skin is exposed to. Levels of UV light change throughout each day, and time of the year. </string>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -938,7 +931,7 @@
                         <viewControllerLayoutGuide type="bottom" id="7PH-Lm-ng4"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="abz-B9-KcF">
-                        <rect key="frame" x="0.0" y="0.0" width="800" height="800"/>
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hTG-Vd-8yT">
@@ -951,7 +944,6 @@
                                 </connections>
                             </button>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="hQg-X3-Mpd">
-                                <rect key="frame" x="16" y="396" width="568" height="69"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <string key="text">We use the UV index to show how levels of UV change on the earth’s surface. The greater the number, the higher the levels of UV present in sunlight.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -1013,7 +1005,7 @@
                         <viewControllerLayoutGuide type="bottom" id="dn7-Gr-aQI"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="7Fb-lv-1WI">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1cD-cs-nbF">
@@ -1035,7 +1027,6 @@
                                 </connections>
                             </button>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Clothes that cover lots of skin reduce how much vitamin D is made. " textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="vGB-yR-oEA">
-                                <rect key="frame" x="16" y="407" width="568" height="69"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -1094,7 +1085,7 @@
                         <viewControllerLayoutGuide type="bottom" id="h4v-Q6-KGN"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="tO3-yD-q35">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BDP-f2-UyC">
@@ -1116,7 +1107,6 @@
                                 </connections>
                             </button>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="Bs3-pr-D6M">
-                                <rect key="frame" x="16" y="407" width="568" height="69"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <string key="text">For this adventure, you are a superhero powered by vitamin D! Remember, if you're in the sun for a long period of time, “slip, slop, slap, seek and slide” </string>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -1176,7 +1166,7 @@
                         <viewControllerLayoutGuide type="bottom" id="DfJ-3j-Dbf"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="Ych-JC-gUa">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OfI-IC-RNj">
@@ -1198,7 +1188,6 @@
                                 </connections>
                             </button>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Remember not to spend too long in the sun! Sunburn increases your chance of skin cancer later in life. " textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="fTf-Ho-yhI">
-                                <rect key="frame" x="16" y="407" width="568" height="69"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -1257,7 +1246,7 @@
                         <viewControllerLayoutGuide type="bottom" id="c83-MJ-lyQ"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="6FY-uZ-00R">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wpm-qc-GRA">
@@ -1297,7 +1286,7 @@
                         <viewControllerLayoutGuide type="bottom" id="Il4-Hl-EP0"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="1Sa-3t-D6o">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background_beach.png" translatesAutoresizingMaskIntoConstraints="NO" id="OaJ-w4-Mla">
@@ -1307,7 +1296,6 @@
                                 </variation>
                             </imageView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="jY6-IU-PRJ">
-                                <rect key="frame" x="16" y="20" width="568" height="60"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <string key="text">It's a beautiful summer’s day! You only have 5 minutes before you battle Dr Dastardly in his castle at the centre of the earth. With your skin, is there time to get your vitamin D?</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -1404,7 +1392,6 @@
                                 </connections>
                             </button>
                             <imageView opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Rn4-T7-NzE">
-                                <rect key="frame" x="16" y="312" width="100" height="230"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <variation key="heightClass=regular" fixedFrame="YES">
@@ -1498,7 +1485,6 @@
                                 </variation>
                             </imageView>
                             <imageView opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Fcn-AV-FFR">
-                                <rect key="frame" x="16" y="312" width="100" height="230"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <variation key="heightClass=regular" fixedFrame="YES">
@@ -1568,7 +1554,7 @@
                         <viewControllerLayoutGuide type="bottom" id="Jgi-En-G0E"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="WWj-65-6Y1">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background_beach.png" translatesAutoresizingMaskIntoConstraints="NO" id="kw2-PH-u3s">
@@ -1641,7 +1627,6 @@
                                 </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="vyQ-6A-gHX">
-                                <rect key="frame" x="180" y="309" width="240" height="240"/>
                                 <variation key="heightClass=regular" fixedFrame="YES">
                                     <rect key="frame" x="0.0" y="0.0" width="0.0" height="0.0"/>
                                 </variation>
@@ -1687,7 +1672,7 @@
                         <viewControllerLayoutGuide type="bottom" id="i43-xj-noa"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="afU-wQ-iXo">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background_grass.png" translatesAutoresizingMaskIntoConstraints="NO" id="i1j-qc-g3m">
@@ -1697,7 +1682,6 @@
                                 </variation>
                             </imageView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XI4-mB-9Pi">
-                                <rect key="frame" x="16" y="20" width="568" height="100"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <string key="text">Aliens and Dr Dastardly have covered the world in thick cloud to stop you from knowing when they will attack! Before stopping them, you need to power up. If it’s cloudy, do you need to spend more or less time outside to get your vitamin D?</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -2128,7 +2112,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                 <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
-                                    <rect key="frame" x="16" y="28" width="768" height="100"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="0.0" height="0.0"/>
                                 </variation>
                             </textView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4EV-O7-xKt">
@@ -2159,9 +2143,9 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AV4-Dr-Pnd">
                                 <rect key="frame" x="16" y="126" width="251" height="72"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="22"/>
-                                <state key="normal" title="Head inside"/>
+                                <state key="normal" title="I’m already powered up! I was in the window seat of the car and got plenty of sun"/>
                                 <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
-                                    <rect key="frame" x="16" y="637" width="251" height="72"/>
+                                    <rect key="frame" x="16" y="323" width="781" height="161"/>
                                 </variation>
                                 <connections>
                                     <action selector="chooseInside:" destination="rc7-u5-mAg" eventType="touchUpInside" id="A5P-9L-UaR"/>
@@ -2187,7 +2171,7 @@
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
-                                    <rect key="frame" x="584" y="249" width="200" height="460"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="0.0" height="0.0"/>
                                 </variation>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="9000 1 Clothing Back 1 Cape.png" translatesAutoresizingMaskIntoConstraints="NO" id="gET-uv-hlr">
@@ -2219,7 +2203,7 @@
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
-                                    <rect key="frame" x="584" y="249" width="200" height="460"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="0.0" height="0.0"/>
                                 </variation>
                             </imageView>
                             <imageView opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="9000 5 Arms 0 Default.png" translatesAutoresizingMaskIntoConstraints="NO" id="6Ac-Nw-YsB">
@@ -2275,7 +2259,7 @@
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
-                                    <rect key="frame" x="584" y="249" width="200" height="460"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="0.0" height="0.0"/>
                                 </variation>
                             </imageView>
                             <imageView opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="9000 12 Eye Brows 0 Default.png" translatesAutoresizingMaskIntoConstraints="NO" id="oYk-Qc-7BU">
@@ -2452,18 +2436,59 @@
                                     <rect key="frame" x="250" y="250" width="300" height="300"/>
                                 </variation>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vzd-PT-tgB">
+                                <rect key="frame" x="215" y="211" width="81" height="58"/>
+                                <state key="normal" title="Listen">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="315" y="211" width="81" height="58"/>
+                                </variation>
+                                <connections>
+                                    <action selector="listenToVoiceOver:" destination="9Hz-or-0E6" eventType="touchUpInside" id="0oc-jS-aAv"/>
+                                    <action selector="listenToVoiceOver:" destination="7Li-CF-6gn" eventType="touchUpInside" id="BRq-jd-kWS"/>
+                                    <action selector="listenToVoiceOver:" destination="BVh-UC-gvu" eventType="touchUpInside" id="DDq-8X-I7Z"/>
+                                    <action selector="listenToVoiceOver:" destination="LbW-FU-Aoh" eventType="touchUpInside" id="MW0-16-4yM"/>
+                                    <action selector="listenToVoiceOver:" destination="tS6-BI-SVO" eventType="touchUpInside" id="O0e-pT-QWF"/>
+                                    <action selector="listenToVoiceOver:" destination="ohO-wC-Nsv" eventType="touchUpInside" id="aSj-ac-XLu"/>
+                                    <action selector="listenToVoiceOver:" destination="jcp-Aj-XbN" eventType="touchUpInside" id="tj5-kg-vKo"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tBL-Et-7iM">
+                                <rect key="frame" x="304" y="211" width="81" height="58"/>
+                                <state key="normal" title="Stop">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="404" y="211" width="81" height="58"/>
+                                </variation>
+                                <connections>
+                                    <action selector="listenToVoiceOver:" destination="LbW-FU-Aoh" eventType="touchUpInside" id="DLi-Lv-F5x"/>
+                                    <action selector="stopVoiceOver:" destination="LbW-FU-Aoh" eventType="touchUpInside" id="7DQ-rS-UQO"/>
+                                    <action selector="stopVoiceOver:" destination="tS6-BI-SVO" eventType="touchUpInside" id="BKL-L6-PF8"/>
+                                    <action selector="stopVoiceOver:" destination="ohO-wC-Nsv" eventType="touchUpInside" id="IG0-JO-H8d"/>
+                                    <action selector="stopVoiceOver:" destination="jcp-Aj-XbN" eventType="touchUpInside" id="RGO-J8-mLs"/>
+                                    <action selector="stopVoiceOver:" destination="7Li-CF-6gn" eventType="touchUpInside" id="Sik-Ly-Gl3"/>
+                                    <action selector="stopVoiceOver:" destination="9Hz-or-0E6" eventType="touchUpInside" id="YEG-N8-dSE"/>
+                                    <action selector="stopVoiceOver:" destination="BVh-UC-gvu" eventType="touchUpInside" id="ZQI-zU-L1Y"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.0" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                         <variation key="default">
                             <mask key="subviews">
                                 <exclude reference="HVO-4I-dcc"/>
                                 <exclude reference="ZZq-OP-RGh"/>
+                                <exclude reference="Vzd-PT-tgB"/>
+                                <exclude reference="tBL-Et-7iM"/>
                             </mask>
                         </variation>
                         <variation key="heightClass=regular-widthClass=regular">
                             <mask key="subviews">
                                 <include reference="HVO-4I-dcc"/>
                                 <include reference="ZZq-OP-RGh"/>
+                                <include reference="Vzd-PT-tgB"/>
+                                <include reference="tBL-Et-7iM"/>
                             </mask>
                         </variation>
                     </view>
@@ -2472,6 +2497,8 @@
                     <size key="freeformSize" width="1024" height="768"/>
                     <connections>
                         <outlet property="answerLabel" destination="odc-ZL-0hK" id="vnw-JD-OVQ"/>
+                        <outlet property="nextButton" destination="6dZ-FZ-VB5" id="1BY-Ex-SdI"/>
+                        <outlet property="sunImage" destination="ZZq-OP-RGh" id="H2Q-3X-pcw"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="XmA-Ej-sf0" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -2835,7 +2862,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
-                                    <rect key="frame" x="116" y="156" width="184" height="140"/>
+                                    <rect key="frame" x="116" y="244" width="184" height="140"/>
                                 </variation>
                                 <connections>
                                     <action selector="chooseMidday:" destination="eXg-CJ-cf5" eventType="touchUpInside" id="dGE-2m-XfN"/>
@@ -2847,7 +2874,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
-                                    <rect key="frame" x="308" y="156" width="184" height="140"/>
+                                    <rect key="frame" x="308" y="244" width="184" height="140"/>
                                 </variation>
                                 <connections>
                                     <action selector="chooseAfternoon:" destination="eXg-CJ-cf5" eventType="touchUpInside" id="cFE-Z6-fuV"/>
@@ -2859,10 +2886,45 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
-                                    <rect key="frame" x="500" y="156" width="184" height="140"/>
+                                    <rect key="frame" x="500" y="244" width="184" height="140"/>
                                 </variation>
                                 <connections>
                                     <action selector="chooseNight:" destination="eXg-CJ-cf5" eventType="touchUpInside" id="xxr-Ct-SBf"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KXn-E1-7hd">
+                                <rect key="frame" x="304" y="128" width="81" height="58"/>
+                                <state key="normal" title="Stop">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="493" y="138" width="81" height="58"/>
+                                </variation>
+                                <connections>
+                                    <action selector="listenToVoiceOver:" destination="LbW-FU-Aoh" eventType="touchUpInside" id="cBw-fc-PXo"/>
+                                    <action selector="stopVoiceOver:" destination="tS6-BI-SVO" eventType="touchUpInside" id="94u-Mj-mwh"/>
+                                    <action selector="stopVoiceOver:" destination="327-o1-09d" eventType="touchUpInside" id="EHP-y1-27N"/>
+                                    <action selector="stopVoiceOver:" destination="eXg-CJ-cf5" eventType="touchUpInside" id="Xf5-kM-6PL"/>
+                                    <action selector="stopVoiceOver:" destination="LbW-FU-Aoh" eventType="touchUpInside" id="ZjP-Wy-DnB"/>
+                                    <action selector="stopVoiceOver:" destination="ohO-wC-Nsv" eventType="touchUpInside" id="guM-gz-Kpg"/>
+                                    <action selector="stopVoiceOver:" destination="7Li-CF-6gn" eventType="touchUpInside" id="pTN-jb-B55"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="O9b-BC-JUg">
+                                <rect key="frame" x="215" y="128" width="81" height="58"/>
+                                <state key="normal" title="Listen">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="404" y="138" width="81" height="58"/>
+                                </variation>
+                                <connections>
+                                    <action selector="listenToVoiceOver:" destination="LbW-FU-Aoh" eventType="touchUpInside" id="1CE-zw-87j"/>
+                                    <action selector="listenToVoiceOver:" destination="eXg-CJ-cf5" eventType="touchUpInside" id="7me-LB-F9R"/>
+                                    <action selector="listenToVoiceOver:" destination="7Li-CF-6gn" eventType="touchUpInside" id="axJ-lX-p9K"/>
+                                    <action selector="listenToVoiceOver:" destination="ohO-wC-Nsv" eventType="touchUpInside" id="drA-VV-rHo"/>
+                                    <action selector="listenToVoiceOver:" destination="327-o1-09d" eventType="touchUpInside" id="f5q-Jw-rmz"/>
+                                    <action selector="listenToVoiceOver:" destination="tS6-BI-SVO" eventType="touchUpInside" id="yJ4-Pp-e1m"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -2884,6 +2946,8 @@
                                 <exclude reference="Wzs-cf-uN4"/>
                                 <exclude reference="5ic-cB-o05"/>
                                 <exclude reference="dQs-Ai-vcj"/>
+                                <exclude reference="KXn-E1-7hd"/>
+                                <exclude reference="O9b-BC-JUg"/>
                             </mask>
                         </variation>
                         <variation key="heightClass=regular-widthClass=regular">
@@ -2903,6 +2967,8 @@
                                 <include reference="Wzs-cf-uN4"/>
                                 <include reference="5ic-cB-o05"/>
                                 <include reference="dQs-Ai-vcj"/>
+                                <include reference="KXn-E1-7hd"/>
+                                <include reference="O9b-BC-JUg"/>
                             </mask>
                         </variation>
                     </view>
@@ -2911,14 +2977,20 @@
                     <size key="freeformSize" width="1024" height="768"/>
                     <connections>
                         <outlet property="afternoonButton" destination="1sn-ca-Yyd" id="S9L-Vj-5gK"/>
+                        <outlet property="eyes" destination="Ikd-4q-SzR" id="obU-tf-1Ee"/>
+                        <outlet property="hairBack" destination="Ire-R8-9EH" id="8be-AE-ajb"/>
+                        <outlet property="hairFront" destination="5ic-cB-o05" id="ouM-nE-pJh"/>
                         <outlet property="middayButton" destination="BrX-pc-0xM" id="gPQ-9n-1EV"/>
                         <outlet property="nextButton" destination="Y7L-kV-TJJ" id="UXd-bZ-sPo"/>
                         <outlet property="nightButton" destination="VJh-u5-5Qj" id="omd-4r-uej"/>
+                        <outlet property="skinArms" destination="hB0-Of-KWf" id="iDq-sm-RZ9"/>
+                        <outlet property="skinHead" destination="1T2-Po-6JM" id="XBX-PL-2gM"/>
+                        <outlet property="skinLegs" destination="2rZ-dk-Kvs" id="bqD-ym-q5m"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="IJb-ka-7rG" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="12066.75" y="127.5"/>
+            <point key="canvasLocation" x="12191.25" y="93.75"/>
         </scene>
         <!--Answer Slide 5-->
         <scene sceneID="pBH-A0-TUu">
@@ -3447,7 +3519,7 @@
                         <viewControllerLayoutGuide type="bottom" id="dGD-5c-h6b"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="2Du-dF-Dym">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BWe-ES-spc">
@@ -3469,7 +3541,6 @@
                                 <rect key="frame" x="16" y="459" width="568" height="2"/>
                             </progressView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="AgU-NS-OFz">
-                                <rect key="frame" x="344" y="126" width="240" height="325"/>
                                 <variation key="heightClass=regular" fixedFrame="YES">
                                     <rect key="frame" x="0.0" y="0.0" width="0.0" height="0.0"/>
                                 </variation>
@@ -3553,41 +3624,31 @@
         <image name="sunscreen.png" width="745" height="1053"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="Y4C-RA-HFM"/>
-        <segue reference="KbB-w3-S4e"/>
-        <segue reference="MSS-3A-zlW"/>
-        <segue reference="z3u-Mt-DTG"/>
-        <segue reference="AVT-uC-7be"/>
         <segue reference="tFT-K4-j4Z"/>
-        <segue reference="0uv-YX-gsc"/>
-        <segue reference="oeO-9L-x2D"/>
-        <segue reference="H3j-T1-rY0"/>
-        <segue reference="7Ul-wQ-XNy"/>
-        <segue reference="caU-3v-9bs"/>
+        <segue reference="AVT-uC-7be"/>
+        <segue reference="z3u-Mt-DTG"/>
+        <segue reference="GiL-OM-iIk"/>
+        <segue reference="EIm-f0-m8f"/>
+        <segue reference="BFx-l4-4dp"/>
+        <segue reference="UoJ-Oq-EHp"/>
+        <segue reference="9bP-3l-QJj"/>
+        <segue reference="pjI-mo-aoE"/>
+        <segue reference="YVD-9f-fyu"/>
+        <segue reference="6bh-Wl-hpC"/>
         <segue reference="q5m-AR-iHb"/>
         <segue reference="iWB-yu-uBZ"/>
         <segue reference="6GF-6v-d9i"/>
         <segue reference="J6b-Uu-fG9"/>
         <segue reference="MPr-Bf-8n3"/>
-        <segue reference="YVD-9f-fyu"/>
-        <segue reference="gtJ-gJ-dms"/>
-        <segue reference="730-eO-kLg"/>
-        <segue reference="jXW-zi-QpK"/>
-        <segue reference="QnE-VF-aHs"/>
-        <segue reference="GiL-OM-iIk"/>
-        <segue reference="UoJ-Oq-EHp"/>
         <segue reference="RO5-1v-MuV"/>
         <segue reference="udh-kP-udg"/>
         <segue reference="wVv-zj-ql1"/>
-        <segue reference="udh-kP-udg"/>
-        <segue reference="RO5-1v-MuV"/>
-        <segue reference="BFx-l4-4dp"/>
-        <segue reference="EIm-f0-m8f"/>
-        <segue reference="GiL-OM-iIk"/>
-        <segue reference="9bP-3l-QJj"/>
-        <segue reference="pjI-mo-aoE"/>
-        <segue reference="YVD-9f-fyu"/>
-        <segue reference="6bh-Wl-hpC"/>
-        <segue reference="D4F-0t-lYV"/>
+        <segue reference="7Ul-wQ-XNy"/>
+        <segue reference="H3j-T1-rY0"/>
+        <segue reference="oeO-9L-x2D"/>
+        <segue reference="S6r-9I-Rim"/>
+        <segue reference="5GA-T9-COc"/>
+        <segue reference="P6f-oQ-ivq"/>
+        <segue reference="Y4C-RA-HFM"/>
     </inferredMetricsTieBreakers>
 </document>
