@@ -12,6 +12,8 @@
 #define UPPER_BOUND 20  //upper bound for the correct number of minutes on a cloudy day
 
 @interface Answer2 ()
+<AVAudioPlayerDelegate>
+@property (strong, nonatomic) AVAudioPlayer *audioPlayer;
 //Private Variables
 
 

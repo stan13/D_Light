@@ -10,6 +10,9 @@
 
 
 @interface Answer3 ()
+<AVAudioPlayerDelegate>
+@property (strong, nonatomic) AVAudioPlayer *audioPlayer;
+@property NSString *audioFile;
 //Private Variables
 
 

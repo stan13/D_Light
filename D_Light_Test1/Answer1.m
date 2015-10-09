@@ -7,13 +7,15 @@
 //
 
 #import "Answer1.h"
-#define LOWER_BOUND 5   //lower bound for the correct number of minutes
-#define UPPER_BOUND 15  //upper bound for the correct number of minutes
+#define SKIN_TONE_CUT_OFF 0.5
+#define SUN_BLUE_VALUE 6 //out of 20
+#define SUN_RED_VALUE 14 //out of 20
 
 
 @interface Answer1 ()
-//Private Variables
-
+<AVAudioPlayerDelegate>
+@property (strong, nonatomic) AVAudioPlayer *audioPlayer;
+@property NSString *audioFile;
 
 @end
 
@@ -22,26 +24,86 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    //put code here or call another method
     [self showAnswer];
+    
+    NSURL *url = [NSURL fileURLWithPath:[[NSBundle mainBundle]
+                                         pathForResource:self.audioFile
+                                         ofType:@"wav"]];
+    
+    NSError *error;
+    _audioPlayer = [[AVAudioPlayer alloc]
+                    initWithContentsOfURL:url
+                    error:&error];
+    if (error)
+    {
+        NSLog(@"Error in audioPlayer: %@",
+              [error localizedDescription]);
+    } else {
+        _audioPlayer.delegate = self;
+        [_audioPlayer prepareToPlay];
+    }
+
 }
 
 - (void)showAnswer
 {
     NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
-    int answer = (int)[defaults integerForKey:@"timeInSun"];
-    int result = 10;
-    if (answer < LOWER_BOUND) {
-        self.answerLabel.text = [NSString stringWithFormat:@"You selected %i minutes. Not enough - not enough vitamin d today! Remember it only takes a few more minutes. Dr. Dastardly escapes!", answer];
-        result--;
-    }else if (answer <= UPPER_BOUND){
-        self.answerLabel.text = [NSString stringWithFormat:@"You selected %i minutes. Just right - right on! You stayed out in the sun long enough to stay healthy, but not enough to get burnt. Well done! ", answer];
-    } else {
-        self.answerLabel.text = [NSString stringWithFormat:@"You selected %i minutes. Too much - ouch! You stayed out in the sun too long. You'll have a nasty sunburn for a few days. Dr. Dastardly escapes!", answer];
-        result++;
+    int answer = (int)[defaults integerForKey:@"5MinsEnough"];
+    CGFloat skinTone = [defaults floatForKey:@"skinTone"];
+    int result = (int)[defaults integerForKey:@"result"];
+    switch (answer) {
+        case 1:
+            if (skinTone < SKIN_TONE_CUT_OFF) {
+                self.answerLabel.text = @"Correct! ☺ On a sunny day when the UV index is high, it takes a few minutes to make enough vitamin D if you have light coloured skin. Go capture Dr Dastardly!";
+                self.audioFile = @"Slide 8 - light skin correct";
+            }else{
+                self.answerLabel.text = @"Incorrect. ☹ Even on a sunny day when the UV index is high, it takes more than a few minutes to make enough vitamin D if you do not have light coloured skin. ";
+                self.audioFile = @"Slide 8 - dark skin incorrect";
+                result--;
+            }
+            break;
+        case 2:
+            if (skinTone < SKIN_TONE_CUT_OFF) {
+                self.answerLabel.text = @"Incorrect. ☹ On a sunny day when the UV index is high, it takes a few minutes to make enough vitamin D if you have light coloured skin. ";
+                self.audioFile = @"Slide 8 - light skin incorrect";
+                result++;
+            }else{
+                self.answerLabel.text = @"Correct! ☺ On a sunny day when the UV index is high, it takes more than a few minutes to make enough vitamin D if you do not have light coloured skin. Go capture Dr Dastardly!";
+                self.audioFile = @"Slide 8 - dark skin correct";
+            }
+            break;
+            
+        default:
+            break;
     }
     self.resultsProgress.progress = result/20.0;
+    if (result <= SUN_BLUE_VALUE) {
+        self.sunImage.image = [UIImage imageNamed:@"SunBlue.png"];
+    }else if (result < SUN_RED_VALUE){
+        self.sunImage.image = [UIImage imageNamed:@"SunNormal.png"];
+    }else{
+        self.sunImage.image = [UIImage imageNamed:@"SunRed.png"];
+    }
     [defaults setInteger:result forKey:@"result"];
+
 }
+
+- (IBAction)listenToVoiceOver:(UIButton *)sender {
+    
+    self.nextButton.enabled = NO;
+    [_audioPlayer play];
+}
+
+- (IBAction)stopVoiceOver:(UIButton *)sender {
+    [_audioPlayer stop];
+    self.nextButton.enabled = YES;
+}
+
+- (void) audioPlayerDidFinishPlaying:(AVAudioPlayer *)player successfully:(BOOL)flag
+{
+    self.nextButton.enabled = YES;
+}
+
+
 
 @end

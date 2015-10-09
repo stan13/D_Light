@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 #import <Foundation/Foundation.h>
+#import <AVFoundation/AVFoundation.h>
 
 @interface Answer6 : ViewController
 @property (weak, nonatomic) IBOutlet UILabel *answerLabel;

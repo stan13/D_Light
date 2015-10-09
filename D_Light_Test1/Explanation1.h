@@ -8,8 +8,8 @@
 
 #import "ViewController.h"
 #import <Foundation/Foundation.h>
-#import <UIKit/UIKit.h>
-#import <AudioToolbox/AudioToolbox.h>
+//#import <UIKit/UIKit.h>
+//#import <AudioToolbox/AudioToolbox.h>
 #import <AVFoundation/AVFoundation.h>
 
 @interface Explanation1 : ViewController

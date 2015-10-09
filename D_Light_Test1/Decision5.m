@@ -10,6 +10,8 @@
 #import "Decision5.h"
 
 @interface Decision5 ()
+<AVAudioPlayerDelegate>
+@property (strong, nonatomic) AVAudioPlayer *audioPlayer;
 //Private Variables
 
 

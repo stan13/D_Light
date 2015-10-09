@@ -9,29 +9,76 @@
 #import "Decision1.h"
 
 @interface Decision1 ()
-//Private Variables
-
+<AVAudioPlayerDelegate>
+@property (strong, nonatomic) AVAudioPlayer *audioPlayer;
+@property BOOL choiceMade;
 
 @end
 
 @implementation Decision1
 
-- (void)viewDidLoad
-{
+- (void)viewDidLoad{
+    
     [super viewDidLoad];
-    //put code here or call another method
-    [self makeMinutes:10];
+    
+    
+    NSURL *url = [NSURL fileURLWithPath:[[NSBundle mainBundle]
+                                         pathForResource:@"Slide 8 - initial"
+                                         ofType:@"wav"]];
+    
+    NSError *error;
+    _audioPlayer = [[AVAudioPlayer alloc]
+                    initWithContentsOfURL:url
+                    error:&error];
+    if (error)
+    {
+        NSLog(@"Error in audioPlayer: %@",
+              [error localizedDescription]);
+    } else {
+        _audioPlayer.delegate = self;
+        [_audioPlayer prepareToPlay];
+    }
+    
+    self.nextButton.enabled = NO;
+    self.choiceMade = NO;
 }
 
-- (IBAction)changeMinutes:(UISlider *)sender {
-    int answer = (int)pow(100, sender.value);
-    [self makeMinutes:answer];
+
+
+- (IBAction)listenToVoiceOver:(UIButton *)sender {
+    
+    self.nextButton.enabled = NO;
+    [_audioPlayer play];
 }
 
-- (void)makeMinutes:(int)minutes{
-    self.minutesLabel.text = [NSString stringWithFormat:@"%i minutes", minutes];
+- (IBAction)stopVoiceOver:(UIButton *)sender {
+    [_audioPlayer stop];
+    if(self.choiceMade) self.nextButton.enabled = YES;
+}
+
+- (void) audioPlayerDidFinishPlaying:(AVAudioPlayer *)player successfully:(BOOL)flag
+{
+    if(self.choiceMade) self.nextButton.enabled = YES;
+}
+
+
+
+
+- (IBAction)chooseYes:(UIButton *)sender {
+    self.nextButton.enabled = YES;
+    self.yesButton.backgroundColor = [UIColor grayColor];
+    self.noButton.backgroundColor = [UIColor clearColor];
     NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
-    [defaults setInteger:minutes forKey:@"timeInSun"];
+    [defaults setInteger:1 forKey:@"5MinsEnough"];
+    self.choiceMade = YES;
 }
 
+- (IBAction)chooseNo:(UIButton *)sender {
+    self.nextButton.enabled = YES;
+    self.yesButton.backgroundColor = [UIColor clearColor];
+    self.noButton.backgroundColor = [UIColor grayColor];
+    NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
+    [defaults setInteger:2 forKey:@"5MinsEnough"];
+    self.choiceMade = NO;
+}
 @end

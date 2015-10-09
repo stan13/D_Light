@@ -10,6 +10,8 @@
 
 
 @interface Answer8 ()
+<AVAudioPlayerDelegate>
+@property (strong, nonatomic) AVAudioPlayer *audioPlayer;
 //Private Variables
 
 

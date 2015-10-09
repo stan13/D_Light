@@ -9,6 +9,8 @@
 #import "Answer7.h"
 
 @interface Answer7 ()
+<AVAudioPlayerDelegate>
+@property (strong, nonatomic) AVAudioPlayer *audioPlayer;
 //Private Variables
 
 

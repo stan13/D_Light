@@ -25,7 +25,7 @@
 @property CGFloat currentSkinGreen;
 @property CGFloat currentSkinBlue;
 @property CGFloat currentHairHue;
-
+@property CGFloat currentSkinTone;
 
 @end
 
@@ -46,7 +46,7 @@
 //Skin Slider
 - (IBAction)skinSlider:(UISlider *)sender {
     
-    CGFloat sliderVal = sender.value;
+    self.currentSkinTone = sender.value;
     
     /*
      *These algorithms were obtained byusing two values from bitstrips.com/r/RK8C0
@@ -54,9 +54,9 @@
      *to get these values with sliderVal from 0 to 1.
      */
 
-    self.currentSkinRed = (248.0 - 161.0*sliderVal)/255;
-    self.currentSkinGreen = (205.0 - 150.0*sliderVal)/255;
-    self.currentSkinBlue = (168.0 - 145.0*sliderVal)/255;
+    self.currentSkinRed = (248.0 - 161.0*self.currentSkinTone)/255;
+    self.currentSkinGreen = (205.0 - 150.0*self.currentSkinTone)/255;
+    self.currentSkinBlue = (168.0 - 145.0*self.currentSkinTone)/255;
     
     [self setDefaults];
     [self updateLook];
@@ -169,6 +169,7 @@
     [defaults setFloat:self.currentSkinRed forKey:@"skinRed"];
     [defaults setFloat:self.currentSkinGreen forKey:@"skinGreen"];
     [defaults setFloat:self.currentSkinBlue forKey:@"skinBlue"];
+    [defaults setFloat:self.currentSkinTone forKey:@"skinTone"];
     [defaults setFloat:self.currentHairHue forKey:@"hairHue"];
     [defaults setInteger:self.currentHairInt forKey:@"hair"];
     [defaults setInteger:self.currentHeadInt forKey:@"head"];
