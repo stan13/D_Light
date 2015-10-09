@@ -12,12 +12,21 @@
 
 @interface Decision3 : ViewController
 
-//Public Variables
+- (IBAction)listenToVoiceOver:(UIButton *)sender;
+- (IBAction)stopVoiceOver:(UIButton *)sender;
+@property (weak, nonatomic) IBOutlet UIButton *nextButton;
+
+@property (weak, nonatomic) IBOutlet UIImageView *hairBack;
+@property (weak, nonatomic) IBOutlet UIImageView *skinLegs;
+@property (weak, nonatomic) IBOutlet UIImageView *skinArms;
+@property (weak, nonatomic) IBOutlet UIImageView *skinHead;
+@property (weak, nonatomic) IBOutlet UIImageView *eyes;
+@property (weak, nonatomic) IBOutlet UIImageView *hairFront;
+
 @property (weak, nonatomic) IBOutlet UIButton *insideButton;
 @property (weak, nonatomic) IBOutlet UIButton *outsideButton;
 - (IBAction)chooseInside:(UIButton *)sender;
 - (IBAction)chooseOutside:(UIButton *)sender;
-@property (weak, nonatomic) IBOutlet UIButton *nextButton;
 
 @end
 
