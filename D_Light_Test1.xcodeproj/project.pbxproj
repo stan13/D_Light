@@ -28,27 +28,6 @@
 		C14EA5341BB5216E00B9661F /* Answer5.m in Sources */ = {isa = PBXBuildFile; fileRef = C14EA5331BB5216E00B9661F /* Answer5.m */; };
 		C14EA5371BB526AF00B9661F /* Decision6.m in Sources */ = {isa = PBXBuildFile; fileRef = C14EA5361BB526AF00B9661F /* Decision6.m */; };
 		C14EA5411BB543BE00B9661F /* Answer6.m in Sources */ = {isa = PBXBuildFile; fileRef = C14EA5401BB543BE00B9661F /* Answer6.m */; };
-		CA9703171BC7C17400A134F4 /* Slide 1.wav in Resources */ = {isa = PBXBuildFile; fileRef = CA9703021BC7C17400A134F4 /* Slide 1.wav */; };
-		CA9703181BC7C17400A134F4 /* Slide 2.wav in Resources */ = {isa = PBXBuildFile; fileRef = CA9703031BC7C17400A134F4 /* Slide 2.wav */; };
-		CA9703191BC7C17400A134F4 /* Slide 3.wav in Resources */ = {isa = PBXBuildFile; fileRef = CA9703041BC7C17400A134F4 /* Slide 3.wav */; };
-		CA97031A1BC7C17400A134F4 /* Slide 4.wav in Resources */ = {isa = PBXBuildFile; fileRef = CA9703051BC7C17400A134F4 /* Slide 4.wav */; };
-		CA97031B1BC7C17400A134F4 /* Slide 5.wav in Resources */ = {isa = PBXBuildFile; fileRef = CA9703061BC7C17400A134F4 /* Slide 5.wav */; };
-		CA97031C1BC7C17400A134F4 /* Slide 6.wav in Resources */ = {isa = PBXBuildFile; fileRef = CA9703071BC7C17400A134F4 /* Slide 6.wav */; };
-		CA97031D1BC7C17400A134F4 /* Slide 7.wav in Resources */ = {isa = PBXBuildFile; fileRef = CA9703081BC7C17400A134F4 /* Slide 7.wav */; };
-		CA97031E1BC7C17400A134F4 /* Slide 8 - dark skin correct.wav in Resources */ = {isa = PBXBuildFile; fileRef = CA9703091BC7C17400A134F4 /* Slide 8 - dark skin correct.wav */; };
-		CA97031F1BC7C17400A134F4 /* Slide 8 - dark skin correct(2).wav in Resources */ = {isa = PBXBuildFile; fileRef = CA97030A1BC7C17400A134F4 /* Slide 8 - dark skin correct(2).wav */; };
-		CA9703201BC7C17400A134F4 /* Slide 8 - dark skin incorrect.wav in Resources */ = {isa = PBXBuildFile; fileRef = CA97030B1BC7C17400A134F4 /* Slide 8 - dark skin incorrect.wav */; };
-		CA9703211BC7C17400A134F4 /* Slide 8 - initial.wav in Resources */ = {isa = PBXBuildFile; fileRef = CA97030C1BC7C17400A134F4 /* Slide 8 - initial.wav */; };
-		CA9703221BC7C17400A134F4 /* Slide 8 - light skin incorrect.wav in Resources */ = {isa = PBXBuildFile; fileRef = CA97030D1BC7C17400A134F4 /* Slide 8 - light skin incorrect.wav */; };
-		CA9703231BC7C17400A134F4 /* Slide 8 - light skin correct.wav in Resources */ = {isa = PBXBuildFile; fileRef = CA97030E1BC7C17400A134F4 /* Slide 8 - light skin correct.wav */; };
-		CA9703241BC7C17400A134F4 /* Slide 9 - correct.wav in Resources */ = {isa = PBXBuildFile; fileRef = CA97030F1BC7C17400A134F4 /* Slide 9 - correct.wav */; };
-		CA9703251BC7C17400A134F4 /* Slide 9 - incorrect.wav in Resources */ = {isa = PBXBuildFile; fileRef = CA9703101BC7C17400A134F4 /* Slide 9 - incorrect.wav */; };
-		CA9703261BC7C17400A134F4 /* Slide 9 - initial.wav in Resources */ = {isa = PBXBuildFile; fileRef = CA9703111BC7C17400A134F4 /* Slide 9 - initial.wav */; };
-		CA9703271BC7C17400A134F4 /* Slide 10 - after choice.wav in Resources */ = {isa = PBXBuildFile; fileRef = CA9703121BC7C17400A134F4 /* Slide 10 - after choice.wav */; };
-		CA9703281BC7C17400A134F4 /* Slide 10 - initial.wav in Resources */ = {isa = PBXBuildFile; fileRef = CA9703131BC7C17400A134F4 /* Slide 10 - initial.wav */; };
-		CA9703291BC7C17400A134F4 /* Slide 11 - all covered.wav in Resources */ = {isa = PBXBuildFile; fileRef = CA9703141BC7C17400A134F4 /* Slide 11 - all covered.wav */; };
-		CA97032A1BC7C17400A134F4 /* Slide 11 - arms and legs exposed.wav in Resources */ = {isa = PBXBuildFile; fileRef = CA9703151BC7C17400A134F4 /* Slide 11 - arms and legs exposed.wav */; };
-		CA97032B1BC7C17400A134F4 /* Slide 11 - initial.wav in Resources */ = {isa = PBXBuildFile; fileRef = CA9703161BC7C17400A134F4 /* Slide 11 - initial.wav */; };
 		E5258AF71BABC5CC00CD9674 /* Decision1.m in Sources */ = {isa = PBXBuildFile; fileRef = E5258AF61BABC5CC00CD9674 /* Decision1.m */; };
 		E5258AFB1BABCD0800CD9674 /* Answer1.m in Sources */ = {isa = PBXBuildFile; fileRef = E5258AFA1BABCD0800CD9674 /* Answer1.m */; };
 		E5258AFE1BABD7C700CD9674 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5258AFD1BABD7C700CD9674 /* AudioToolbox.framework */; };
@@ -207,6 +186,27 @@
 		E5E4ACB11BC7883000BB5F65 /* 9000 12 Eye Brows 6 Sad.png in Resources */ = {isa = PBXBuildFile; fileRef = E5E4AC8B1BC7883000BB5F65 /* 9000 12 Eye Brows 6 Sad.png */; };
 		E5E4ACB21BC7883000BB5F65 /* 9000 13 Hair Front 0 Short.png in Resources */ = {isa = PBXBuildFile; fileRef = E5E4AC8C1BC7883000BB5F65 /* 9000 13 Hair Front 0 Short.png */; };
 		E5E4ACB31BC7883000BB5F65 /* 9000 13 Hair Front 1 Long.png in Resources */ = {isa = PBXBuildFile; fileRef = E5E4AC8D1BC7883000BB5F65 /* 9000 13 Hair Front 1 Long.png */; };
+		E5E4ACC91BC7DDB600BB5F65 /* Slide 1.wav in Resources */ = {isa = PBXBuildFile; fileRef = E5E4ACB41BC7DDB600BB5F65 /* Slide 1.wav */; };
+		E5E4ACCA1BC7DDB600BB5F65 /* Slide 2.wav in Resources */ = {isa = PBXBuildFile; fileRef = E5E4ACB51BC7DDB600BB5F65 /* Slide 2.wav */; };
+		E5E4ACCB1BC7DDB600BB5F65 /* Slide 3.wav in Resources */ = {isa = PBXBuildFile; fileRef = E5E4ACB61BC7DDB600BB5F65 /* Slide 3.wav */; };
+		E5E4ACCC1BC7DDB600BB5F65 /* Slide 4.wav in Resources */ = {isa = PBXBuildFile; fileRef = E5E4ACB71BC7DDB600BB5F65 /* Slide 4.wav */; };
+		E5E4ACCD1BC7DDB600BB5F65 /* Slide 5.wav in Resources */ = {isa = PBXBuildFile; fileRef = E5E4ACB81BC7DDB600BB5F65 /* Slide 5.wav */; };
+		E5E4ACCE1BC7DDB600BB5F65 /* Slide 6.wav in Resources */ = {isa = PBXBuildFile; fileRef = E5E4ACB91BC7DDB600BB5F65 /* Slide 6.wav */; };
+		E5E4ACCF1BC7DDB600BB5F65 /* Slide 7.wav in Resources */ = {isa = PBXBuildFile; fileRef = E5E4ACBA1BC7DDB600BB5F65 /* Slide 7.wav */; };
+		E5E4ACD01BC7DDB600BB5F65 /* Slide 8 - dark skin correct.wav in Resources */ = {isa = PBXBuildFile; fileRef = E5E4ACBB1BC7DDB600BB5F65 /* Slide 8 - dark skin correct.wav */; };
+		E5E4ACD11BC7DDB600BB5F65 /* Slide 8 - dark skin correct(2).wav in Resources */ = {isa = PBXBuildFile; fileRef = E5E4ACBC1BC7DDB600BB5F65 /* Slide 8 - dark skin correct(2).wav */; };
+		E5E4ACD21BC7DDB600BB5F65 /* Slide 8 - dark skin incorrect.wav in Resources */ = {isa = PBXBuildFile; fileRef = E5E4ACBD1BC7DDB600BB5F65 /* Slide 8 - dark skin incorrect.wav */; };
+		E5E4ACD31BC7DDB600BB5F65 /* Slide 8 - initial.wav in Resources */ = {isa = PBXBuildFile; fileRef = E5E4ACBE1BC7DDB600BB5F65 /* Slide 8 - initial.wav */; };
+		E5E4ACD41BC7DDB600BB5F65 /* Slide 8 - light skin incorrect.wav in Resources */ = {isa = PBXBuildFile; fileRef = E5E4ACBF1BC7DDB600BB5F65 /* Slide 8 - light skin incorrect.wav */; };
+		E5E4ACD51BC7DDB600BB5F65 /* Slide 8 -light skin correct.wav in Resources */ = {isa = PBXBuildFile; fileRef = E5E4ACC01BC7DDB600BB5F65 /* Slide 8 -light skin correct.wav */; };
+		E5E4ACD61BC7DDB600BB5F65 /* Slide 9 - correct.wav in Resources */ = {isa = PBXBuildFile; fileRef = E5E4ACC11BC7DDB600BB5F65 /* Slide 9 - correct.wav */; };
+		E5E4ACD71BC7DDB600BB5F65 /* Slide 9 - incorrect.wav in Resources */ = {isa = PBXBuildFile; fileRef = E5E4ACC21BC7DDB600BB5F65 /* Slide 9 - incorrect.wav */; };
+		E5E4ACD81BC7DDB600BB5F65 /* Slide 9 - initial.wav in Resources */ = {isa = PBXBuildFile; fileRef = E5E4ACC31BC7DDB600BB5F65 /* Slide 9 - initial.wav */; };
+		E5E4ACD91BC7DDB600BB5F65 /* Slide 10 - after choice.wav in Resources */ = {isa = PBXBuildFile; fileRef = E5E4ACC41BC7DDB600BB5F65 /* Slide 10 - after choice.wav */; };
+		E5E4ACDA1BC7DDB600BB5F65 /* Slide 10 - initial.wav in Resources */ = {isa = PBXBuildFile; fileRef = E5E4ACC51BC7DDB600BB5F65 /* Slide 10 - initial.wav */; };
+		E5E4ACDB1BC7DDB600BB5F65 /* Slide 11 - all covered.wav in Resources */ = {isa = PBXBuildFile; fileRef = E5E4ACC61BC7DDB600BB5F65 /* Slide 11 - all covered.wav */; };
+		E5E4ACDC1BC7DDB600BB5F65 /* Slide 11 - arms and legs exposed.wav in Resources */ = {isa = PBXBuildFile; fileRef = E5E4ACC71BC7DDB600BB5F65 /* Slide 11 - arms and legs exposed.wav */; };
+		E5E4ACDD1BC7DDB600BB5F65 /* Slide 11 - initial.wav in Resources */ = {isa = PBXBuildFile; fileRef = E5E4ACC81BC7DDB600BB5F65 /* Slide 11 - initial.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -258,27 +258,6 @@
 		C14EA5361BB526AF00B9661F /* Decision6.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Decision6.m; sourceTree = "<group>"; };
 		C14EA5401BB543BE00B9661F /* Answer6.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Answer6.m; sourceTree = "<group>"; };
 		C14EA5421BB543D300B9661F /* Answer6.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Answer6.h; sourceTree = "<group>"; };
-		CA9703021BC7C17400A134F4 /* Slide 1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "Slide 1.wav"; path = "../../documents-export-2015-10-09/Slide 1.wav"; sourceTree = "<group>"; };
-		CA9703031BC7C17400A134F4 /* Slide 2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "Slide 2.wav"; path = "../../documents-export-2015-10-09/Slide 2.wav"; sourceTree = "<group>"; };
-		CA9703041BC7C17400A134F4 /* Slide 3.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "Slide 3.wav"; path = "../../documents-export-2015-10-09/Slide 3.wav"; sourceTree = "<group>"; };
-		CA9703051BC7C17400A134F4 /* Slide 4.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "Slide 4.wav"; path = "../../documents-export-2015-10-09/Slide 4.wav"; sourceTree = "<group>"; };
-		CA9703061BC7C17400A134F4 /* Slide 5.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "Slide 5.wav"; path = "../../documents-export-2015-10-09/Slide 5.wav"; sourceTree = "<group>"; };
-		CA9703071BC7C17400A134F4 /* Slide 6.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "Slide 6.wav"; path = "../../documents-export-2015-10-09/Slide 6.wav"; sourceTree = "<group>"; };
-		CA9703081BC7C17400A134F4 /* Slide 7.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "Slide 7.wav"; path = "../../documents-export-2015-10-09/Slide 7.wav"; sourceTree = "<group>"; };
-		CA9703091BC7C17400A134F4 /* Slide 8 - dark skin correct.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "Slide 8 - dark skin correct.wav"; path = "../../documents-export-2015-10-09/Slide 8 - dark skin correct.wav"; sourceTree = "<group>"; };
-		CA97030A1BC7C17400A134F4 /* Slide 8 - dark skin correct(2).wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "Slide 8 - dark skin correct(2).wav"; path = "../../documents-export-2015-10-09/Slide 8 - dark skin correct(2).wav"; sourceTree = "<group>"; };
-		CA97030B1BC7C17400A134F4 /* Slide 8 - dark skin incorrect.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "Slide 8 - dark skin incorrect.wav"; path = "../../documents-export-2015-10-09/Slide 8 - dark skin incorrect.wav"; sourceTree = "<group>"; };
-		CA97030C1BC7C17400A134F4 /* Slide 8 - initial.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "Slide 8 - initial.wav"; path = "../../documents-export-2015-10-09/Slide 8 - initial.wav"; sourceTree = "<group>"; };
-		CA97030D1BC7C17400A134F4 /* Slide 8 - light skin incorrect.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "Slide 8 - light skin incorrect.wav"; path = "../../documents-export-2015-10-09/Slide 8 - light skin incorrect.wav"; sourceTree = "<group>"; };
-		CA97030E1BC7C17400A134F4 /* Slide 8 - light skin correct.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "Slide 8 - light skin correct.wav"; path = "../../documents-export-2015-10-09/Slide 8 - light skin correct.wav"; sourceTree = "<group>"; };
-		CA97030F1BC7C17400A134F4 /* Slide 9 - correct.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "Slide 9 - correct.wav"; path = "../../documents-export-2015-10-09/Slide 9 - correct.wav"; sourceTree = "<group>"; };
-		CA9703101BC7C17400A134F4 /* Slide 9 - incorrect.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "Slide 9 - incorrect.wav"; path = "../../documents-export-2015-10-09/Slide 9 - incorrect.wav"; sourceTree = "<group>"; };
-		CA9703111BC7C17400A134F4 /* Slide 9 - initial.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "Slide 9 - initial.wav"; path = "../../documents-export-2015-10-09/Slide 9 - initial.wav"; sourceTree = "<group>"; };
-		CA9703121BC7C17400A134F4 /* Slide 10 - after choice.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "Slide 10 - after choice.wav"; path = "../../documents-export-2015-10-09/Slide 10 - after choice.wav"; sourceTree = "<group>"; };
-		CA9703131BC7C17400A134F4 /* Slide 10 - initial.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "Slide 10 - initial.wav"; path = "../../documents-export-2015-10-09/Slide 10 - initial.wav"; sourceTree = "<group>"; };
-		CA9703141BC7C17400A134F4 /* Slide 11 - all covered.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "Slide 11 - all covered.wav"; path = "../../documents-export-2015-10-09/Slide 11 - all covered.wav"; sourceTree = "<group>"; };
-		CA9703151BC7C17400A134F4 /* Slide 11 - arms and legs exposed.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "Slide 11 - arms and legs exposed.wav"; path = "../../documents-export-2015-10-09/Slide 11 - arms and legs exposed.wav"; sourceTree = "<group>"; };
-		CA9703161BC7C17400A134F4 /* Slide 11 - initial.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "Slide 11 - initial.wav"; path = "../../documents-export-2015-10-09/Slide 11 - initial.wav"; sourceTree = "<group>"; };
 		E5258AF61BABC5CC00CD9674 /* Decision1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Decision1.m; sourceTree = "<group>"; };
 		E5258AF81BABC60700CD9674 /* Decision1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Decision1.h; sourceTree = "<group>"; };
 		E5258AFA1BABCD0800CD9674 /* Answer1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Answer1.m; sourceTree = "<group>"; };
@@ -452,6 +431,27 @@
 		E5E4AC8B1BC7883000BB5F65 /* 9000 12 Eye Brows 6 Sad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "9000 12 Eye Brows 6 Sad.png"; sourceTree = "<group>"; };
 		E5E4AC8C1BC7883000BB5F65 /* 9000 13 Hair Front 0 Short.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "9000 13 Hair Front 0 Short.png"; sourceTree = "<group>"; };
 		E5E4AC8D1BC7883000BB5F65 /* 9000 13 Hair Front 1 Long.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "9000 13 Hair Front 1 Long.png"; sourceTree = "<group>"; };
+		E5E4ACB41BC7DDB600BB5F65 /* Slide 1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Slide 1.wav"; sourceTree = "<group>"; };
+		E5E4ACB51BC7DDB600BB5F65 /* Slide 2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Slide 2.wav"; sourceTree = "<group>"; };
+		E5E4ACB61BC7DDB600BB5F65 /* Slide 3.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Slide 3.wav"; sourceTree = "<group>"; };
+		E5E4ACB71BC7DDB600BB5F65 /* Slide 4.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Slide 4.wav"; sourceTree = "<group>"; };
+		E5E4ACB81BC7DDB600BB5F65 /* Slide 5.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Slide 5.wav"; sourceTree = "<group>"; };
+		E5E4ACB91BC7DDB600BB5F65 /* Slide 6.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Slide 6.wav"; sourceTree = "<group>"; };
+		E5E4ACBA1BC7DDB600BB5F65 /* Slide 7.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Slide 7.wav"; sourceTree = "<group>"; };
+		E5E4ACBB1BC7DDB600BB5F65 /* Slide 8 - dark skin correct.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Slide 8 - dark skin correct.wav"; sourceTree = "<group>"; };
+		E5E4ACBC1BC7DDB600BB5F65 /* Slide 8 - dark skin correct(2).wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Slide 8 - dark skin correct(2).wav"; sourceTree = "<group>"; };
+		E5E4ACBD1BC7DDB600BB5F65 /* Slide 8 - dark skin incorrect.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Slide 8 - dark skin incorrect.wav"; sourceTree = "<group>"; };
+		E5E4ACBE1BC7DDB600BB5F65 /* Slide 8 - initial.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Slide 8 - initial.wav"; sourceTree = "<group>"; };
+		E5E4ACBF1BC7DDB600BB5F65 /* Slide 8 - light skin incorrect.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Slide 8 - light skin incorrect.wav"; sourceTree = "<group>"; };
+		E5E4ACC01BC7DDB600BB5F65 /* Slide 8 -light skin correct.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Slide 8 -light skin correct.wav"; sourceTree = "<group>"; };
+		E5E4ACC11BC7DDB600BB5F65 /* Slide 9 - correct.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Slide 9 - correct.wav"; sourceTree = "<group>"; };
+		E5E4ACC21BC7DDB600BB5F65 /* Slide 9 - incorrect.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Slide 9 - incorrect.wav"; sourceTree = "<group>"; };
+		E5E4ACC31BC7DDB600BB5F65 /* Slide 9 - initial.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Slide 9 - initial.wav"; sourceTree = "<group>"; };
+		E5E4ACC41BC7DDB600BB5F65 /* Slide 10 - after choice.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Slide 10 - after choice.wav"; sourceTree = "<group>"; };
+		E5E4ACC51BC7DDB600BB5F65 /* Slide 10 - initial.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Slide 10 - initial.wav"; sourceTree = "<group>"; };
+		E5E4ACC61BC7DDB600BB5F65 /* Slide 11 - all covered.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Slide 11 - all covered.wav"; sourceTree = "<group>"; };
+		E5E4ACC71BC7DDB600BB5F65 /* Slide 11 - arms and legs exposed.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Slide 11 - arms and legs exposed.wav"; sourceTree = "<group>"; };
+		E5E4ACC81BC7DDB600BB5F65 /* Slide 11 - initial.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Slide 11 - initial.wav"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -694,6 +694,27 @@
 			children = (
 				50398C9B1B7DBB8B00E39663 /* Info.plist */,
 				50398C9C1B7DBB8B00E39663 /* main.m */,
+				E5E4ACB41BC7DDB600BB5F65 /* Slide 1.wav */,
+				E5E4ACB51BC7DDB600BB5F65 /* Slide 2.wav */,
+				E5E4ACB61BC7DDB600BB5F65 /* Slide 3.wav */,
+				E5E4ACB71BC7DDB600BB5F65 /* Slide 4.wav */,
+				E5E4ACB81BC7DDB600BB5F65 /* Slide 5.wav */,
+				E5E4ACB91BC7DDB600BB5F65 /* Slide 6.wav */,
+				E5E4ACBA1BC7DDB600BB5F65 /* Slide 7.wav */,
+				E5E4ACBB1BC7DDB600BB5F65 /* Slide 8 - dark skin correct.wav */,
+				E5E4ACBC1BC7DDB600BB5F65 /* Slide 8 - dark skin correct(2).wav */,
+				E5E4ACBD1BC7DDB600BB5F65 /* Slide 8 - dark skin incorrect.wav */,
+				E5E4ACBE1BC7DDB600BB5F65 /* Slide 8 - initial.wav */,
+				E5E4ACBF1BC7DDB600BB5F65 /* Slide 8 - light skin incorrect.wav */,
+				E5E4ACC01BC7DDB600BB5F65 /* Slide 8 -light skin correct.wav */,
+				E5E4ACC11BC7DDB600BB5F65 /* Slide 9 - correct.wav */,
+				E5E4ACC21BC7DDB600BB5F65 /* Slide 9 - incorrect.wav */,
+				E5E4ACC31BC7DDB600BB5F65 /* Slide 9 - initial.wav */,
+				E5E4ACC41BC7DDB600BB5F65 /* Slide 10 - after choice.wav */,
+				E5E4ACC51BC7DDB600BB5F65 /* Slide 10 - initial.wav */,
+				E5E4ACC61BC7DDB600BB5F65 /* Slide 11 - all covered.wav */,
+				E5E4ACC71BC7DDB600BB5F65 /* Slide 11 - arms and legs exposed.wav */,
+				E5E4ACC81BC7DDB600BB5F65 /* Slide 11 - initial.wav */,
 				E5E4AC071BC766FA00BB5F65 /* Slide 11 - no hat.wav */,
 				E5E4AC081BC766FA00BB5F65 /* Slide 11 - pick what to wear.wav */,
 				E5E4AC091BC766FA00BB5F65 /* Slide 11 - sunscreens protect.wav */,
@@ -708,27 +729,6 @@
 				E5E4AC121BC766FA00BB5F65 /* Slide 14 - correct.wav */,
 				E5E4AC131BC766FA00BB5F65 /* Slide 14 - incorrect.wav */,
 				E5E4AC141BC766FA00BB5F65 /* Slide 14 - initial.wav */,
-				CA9703021BC7C17400A134F4 /* Slide 1.wav */,
-				CA9703031BC7C17400A134F4 /* Slide 2.wav */,
-				CA9703041BC7C17400A134F4 /* Slide 3.wav */,
-				CA9703051BC7C17400A134F4 /* Slide 4.wav */,
-				CA9703061BC7C17400A134F4 /* Slide 5.wav */,
-				CA9703071BC7C17400A134F4 /* Slide 6.wav */,
-				CA9703081BC7C17400A134F4 /* Slide 7.wav */,
-				CA9703091BC7C17400A134F4 /* Slide 8 - dark skin correct.wav */,
-				CA97030A1BC7C17400A134F4 /* Slide 8 - dark skin correct(2).wav */,
-				CA97030B1BC7C17400A134F4 /* Slide 8 - dark skin incorrect.wav */,
-				CA97030C1BC7C17400A134F4 /* Slide 8 - initial.wav */,
-				CA97030D1BC7C17400A134F4 /* Slide 8 - light skin incorrect.wav */,
-				CA97030E1BC7C17400A134F4 /* Slide 8 - light skin correct.wav */,
-				CA97030F1BC7C17400A134F4 /* Slide 9 - correct.wav */,
-				CA9703101BC7C17400A134F4 /* Slide 9 - incorrect.wav */,
-				CA9703111BC7C17400A134F4 /* Slide 9 - initial.wav */,
-				CA9703121BC7C17400A134F4 /* Slide 10 - after choice.wav */,
-				CA9703131BC7C17400A134F4 /* Slide 10 - initial.wav */,
-				CA9703141BC7C17400A134F4 /* Slide 11 - all covered.wav */,
-				CA9703151BC7C17400A134F4 /* Slide 11 - arms and legs exposed.wav */,
-				CA9703161BC7C17400A134F4 /* Slide 11 - initial.wav */,
 				E5E4AC151BC766FA00BB5F65 /* Slide 15 - correct.wav */,
 				E5E4AC161BC766FA00BB5F65 /* Slide 15 - incorrect.wav */,
 				E5E4AC171BC766FA00BB5F65 /* Slide 15 - initial.wav */,
@@ -840,16 +840,16 @@
 				E5E4AC9D1BC7883000BB5F65 /* 9000 8 Mouth 1 Happy.png in Resources */,
 				E525E5E51BC644AE00A1A28F /* background_beach.png in Resources */,
 				E5E4ACAD1BC7883000BB5F65 /* 9000 12 Eye Brows 2 Worried.png in Resources */,
-				CA97031A1BC7C17400A134F4 /* Slide 4.wav in Resources */,
+				E5E4ACCC1BC7DDB600BB5F65 /* Slide 4.wav in Resources */,
 				E5E4ACAF1BC7883000BB5F65 /* 9000 12 Eye Brows 4 Tired.png in Resources */,
 				E5E4AC8E1BC7883000BB5F65 /* 9000 0 Hair Back 1 Long.png in Resources */,
 				E54EFF5C1BC2686E00AD1EEA /* VillainAngry1.png in Resources */,
-				CA9703261BC7C17400A134F4 /* Slide 9 - initial.wav in Resources */,
-				CA9703221BC7C17400A134F4 /* Slide 8 - light skin incorrect.wav in Resources */,
+				E5E4ACD81BC7DDB600BB5F65 /* Slide 9 - initial.wav in Resources */,
+				E5E4ACD41BC7DDB600BB5F65 /* Slide 8 - light skin incorrect.wav in Resources */,
 				E5E4AC601BC786DE00BB5F65 /* cat colored2.png in Resources */,
 				E525E5D61BC619F300A1A28F /* 0 10 Eye Pupils 4 Tired.png in Resources */,
 				E5E4AC351BC766FA00BB5F65 /* Slide 13 - initial.wav in Resources */,
-				CA9703201BC7C17400A134F4 /* Slide 8 - dark skin incorrect.wav in Resources */,
+				E5E4ACD21BC7DDB600BB5F65 /* Slide 8 - dark skin incorrect.wav in Resources */,
 				E5E4AC631BC786DE00BB5F65 /* Ice Cream.png in Resources */,
 				E5E4ACA61BC7883000BB5F65 /* 9000 10 Eye Pupils 0 Default.png in Resources */,
 				E5E4ACB21BC7883000BB5F65 /* 9000 13 Hair Front 0 Short.png in Resources */,
@@ -861,14 +861,14 @@
 				E572C1691BC3ABE000C4FCBB /* 1 6 Clothing Front 4 Shorts.png in Resources */,
 				E525E5EC1BC644AE00A1A28F /* Jail_background.png in Resources */,
 				E5E4ACA01BC7883000BB5F65 /* 9000 8 Mouth 4 Tired.png in Resources */,
-				CA9703291BC7C17400A134F4 /* Slide 11 - all covered.wav in Resources */,
+				E5E4ACDB1BC7DDB600BB5F65 /* Slide 11 - all covered.wav in Resources */,
 				50398CA61B7DBB8B00E39663 /* Main.storyboard in Resources */,
 				E525E5C71BC619F300A1A28F /* 0 6 Clothing Front 2 Dress.png in Resources */,
 				E525E5EB1BC644AE00A1A28F /* Jail Bars.png in Resources */,
-				CA9703231BC7C17400A134F4 /* Slide 8 - light skin correct.wav in Resources */,
-				CA97031B1BC7C17400A134F4 /* Slide 5.wav in Resources */,
-				CA97031E1BC7C17400A134F4 /* Slide 8 - dark skin correct.wav in Resources */,
-				CA9703251BC7C17400A134F4 /* Slide 9 - incorrect.wav in Resources */,
+				E5E4ACD51BC7DDB600BB5F65 /* Slide 8 -light skin correct.wav in Resources */,
+				E5E4ACCD1BC7DDB600BB5F65 /* Slide 5.wav in Resources */,
+				E5E4ACD01BC7DDB600BB5F65 /* Slide 8 - dark skin correct.wav in Resources */,
+				E5E4ACD71BC7DDB600BB5F65 /* Slide 9 - incorrect.wav in Resources */,
 				E525E5CE1BC619F300A1A28F /* 0 8 Mouth 2 Worried.png in Resources */,
 				E525E5C21BC619F300A1A28F /* 0 1 Clothing Back 1 Cape.png in Resources */,
 				E5E4AC391BC766FA00BB5F65 /* Slide 14 - incorrect.wav in Resources */,
@@ -889,29 +889,29 @@
 				E5E4AC9F1BC7883000BB5F65 /* 9000 8 Mouth 3 Thoughtful.png in Resources */,
 				E572C1681BC3ABE000C4FCBB /* 1 6 Clothing Front 3 Shirt.png in Resources */,
 				E525E5C41BC619F300A1A28F /* 0 3 Legs 0 Default.png in Resources */,
-				CA9703181BC7C17400A134F4 /* Slide 2.wav in Resources */,
+				E5E4ACCA1BC7DDB600BB5F65 /* Slide 2.wav in Resources */,
 				E525E5D51BC619F300A1A28F /* 0 10 Eye Pupils 3 Thoughtful.png in Resources */,
 				E5E4ACB01BC7883000BB5F65 /* 9000 12 Eye Brows 5 Pained.png in Resources */,
 				E572C1721BC3ABE000C4FCBB /* 1 9 Eye Whites 0 Default.png in Resources */,
 				50398CAB1B7DBB8B00E39663 /* LaunchScreen.xib in Resources */,
 				E54EFF5E1BC2686E00AD1EEA /* VillainFailSitting2.png in Resources */,
-				CA9703241BC7C17400A134F4 /* Slide 9 - correct.wav in Resources */,
+				E5E4ACD61BC7DDB600BB5F65 /* Slide 9 - correct.wav in Resources */,
 				E5E4AC5D1BC786DE00BB5F65 /* Apple.png in Resources */,
 				E525E5C81BC619F300A1A28F /* 0 6 Clothing Front 3 Shirt.png in Resources */,
 				E5E4ACB31BC7883000BB5F65 /* 9000 13 Hair Front 1 Long.png in Resources */,
-				CA97032A1BC7C17400A134F4 /* Slide 11 - arms and legs exposed.wav in Resources */,
+				E5E4ACDC1BC7DDB600BB5F65 /* Slide 11 - arms and legs exposed.wav in Resources */,
 				E5E4AC511BC77D0500BB5F65 /* SunSliderSelector.png in Resources */,
 				E525E5D01BC619F300A1A28F /* 0 8 Mouth 4 Tired.png in Resources */,
 				E5E4AC921BC7883000BB5F65 /* 9000 5 Arms 0 Default.png in Resources */,
 				E525E5D21BC619F300A1A28F /* 0 9 Eye Whites 0 Default.png in Resources */,
-				CA9703271BC7C17400A134F4 /* Slide 10 - after choice.wav in Resources */,
+				E5E4ACD91BC7DDB600BB5F65 /* Slide 10 - after choice.wav in Resources */,
 				E572C1671BC3ABE000C4FCBB /* 1 6 Clothing Front 2 Dress.png in Resources */,
 				E5E4AC2E1BC766FA00BB5F65 /* Slide 11 - pick what to wear.wav in Resources */,
 				E5E4AC641BC786DE00BB5F65 /* Orange Slice.png in Resources */,
 				E5E4ACAC1BC7883000BB5F65 /* 9000 12 Eye Brows 0 Default.png in Resources */,
 				E5E4AC5F1BC786DE00BB5F65 /* cage.png in Resources */,
 				E525E5DC1BC619F300A1A28F /* 0 13 Hair Front 1 Long.png in Resources */,
-				CA9703191BC7C17400A134F4 /* Slide 3.wav in Resources */,
+				E5E4ACCB1BC7DDB600BB5F65 /* Slide 3.wav in Resources */,
 				E5E4AC301BC766FA00BB5F65 /* Slide 12 - afternoon.wav in Resources */,
 				E5E4ACAE1BC7883000BB5F65 /* 9000 12 Eye Brows 3 Thoughtful.png in Resources */,
 				E5E4AC9C1BC7883000BB5F65 /* 9000 8 Mouth 0 Default.png in Resources */,
@@ -922,12 +922,12 @@
 				E5E4ACA91BC7883000BB5F65 /* 9000 10 Eye Pupils 4 Tired.png in Resources */,
 				E5E4ACB11BC7883000BB5F65 /* 9000 12 Eye Brows 6 Sad.png in Resources */,
 				E5E4AC4D1BC77D0500BB5F65 /* SunBlue.png in Resources */,
-				CA97032B1BC7C17400A134F4 /* Slide 11 - initial.wav in Resources */,
-				CA97031C1BC7C17400A134F4 /* Slide 6.wav in Resources */,
+				E5E4ACDD1BC7DDB600BB5F65 /* Slide 11 - initial.wav in Resources */,
+				E5E4ACCE1BC7DDB600BB5F65 /* Slide 6.wav in Resources */,
 				E525E5D31BC619F300A1A28F /* 0 9 Eye Whites 4 Tired.png in Resources */,
 				E5E4AC911BC7883000BB5F65 /* 9000 3 Legs 0 Default.png in Resources */,
 				E5E4AC311BC766FA00BB5F65 /* Slide 12 - initial.wav in Resources */,
-				CA97031F1BC7C17400A134F4 /* Slide 8 - dark skin correct(2).wav in Resources */,
+				E5E4ACD11BC7DDB600BB5F65 /* Slide 8 - dark skin correct(2).wav in Resources */,
 				E572C1611BC3ABE000C4FCBB /* 1 0 Hair Back 1 Long.png in Resources */,
 				E572C1701BC3ABE000C4FCBB /* 1 8 Mouth 4 Tired.png in Resources */,
 				E5E4AC961BC7883000BB5F65 /* 9000 6 Clothing Front 4 Shorts.png in Resources */,
@@ -935,7 +935,7 @@
 				E5E4AC5E1BC786DE00BB5F65 /* bouncycastle.png in Resources */,
 				E572C1741BC3ABE000C4FCBB /* 1 10 Eye Pupils 0 Default.png in Resources */,
 				E525E5CA1BC619F300A1A28F /* 0 7 Head 0 Default.png in Resources */,
-				CA9703171BC7C17400A134F4 /* Slide 1.wav in Resources */,
+				E5E4ACC91BC7DDB600BB5F65 /* Slide 1.wav in Resources */,
 				C14EA52B1BB50D6300B9661F /* sunscreen.gif in Resources */,
 				E5E4AC9B1BC7883000BB5F65 /* 9000 7 Head 1 Egg.png in Resources */,
 				E525E5E71BC644AE00A1A28F /* background_city.png in Resources */,
@@ -950,7 +950,7 @@
 				E5E4ACA21BC7883000BB5F65 /* 9000 8 Mouth 6 Sad.png in Resources */,
 				E572C1711BC3ABE000C4FCBB /* 1 8 Mouth 5 Pained.png in Resources */,
 				E572C16F1BC3ABE000C4FCBB /* 1 8 Mouth 3 Thoughtful.png in Resources */,
-				CA9703211BC7C17400A134F4 /* Slide 8 - initial.wav in Resources */,
+				E5E4ACD31BC7DDB600BB5F65 /* Slide 8 - initial.wav in Resources */,
 				E572C17B1BC3ABE000C4FCBB /* 1 13 Hair Front 0 Short.png in Resources */,
 				E5E4AC661BC786DE00BB5F65 /* sunscreen.png in Resources */,
 				E5E4AC371BC766FA00BB5F65 /* Slide 13 - oily fish.wav in Resources */,
@@ -988,11 +988,11 @@
 				E572C1631BC3ABE000C4FCBB /* 1 2 Torso 0 Default.png in Resources */,
 				E5E4AC3A1BC766FA00BB5F65 /* Slide 14 - initial.wav in Resources */,
 				E54EFF5F1BC2686E00AD1EEA /* VillainFailStanding.png in Resources */,
-				CA97031D1BC7C17400A134F4 /* Slide 7.wav in Resources */,
+				E5E4ACCF1BC7DDB600BB5F65 /* Slide 7.wav in Resources */,
 				E5E4AC971BC7883000BB5F65 /* 9000 6 Clothing Front 5 Swimsuit.png in Resources */,
 				E5E4ACAB1BC7883000BB5F65 /* 9000 11 Eye Lashes 1 Visible.png in Resources */,
 				E572C1621BC3ABE000C4FCBB /* 1 1 Clothing Back 1 Cape.png in Resources */,
-				CA9703281BC7C17400A134F4 /* Slide 10 - initial.wav in Resources */,
+				E5E4ACDA1BC7DDB600BB5F65 /* Slide 10 - initial.wav in Resources */,
 				E572C17A1BC3ABE000C4FCBB /* 1 12 Eye Brows 4 Tired.png in Resources */,
 				E54EFF601BC2686E00AD1EEA /* VillainSuccess.png in Resources */,
 				E5E4AC381BC766FA00BB5F65 /* Slide 14 - correct.wav in Resources */,

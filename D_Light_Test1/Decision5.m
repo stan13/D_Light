@@ -24,7 +24,7 @@
     [super viewDidLoad];
 
     NSURL *url = [NSURL fileURLWithPath:[[NSBundle mainBundle]
-                                         pathForResource:@"Slide 10 - initial"
+                                         pathForResource:@"Slide 12 - initial"
                                          ofType:@"wav"]];
     
     NSError *error;
@@ -129,7 +129,7 @@
     self.afternoonButton.backgroundColor = [UIColor clearColor];
     self.nightButton.backgroundColor = [UIColor clearColor];
     NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
-    [defaults setInteger:1 forKey:@"prison"];
+    [defaults setInteger:1 forKey:@"Decision5"];
     
 }
 
@@ -139,7 +139,7 @@
     self.afternoonButton.backgroundColor = [UIColor grayColor];
     self.nightButton.backgroundColor = [UIColor clearColor];
     NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
-    [defaults setInteger:2 forKey:@"prison"];
+    [defaults setInteger:2 forKey:@"Decision5"];
 }
 
 - (IBAction)chooseNight:(UIButton *)sender {
@@ -148,7 +148,7 @@
     self.afternoonButton.backgroundColor = [UIColor clearColor];
     self.nightButton.backgroundColor = [UIColor grayColor];
     NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
-    [defaults setInteger:3 forKey:@"prison"];
+    [defaults setInteger:3 forKey:@"Decision5"];
 }
 
 @end
