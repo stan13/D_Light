@@ -8,13 +8,13 @@
 
 
 #import "Answer2.h"
-#define LOWER_BOUND 10   //lower bound for the correct number of minutes on a cloudy day
-#define UPPER_BOUND 20  //upper bound for the correct number of minutes on a cloudy day
+#define SUN_BLUE_VALUE 6 //out of 20
+#define SUN_RED_VALUE 14 //out of 20
 
 @interface Answer2 ()
 <AVAudioPlayerDelegate>
 @property (strong, nonatomic) AVAudioPlayer *audioPlayer;
-//Private Variables
+@property NSString *audioFile;
 
 
 @end
@@ -26,24 +26,70 @@
     [super viewDidLoad];
     //put code here or call another method
     [self showAnswer];
+    
+    
+    NSURL *url = [NSURL fileURLWithPath:[[NSBundle mainBundle]
+                                         pathForResource:self.audioFile
+                                         ofType:@"wav"]];
+    
+    NSError *error;
+    _audioPlayer = [[AVAudioPlayer alloc]
+                    initWithContentsOfURL:url
+                    error:&error];
+    if (error)
+    {
+        NSLog(@"Error in audioPlayer: %@",
+              [error localizedDescription]);
+    } else {
+        _audioPlayer.delegate = self;
+        [_audioPlayer prepareToPlay];
+    }
 }
 
 - (void)showAnswer
 {
     NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
-    int answer = (int)[defaults integerForKey:@"timeInSunCloudy"];
+    int answer = (int)[defaults integerForKey:@"Decision2"];
     int result = (int)[defaults integerForKey:@"result"];
-    if (answer < LOWER_BOUND) {
-        self.answerLabel.text = [NSString stringWithFormat:@"You selected %i minutes. Not enough - not enough vitamin d today! Remember it only takes a few more minutes. Dr. Dastardly escapes!", answer];
-        result--;
-    }else if (answer <= UPPER_BOUND){
-        self.answerLabel.text = [NSString stringWithFormat:@"You selected %i minutes. Just right - right on! You stayed out in the sun long enough to stay healthy, but not enough to get burnt. Well done! ", answer];
-    } else {
-        self.answerLabel.text = [NSString stringWithFormat:@"You selected %i minutes. Too much - ouch! You stayed out in the sun too long. You'll have a nasty sunburn for a few days. Dr. Dastardly escapes!", answer];
-        result++;
+    switch (answer) {
+        case 1:
+            self.answerLabel.text = @"Correct! ☺ Clouds can reduce the UV index by up to a half! ";
+            self.audioFile = @"Slide 9 - correct";
+            break;
+        case 2:
+            self.answerLabel.text = @"Incorrect. ☹ Clouds can reduce the UV index by up to a half!";
+            self.audioFile = @"Slide 9 - incorrect";
+            result--;
+            break;
+            
+        default:
+            break;
     }
-    self.resultsProgress.progress = result/20.0;
+    //self.resultsProgress.progress = result/20.0;
+    if (result <= SUN_BLUE_VALUE) {
+        self.sunImage.image = [UIImage imageNamed:@"SunBlue.png"];
+    }else if (result < SUN_RED_VALUE){
+        self.sunImage.image = [UIImage imageNamed:@"SunNormal.png"];
+    }else{
+        self.sunImage.image = [UIImage imageNamed:@"SunRed.png"];
+    }
     [defaults setInteger:result forKey:@"result"];
+}
+
+- (IBAction)listenToVoiceOver:(UIButton *)sender {
+    
+    self.nextButton.enabled = NO;
+    [_audioPlayer play];
+}
+
+- (IBAction)stopVoiceOver:(UIButton *)sender {
+    [_audioPlayer stop];
+    self.nextButton.enabled = YES;
+}
+
+- (void) audioPlayerDidFinishPlaying:(AVAudioPlayer *)player successfully:(BOOL)flag
+{
+    self.nextButton.enabled = YES;
 }
 
 @end

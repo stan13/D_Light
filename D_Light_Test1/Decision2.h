@@ -12,8 +12,22 @@
 
 @interface Decision2 : ViewController
 
-//Public Variables
-- (IBAction)changeMinutes:(UISlider *)sender;
-@property (weak, nonatomic) IBOutlet UILabel *minutesLabel;
+
+- (IBAction)listenToVoiceOver:(UIButton *)sender;
+- (IBAction)stopVoiceOver:(UIButton *)sender;
+@property (weak, nonatomic) IBOutlet UIButton *nextButton;
+
+@property (weak, nonatomic) IBOutlet UIImageView *hairBack;
+@property (weak, nonatomic) IBOutlet UIImageView *skinLegs;
+@property (weak, nonatomic) IBOutlet UIImageView *skinArms;
+@property (weak, nonatomic) IBOutlet UIImageView *skinHead;
+@property (weak, nonatomic) IBOutlet UIImageView *eyes;
+@property (weak, nonatomic) IBOutlet UIImageView *hairFront;
+
+- (IBAction)chooseMore:(UIButton *)sender;
+- (IBAction)chooseLess:(UIButton *)sender;
+@property (weak, nonatomic) IBOutlet UIButton *moreButton;
+@property (weak, nonatomic) IBOutlet UIButton *lessButton;
+
 
 @end

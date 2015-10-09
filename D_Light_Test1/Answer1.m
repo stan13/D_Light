@@ -48,7 +48,7 @@
 - (void)showAnswer
 {
     NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
-    int answer = (int)[defaults integerForKey:@"5MinsEnough"];
+    int answer = (int)[defaults integerForKey:@"Decision1"];
     CGFloat skinTone = [defaults floatForKey:@"skinTone"];
     int result = (int)[defaults integerForKey:@"result"];
     switch (answer) {
@@ -76,7 +76,7 @@
         default:
             break;
     }
-    self.resultsProgress.progress = result/20.0;
+    //self.resultsProgress.progress = result/20.0;
     if (result <= SUN_BLUE_VALUE) {
         self.sunImage.image = [UIImage imageNamed:@"SunBlue.png"];
     }else if (result < SUN_RED_VALUE){

@@ -18,7 +18,7 @@
 - (IBAction)stopVoiceOver:(UIButton *)sender;
 @property (weak, nonatomic) IBOutlet UIButton *nextButton;
 @property (weak, nonatomic) IBOutlet UILabel *answerLabel;
-@property (weak, nonatomic) IBOutlet UIProgressView *resultsProgress;
+//@property (weak, nonatomic) IBOutlet UIProgressView *resultsProgress;
 @property (weak, nonatomic) IBOutlet UIImageView *sunImage;
 
 @end

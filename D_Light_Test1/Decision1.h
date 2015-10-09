@@ -22,6 +22,12 @@
 @property (weak, nonatomic) IBOutlet UIButton *yesButton;
 @property (weak, nonatomic) IBOutlet UIButton *noButton;
 
+@property (weak, nonatomic) IBOutlet UIImageView *hairBack;
+@property (weak, nonatomic) IBOutlet UIImageView *skinLegs;
+@property (weak, nonatomic) IBOutlet UIImageView *skinArms;
+@property (weak, nonatomic) IBOutlet UIImageView *skinHead;
+@property (weak, nonatomic) IBOutlet UIImageView *eyes;
+@property (weak, nonatomic) IBOutlet UIImageView *hairFront;
 
 
 @end
