@@ -29,6 +29,7 @@
 - (IBAction)chooseAfternoon:(UIButton *)sender;
 @property (weak, nonatomic) IBOutlet UIButton *nightButton;
 - (IBAction)chooseNight:(UIButton *)sender;
+@property (weak, nonatomic) IBOutlet UIImageView *background;
 
 
 @end

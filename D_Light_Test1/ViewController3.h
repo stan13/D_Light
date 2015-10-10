@@ -44,14 +44,18 @@
  - (IBAction)Shoes0:(UIButton *)sender;
  - (IBAction)Shoes1:(UIButton *)sender;
  - (IBAction)Shoes2:(UIButton *)sender;
-//excessories
+//glasses
  - (IBAction)glasses:(UIButton *)sender;
+//
 @property (strong, nonatomic) IBOutletCollection(UIButton) NSArray *hat;
  - (IBAction)hat0:(UIButton *)sender;
  - (IBAction)hat1:(UIButton *)sender;
 
-
-
+@property (weak, nonatomic) IBOutlet UISlider *topColorSlider;
+@property (weak, nonatomic) IBOutlet UISlider *bottomColorSlider;
+@property (weak, nonatomic) IBOutlet UISlider *shoeColorSlider;
+@property (weak, nonatomic) IBOutlet UISlider *glassesColorSlider;
+@property (weak, nonatomic) IBOutlet UISlider *hatColorSlider;
 
 
 @end

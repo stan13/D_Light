@@ -128,6 +128,8 @@
     self.middayButton.backgroundColor = [UIColor grayColor];
     self.afternoonButton.backgroundColor = [UIColor clearColor];
     self.nightButton.backgroundColor = [UIColor clearColor];
+    self.background.backgroundColor = [UIColor yellowColor];
+    self.background.alpha = 0.2;
     NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
     [defaults setInteger:1 forKey:@"Decision5"];
     
@@ -138,6 +140,8 @@
     self.middayButton.backgroundColor = [UIColor clearColor];
     self.afternoonButton.backgroundColor = [UIColor grayColor];
     self.nightButton.backgroundColor = [UIColor clearColor];
+    self.background.backgroundColor = [UIColor grayColor];
+    self.background.alpha = 0.3;
     NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
     [defaults setInteger:2 forKey:@"Decision5"];
 }
@@ -147,6 +151,8 @@
     self.middayButton.backgroundColor = [UIColor clearColor];
     self.afternoonButton.backgroundColor = [UIColor clearColor];
     self.nightButton.backgroundColor = [UIColor grayColor];
+    self.background.backgroundColor = [UIColor blackColor];
+    self.background.alpha = 0.5;
     NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
     [defaults setInteger:3 forKey:@"Decision5"];
 }

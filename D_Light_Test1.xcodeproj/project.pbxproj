@@ -198,7 +198,6 @@
 		E5E4ACD21BC7DDB600BB5F65 /* Slide 8 - dark skin incorrect.wav in Resources */ = {isa = PBXBuildFile; fileRef = E5E4ACBD1BC7DDB600BB5F65 /* Slide 8 - dark skin incorrect.wav */; };
 		E5E4ACD31BC7DDB600BB5F65 /* Slide 8 - initial.wav in Resources */ = {isa = PBXBuildFile; fileRef = E5E4ACBE1BC7DDB600BB5F65 /* Slide 8 - initial.wav */; };
 		E5E4ACD41BC7DDB600BB5F65 /* Slide 8 - light skin incorrect.wav in Resources */ = {isa = PBXBuildFile; fileRef = E5E4ACBF1BC7DDB600BB5F65 /* Slide 8 - light skin incorrect.wav */; };
-		E5E4ACD51BC7DDB600BB5F65 /* Slide 8 -light skin correct.wav in Resources */ = {isa = PBXBuildFile; fileRef = E5E4ACC01BC7DDB600BB5F65 /* Slide 8 -light skin correct.wav */; };
 		E5E4ACD61BC7DDB600BB5F65 /* Slide 9 - correct.wav in Resources */ = {isa = PBXBuildFile; fileRef = E5E4ACC11BC7DDB600BB5F65 /* Slide 9 - correct.wav */; };
 		E5E4ACD71BC7DDB600BB5F65 /* Slide 9 - incorrect.wav in Resources */ = {isa = PBXBuildFile; fileRef = E5E4ACC21BC7DDB600BB5F65 /* Slide 9 - incorrect.wav */; };
 		E5E4ACD81BC7DDB600BB5F65 /* Slide 9 - initial.wav in Resources */ = {isa = PBXBuildFile; fileRef = E5E4ACC31BC7DDB600BB5F65 /* Slide 9 - initial.wav */; };
@@ -443,7 +442,6 @@
 		E5E4ACBD1BC7DDB600BB5F65 /* Slide 8 - dark skin incorrect.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Slide 8 - dark skin incorrect.wav"; sourceTree = "<group>"; };
 		E5E4ACBE1BC7DDB600BB5F65 /* Slide 8 - initial.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Slide 8 - initial.wav"; sourceTree = "<group>"; };
 		E5E4ACBF1BC7DDB600BB5F65 /* Slide 8 - light skin incorrect.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Slide 8 - light skin incorrect.wav"; sourceTree = "<group>"; };
-		E5E4ACC01BC7DDB600BB5F65 /* Slide 8 -light skin correct.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Slide 8 -light skin correct.wav"; sourceTree = "<group>"; };
 		E5E4ACC11BC7DDB600BB5F65 /* Slide 9 - correct.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Slide 9 - correct.wav"; sourceTree = "<group>"; };
 		E5E4ACC21BC7DDB600BB5F65 /* Slide 9 - incorrect.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Slide 9 - incorrect.wav"; sourceTree = "<group>"; };
 		E5E4ACC31BC7DDB600BB5F65 /* Slide 9 - initial.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Slide 9 - initial.wav"; sourceTree = "<group>"; };
@@ -706,7 +704,6 @@
 				E5E4ACBD1BC7DDB600BB5F65 /* Slide 8 - dark skin incorrect.wav */,
 				E5E4ACBE1BC7DDB600BB5F65 /* Slide 8 - initial.wav */,
 				E5E4ACBF1BC7DDB600BB5F65 /* Slide 8 - light skin incorrect.wav */,
-				E5E4ACC01BC7DDB600BB5F65 /* Slide 8 -light skin correct.wav */,
 				E5E4ACC11BC7DDB600BB5F65 /* Slide 9 - correct.wav */,
 				E5E4ACC21BC7DDB600BB5F65 /* Slide 9 - incorrect.wav */,
 				E5E4ACC31BC7DDB600BB5F65 /* Slide 9 - initial.wav */,
@@ -865,7 +862,6 @@
 				50398CA61B7DBB8B00E39663 /* Main.storyboard in Resources */,
 				E525E5C71BC619F300A1A28F /* 0 6 Clothing Front 2 Dress.png in Resources */,
 				E525E5EB1BC644AE00A1A28F /* Jail Bars.png in Resources */,
-				E5E4ACD51BC7DDB600BB5F65 /* Slide 8 -light skin correct.wav in Resources */,
 				E5E4ACCD1BC7DDB600BB5F65 /* Slide 5.wav in Resources */,
 				E5E4ACD01BC7DDB600BB5F65 /* Slide 8 - dark skin correct.wav in Resources */,
 				E5E4ACD71BC7DDB600BB5F65 /* Slide 9 - incorrect.wav in Resources */,
