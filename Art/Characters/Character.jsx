@@ -193,3 +193,5 @@ character.selectSublayers([1, 6], [1, 7]);
 //Set body and limbs
 character.selectSublayers([2, 3, 5], []);
 
+//Set shoes
+character.selectSublayers([4], [4]);
