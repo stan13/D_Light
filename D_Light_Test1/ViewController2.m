@@ -160,7 +160,6 @@
     [self setDefaults];
     [self updateLook];
 }
-
 - (IBAction)hair2:(UIButton *)sender {
 
     self.currentHair = @"0 13 Hair Front 1 Long.png";
@@ -169,11 +168,12 @@
     [self setDefaults];
     [self updateLook];
 }
-
 - (IBAction)hair3:(UIButton *)sender {
+    //TODO
 }
 
 - (IBAction)hair4:(UIButton *)sender {
+    //TODO
 }
 
 //Change head shapes

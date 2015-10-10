@@ -399,16 +399,11 @@
                                     <rect key="frame" x="933" y="715" width="75" height="40"/>
                                 </variation>
                                 <connections>
+                                    <action selector="NextButton:" destination="Ggn-UF-x71" eventType="touchUpInside" id="jQX-lo-AXH"/>
                                     <segue destination="LbW-FU-Aoh" kind="presentation" id="S3c-bv-99a"/>
                                 </connections>
                             </button>
                             <imageView opaque="NO" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="1 0 Hair Back 1 Long.png" translatesAutoresizingMaskIntoConstraints="NO" id="aWX-7Y-AOu">
-                                <rect key="frame" x="59" y="68" width="200" height="460"/>
-                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
-                                    <rect key="frame" x="50" y="50" width="300" height="650"/>
-                                </variation>
-                            </imageView>
-                            <imageView opaque="NO" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="1 1 Clothing Back 1 Cape.png" translatesAutoresizingMaskIntoConstraints="NO" id="H9f-6N-Isv">
                                 <rect key="frame" x="59" y="68" width="200" height="460"/>
                                 <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
                                     <rect key="frame" x="50" y="50" width="300" height="650"/>
@@ -501,6 +496,12 @@
                                     <rect key="frame" x="50" y="50" width="300" height="650"/>
                                 </variation>
                             </imageView>
+                            <imageView opaque="NO" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="1 13 Hair Front 1 Long.png" translatesAutoresizingMaskIntoConstraints="NO" id="r07-lE-T7S">
+                                <rect key="frame" x="59" y="68" width="200" height="460"/>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="50" y="50" width="300" height="650"/>
+                                </variation>
+                            </imageView>
                             <imageView opaque="NO" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="bfi-Y2-56b">
                                 <variation key="heightClass=regular" fixedFrame="YES">
                                     <rect key="frame" x="0.0" y="0.0" width="0.0" height="0.0"/>
@@ -512,72 +513,72 @@
                                     <rect key="frame" x="50" y="50" width="300" height="650"/>
                                 </variation>
                             </imageView>
-                            <imageView opaque="NO" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="1 13 Hair Front 1 Long.png" translatesAutoresizingMaskIntoConstraints="NO" id="r07-lE-T7S">
-                                <rect key="frame" x="59" y="68" width="200" height="460"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="1 14 Accessories 1 Aviators.png" translatesAutoresizingMaskIntoConstraints="NO" id="7ul-iz-cYT">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
                                 <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
-                                    <rect key="frame" x="50" y="50" width="300" height="650"/>
+                                    <rect key="frame" x="316" y="57" width="354" height="580"/>
                                 </variation>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jQD-03-Kvn">
-                                <rect key="frame" x="338" y="101" width="70" height="84"/>
-                                <state key="normal" title="Dress" image="1 6 Clothing Front 2 Dress.png">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="1 14 Accessories 2 Ray Bans.png" translatesAutoresizingMaskIntoConstraints="NO" id="gUe-3G-2vj">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
                                 <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
-                                    <rect key="frame" x="432" y="172" width="156" height="320"/>
+                                    <rect key="frame" x="509" y="57" width="354" height="580"/>
                                 </variation>
-                                <connections>
-                                    <action selector="Singlet:" destination="Ggn-UF-x71" eventType="touchUpInside" id="JFC-Fs-lxa"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hjq-7U-r65">
-                                <rect key="frame" x="416" y="101" width="70" height="84"/>
-                                <state key="normal" title="Shirt" image="9000 6 Clothing Front 6 Singlet.png">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="1 15 Hat 1 Wide-brimmed.png" translatesAutoresizingMaskIntoConstraints="NO" id="Nzw-KP-Ryc">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
                                 <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
-                                    <rect key="frame" x="654" y="177" width="145" height="205"/>
+                                    <rect key="frame" x="688" y="30" width="354" height="580"/>
                                 </variation>
-                                <connections>
-                                    <action selector="Shirt0:" destination="Ggn-UF-x71" eventType="touchUpInside" id="YYj-YN-wgZ"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zek-sJ-hpt">
-                                <rect key="frame" x="338" y="208" width="70" height="84"/>
-                                <state key="normal" title="Shorts" image="9000 6 Clothing Front 4 Shorts.png">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="1 6 Clothing Front 2 Dress.png" translatesAutoresizingMaskIntoConstraints="NO" id="6AB-DX-ORt">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
                                 <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
-                                    <rect key="frame" x="641" y="349" width="171" height="201"/>
+                                    <rect key="frame" x="373" y="110" width="240" height="366"/>
                                 </variation>
-                                <connections>
-                                    <action selector="Shorts0:" destination="Ggn-UF-x71" eventType="touchUpInside" id="BX5-0E-CdS"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="huY-FK-IGh">
-                                <rect key="frame" x="416" y="329" width="70" height="84"/>
-                                <state key="normal" title="Adidas">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="1 4 Shoes 1 Thongs.png" translatesAutoresizingMaskIntoConstraints="NO" id="hzr-U7-gdK">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
                                 <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
-                                    <rect key="frame" x="646" y="585" width="120" height="100"/>
+                                    <rect key="frame" x="323" y="-233" width="344" height="794"/>
                                 </variation>
-                                <connections>
-                                    <action selector="Shoes1:" destination="Ggn-UF-x71" eventType="touchUpInside" id="qj7-OI-xFe"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gfb-lb-Ot7">
-                                <rect key="frame" x="494" y="329" width="70" height="84"/>
-                                <state key="normal" title="Thongs">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="1 4 Shoes 2 Shoes A.png" translatesAutoresizingMaskIntoConstraints="NO" id="Ai5-U8-295">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
                                 <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
-                                    <rect key="frame" x="816" y="580" width="120" height="100"/>
+                                    <rect key="frame" x="516" y="-233" width="344" height="794"/>
                                 </variation>
-                                <connections>
-                                    <action selector="Shoes2:" destination="Ggn-UF-x71" eventType="touchUpInside" id="Dbp-1f-Ejh"/>
-                                </connections>
-                            </button>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="1 4 Shoes 3 Shoes B.png" translatesAutoresizingMaskIntoConstraints="NO" id="xhq-kV-rga">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="692" y="-233" width="344" height="794"/>
+                                </variation>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="9000 6 Clothing Front 6 Singlet.png" translatesAutoresizingMaskIntoConstraints="NO" id="D17-0j-0BU">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="567" y="50" width="240" height="444"/>
+                                </variation>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="9000 6 Clothing Front 3 Shirt.png" translatesAutoresizingMaskIntoConstraints="NO" id="LvD-Rl-cbP">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="747" y="40" width="240" height="444"/>
+                                </variation>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="9000 6 Clothing Front 4 Shorts.png" translatesAutoresizingMaskIntoConstraints="NO" id="Lzg-HK-a0l">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="567" y="160" width="240" height="296"/>
+                                </variation>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="9000 6 Clothing Front 4 Shorts.png" translatesAutoresizingMaskIntoConstraints="NO" id="lHa-oJ-q0q">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="747" y="160" width="240" height="296"/>
+                                </variation>
+                            </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Scene4 - Clothes Customisation" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lEz-Dt-lAO">
                                 <rect key="frame" x="171" y="0.0" width="306" height="64"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -587,77 +588,314 @@
                                     <rect key="frame" x="215" y="0.0" width="306" height="64"/>
                                 </variation>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3GU-cu-abR">
-                                <rect key="frame" x="494" y="101" width="70" height="84"/>
-                                <state key="normal" title="Shirt" image="9000 6 Clothing Front 3 Shirt.png">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
-                                    <rect key="frame" x="839" y="177" width="138" height="208"/>
-                                </variation>
-                                <connections>
-                                    <action selector="Shirt1:" destination="Ggn-UF-x71" eventType="touchUpInside" id="9Oc-8L-2x1"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="loc-dn-UNT">
-                                <rect key="frame" x="338" y="329" width="70" height="84"/>
-                                <state key="normal" title="Nikes">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
-                                    <rect key="frame" x="490" y="585" width="120" height="100"/>
-                                </variation>
-                                <connections>
-                                    <action selector="Shoes0:" destination="Ggn-UF-x71" eventType="touchUpInside" id="Ka4-i6-CaO"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8Zm-Bn-EwV">
-                                <rect key="frame" x="416" y="450" width="70" height="84"/>
-                                <state key="normal" title="Hat">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
-                                    <rect key="frame" x="791" y="55" width="120" height="100"/>
-                                </variation>
-                                <connections>
-                                    <action selector="hat0:" destination="Ggn-UF-x71" eventType="touchUpInside" id="Je0-2X-VQI"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iMd-fG-05l">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UFo-Li-jyh">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
-                                <state key="normal" title="Glasses2">
+                                <state key="normal" title="Dress">
+                                    <color key="titleColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
-                                    <rect key="frame" x="621" y="66" width="121" height="78"/>
-                                </variation>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NAT-wD-p8K">
-                                <rect key="frame" x="338" y="450" width="70" height="84"/>
-                                <state key="normal" title="glasses">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
-                                    <rect key="frame" x="452" y="55" width="120" height="100"/>
+                                    <rect key="frame" x="425" y="165" width="144" height="245"/>
                                 </variation>
                                 <connections>
-                                    <action selector="glasses:" destination="Ggn-UF-x71" eventType="touchUpInside" id="nG6-HH-CxK"/>
+                                    <action selector="Dress:" destination="Ggn-UF-x71" eventType="touchUpInside" id="M51-qd-ZnK"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kLi-9A-LuO">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <state key="normal" title="Singlet">
+                                    <color key="titleColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="637" y="150" width="110" height="160"/>
+                                </variation>
+                                <connections>
+                                    <action selector="Singlet:" destination="Ggn-UF-x71" eventType="touchUpInside" id="wpU-lK-Wl6"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ThU-JE-YxI">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <state key="normal" title="Shirt">
+                                    <color key="titleColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="797" y="138" width="143" height="178"/>
+                                </variation>
+                                <connections>
+                                    <action selector="Shirt:" destination="Ggn-UF-x71" eventType="touchUpInside" id="Ene-ZK-dme"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ddg-Jn-Jeo">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <state key="normal" title="Shorts">
+                                    <color key="titleColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="637" y="318" width="110" height="131"/>
+                                </variation>
+                                <connections>
+                                    <action selector="Shorts0:" destination="Ggn-UF-x71" eventType="touchUpInside" id="Jce-uD-Mjt"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ugS-f0-TGe">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <state key="normal" title="Pants">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="812" y="318" width="117" height="156"/>
+                                </variation>
+                                <connections>
+                                    <action selector="Pants:" destination="Ggn-UF-x71" eventType="touchUpInside" id="I1W-hh-bSo"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gd5-s1-Tfd">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <state key="normal" title="Shoes0">
+                                    <color key="titleColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="427" y="510" width="142" height="52"/>
+                                </variation>
+                                <connections>
+                                    <action selector="Shoes0:" destination="Ggn-UF-x71" eventType="touchUpInside" id="t45-YR-iSE"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rFx-3m-6OF">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <state key="normal" title="Shoes1">
+                                    <color key="titleColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="628" y="507" width="133" height="57"/>
+                                </variation>
+                                <connections>
+                                    <action selector="Shoes1:" destination="Ggn-UF-x71" eventType="touchUpInside" id="Xlg-ix-iNR"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="99y-62-fnL">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <state key="normal" title="Shoes2">
+                                    <color key="titleColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="798" y="507" width="142" height="57"/>
+                                </variation>
+                                <connections>
+                                    <action selector="Shoes2:" destination="Ggn-UF-x71" eventType="touchUpInside" id="NZ8-yg-ldY"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nWP-Tj-T6b">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <state key="normal" title="Glasses0">
+                                    <color key="titleColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="432" y="65" width="135" height="67"/>
+                                </variation>
+                                <connections>
+                                    <action selector="Glasses0:" destination="Ggn-UF-x71" eventType="touchUpInside" id="uTw-Rz-Kcp"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mYJ-kR-m0g">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <state key="normal" title="Glasses1">
+                                    <color key="titleColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="622" y="65" width="140" height="70"/>
+                                </variation>
+                                <connections>
+                                    <action selector="Glasses1:" destination="Ggn-UF-x71" eventType="touchUpInside" id="sdi-XP-Lrx"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cci-jL-POF">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <state key="normal" title="Hat">
+                                    <color key="titleColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="797" y="47" width="143" height="74"/>
+                                </variation>
+                                <connections>
+                                    <action selector="Hat:" destination="Ggn-UF-x71" eventType="touchUpInside" id="VPa-5n-L3f"/>
+                                </connections>
+                            </button>
+                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="Nb6-Lb-Fie">
+                                <rect key="frame" x="0.0" y="-15" width="118" height="31"/>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="476" y="597" width="118" height="31"/>
+                                </variation>
+                                <connections>
+                                    <action selector="glassesColorSlider:" destination="Ggn-UF-x71" eventType="valueChanged" id="5Cd-Em-EbS"/>
+                                </connections>
+                            </slider>
+                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="Iux-S7-Cmo">
+                                <rect key="frame" x="0.0" y="-15" width="118" height="31"/>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="476" y="657" width="118" height="31"/>
+                                </variation>
+                                <connections>
+                                    <action selector="hatColorSlider:" destination="Ggn-UF-x71" eventType="valueChanged" id="imq-Bd-CVh"/>
+                                </connections>
+                            </slider>
+                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="iNC-iZ-HV3">
+                                <rect key="frame" x="0.0" y="-15" width="118" height="31"/>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="786" y="597" width="118" height="31"/>
+                                </variation>
+                                <connections>
+                                    <action selector="bottomColorSlider:" destination="Ggn-UF-x71" eventType="valueChanged" id="Esa-yY-Cys"/>
+                                </connections>
+                            </slider>
+                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="tBN-nZ-geX">
+                                <rect key="frame" x="0.0" y="-15" width="118" height="31"/>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="786" y="657" width="118" height="31"/>
+                                </variation>
+                                <connections>
+                                    <action selector="shoeColorSlider:" destination="Ggn-UF-x71" eventType="valueChanged" id="IYc-vg-YCl"/>
+                                </connections>
+                            </slider>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Glasses" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Rwq-kE-m8Y">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="394" y="601" width="61" height="21"/>
+                                </variation>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hat" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="00c-8I-Tdp">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="411" y="661" width="27" height="21"/>
+                                </variation>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Top" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Uy3-eM-WZM">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="411" y="714" width="28" height="21"/>
+                                </variation>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Pants" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aX2-Rc-jJ0">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="707" y="601" width="44" height="21"/>
+                                </variation>
+                            </label>
+                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="cdg-9c-c48">
+                                <rect key="frame" x="0.0" y="-15" width="118" height="31"/>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="476" y="710" width="118" height="31"/>
+                                </variation>
+                                <connections>
+                                    <action selector="topColorSlider:" destination="Ggn-UF-x71" eventType="valueChanged" id="uIb-OE-2rL"/>
+                                </connections>
+                            </slider>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Shoes" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3oy-Jb-C6F">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="705" y="661" width="49" height="21"/>
+                                </variation>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <variation key="default">
                             <mask key="subviews">
                                 <exclude reference="sQa-b2-RYX"/>
                                 <exclude reference="ABf-AP-xM0"/>
-                                <exclude reference="iMd-fG-05l"/>
+                                <exclude reference="7ul-iz-cYT"/>
+                                <exclude reference="gUe-3G-2vj"/>
+                                <exclude reference="Nzw-KP-Ryc"/>
+                                <exclude reference="6AB-DX-ORt"/>
+                                <exclude reference="hzr-U7-gdK"/>
+                                <exclude reference="Ai5-U8-295"/>
+                                <exclude reference="xhq-kV-rga"/>
+                                <exclude reference="D17-0j-0BU"/>
+                                <exclude reference="LvD-Rl-cbP"/>
+                                <exclude reference="Lzg-HK-a0l"/>
+                                <exclude reference="lHa-oJ-q0q"/>
+                                <exclude reference="UFo-Li-jyh"/>
+                                <exclude reference="kLi-9A-LuO"/>
+                                <exclude reference="ThU-JE-YxI"/>
+                                <exclude reference="ddg-Jn-Jeo"/>
+                                <exclude reference="ugS-f0-TGe"/>
+                                <exclude reference="Gd5-s1-Tfd"/>
+                                <exclude reference="rFx-3m-6OF"/>
+                                <exclude reference="99y-62-fnL"/>
+                                <exclude reference="nWP-Tj-T6b"/>
+                                <exclude reference="mYJ-kR-m0g"/>
+                                <exclude reference="cci-jL-POF"/>
+                                <exclude reference="Nb6-Lb-Fie"/>
+                                <exclude reference="Iux-S7-Cmo"/>
+                                <exclude reference="iNC-iZ-HV3"/>
+                                <exclude reference="tBN-nZ-geX"/>
+                                <exclude reference="Rwq-kE-m8Y"/>
+                                <exclude reference="00c-8I-Tdp"/>
+                                <exclude reference="Uy3-eM-WZM"/>
+                                <exclude reference="aX2-Rc-jJ0"/>
+                                <exclude reference="cdg-9c-c48"/>
+                                <exclude reference="3oy-Jb-C6F"/>
                             </mask>
                         </variation>
                         <variation key="heightClass=regular-widthClass=regular">
                             <mask key="subviews">
                                 <include reference="sQa-b2-RYX"/>
                                 <include reference="ABf-AP-xM0"/>
-                                <include reference="iMd-fG-05l"/>
+                                <include reference="7ul-iz-cYT"/>
+                                <include reference="gUe-3G-2vj"/>
+                                <include reference="Nzw-KP-Ryc"/>
+                                <include reference="6AB-DX-ORt"/>
+                                <include reference="hzr-U7-gdK"/>
+                                <include reference="Ai5-U8-295"/>
+                                <include reference="xhq-kV-rga"/>
+                                <include reference="D17-0j-0BU"/>
+                                <include reference="LvD-Rl-cbP"/>
+                                <include reference="Lzg-HK-a0l"/>
+                                <include reference="lHa-oJ-q0q"/>
+                                <include reference="UFo-Li-jyh"/>
+                                <include reference="kLi-9A-LuO"/>
+                                <include reference="ThU-JE-YxI"/>
+                                <include reference="ddg-Jn-Jeo"/>
+                                <include reference="ugS-f0-TGe"/>
+                                <include reference="Gd5-s1-Tfd"/>
+                                <include reference="rFx-3m-6OF"/>
+                                <include reference="99y-62-fnL"/>
+                                <include reference="nWP-Tj-T6b"/>
+                                <include reference="mYJ-kR-m0g"/>
+                                <include reference="cci-jL-POF"/>
+                                <include reference="Nb6-Lb-Fie"/>
+                                <include reference="Iux-S7-Cmo"/>
+                                <include reference="iNC-iZ-HV3"/>
+                                <include reference="tBN-nZ-geX"/>
+                                <include reference="Rwq-kE-m8Y"/>
+                                <include reference="00c-8I-Tdp"/>
+                                <include reference="Uy3-eM-WZM"/>
+                                <include reference="aX2-Rc-jJ0"/>
+                                <include reference="cdg-9c-c48"/>
+                                <include reference="3oy-Jb-C6F"/>
                             </mask>
                         </variation>
                     </view>
@@ -667,25 +905,32 @@
                     <connections>
                         <outlet property="armsView" destination="7Of-09-gkg" id="ntA-gl-ESx"/>
                         <outlet property="baseView" destination="aWX-7Y-AOu" id="n5q-dV-uxc"/>
+                        <outlet property="bottomColorSlider" destination="iNC-iZ-HV3" id="6c6-Ua-LDJ"/>
                         <outlet property="bottomView" destination="qur-U4-SHn" id="Mlx-er-oRd"/>
                         <outlet property="eyesView" destination="RFJ-Bg-shn" id="JtZ-b1-AjS"/>
+                        <outlet property="glassesColorSlider" destination="Nb6-Lb-Fie" id="iHp-Bj-8F9"/>
                         <outlet property="glassesView" destination="nQ0-6U-SE3" id="Fai-ig-Uun"/>
                         <outlet property="hairBackView" destination="aWX-7Y-AOu" id="hRi-p8-Td7"/>
                         <outlet property="hairFrontView" destination="r07-lE-T7S" id="Vxi-tV-30b"/>
+                        <outlet property="hatColorSlider" destination="Iux-S7-Cmo" id="p7O-Z0-wti"/>
                         <outlet property="hatView" destination="bfi-Y2-56b" id="d2I-Z5-pUn"/>
                         <outlet property="headView" destination="Z3z-PC-uTq" id="qZD-hz-nro"/>
                         <outlet property="legsView" destination="bLW-cc-Mn6" id="Fsu-zL-pYc"/>
+                        <outlet property="shoeColorSlider" destination="tBN-nZ-geX" id="baI-vD-DcI"/>
                         <outlet property="shoesView" destination="ABf-AP-xM0" id="oNi-L0-MSR"/>
+                        <outlet property="topColorSlider" destination="cdg-9c-c48" id="cEK-6Y-Hhc"/>
                         <outlet property="topView" destination="n7A-J1-bL7" id="Cbj-xl-lkO"/>
                         <outlet property="torsoView" destination="10l-EJ-hTh" id="3I9-fx-SMn"/>
-                        <outletCollection property="top" destination="jQD-03-Kvn" id="7nW-sC-yCk"/>
-                        <outletCollection property="top" destination="Hjq-7U-r65" id="Gzt-Es-Fet"/>
-                        <outletCollection property="top" destination="3GU-cu-abR" id="ZPO-zl-ooC"/>
-                        <outletCollection property="bottom" destination="zek-sJ-hpt" id="TXS-2M-anO"/>
-                        <outletCollection property="shoes" destination="loc-dn-UNT" id="R1p-jI-x1Z"/>
-                        <outletCollection property="shoes" destination="huY-FK-IGh" id="WPA-cY-UxR"/>
-                        <outletCollection property="shoes" destination="Gfb-lb-Ot7" id="sc4-Ge-vEX"/>
-                        <outletCollection property="hat" destination="8Zm-Bn-EwV" id="C13-ly-AJw"/>
+                        <outletCollection property="top" destination="UFo-Li-jyh" id="Nsz-Tz-IGw"/>
+                        <outletCollection property="top" destination="kLi-9A-LuO" id="QCE-Pa-agF"/>
+                        <outletCollection property="top" destination="ThU-JE-YxI" id="dNf-V7-GFj"/>
+                        <outletCollection property="bottom" destination="ddg-Jn-Jeo" id="hch-T3-K4N"/>
+                        <outletCollection property="bottom" destination="ugS-f0-TGe" id="SWC-o7-rE3"/>
+                        <outletCollection property="shoes" destination="Gd5-s1-Tfd" id="fct-j7-s5y"/>
+                        <outletCollection property="shoes" destination="rFx-3m-6OF" id="eh2-rJ-HyT"/>
+                        <outletCollection property="shoes" destination="99y-62-fnL" id="s8k-1W-X4P"/>
+                        <outletCollection property="glasses" destination="nWP-Tj-T6b" id="lgQ-gN-HdG"/>
+                        <outletCollection property="glasses" destination="mYJ-kR-m0g" id="6Hn-k1-hdp"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="eaO-MW-3fa" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -704,15 +949,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IFR-qk-L70">
-                                <rect key="frame" x="16" y="550" width="35" height="30"/>
-                                <state key="normal" title="Back">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <segue destination="Ggn-UF-x71" kind="show" id="raE-9l-FqN"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="d70-7m-wgU">
                                 <rect key="frame" x="552" y="550" width="32" height="30"/>
                                 <state key="normal" title="Next">
@@ -770,6 +1006,18 @@
                                     <segue destination="cu6-6a-4d8" kind="show" id="QuB-jU-5hG"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IFR-qk-L70">
+                                <rect key="frame" x="16" y="550" width="35" height="30"/>
+                                <state key="normal" title="Back">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="14" y="715" width="75" height="40"/>
+                                </variation>
+                                <connections>
+                                    <segue destination="Ggn-UF-x71" kind="show" id="raE-9l-FqN"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <variation key="default">
@@ -811,6 +1059,9 @@
                                 <state key="normal" title="Back">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="14" y="715" width="75" height="40"/>
+                                </variation>
                                 <connections>
                                     <segue destination="LbW-FU-Aoh" kind="show" id="UoJ-Oq-EHp"/>
                                 </connections>
@@ -894,6 +1145,9 @@
                                 <state key="normal" title="Back">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="14" y="715" width="75" height="40"/>
+                                </variation>
                                 <connections>
                                     <segue destination="443-tj-wG7" kind="show" id="jXW-zi-QpK"/>
                                 </connections>
@@ -971,6 +1225,9 @@
                                 <state key="normal" title="Back">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="14" y="715" width="75" height="40"/>
+                                </variation>
                                 <connections>
                                     <segue destination="Y42-qM-Okw" kind="show" id="QnE-VF-aHs"/>
                                 </connections>
@@ -1048,6 +1305,9 @@
                                 <state key="normal" title="Back">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="14" y="715" width="75" height="40"/>
+                                </variation>
                                 <connections>
                                     <segue destination="tS6-BI-SVO" kind="show" id="2YE-jA-yif"/>
                                 </connections>
@@ -1131,6 +1391,9 @@
                                 <state key="normal" title="Back">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="14" y="715" width="75" height="40"/>
+                                </variation>
                                 <connections>
                                     <segue destination="jVo-m4-N9d" kind="show" id="730-eO-kLg"/>
                                 </connections>
@@ -1215,6 +1478,9 @@
                                 <state key="normal" title="Back">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="14" y="715" width="75" height="40"/>
+                                </variation>
                                 <connections>
                                     <segue destination="j99-6L-iYb" kind="show" id="gtJ-gJ-dms"/>
                                 </connections>
@@ -1298,6 +1564,9 @@
                                 <state key="normal" title="Back">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="14" y="715" width="75" height="40"/>
+                                </variation>
                                 <connections>
                                     <segue destination="7Li-CF-6gn" kind="show" id="SfT-xc-8QN"/>
                                 </connections>
@@ -1394,7 +1663,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
-                                    <rect key="frame" x="16" y="750" width="35" height="30"/>
+                                    <rect key="frame" x="14" y="715" width="75" height="40"/>
                                 </variation>
                                 <connections>
                                     <segue destination="MSc-Up-Wkt" kind="show" id="caU-3v-9bs"/>
@@ -1448,7 +1717,7 @@
                                     <rect key="frame" x="0.0" y="0.0" width="0.0" height="0.0"/>
                                 </variation>
                                 <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
-                                    <rect key="frame" x="25" y="247" width="200" height="460"/>
+                                    <rect key="frame" x="33" y="208" width="200" height="460"/>
                                 </variation>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="9000 1 Clothing Back 1 Cape.png" translatesAutoresizingMaskIntoConstraints="NO" id="ns7-bT-0Ar">
@@ -1456,7 +1725,7 @@
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
-                                    <rect key="frame" x="25" y="247" width="200" height="460"/>
+                                    <rect key="frame" x="33" y="208" width="200" height="460"/>
                                 </variation>
                             </imageView>
                             <imageView opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="9000 2 Torso 0 Default.png" translatesAutoresizingMaskIntoConstraints="NO" id="y91-bt-82f">
@@ -1464,7 +1733,7 @@
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
-                                    <rect key="frame" x="25" y="247" width="200" height="460"/>
+                                    <rect key="frame" x="33" y="208" width="200" height="460"/>
                                 </variation>
                             </imageView>
                             <imageView opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="9000 3 Legs 0 Default.png" translatesAutoresizingMaskIntoConstraints="NO" id="Xm6-Gs-z4M">
@@ -1472,7 +1741,7 @@
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
-                                    <rect key="frame" x="25" y="247" width="200" height="460"/>
+                                    <rect key="frame" x="33" y="208" width="200" height="460"/>
                                 </variation>
                             </imageView>
                             <imageView opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="9000 5 Arms 0 Default.png" translatesAutoresizingMaskIntoConstraints="NO" id="HOL-0O-GfN">
@@ -1480,7 +1749,7 @@
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
-                                    <rect key="frame" x="25" y="247" width="200" height="460"/>
+                                    <rect key="frame" x="33" y="208" width="200" height="460"/>
                                 </variation>
                             </imageView>
                             <imageView opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="9000 6 Clothing Front 7 Hero Suit.png" translatesAutoresizingMaskIntoConstraints="NO" id="oJz-za-SoJ">
@@ -1488,7 +1757,7 @@
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
-                                    <rect key="frame" x="25" y="247" width="200" height="460"/>
+                                    <rect key="frame" x="33" y="208" width="200" height="460"/>
                                 </variation>
                             </imageView>
                             <imageView opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="1 6 Clothing Front 1 Cape.png" translatesAutoresizingMaskIntoConstraints="NO" id="D85-qX-lIQ">
@@ -1496,7 +1765,7 @@
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
-                                    <rect key="frame" x="25" y="247" width="200" height="460"/>
+                                    <rect key="frame" x="33" y="208" width="200" height="460"/>
                                 </variation>
                             </imageView>
                             <imageView opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="9000 7 Head 0 Default.png" translatesAutoresizingMaskIntoConstraints="NO" id="M3c-lC-9v5">
@@ -1504,7 +1773,7 @@
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
-                                    <rect key="frame" x="25" y="247" width="200" height="460"/>
+                                    <rect key="frame" x="33" y="208" width="200" height="460"/>
                                 </variation>
                             </imageView>
                             <imageView opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="9000 8 Mouth 3 Thoughtful.png" translatesAutoresizingMaskIntoConstraints="NO" id="2MW-w7-Lpf">
@@ -1512,7 +1781,7 @@
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
-                                    <rect key="frame" x="25" y="247" width="200" height="460"/>
+                                    <rect key="frame" x="33" y="208" width="200" height="460"/>
                                 </variation>
                             </imageView>
                             <imageView opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="9000 9 Eye Whites 0 Default.png" translatesAutoresizingMaskIntoConstraints="NO" id="tyA-Td-dQf">
@@ -1520,7 +1789,7 @@
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
-                                    <rect key="frame" x="25" y="247" width="200" height="460"/>
+                                    <rect key="frame" x="33" y="208" width="200" height="460"/>
                                 </variation>
                             </imageView>
                             <imageView opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="9000 10 Eye Pupils 3 Thoughtful.png" translatesAutoresizingMaskIntoConstraints="NO" id="M5a-hx-ooD">
@@ -1528,7 +1797,7 @@
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
-                                    <rect key="frame" x="25" y="247" width="200" height="460"/>
+                                    <rect key="frame" x="33" y="208" width="200" height="460"/>
                                 </variation>
                             </imageView>
                             <imageView opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Fcn-AV-FFR">
@@ -1541,7 +1810,7 @@
                                     <rect key="frame" x="0.0" y="0.0" width="0.0" height="0.0"/>
                                 </variation>
                                 <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
-                                    <rect key="frame" x="25" y="247" width="200" height="460"/>
+                                    <rect key="frame" x="33" y="208" width="200" height="460"/>
                                 </variation>
                             </imageView>
                             <imageView opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="9000 12 Eye Brows 3 Thoughtful.png" translatesAutoresizingMaskIntoConstraints="NO" id="R4z-6Y-9Jm">
@@ -1549,7 +1818,7 @@
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
-                                    <rect key="frame" x="25" y="247" width="200" height="460"/>
+                                    <rect key="frame" x="33" y="208" width="200" height="460"/>
                                 </variation>
                             </imageView>
                             <imageView opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="9000 13 Hair Front 0 Short.png" translatesAutoresizingMaskIntoConstraints="NO" id="see-gT-k62">
@@ -1557,7 +1826,7 @@
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
-                                    <rect key="frame" x="25" y="247" width="200" height="460"/>
+                                    <rect key="frame" x="33" y="208" width="200" height="460"/>
                                 </variation>
                             </imageView>
                         </subviews>
@@ -1622,7 +1891,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
-                                    <rect key="frame" x="16" y="750" width="35" height="30"/>
+                                    <rect key="frame" x="14" y="715" width="75" height="40"/>
                                 </variation>
                                 <connections>
                                     <segue destination="ohO-wC-Nsv" kind="show" id="7Ul-wQ-XNy"/>
@@ -1932,7 +2201,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
-                                    <rect key="frame" x="16" y="750" width="35" height="30"/>
+                                    <rect key="frame" x="14" y="715" width="75" height="40"/>
                                 </variation>
                                 <connections>
                                     <segue destination="9Hz-or-0E6" kind="show" id="H3j-T1-rY0"/>
@@ -2065,18 +2334,6 @@
                                     <action selector="stopVoiceOver:" destination="jcp-Aj-XbN" eventType="touchUpInside" id="cPj-tG-cl0"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iP5-vo-J6e">
-                                <rect key="frame" x="16" y="550" width="35" height="30"/>
-                                <state key="normal" title="Back">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
-                                    <rect key="frame" x="22" y="717" width="35" height="30"/>
-                                </variation>
-                                <connections>
-                                    <segue destination="327-o1-09d" kind="show" id="oeO-9L-x2D"/>
-                                </connections>
-                            </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JYL-F7-eiq">
                                 <rect key="frame" x="16" y="28" width="568" height="175"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -2102,6 +2359,18 @@
                                 </variation>
                                 <connections>
                                     <segue destination="rc7-u5-mAg" kind="presentation" id="axW-Dq-vLC"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iP5-vo-J6e">
+                                <rect key="frame" x="16" y="550" width="35" height="30"/>
+                                <state key="normal" title="Back">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="14" y="715" width="75" height="40"/>
+                                </variation>
+                                <connections>
+                                    <segue destination="327-o1-09d" kind="show" id="oeO-9L-x2D"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -2168,7 +2437,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
-                                    <rect key="frame" x="16" y="738" width="35" height="30"/>
+                                    <rect key="frame" x="14" y="715" width="75" height="40"/>
                                 </variation>
                                 <connections>
                                     <segue destination="jcp-Aj-XbN" kind="show" id="0uv-YX-gsc"/>
@@ -2444,18 +2713,6 @@
                                     <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
                                 </variation>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="D5B-qr-ie5">
-                                <rect key="frame" x="16" y="550" width="35" height="30"/>
-                                <state key="normal" title="Back">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
-                                    <rect key="frame" x="16" y="738" width="35" height="30"/>
-                                </variation>
-                                <connections>
-                                    <segue destination="rc7-u5-mAg" kind="show" id="Y4C-RA-HFM"/>
-                                </connections>
-                            </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="This is a new label" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="odc-ZL-0hK">
                                 <rect key="frame" x="16" y="28" width="568" height="175"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -2520,6 +2777,18 @@
                                     <action selector="stopVoiceOver:" destination="BVh-UC-gvu" eventType="touchUpInside" id="ZQI-zU-L1Y"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="D5B-qr-ie5">
+                                <rect key="frame" x="16" y="550" width="35" height="30"/>
+                                <state key="normal" title="Back">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="14" y="715" width="75" height="40"/>
+                                </variation>
+                                <connections>
+                                    <segue destination="rc7-u5-mAg" kind="show" id="Y4C-RA-HFM"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.0" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                         <variation key="default">
@@ -2569,6 +2838,9 @@
                                 <state key="normal" title="Back">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="14" y="715" width="75" height="40"/>
+                                </variation>
                                 <connections>
                                     <segue destination="BVh-UC-gvu" kind="show" id="KbB-w3-S4e"/>
                                 </connections>
@@ -2707,6 +2979,9 @@
                                 <state key="normal" title="Back">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="14" y="715" width="75" height="40"/>
+                                </variation>
                                 <connections>
                                     <segue destination="cu6-6a-4d8" kind="show" id="MSS-3A-zlW"/>
                                 </connections>
@@ -2717,9 +2992,6 @@
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" fixedFrame="YES" progress="0.5" progressImage="SunSlider.png" trackImage="SunSlider.png" translatesAutoresizingMaskIntoConstraints="NO" id="Wsm-Sl-rwa">
-                                <rect key="frame" x="16" y="299" width="568" height="2"/>
-                            </progressView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9iB-Sh-F8F">
                                 <rect key="frame" x="552" y="550" width="32" height="30"/>
                                 <state key="normal" title="Next">
@@ -2740,7 +3012,6 @@
                     <size key="freeformSize" width="1024" height="768"/>
                     <connections>
                         <outlet property="answerLabel" destination="t5r-5g-GMR" id="ZXP-6p-aTC"/>
-                        <outlet property="resultsProgress" destination="Wsm-Sl-rwa" id="oPO-28-1qk"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="zH8-Vd-YDY" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -2922,7 +3193,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
-                                    <rect key="frame" x="16" y="738" width="35" height="30"/>
+                                    <rect key="frame" x="14" y="715" width="75" height="40"/>
                                 </variation>
                                 <connections>
                                     <segue destination="F46-dU-CqZ" kind="show" id="z3u-Mt-DTG"/>
@@ -3174,7 +3445,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
-                                    <rect key="frame" x="16" y="718" width="35" height="30"/>
+                                    <rect key="frame" x="14" y="715" width="75" height="40"/>
                                 </variation>
                                 <connections>
                                     <segue destination="eXg-CJ-cf5" kind="show" id="Ogg-Jz-Ar9"/>
@@ -3323,6 +3594,9 @@
                                 <state key="normal" title="Back">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="14" y="715" width="75" height="40"/>
+                                </variation>
                                 <connections>
                                     <segue destination="yy7-Re-9Kd" kind="show" id="HXE-c3-rDF"/>
                                 </connections>
@@ -3345,18 +3619,6 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="s40-z8-oQ9">
-                                <rect key="frame" x="552" y="550" width="32" height="30"/>
-                                <state key="normal" title="Next">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
-                                    <rect key="frame" x="935" y="715" width="75" height="40"/>
-                                </variation>
-                                <connections>
-                                    <segue destination="sOW-Jp-z0S" kind="presentation" id="flJ-Uj-mxe"/>
-                                </connections>
-                            </button>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="k1U-Lj-mr2">
                                 <rect key="frame" x="16" y="28" width="554" height="103"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -3379,6 +3641,18 @@
                             <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Orange Slice.png" translatesAutoresizingMaskIntoConstraints="NO" id="kxr-nW-fQ6">
                                 <rect key="frame" x="400" y="139" width="184" height="140"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="s40-z8-oQ9">
+                                <rect key="frame" x="552" y="550" width="32" height="30"/>
+                                <state key="normal" title="Next">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="935" y="715" width="75" height="40"/>
+                                </variation>
+                                <connections>
+                                    <segue destination="sOW-Jp-z0S" kind="presentation" id="flJ-Uj-mxe"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -3413,6 +3687,9 @@
                                 <state key="normal" title="Back">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="14" y="715" width="75" height="40"/>
+                                </variation>
                                 <connections>
                                     <segue destination="YiR-f4-jdd" kind="show" id="MPr-Bf-8n3"/>
                                 </connections>
@@ -3435,9 +3712,6 @@
                                     <segue destination="SPC-EZ-u9d" kind="presentation" id="8EK-Rt-s2P"/>
                                 </connections>
                             </button>
-                            <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" fixedFrame="YES" progress="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="MFE-K2-32Q">
-                                <rect key="frame" x="16" y="299" width="568" height="2"/>
-                            </progressView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -3446,7 +3720,6 @@
                     <size key="freeformSize" width="1024" height="768"/>
                     <connections>
                         <outlet property="answerLabel" destination="yVr-cO-LNy" id="SB1-Ym-7eN"/>
-                        <outlet property="resultsProgress" destination="MFE-K2-32Q" id="N9O-uF-IGP"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="L9m-1W-H45" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -3465,15 +3738,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6B2-4d-lbc">
-                                <rect key="frame" x="16" y="550" width="35" height="30"/>
-                                <state key="normal" title="Back">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <segue destination="sOW-Jp-z0S" kind="show" id="J6b-Uu-fG9"/>
-                                </connections>
-                            </button>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="jRv-HJ-EP8">
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <string key="text">It's a beautiful day! You only have a little time before you have to go battle Dr. Dastardly in his castle in the centre of the earth to save the world, though. Time is of the essence! How much time should you spend outside to get your vitamin D today?</string>
@@ -3553,6 +3817,18 @@
                                     <rect key="frame" x="158" y="342" width="364" height="343"/>
                                 </variation>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6B2-4d-lbc">
+                                <rect key="frame" x="16" y="550" width="35" height="30"/>
+                                <state key="normal" title="Back">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="16" y="715" width="75" height="40"/>
+                                </variation>
+                                <connections>
+                                    <segue destination="sOW-Jp-z0S" kind="show" id="J6b-Uu-fG9"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -3587,6 +3863,9 @@
                                 <state key="normal" title="Back">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="14" y="715" width="75" height="40"/>
+                                </variation>
                                 <connections>
                                     <segue destination="SPC-EZ-u9d" kind="show" id="6GF-6v-d9i"/>
                                 </connections>
@@ -3597,6 +3876,9 @@
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="PRJ-XN-Xvf">
+                                <rect key="frame" x="344" y="132" width="240" height="410"/>
+                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0sa-04-5Cm">
                                 <rect key="frame" x="552" y="550" width="32" height="30"/>
                                 <state key="normal" title="Next">
@@ -3609,12 +3891,6 @@
                                     <segue destination="Dv3-9o-dtw" kind="presentation" id="IHS-3h-TWr"/>
                                 </connections>
                             </button>
-                            <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" fixedFrame="YES" progress="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="hrk-KP-qqT">
-                                <rect key="frame" x="16" y="122" width="568" height="2"/>
-                            </progressView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="PRJ-XN-Xvf">
-                                <rect key="frame" x="344" y="132" width="240" height="410"/>
-                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -3624,7 +3900,6 @@
                     <connections>
                         <outlet property="answerLabel" destination="mkm-eB-JY5" id="Gk2-dv-1p0"/>
                         <outlet property="drDastardly" destination="PRJ-XN-Xvf" id="IIL-hH-TKz"/>
-                        <outlet property="resultsProgress" destination="hrk-KP-qqT" id="tuL-CT-Zh9"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="MMX-zV-jnw" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -3648,6 +3923,9 @@
                                 <state key="normal" title="Back">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="14" y="715" width="75" height="40"/>
+                                </variation>
                                 <connections>
                                     <segue destination="FUU-vk-SNg" kind="show" id="iWB-yu-uBZ"/>
                                 </connections>
@@ -3677,18 +3955,6 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bx3-tk-hZ0">
-                                <rect key="frame" x="552" y="550" width="32" height="30"/>
-                                <state key="normal" title="Next">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
-                                    <rect key="frame" x="935" y="715" width="75" height="40"/>
-                                </variation>
-                                <connections>
-                                    <segue destination="eoX-W4-8Q0" kind="presentation" id="wxd-wL-1je"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fbb-na-sHs">
                                 <rect key="frame" x="326" y="164" width="251" height="72"/>
                                 <state key="normal" title="Less">
@@ -3708,6 +3974,18 @@
                                 <connections>
                                     <action selector="chooseInside:" destination="rc7-u5-mAg" eventType="touchUpInside" id="TOF-hD-Dpg"/>
                                     <action selector="chooseMore:" destination="Dv3-9o-dtw" eventType="touchUpInside" id="d0g-qK-OIf"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bx3-tk-hZ0">
+                                <rect key="frame" x="552" y="550" width="32" height="30"/>
+                                <state key="normal" title="Next">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="935" y="715" width="75" height="40"/>
+                                </variation>
+                                <connections>
+                                    <segue destination="eoX-W4-8Q0" kind="presentation" id="wxd-wL-1je"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -3743,6 +4021,9 @@
                                 <state key="normal" title="Back">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="14" y="715" width="75" height="40"/>
+                                </variation>
                                 <connections>
                                     <segue destination="Dv3-9o-dtw" kind="show" id="q5m-AR-iHb"/>
                                 </connections>
@@ -3765,9 +4046,6 @@
                                     <segue destination="CF2-8p-TX7" kind="presentation" id="gWr-xs-ssc"/>
                                 </connections>
                             </button>
-                            <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" fixedFrame="YES" progress="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="EZg-YI-36d">
-                                <rect key="frame" x="16" y="299" width="568" height="2"/>
-                            </progressView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -3776,7 +4054,6 @@
                     <size key="freeformSize" width="1024" height="768"/>
                     <connections>
                         <outlet property="answerLabel" destination="iDJ-MT-OAd" id="q7C-pa-poo"/>
-                        <outlet property="resultsProgress" destination="EZg-YI-36d" id="NSM-7P-btb"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="W6e-cc-lNN" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -3850,12 +4127,17 @@
         <image name="0 8 Mouth 0 Default.png" width="600" height="600"/>
         <image name="0 9 Eye Whites 0 Default.png" width="600" height="600"/>
         <image name="1 0 Hair Back 1 Long.png" width="1000" height="2300"/>
-        <image name="1 1 Clothing Back 1 Cape.png" width="1000" height="2300"/>
         <image name="1 10 Eye Pupils 0 Default.png" width="1000" height="2300"/>
         <image name="1 12 Eye Brows 0 Default.png" width="1000" height="2300"/>
         <image name="1 13 Hair Front 1 Long.png" width="1000" height="2300"/>
+        <image name="1 14 Accessories 1 Aviators.png" width="1000" height="2300"/>
+        <image name="1 14 Accessories 2 Ray Bans.png" width="1000" height="2300"/>
+        <image name="1 15 Hat 1 Wide-brimmed.png" width="1000" height="2300"/>
         <image name="1 2 Torso 0 Default.png" width="1000" height="2300"/>
         <image name="1 3 Legs 0 Default.png" width="1000" height="2300"/>
+        <image name="1 4 Shoes 1 Thongs.png" width="1000" height="2300"/>
+        <image name="1 4 Shoes 2 Shoes A.png" width="1000" height="2300"/>
+        <image name="1 4 Shoes 3 Shoes B.png" width="1000" height="2300"/>
         <image name="1 5 Arms 0 Default.png" width="1000" height="2300"/>
         <image name="1 6 Clothing Front 1 Cape.png" width="1000" height="2300"/>
         <image name="1 6 Clothing Front 2 Dress.png" width="1000" height="2300"/>
@@ -3888,7 +4170,6 @@
         <image name="Jail Bars.png" width="2292" height="1650"/>
         <image name="Jail_background.png" width="2292" height="1650"/>
         <image name="Orange Slice.png" width="321" height="187"/>
-        <image name="SunSlider.png" width="1616" height="1571"/>
         <image name="UFO.png" width="601" height="333"/>
         <image name="VillainTongue1.png" width="925" height="2034"/>
         <image name="background_beach.png" width="2000" height="1412"/>
@@ -3902,29 +4183,29 @@
     <inferredMetricsTieBreakers>
         <segue reference="RO5-1v-MuV"/>
         <segue reference="I51-PT-CDk"/>
-        <segue reference="wVv-zj-ql1"/>
+        <segue reference="raE-9l-FqN"/>
         <segue reference="S3c-bv-99a"/>
-        <segue reference="QuB-jU-5hG"/>
-        <segue reference="KbB-w3-S4e"/>
-        <segue reference="Y4C-RA-HFM"/>
         <segue reference="730-eO-kLg"/>
-        <segue reference="pjI-mo-aoE"/>
-        <segue reference="QnE-VF-aHs"/>
-        <segue reference="GiL-OM-iIk"/>
-        <segue reference="jXW-zi-QpK"/>
-        <segue reference="q5m-AR-iHb"/>
-        <segue reference="S6r-9I-Rim"/>
-        <segue reference="oeO-9L-x2D"/>
+        <segue reference="gtJ-gJ-dms"/>
+        <segue reference="SfT-xc-8QN"/>
+        <segue reference="caU-3v-9bs"/>
+        <segue reference="7Ul-wQ-XNy"/>
         <segue reference="H3j-T1-rY0"/>
+        <segue reference="UFl-Iv-vf9"/>
+        <segue reference="2YE-jA-yif"/>
+        <segue reference="QnE-VF-aHs"/>
+        <segue reference="jXW-zi-QpK"/>
+        <segue reference="IHS-3h-TWr"/>
+        <segue reference="iWB-yu-uBZ"/>
+        <segue reference="0uv-YX-gsc"/>
+        <segue reference="Y4C-RA-HFM"/>
+        <segue reference="KbB-w3-S4e"/>
+        <segue reference="MSS-3A-zlW"/>
         <segue reference="z3u-Mt-DTG"/>
         <segue reference="AVT-uC-7be"/>
-        <segue reference="tFT-K4-j4Z"/>
-        <segue reference="8EK-Rt-s2P"/>
-        <segue reference="flJ-Uj-mxe"/>
+        <segue reference="HXE-c3-rDF"/>
         <segue reference="MPr-Bf-8n3"/>
-        <segue reference="PdL-iG-df5"/>
-        <segue reference="D4F-0t-lYV"/>
-        <segue reference="6bh-Wl-hpC"/>
-        <segue reference="SfT-xc-8QN"/>
+        <segue reference="flJ-Uj-mxe"/>
+        <segue reference="8EK-Rt-s2P"/>
     </inferredMetricsTieBreakers>
 </document>
