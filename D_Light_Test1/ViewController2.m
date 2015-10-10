@@ -7,7 +7,6 @@
 //
 
 #import "ViewController2.h"
-#import "Character.h"
 
 @interface ViewController2 ()
 //Private Variables
@@ -19,13 +18,12 @@
 @property NSString *currentHairBack;
 @property int currentHairInt;
 @property int currentHeadInt;
-@property int sex;
 @property CGFloat currentEyeHue;
 @property CGFloat currentSkinRed;
 @property CGFloat currentSkinGreen;
 @property CGFloat currentSkinBlue;
 @property CGFloat currentHairHue;
-
+@property CGFloat currentSkinTone;
 
 @end
 
@@ -46,7 +44,7 @@
 //Skin Slider
 - (IBAction)skinSlider:(UISlider *)sender {
     
-    CGFloat sliderVal = sender.value;
+    self.currentSkinTone = sender.value;
     
     /*
      *These algorithms were obtained byusing two values from bitstrips.com/r/RK8C0
@@ -54,9 +52,9 @@
      *to get these values with sliderVal from 0 to 1.
      */
 
-    self.currentSkinRed = (248.0 - 161.0*sliderVal)/255;
-    self.currentSkinGreen = (205.0 - 150.0*sliderVal)/255;
-    self.currentSkinBlue = (168.0 - 145.0*sliderVal)/255;
+    self.currentSkinRed = (248.0 - 161.0*self.currentSkinTone)/255;
+    self.currentSkinGreen = (205.0 - 150.0*self.currentSkinTone)/255;
+    self.currentSkinBlue = (168.0 - 145.0*self.currentSkinTone)/255;
     
     [self setDefaults];
     [self updateLook];
@@ -76,7 +74,6 @@
 {
     [super viewDidLoad];
     //put code here or call another method
-    //[self showDefaults];
     [self setUp];
 }
 
@@ -86,31 +83,19 @@
     self.currentHairBack = @"";
     self.currentFace = @"0 7 Head 0 Default.png";
     
-    self.currentSkinRed = 248.0/255;
-    self.currentSkinGreen = 205.0/255;
-    self.currentSkinBlue = 168.0/255;
+    self.currentSkinRed = 167.5/255;
+    self.currentSkinGreen = 130.0/255;
+    self.currentSkinBlue = 95.5/255;
+    self.currentSkinTone = 0.5;
     self.currentHairHue = 0.5;
     self.currentEyeHue = 0.5;
+    self.currentHairInt = 0;
+    self.currentHeadInt = 0;
+    
+    [self setDefaults];
     [self updateLook];
 }
 
-/*- (void) showDefaults
-{
-    //self.boyOrGirl.textColor = [UIColor redColor];
-    
-    
-    NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
-    NSInteger sex = [defaults integerForKey:@"sex"];
-    if (sex == 0) {
-        //self.Character.image = [UIImage imageNamed:@"boy1.png"];
-        
-    }
-    else if (sex == 1) {
-        //self.Character.image = [UIImage imageNamed:@"girl1.jpeg"];
-        
-    }
-    
-}*/
 
 
 
@@ -142,40 +127,30 @@
     self.hair.image = [self changeImage:[UIImage imageNamed:self.currentHair] toColour:[UIColor colorWithHue:self.currentHairHue saturation:0.5 brightness:0.5 alpha:1]];
     if(self.currentHairInt == 1){
         self.hairBack.image = [self changeImage:[UIImage imageNamed:self.currentHairBack] toColour:[UIColor colorWithHue:self.currentHairHue saturation:0.5 brightness:0.5 alpha:1]];
+    } else {
+        self.hairBack.image = nil;
     }
     self.eyes.image = [self changeImage:[UIImage imageNamed:@"0 10 Eye Pupils 0 Default"] toColour:[UIColor colorWithHue:self.currentEyeHue saturation:0.5 brightness:0.5 alpha:1]];
     
-    //fixes the changing image problem
-   /* NSString *boyOrGirl;
-    if (self.sex == 0) {
-        boyOrGirl = @"boy";
-    } else if (self.sex == 1){
-        boyOrGirl = @"girl";
-    }
-    for (int i=0; i<2; i++) {
-        UIButton *hair = self.hairImages[i];
-        UIImage *temp = [UIImage imageNamed:[NSString stringWithFormat:@"%@Hair%i", boyOrGirl, i]];
-        hair.imageView.image = temp;
-        [hair setImage:temp forState:UIControlStateNormal];
-    }*/
+
 }
 
 //sets all user defaults based on variables
 - (void) setDefaults
 {
     NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
-    [defaults setInteger:self.sex forKey:@"sex"];
     [defaults setFloat:self.currentEyeHue forKey:@"eyeHue"];
     [defaults setFloat:self.currentSkinRed forKey:@"skinRed"];
     [defaults setFloat:self.currentSkinGreen forKey:@"skinGreen"];
     [defaults setFloat:self.currentSkinBlue forKey:@"skinBlue"];
+    [defaults setFloat:self.currentSkinTone forKey:@"skinTone"];
     [defaults setFloat:self.currentHairHue forKey:@"hairHue"];
     [defaults setInteger:self.currentHairInt forKey:@"hair"];
     [defaults setInteger:self.currentHeadInt forKey:@"head"];
 }
 
 
-
+// CHange hair styles
 - (IBAction)hair1:(UIButton *)sender {
    
     
@@ -201,15 +176,21 @@
 - (IBAction)hair4:(UIButton *)sender {
 }
 
+//Change head shapes
 - (IBAction)head1:(UIButton *)sender {
     self.currentFace = @"0 7 Head 0 Default.png";
     self.currentHeadInt = 0;
+    [self setDefaults];
+    [self updateLook];
 }
 
 - (IBAction)head2:(UIButton *)sender {
     self.currentFace = @"0 7 Head 1 Egg.png";
-    self.currentHeadInt = 0;
+    self.currentHeadInt = 1;
+    [self setDefaults];
+    [self updateLook];
 }
+
 
 - (IBAction)eyelashes:(UISwitch *)sender {
     

@@ -8,11 +8,15 @@
 
 #import "ViewController.h"
 #import <Foundation/Foundation.h>
+#import <AVFoundation/AVFoundation.h>
 
 @interface Answer2 : ViewController
 
 //Public Variables
+- (IBAction)listenToVoiceOver:(UIButton *)sender;
+- (IBAction)stopVoiceOver:(UIButton *)sender;
+@property (weak, nonatomic) IBOutlet UIButton *nextButton;
 @property (weak, nonatomic) IBOutlet UILabel *answerLabel;
-@property (weak, nonatomic) IBOutlet UIProgressView *resultsProgress;
+@property (weak, nonatomic) IBOutlet UIImageView *sunImage;
 
 @end

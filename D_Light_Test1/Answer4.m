@@ -11,6 +11,8 @@
 #define UPPER_BOUND 20  //upper bound for the correct number of minutes at the beach
 
 @interface Answer4 ()
+<AVAudioPlayerDelegate>
+@property (strong, nonatomic) AVAudioPlayer *audioPlayer;
 //Private Variables
 
 

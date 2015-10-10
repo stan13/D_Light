@@ -8,12 +8,27 @@
 
 #import "ViewController.h"
 #import <Foundation/Foundation.h>
+#import <AVFoundation/AVFoundation.h>
 
 @interface Decision1 : ViewController
 
 //Public Variables
-- (IBAction)changeMinutes:(UISlider *)sender;
-@property (weak, nonatomic) IBOutlet UILabel *minutesLabel;
+
+- (IBAction)listenToVoiceOver:(UIButton *)sender;
+- (IBAction)stopVoiceOver:(UIButton *)sender;
+@property (weak, nonatomic) IBOutlet UIButton *nextButton;
+- (IBAction)chooseYes:(UIButton *)sender;
+- (IBAction)chooseNo:(UIButton *)sender;
+@property (weak, nonatomic) IBOutlet UIButton *yesButton;
+@property (weak, nonatomic) IBOutlet UIButton *noButton;
+
+@property (weak, nonatomic) IBOutlet UIImageView *hairBack;
+@property (weak, nonatomic) IBOutlet UIImageView *skinLegs;
+@property (weak, nonatomic) IBOutlet UIImageView *skinArms;
+@property (weak, nonatomic) IBOutlet UIImageView *skinHead;
+@property (weak, nonatomic) IBOutlet UIImageView *eyes;
+@property (weak, nonatomic) IBOutlet UIImageView *hairFront;
+
 
 @end
 

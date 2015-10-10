@@ -26,8 +26,8 @@
     
     
     NSURL *url = [NSURL fileURLWithPath:[[NSBundle mainBundle]
-                                         pathForResource:@"applause"
-                                         ofType:@"mp3"]];
+                                         pathForResource:@"Slide 1"
+                                         ofType:@"wav"]];
     
     NSError *error;
     _audioPlayer = [[AVAudioPlayer alloc]
