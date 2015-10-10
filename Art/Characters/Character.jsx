@@ -171,12 +171,18 @@ var character = {
     }
 };
 
-//character.exportEachLayer();
+character.exportEachLayer();
 
 character.showAllLayers();
 
+//Set Hat
+character.selectSublayers([0, 15], [1]);
+
+//Set Accessories
+character.selectSublayers([14], [1]);
+
 //Set hairstyle
-character.selectSublayers([0, 13], [0]);
+character.selectSublayers([0, 13], [2]);
 
 //Set eyelashes
 character.selectSublayers([11], [0]);
@@ -185,11 +191,13 @@ character.selectSublayers([11], [0]);
 character.selectSublayers([8, 9, 10, 12], [1]);
 
 //Set head shape
-character.selectSublayers([7], [1]);
+character.selectSublayers([7], [0]);
 
 //Set clothing
-character.selectSublayers([1, 6], [1, 7]);
+character.selectSublayers([1, 6], [3, 4]);
 
 //Set body and limbs
 character.selectSublayers([2, 3, 5], []);
 
+//Set shoes
+character.selectSublayers([4], [3]);
