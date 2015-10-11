@@ -11,6 +11,7 @@
 #import <AVFoundation/AVFoundation.h>
 
 @interface Decision3 : ViewController
+@property (weak, nonatomic) IBOutlet UIImageView *HealthBar;
 
 - (IBAction)listenToVoiceOver:(UIButton *)sender;
 - (IBAction)stopVoiceOver:(UIButton *)sender;

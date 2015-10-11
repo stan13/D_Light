@@ -23,6 +23,7 @@
     [super viewDidLoad];
     //put code here or call another method
     self.nextButton.enabled = NO;
+    [self healthBar];
 }
 
 - (IBAction)chooseMore:(UIButton *)sender {
@@ -48,6 +49,27 @@
     self.lessButton.backgroundColor = [UIColor grayColor];
     NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
     [defaults setInteger:3 forKey:@"timeInSunSmoke"];
+}
+//Function that loads health bar
+- (void) healthBar {
+    NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
+    NSInteger health = [defaults integerForKey:@"health"];
+    //check that health not over boundaries
+    if (health < 0) {
+        health = 0;
+    }
+    if (health > 10) {
+        health = 10;
+    }
+    [defaults setInteger:health forKey:@"health"];
+    //make rectangle inside - green with size = health*40
+    UIImageView *healthAmount = [[UIImageView alloc] initWithFrame:CGRectMake(6, 6, health*39, 24)];
+    if (health <= 3) {
+        healthAmount.backgroundColor = [UIColor redColor];
+    } else {
+        healthAmount.backgroundColor = [UIColor greenColor];
+    }
+    [self.HeathBar addSubview:healthAmount];
 }
 @end
 

@@ -11,6 +11,7 @@
 #import <AVFoundation/AVFoundation.h>
 
 @interface Decision7 : ViewController
+@property (weak, nonatomic) IBOutlet UIImageView *HeathBar;
 
 @property (weak, nonatomic) IBOutlet UIButton *moreButton;
 - (IBAction)chooseMore:(UIButton *)sender;

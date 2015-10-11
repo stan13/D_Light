@@ -13,6 +13,7 @@
 @interface Decision1 : ViewController
 
 //Public Variables
+@property (weak, nonatomic) IBOutlet UIImageView *HealthBar;
 
 - (IBAction)listenToVoiceOver:(UIButton *)sender;
 - (IBAction)stopVoiceOver:(UIButton *)sender;

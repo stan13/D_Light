@@ -11,6 +11,7 @@
 #import <AVFoundation/AVFoundation.h>
 
 @interface Decision6 : ViewController
+@property (weak, nonatomic) IBOutlet UIImageView *HeathBar;
 @property (weak, nonatomic) IBOutlet UIImageView *foodWithNone;
 @property (weak, nonatomic) IBOutlet UIImageView *foodWithSome;
 @property (weak, nonatomic) IBOutlet UIImageView *foodWithEnough;

@@ -8,8 +8,6 @@
 
 #import "Answer1.h"
 #define SKIN_TONE_CUT_OFF 0.5
-#define SUN_BLUE_VALUE 6 //out of 20
-#define SUN_RED_VALUE 14 //out of 20
 
 
 @interface Answer1 ()
@@ -42,49 +40,43 @@
         _audioPlayer.delegate = self;
         [_audioPlayer prepareToPlay];
     }
-
+    [self healthBar];
 }
 
 - (void)showAnswer
 {
     NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
-    int answer = (int)[defaults integerForKey:@"Decision1"];
+    NSInteger health = [defaults integerForKey:@"health"];
     CGFloat skinTone = [defaults floatForKey:@"skinTone"];
-    int result = (int)[defaults integerForKey:@"result"];
+    int answer = (int)[defaults integerForKey:@"Decision1"];
     switch (answer) {
         case 1:
             if (skinTone < SKIN_TONE_CUT_OFF) {
                 self.answerLabel.text = @"Correct! ☺ On a sunny day when the UV index is high, it takes a few minutes to make enough vitamin D if you have light coloured skin. Go capture Dr Dastardly!";
                 self.audioFile = @"Slide 8 - light skin correct";
+                health++;
             }else{
                 self.answerLabel.text = @"Incorrect. ☹ Even on a sunny day when the UV index is high, it takes more than a few minutes to make enough vitamin D if you do not have light coloured skin. ";
                 self.audioFile = @"Slide 8 - dark skin incorrect";
-                result--;
+                health--;
             }
             break;
         case 2:
             if (skinTone < SKIN_TONE_CUT_OFF) {
                 self.answerLabel.text = @"Incorrect. ☹ On a sunny day when the UV index is high, it takes a few minutes to make enough vitamin D if you have light coloured skin. ";
                 self.audioFile = @"Slide 8 - light skin incorrect";
-                result++;
+                health--;
             }else{
                 self.answerLabel.text = @"Correct! ☺ On a sunny day when the UV index is high, it takes more than a few minutes to make enough vitamin D if you do not have light coloured skin. Go capture Dr Dastardly!";
                 self.audioFile = @"Slide 8 - dark skin correct";
+                health++;
             }
             break;
             
         default:
             break;
     }
-    //self.resultsProgress.progress = result/20.0;
-    if (result <= SUN_BLUE_VALUE) {
-        self.sunImage.image = [UIImage imageNamed:@"SunBlue.png"];
-    }else if (result < SUN_RED_VALUE){
-        self.sunImage.image = [UIImage imageNamed:@"SunNormal.png"];
-    }else{
-        self.sunImage.image = [UIImage imageNamed:@"SunRed.png"];
-    }
-    [defaults setInteger:result forKey:@"result"];
+    [defaults setInteger:health forKey:@"health"];
 
 }
 
@@ -104,6 +96,26 @@
     self.nextButton.enabled = YES;
 }
 
-
+//Function that loads health bar
+- (void) healthBar {
+    NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
+    NSInteger health = [defaults integerForKey:@"health"];
+    //check that health not over boundaries
+    if (health < 0) {
+        health = 0;
+    }
+    if (health > 10) {
+        health = 10;
+    }
+    [defaults setInteger:health forKey:@"health"];
+    //make rectangle inside - green with size = health*40
+    UIImageView *healthAmount = [[UIImageView alloc] initWithFrame:CGRectMake(6, 6, health*39, 24)];
+    if (health <= 3) {
+        healthAmount.backgroundColor = [UIColor redColor];
+    } else {
+        healthAmount.backgroundColor = [UIColor greenColor];
+    }
+    [self.HealthBar addSubview:healthAmount];
+}
 
 @end

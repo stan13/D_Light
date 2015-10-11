@@ -7,8 +7,8 @@
 //
 
 #import "Answer4.h"
-#define LOWER_BOUND 10   //lower bound for the correct number of minutes at the beach
-#define UPPER_BOUND 20  //upper bound for the correct number of minutes at the beach
+#define SUN_BLUE_VALUE 6 //out of 20
+#define SUN_RED_VALUE 14 //out of 20
 
 @interface Answer4 ()
 <AVAudioPlayerDelegate>
@@ -25,40 +25,61 @@
     [super viewDidLoad];
     //put code here or call another method
     [self showAnswer];
+    [self healthBar];
 }
 
 - (void)showAnswer
 {
     NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
-    int answer = (int)[defaults integerForKey:@"timeInSunBeach"];
-    bool sunscreen = [defaults boolForKey:@"sunscreen"];
-    int result = (int)[defaults integerForKey:@"result"];
-    if (answer < LOWER_BOUND) {
-        if (sunscreen) {
-            self.answerLabel.text = [NSString stringWithFormat:@"You selected %i minutes. Not only do you not get enough sun exposure, you also boil from wearing all that stuff. ", answer];
-        } else {
-            self.answerLabel.text = [NSString stringWithFormat:@"You selected %i minutes. Not only do you not get enough sun exposure, you also boil from wearing all that stuff. You also should have worn sunscreen", answer];
-            result++;
-        }
-        result--;
-    }else if (answer <= UPPER_BOUND){
-        if (sunscreen) {
-            self.answerLabel.text = [NSString stringWithFormat:@"You selected %i minutes. Nice job! The best idea is to expose a lot of skin for a short time, but you got the balance right.", answer];
-        } else {
-            self.answerLabel.text = [NSString stringWithFormat:@"You selected %i minutes. Nice job! The best idea is to expose a lot of skin for a short time, but you got the balance right. You also should have worn sunscreen", answer];
-            result++;
-        }
-    } else {
-        if (sunscreen) {
-            self.answerLabel.text = [NSString stringWithFormat:@"You selected %i minutes. Ouch! You got burnt. Remember the more of your skin you expose, the shorter time you have to spend in the sun to get your vitamin D for the day. ", answer];
-        } else {
-            self.answerLabel.text = [NSString stringWithFormat:@"You selected %i minutes. Ouch! You got burnt. Remember the more of your skin you expose, the shorter time you have to spend in the sun to get your vitamin D for the day. You also should have worn sunscreen", answer];
-            result++;
-        }
-        result++;
-    }
-    self.resultsProgress.progress = result/20.0;
-    [defaults setInteger:result forKey:@"result"];
-}
+    NSInteger health = [defaults integerForKey:@"health"];
 
+    NSInteger sunscreen = [defaults integerForKey:@"sunscreen"];
+    NSInteger hat = [defaults integerForKey:@"hat"];
+    NSInteger cover = [defaults integerForKey:@"cover"];
+    //increment/decrement health based on choices
+    if (sunscreen == 0) { //sunscreen good
+        health--;
+        self.SunscreenLabel.text = @"Incorrect! Sunscreen protects your skin from getting burnt but allows it to make vitamin D.";
+    } else {
+        health ++;
+        self.SunscreenLabel.text = @"Correct! Sunscreen protects your skin from getting burnt but allows it to make vitamin D.";
+    }
+    if (hat == 0) { //hat good
+        health--;
+        self.HatLabel.text = @"Incorrect. It is important to protect your face by wearing a hat.";
+    } else {
+        health++;
+        self.HatLabel.text = @"Correct. It is important to protect your face by wearing a hat.";
+    }
+    if (cover == 0) { //cover bad
+        health++;
+        self.CoverLabel.text = @"Correct. You need to expose some skin to make vitamin D.";
+    } else {
+        health--;
+        self.CoverLabel.text = @"Incorrect. You need to expose some skin to make vitamin D.";
+    }
+    
+    [defaults setInteger:health forKey:@"health"];
+}
+//Function that loads health bar
+- (void) healthBar {
+    NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
+    NSInteger health = [defaults integerForKey:@"health"];
+    //check that health not over boundaries
+    if (health < 0) {
+        health = 0;
+    }
+    if (health > 10) {
+        health = 10;
+    }
+    [defaults setInteger:health forKey:@"health"];
+    //make rectangle inside - green with size = health*40
+    UIImageView *healthAmount = [[UIImageView alloc] initWithFrame:CGRectMake(6, 6, health*39, 24)];
+    if (health <= 3) {
+        healthAmount.backgroundColor = [UIColor redColor];
+    } else {
+        healthAmount.backgroundColor = [UIColor greenColor];
+    }
+    [self.HeathBar addSubview:healthAmount];
+}
 @end

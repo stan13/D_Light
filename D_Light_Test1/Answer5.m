@@ -41,13 +41,14 @@
         _audioPlayer.delegate = self;
         [_audioPlayer prepareToPlay];
     }
+    [self healthBar];
 
 }
 
 -(void)showAnswer{
     NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
     int answer = (int)[defaults integerForKey:@"Decision5"];
-    int result = (int)[defaults integerForKey:@"result"];
+    NSInteger health = [defaults integerForKey:@"health"];
     switch (answer) {
         case 1:
             self.answerLabel.text = @"Correct! ☺ The UV index is greatest at this time of the day. You are powered up! You escape!!";
@@ -58,6 +59,7 @@
             self.eyes.image = [UIImage imageNamed:@"9000 10 Eye Pupils 0 Default.png"];
             self.eyeBrows.image = [UIImage imageNamed:@"9000 12 Eye Brows 0 Default.png"];
             [self characterSettings];
+            health++;
             break;
         case 2:
             self.answerLabel.text = @"☹ Incorrect. The UV index is lower at this time of day. You didn’t make enough vitamin D today!";
@@ -68,7 +70,7 @@
             self.eyes.image = [UIImage imageNamed:@"9000 10 Eye Pupils 4 Tired.png"];
             self.eyeBrows.image = [UIImage imageNamed:@"9000 12 Eye Brows 4 Tired.png"];
             [self characterSettings];
-            result--;
+            health--;
             break;
         case 3:
             self.answerLabel.text = @"☹ Incorrect. You can’t make vitamin D when the sun isn’t there! ";
@@ -79,24 +81,16 @@
             self.eyes.image = [UIImage imageNamed:@"9000 10 Eye Pupils 0 Default.png"];
             self.eyeBrows.image = [UIImage imageNamed:@"9000 12 Eye Brows 6 Sad.png"];
             [self characterSettings];
-            result -= 2;
+            health -= 2;
             break;
             
         default:
             break;
     }
-
-    if (result <= SUN_BLUE_VALUE) {
-        self.sunImage.image = [UIImage imageNamed:@"SunBlue.png"];
-    }else if (result < SUN_RED_VALUE){
-        self.sunImage.image = [UIImage imageNamed:@"SunNormal.png"];
-    }else{
-        self.sunImage.image = [UIImage imageNamed:@"SunRed.png"];
-    }
-    [defaults setInteger:result forKey:@"result"];
+    [defaults setInteger:health forKey:@"health"];
 }
 
-- (void)characterSettings{
+- (void)characterSettings {
     NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
     
     UIColor *skinColour = [UIColor colorWithRed:[defaults floatForKey:@"skinRed"] green:[defaults floatForKey:@"skinGreen"] blue:[defaults floatForKey: @"skinBlue"] alpha:1.0];
@@ -174,5 +168,25 @@
 {
     self.nextButton.enabled = YES;
 }
-
+//Function that loads health bar
+- (void) healthBar {
+    NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
+    NSInteger health = [defaults integerForKey:@"health"];
+    //check that health not over boundaries
+    if (health < 0) {
+        health = 0;
+    }
+    if (health > 10) {
+        health = 10;
+    }
+    [defaults setInteger:health forKey:@"health"];
+    //make rectangle inside - green with size = health*40
+    UIImageView *healthAmount = [[UIImageView alloc] initWithFrame:CGRectMake(6, 6, health*39, 24)];
+    if (health <= 3) {
+        healthAmount.backgroundColor = [UIColor redColor];
+    } else {
+        healthAmount.backgroundColor = [UIColor greenColor];
+    }
+    [self.HeathBar addSubview:healthAmount];
+}
 @end

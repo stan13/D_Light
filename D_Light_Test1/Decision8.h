@@ -11,6 +11,7 @@
 #import <AVFoundation/AVFoundation.h>
 
 @interface Decision8 : ViewController
+@property (weak, nonatomic) IBOutlet UIImageView *HeathBar;
 
 //Public Variables
 @property (weak, nonatomic) IBOutlet UIButton *moreButton;

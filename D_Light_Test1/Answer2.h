@@ -11,6 +11,7 @@
 #import <AVFoundation/AVFoundation.h>
 
 @interface Answer2 : ViewController
+@property (weak, nonatomic) IBOutlet UIImageView *HealthBar;
 
 //Public Variables
 - (IBAction)listenToVoiceOver:(UIButton *)sender;

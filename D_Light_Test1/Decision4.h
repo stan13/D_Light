@@ -11,15 +11,13 @@
 #import <AVFoundation/AVFoundation.h>
 
 @interface Decision4 : ViewController
+@property (weak, nonatomic) IBOutlet UIImageView *HeathBar;
 
-- (IBAction)option1:(UIButton *)sender;
-- (IBAction)option2:(UIButton *)sender;
-- (IBAction)option3:(UIButton *)sender;
-- (IBAction)option4:(UIButton *)sender;
-- (IBAction)changeColour:(UISlider *)sender;
-- (IBAction)chooseSunscreen:(UISwitch *)sender;
-- (IBAction)changeMinutes:(UISlider *)sender;
-@property (weak, nonatomic) IBOutlet UILabel *minutesLabel;
-@property (weak, nonatomic) IBOutlet UISwitch *sunscreenSwitch;
+@property (weak, nonatomic) IBOutlet UIButton *nextButton;
+- (IBAction)listenToVoiceOver:(UIButton *)sender;
+- (IBAction)stopVoiceOver:(UIButton *)sender;
+- (IBAction)ChooseHat:(UIButton *)sender;
+- (IBAction)ChooseSunscreen:(UIButton *)sender;
+- (IBAction)ChooseCover:(UIButton *)sender;
 
 @end

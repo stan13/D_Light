@@ -7,8 +7,6 @@
 //
 
 #import "FinalSlide.h"
-#define LOWER_BOUND 5
-#define UPPER_BOUND 15
 
 @interface FinalSlide ()
 //Private Variables
@@ -23,6 +21,7 @@
     [super viewDidLoad];
     //put code here or call another method
     [self showResults];
+    [self healthBar];
 }
 
 - (void) showResults
@@ -40,21 +39,29 @@
     //Just in case we need this information
     
     
-    int result = (int)[defaults integerForKey:@"result"];
-    
-    self.resultsProgress.progress = result/20.0;
-    
-    self.resultsLabel.text = [NSString stringWithFormat:@"Your final result is %i. You should aim to get as close to 10 as possible.", result];
-    
-    if (result < LOWER_BOUND) {
-        self.drDastardly.image = [UIImage imageNamed:@"VillainSuccess.png"];
-        
-    }else if (result <= UPPER_BOUND){
-        self.drDastardly.image = [UIImage imageNamed:@"VillainFailStanding.png"];
-    } else {
-        
-        self.drDastardly.image = [UIImage imageNamed:@"VillainSuccess.png"];
+    NSInteger health = [defaults integerForKey:@"health"];
+    self.resultsLabel.text = [NSString stringWithFormat:@"Your final result is %i. You should aim to get as close to 10 as possible.", (int)health];
+}
+//Function that loads health bar
+- (void) healthBar {
+    NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
+    NSInteger health = [defaults integerForKey:@"health"];
+    //check that health not over boundaries
+    if (health < 0) {
+        health = 0;
     }
+    if (health > 10) {
+        health = 10;
+    }
+    [defaults setInteger:health forKey:@"health"];
+    //make rectangle inside - green with size = health*40
+    UIImageView *healthAmount = [[UIImageView alloc] initWithFrame:CGRectMake(6, 6, health*39, 24)];
+    if (health <= 3) {
+        healthAmount.backgroundColor = [UIColor redColor];
+    } else {
+        healthAmount.backgroundColor = [UIColor greenColor];
+    }
+    [self.HeathBar addSubview:healthAmount];
 }
 
 @end

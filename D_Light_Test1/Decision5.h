@@ -11,6 +11,7 @@
 #import <AVFoundation/AVFoundation.h>
 
 @interface Decision5 : ViewController
+@property (weak, nonatomic) IBOutlet UIImageView *HeathBar;
 
 - (IBAction)listenToVoiceOver:(UIButton *)sender;
 - (IBAction)stopVoiceOver:(UIButton *)sender;

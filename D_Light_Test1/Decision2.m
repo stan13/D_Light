@@ -46,6 +46,7 @@
     self.nextButton.enabled = NO;
     self.choiceMade = NO;
     [self characterSettings];
+    [self healthBar];
 }
 
 - (IBAction)listenToVoiceOver:(UIButton *)sender {
@@ -108,6 +109,27 @@
     UIColor *eyeColour = [UIColor colorWithHue:[defaults floatForKey:@"eyeHue"] saturation:0.5 brightness:0.5 alpha:1];
     self.eyes.image = [self changeImage:self.eyes.image toColour:eyeColour];
     
+}
+//Function that loads health bar
+- (void) healthBar {
+    NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
+    NSInteger health = [defaults integerForKey:@"health"];
+    //check that health not over boundaries
+    if (health < 0) {
+        health = 0;
+    }
+    if (health > 10) {
+        health = 10;
+    }
+    [defaults setInteger:health forKey:@"health"];
+    //make rectangle inside - green with size = health*40
+    UIImageView *healthAmount = [[UIImageView alloc] initWithFrame:CGRectMake(6, 6, health*39, 24)];
+    if (health <= 3) {
+        healthAmount.backgroundColor = [UIColor redColor];
+    } else {
+        healthAmount.backgroundColor = [UIColor greenColor];
+    }
+    [self.HealthBar addSubview:healthAmount];
 }
 
 - (UIImage *) changeImage: (UIImage *)img toColour: (UIColor *)colour

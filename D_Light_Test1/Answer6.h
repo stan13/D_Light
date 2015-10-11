@@ -11,6 +11,7 @@
 #import <AVFoundation/AVFoundation.h>
 
 @interface Answer6 : ViewController
+@property (weak, nonatomic) IBOutlet UIImageView *HeathBar;
 @property (weak, nonatomic) IBOutlet UILabel *answerLabel;
 @property (weak, nonatomic) IBOutlet UIProgressView *resultsProgress;
 

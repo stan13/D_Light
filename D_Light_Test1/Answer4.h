@@ -12,9 +12,12 @@
 #import <AVFoundation/AVFoundation.h>
 
 @interface Answer4 : ViewController
+@property (weak, nonatomic) IBOutlet UIImageView *HeathBar;
 
 //Public Variables
-@property (weak, nonatomic) IBOutlet UILabel *answerLabel;
-@property (weak, nonatomic) IBOutlet UIProgressView *resultsProgress;
+
+@property (weak, nonatomic) IBOutlet UILabel *HatLabel;
+@property (weak, nonatomic) IBOutlet UILabel *SunscreenLabel;
+@property (weak, nonatomic) IBOutlet UILabel *CoverLabel;
 
 @end

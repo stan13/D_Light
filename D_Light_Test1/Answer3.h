@@ -12,6 +12,7 @@
 #import <AVFoundation/AVFoundation.h>
 
 @interface Answer3 : ViewController
+@property (weak, nonatomic) IBOutlet UIImageView *HeathBar;
 
 //Public Variables
 - (IBAction)listenToVoiceOver:(UIButton *)sender;

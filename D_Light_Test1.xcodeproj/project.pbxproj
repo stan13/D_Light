@@ -35,6 +35,18 @@
 		CAAF031E1BC95D1F005DBF61 /* 1 4 Shoes 2 Shoes A.png in Resources */ = {isa = PBXBuildFile; fileRef = CAAF031A1BC95D1F005DBF61 /* 1 4 Shoes 2 Shoes A.png */; };
 		CAAF031F1BC95D1F005DBF61 /* 1 4 Shoes 3 Shoes B.png in Resources */ = {isa = PBXBuildFile; fileRef = CAAF031B1BC95D1F005DBF61 /* 1 4 Shoes 3 Shoes B.png */; };
 		CAAF03201BC95D1F005DBF61 /* 1 4 Shoes 4 Hero Boots.png in Resources */ = {isa = PBXBuildFile; fileRef = CAAF031C1BC95D1F005DBF61 /* 1 4 Shoes 4 Hero Boots.png */; };
+		CAAF03231BC9B4FD005DBF61 /* left arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = CAAF03211BC9B4FD005DBF61 /* left arrow.png */; };
+		CAAF03241BC9B4FD005DBF61 /* right arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = CAAF03221BC9B4FD005DBF61 /* right arrow.png */; };
+		CAAF03271BCA5891005DBF61 /* pause Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = CAAF03251BCA5891005DBF61 /* pause Icon.png */; };
+		CAAF03281BCA5891005DBF61 /* sound Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = CAAF03261BCA5891005DBF61 /* sound Icon.png */; };
+		CAAF032A1BCA65A8005DBF61 /* background_beautiful_day.png in Resources */ = {isa = PBXBuildFile; fileRef = CAAF03291BCA65A8005DBF61 /* background_beautiful_day.png */; };
+		CAAF032D1BCA6828005DBF61 /* Fish.png in Resources */ = {isa = PBXBuildFile; fileRef = CAAF032B1BCA6828005DBF61 /* Fish.png */; };
+		CAAF032E1BCA6828005DBF61 /* Pizza.png in Resources */ = {isa = PBXBuildFile; fileRef = CAAF032C1BCA6828005DBF61 /* Pizza.png */; };
+		CAAF03301BCA7387005DBF61 /* background_food.png in Resources */ = {isa = PBXBuildFile; fileRef = CAAF032F1BCA7387005DBF61 /* background_food.png */; };
+		CAAF03321BCA7481005DBF61 /* plate1.png in Resources */ = {isa = PBXBuildFile; fileRef = CAAF03311BCA7481005DBF61 /* plate1.png */; };
+		CAAF03341BCA7B41005DBF61 /* background_island.png in Resources */ = {isa = PBXBuildFile; fileRef = CAAF03331BCA7B41005DBF61 /* background_island.png */; };
+		CAAF03361BCA88B8005DBF61 /* alien.png in Resources */ = {isa = PBXBuildFile; fileRef = CAAF03351BCA88B8005DBF61 /* alien.png */; };
+		CAAF03381BCAE53B005DBF61 /* HealthBar.png in Resources */ = {isa = PBXBuildFile; fileRef = CAAF03371BCAE53B005DBF61 /* HealthBar.png */; };
 		E5258AF71BABC5CC00CD9674 /* Decision1.m in Sources */ = {isa = PBXBuildFile; fileRef = E5258AF61BABC5CC00CD9674 /* Decision1.m */; };
 		E5258AFB1BABCD0800CD9674 /* Answer1.m in Sources */ = {isa = PBXBuildFile; fileRef = E5258AFA1BABCD0800CD9674 /* Answer1.m */; };
 		E5258AFE1BABD7C700CD9674 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5258AFD1BABD7C700CD9674 /* AudioToolbox.framework */; };
@@ -90,7 +102,6 @@
 		E54EFF5F1BC2686E00AD1EEA /* VillainFailStanding.png in Resources */ = {isa = PBXBuildFile; fileRef = E54EFF591BC2686E00AD1EEA /* VillainFailStanding.png */; };
 		E54EFF601BC2686E00AD1EEA /* VillainSuccess.png in Resources */ = {isa = PBXBuildFile; fileRef = E54EFF5A1BC2686E00AD1EEA /* VillainSuccess.png */; };
 		E54EFF611BC2686E00AD1EEA /* VillainTongue1.png in Resources */ = {isa = PBXBuildFile; fileRef = E54EFF5B1BC2686E00AD1EEA /* VillainTongue1.png */; };
-		E560AED81BC223310060C059 /* bedroom_background.svg in Resources */ = {isa = PBXBuildFile; fileRef = E560AED71BC223310060C059 /* bedroom_background.svg */; };
 		E572C1611BC3ABE000C4FCBB /* 1 0 Hair Back 1 Long.png in Resources */ = {isa = PBXBuildFile; fileRef = E572C1451BC3ABE000C4FCBB /* 1 0 Hair Back 1 Long.png */; };
 		E572C1621BC3ABE000C4FCBB /* 1 1 Clothing Back 1 Cape.png in Resources */ = {isa = PBXBuildFile; fileRef = E572C1461BC3ABE000C4FCBB /* 1 1 Clothing Back 1 Cape.png */; };
 		E572C1631BC3ABE000C4FCBB /* 1 2 Torso 0 Default.png in Resources */ = {isa = PBXBuildFile; fileRef = E572C1471BC3ABE000C4FCBB /* 1 2 Torso 0 Default.png */; };
@@ -152,7 +163,6 @@
 		E5E4AC621BC786DE00BB5F65 /* Hamburger.png in Resources */ = {isa = PBXBuildFile; fileRef = E5E4AC571BC786DE00BB5F65 /* Hamburger.png */; };
 		E5E4AC631BC786DE00BB5F65 /* Ice Cream.png in Resources */ = {isa = PBXBuildFile; fileRef = E5E4AC581BC786DE00BB5F65 /* Ice Cream.png */; };
 		E5E4AC641BC786DE00BB5F65 /* Orange Slice.png in Resources */ = {isa = PBXBuildFile; fileRef = E5E4AC591BC786DE00BB5F65 /* Orange Slice.png */; };
-		E5E4AC651BC786DE00BB5F65 /* plate.png in Resources */ = {isa = PBXBuildFile; fileRef = E5E4AC5A1BC786DE00BB5F65 /* plate.png */; };
 		E5E4AC661BC786DE00BB5F65 /* sunscreen.png in Resources */ = {isa = PBXBuildFile; fileRef = E5E4AC5B1BC786DE00BB5F65 /* sunscreen.png */; };
 		E5E4AC671BC786DE00BB5F65 /* UFO.png in Resources */ = {isa = PBXBuildFile; fileRef = E5E4AC5C1BC786DE00BB5F65 /* UFO.png */; };
 		E5E4AC8E1BC7883000BB5F65 /* 9000 0 Hair Back 1 Long.png in Resources */ = {isa = PBXBuildFile; fileRef = E5E4AC681BC7883000BB5F65 /* 9000 0 Hair Back 1 Long.png */; };
@@ -271,6 +281,18 @@
 		CAAF031A1BC95D1F005DBF61 /* 1 4 Shoes 2 Shoes A.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "1 4 Shoes 2 Shoes A.png"; path = "Art/Characters/Scenes/1 4 Shoes 2 Shoes A.png"; sourceTree = SOURCE_ROOT; };
 		CAAF031B1BC95D1F005DBF61 /* 1 4 Shoes 3 Shoes B.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "1 4 Shoes 3 Shoes B.png"; path = "Art/Characters/Scenes/1 4 Shoes 3 Shoes B.png"; sourceTree = SOURCE_ROOT; };
 		CAAF031C1BC95D1F005DBF61 /* 1 4 Shoes 4 Hero Boots.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "1 4 Shoes 4 Hero Boots.png"; path = "Art/Characters/Scenes/1 4 Shoes 4 Hero Boots.png"; sourceTree = SOURCE_ROOT; };
+		CAAF03211BC9B4FD005DBF61 /* left arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "left arrow.png"; sourceTree = "<group>"; };
+		CAAF03221BC9B4FD005DBF61 /* right arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "right arrow.png"; sourceTree = "<group>"; };
+		CAAF03251BCA5891005DBF61 /* pause Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pause Icon.png"; sourceTree = "<group>"; };
+		CAAF03261BCA5891005DBF61 /* sound Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sound Icon.png"; sourceTree = "<group>"; };
+		CAAF03291BCA65A8005DBF61 /* background_beautiful_day.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background_beautiful_day.png; sourceTree = "<group>"; };
+		CAAF032B1BCA6828005DBF61 /* Fish.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Fish.png; sourceTree = "<group>"; };
+		CAAF032C1BCA6828005DBF61 /* Pizza.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Pizza.png; sourceTree = "<group>"; };
+		CAAF032F1BCA7387005DBF61 /* background_food.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background_food.png; sourceTree = "<group>"; };
+		CAAF03311BCA7481005DBF61 /* plate1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = plate1.png; sourceTree = "<group>"; };
+		CAAF03331BCA7B41005DBF61 /* background_island.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background_island.png; sourceTree = "<group>"; };
+		CAAF03351BCA88B8005DBF61 /* alien.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = alien.png; sourceTree = "<group>"; };
+		CAAF03371BCAE53B005DBF61 /* HealthBar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = HealthBar.png; sourceTree = "<group>"; };
 		E5258AF61BABC5CC00CD9674 /* Decision1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Decision1.m; sourceTree = "<group>"; };
 		E5258AF81BABC60700CD9674 /* Decision1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Decision1.h; sourceTree = "<group>"; };
 		E5258AFA1BABCD0800CD9674 /* Answer1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Answer1.m; sourceTree = "<group>"; };
@@ -338,7 +360,6 @@
 		E54EFF591BC2686E00AD1EEA /* VillainFailStanding.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = VillainFailStanding.png; sourceTree = "<group>"; };
 		E54EFF5A1BC2686E00AD1EEA /* VillainSuccess.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = VillainSuccess.png; sourceTree = "<group>"; };
 		E54EFF5B1BC2686E00AD1EEA /* VillainTongue1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = VillainTongue1.png; sourceTree = "<group>"; };
-		E560AED71BC223310060C059 /* bedroom_background.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = bedroom_background.svg; path = Images.xcassets/Backgrounds/bedroom_background.svg; sourceTree = "<group>"; };
 		E572C1451BC3ABE000C4FCBB /* 1 0 Hair Back 1 Long.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "1 0 Hair Back 1 Long.png"; sourceTree = "<group>"; };
 		E572C1461BC3ABE000C4FCBB /* 1 1 Clothing Back 1 Cape.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "1 1 Clothing Back 1 Cape.png"; sourceTree = "<group>"; };
 		E572C1471BC3ABE000C4FCBB /* 1 2 Torso 0 Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "1 2 Torso 0 Default.png"; sourceTree = "<group>"; };
@@ -403,7 +424,6 @@
 		E5E4AC571BC786DE00BB5F65 /* Hamburger.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Hamburger.png; sourceTree = "<group>"; };
 		E5E4AC581BC786DE00BB5F65 /* Ice Cream.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Ice Cream.png"; sourceTree = "<group>"; };
 		E5E4AC591BC786DE00BB5F65 /* Orange Slice.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Orange Slice.png"; sourceTree = "<group>"; };
-		E5E4AC5A1BC786DE00BB5F65 /* plate.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = plate.png; sourceTree = "<group>"; };
 		E5E4AC5B1BC786DE00BB5F65 /* sunscreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sunscreen.png; sourceTree = "<group>"; };
 		E5E4AC5C1BC786DE00BB5F65 /* UFO.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = UFO.png; sourceTree = "<group>"; };
 		E5E4AC681BC7883000BB5F65 /* 9000 0 Hair Back 1 Long.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "9000 0 Hair Back 1 Long.png"; sourceTree = "<group>"; };
@@ -569,15 +589,23 @@
 				E532F33F1BBA6F14004406B8 /* FinalSlide.h */,
 				E532F3401BBA6F23004406B8 /* FinalSlide.m */,
 				50398CA71B7DBB8B00E39663 /* Images.xcassets */,
+				CAAF03371BCAE53B005DBF61 /* HealthBar.png */,
+				CAAF03251BCA5891005DBF61 /* pause Icon.png */,
+				CAAF03261BCA5891005DBF61 /* sound Icon.png */,
+				CAAF03211BC9B4FD005DBF61 /* left arrow.png */,
+				CAAF03351BCA88B8005DBF61 /* alien.png */,
+				CAAF03221BC9B4FD005DBF61 /* right arrow.png */,
 				E5E4AC521BC786DE00BB5F65 /* Apple.png */,
 				E5E4AC531BC786DE00BB5F65 /* bouncycastle.png */,
 				E5E4AC541BC786DE00BB5F65 /* cage.png */,
 				E5E4AC551BC786DE00BB5F65 /* cat colored2.png */,
+				CAAF03311BCA7481005DBF61 /* plate1.png */,
 				E5E4AC561BC786DE00BB5F65 /* FlyingSaucer.png */,
 				E5E4AC571BC786DE00BB5F65 /* Hamburger.png */,
+				CAAF032B1BCA6828005DBF61 /* Fish.png */,
+				CAAF032C1BCA6828005DBF61 /* Pizza.png */,
 				E5E4AC581BC786DE00BB5F65 /* Ice Cream.png */,
 				E5E4AC591BC786DE00BB5F65 /* Orange Slice.png */,
-				E5E4AC5A1BC786DE00BB5F65 /* plate.png */,
 				E5E4AC5B1BC786DE00BB5F65 /* sunscreen.png */,
 				E5E4AC5C1BC786DE00BB5F65 /* UFO.png */,
 				E525E5A51BC619F300A1A28F /* 0 0 Hair Back 1 Long.png */,
@@ -688,9 +716,11 @@
 				E54EFF5A1BC2686E00AD1EEA /* VillainSuccess.png */,
 				E54EFF5B1BC2686E00AD1EEA /* VillainTongue1.png */,
 				C14EA52A1BB50D6300B9661F /* sunscreen.gif */,
-				E560AED71BC223310060C059 /* bedroom_background.svg */,
 				E525E5DD1BC644AE00A1A28F /* background_beach.png */,
 				E525E5DE1BC644AE00A1A28F /* background_castle.png */,
+				CAAF032F1BCA7387005DBF61 /* background_food.png */,
+				CAAF03331BCA7B41005DBF61 /* background_island.png */,
+				CAAF03291BCA65A8005DBF61 /* background_beautiful_day.png */,
 				E525E5DF1BC644AE00A1A28F /* background_city.png */,
 				E525E5E01BC644AE00A1A28F /* background_forest.png */,
 				E525E5E11BC644AE00A1A28F /* background_grass.png */,
@@ -853,8 +883,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				E5E4AC671BC786DE00BB5F65 /* UFO.png in Resources */,
+				CAAF03381BCAE53B005DBF61 /* HealthBar.png in Resources */,
 				E5E4AC4F1BC77D0500BB5F65 /* SunRed.png in Resources */,
 				E525E5E61BC644AE00A1A28F /* background_castle.png in Resources */,
+				CAAF03321BCA7481005DBF61 /* plate1.png in Resources */,
 				E5E4AC9D1BC7883000BB5F65 /* 9000 8 Mouth 1 Happy.png in Resources */,
 				E525E5E51BC644AE00A1A28F /* background_beach.png in Resources */,
 				E5E4ACAD1BC7883000BB5F65 /* 9000 12 Eye Brows 2 Worried.png in Resources */,
@@ -864,6 +896,7 @@
 				E5E4AC8E1BC7883000BB5F65 /* 9000 0 Hair Back 1 Long.png in Resources */,
 				E54EFF5C1BC2686E00AD1EEA /* VillainAngry1.png in Resources */,
 				E5E4ACD81BC7DDB600BB5F65 /* Slide 9 - initial.wav in Resources */,
+				CAAF03301BCA7387005DBF61 /* background_food.png in Resources */,
 				E5E4ACD41BC7DDB600BB5F65 /* Slide 8 - light skin incorrect.wav in Resources */,
 				E5E4AC601BC786DE00BB5F65 /* cat colored2.png in Resources */,
 				E525E5D61BC619F300A1A28F /* 0 10 Eye Pupils 4 Tired.png in Resources */,
@@ -873,12 +906,14 @@
 				E5E4ACA61BC7883000BB5F65 /* 9000 10 Eye Pupils 0 Default.png in Resources */,
 				E5E4ACB21BC7883000BB5F65 /* 9000 13 Hair Front 0 Short.png in Resources */,
 				E572C16B1BC3ABE000C4FCBB /* 1 7 Head 1 Egg.png in Resources */,
+				CAAF03231BC9B4FD005DBF61 /* left arrow.png in Resources */,
 				E525E5DA1BC619F300A1A28F /* 0 12 Eye Brows 4 Tired.png in Resources */,
 				E572C1771BC3ABE000C4FCBB /* 1 11 Eye Lashes 1 Visible.png in Resources */,
 				E525E5CF1BC619F300A1A28F /* 0 8 Mouth 3 Thoughtful.png in Resources */,
 				E54EFF611BC2686E00AD1EEA /* VillainTongue1.png in Resources */,
 				E572C1691BC3ABE000C4FCBB /* 1 6 Clothing Front 4 Shorts.png in Resources */,
 				E525E5EC1BC644AE00A1A28F /* Jail_background.png in Resources */,
+				CAAF03241BC9B4FD005DBF61 /* right arrow.png in Resources */,
 				E5E4ACA01BC7883000BB5F65 /* 9000 8 Mouth 4 Tired.png in Resources */,
 				E5E4ACDB1BC7DDB600BB5F65 /* Slide 11 - all covered.wav in Resources */,
 				50398CA61B7DBB8B00E39663 /* Main.storyboard in Resources */,
@@ -892,6 +927,7 @@
 				E5E4AC391BC766FA00BB5F65 /* Slide 14 - incorrect.wav in Resources */,
 				E5E4ACA11BC7883000BB5F65 /* 9000 8 Mouth 5 Pained.png in Resources */,
 				CAAF03171BC95D08005DBF61 /* 1 14 Accessories 2 Ray Bans.png in Resources */,
+				CAAF03361BCA88B8005DBF61 /* alien.png in Resources */,
 				E525E5D11BC619F300A1A28F /* 0 8 Mouth 5 Pained.png in Resources */,
 				E5E4AC2D1BC766FA00BB5F65 /* Slide 11 - no hat.wav in Resources */,
 				E572C16E1BC3ABE000C4FCBB /* 1 8 Mouth 2 Worried.png in Resources */,
@@ -904,7 +940,6 @@
 				E525E5C31BC619F300A1A28F /* 0 2 Torso 0 Default.png in Resources */,
 				E525E5E81BC644AE00A1A28F /* background_forest.png in Resources */,
 				E5E4AC321BC766FA00BB5F65 /* Slide 12 - midday.wav in Resources */,
-				E5E4AC651BC786DE00BB5F65 /* plate.png in Resources */,
 				E5E4AC9F1BC7883000BB5F65 /* 9000 8 Mouth 3 Thoughtful.png in Resources */,
 				E572C1681BC3ABE000C4FCBB /* 1 6 Clothing Front 3 Shirt.png in Resources */,
 				E525E5C41BC619F300A1A28F /* 0 3 Legs 0 Default.png in Resources */,
@@ -918,6 +953,7 @@
 				E5E4AC5D1BC786DE00BB5F65 /* Apple.png in Resources */,
 				E525E5C81BC619F300A1A28F /* 0 6 Clothing Front 3 Shirt.png in Resources */,
 				E5E4ACB31BC7883000BB5F65 /* 9000 13 Hair Front 1 Long.png in Resources */,
+				CAAF032A1BCA65A8005DBF61 /* background_beautiful_day.png in Resources */,
 				E5E4ACDC1BC7DDB600BB5F65 /* Slide 11 - arms and legs exposed.wav in Resources */,
 				E5E4AC511BC77D0500BB5F65 /* SunSliderSelector.png in Resources */,
 				E525E5D01BC619F300A1A28F /* 0 8 Mouth 4 Tired.png in Resources */,
@@ -951,11 +987,13 @@
 				E572C1611BC3ABE000C4FCBB /* 1 0 Hair Back 1 Long.png in Resources */,
 				E572C1701BC3ABE000C4FCBB /* 1 8 Mouth 4 Tired.png in Resources */,
 				E5E4AC961BC7883000BB5F65 /* 9000 6 Clothing Front 4 Shorts.png in Resources */,
+				CAAF032E1BCA6828005DBF61 /* Pizza.png in Resources */,
 				E54EFF5D1BC2686E00AD1EEA /* VillainFailSitting1.png in Resources */,
 				E5E4AC5E1BC786DE00BB5F65 /* bouncycastle.png in Resources */,
 				E572C1741BC3ABE000C4FCBB /* 1 10 Eye Pupils 0 Default.png in Resources */,
 				E525E5CA1BC619F300A1A28F /* 0 7 Head 0 Default.png in Resources */,
 				E5E4ACC91BC7DDB600BB5F65 /* Slide 1.wav in Resources */,
+				CAAF032D1BCA6828005DBF61 /* Fish.png in Resources */,
 				CAAF031F1BC95D1F005DBF61 /* 1 4 Shoes 3 Shoes B.png in Resources */,
 				C14EA52B1BB50D6300B9661F /* sunscreen.gif in Resources */,
 				E5E4AC9B1BC7883000BB5F65 /* 9000 7 Head 1 Egg.png in Resources */,
@@ -965,7 +1003,6 @@
 				E5E4AC951BC7883000BB5F65 /* 9000 6 Clothing Front 3 Shirt.png in Resources */,
 				E525E5CD1BC619F300A1A28F /* 0 8 Mouth 1 Happy.png in Resources */,
 				E525E5D81BC619F300A1A28F /* 0 12 Eye Brows 0 Default.png in Resources */,
-				E560AED81BC223310060C059 /* bedroom_background.svg in Resources */,
 				E572C1791BC3ABE000C4FCBB /* 1 12 Eye Brows 3 Thoughtful.png in Resources */,
 				E5E4ACA51BC7883000BB5F65 /* 9000 9 Eye Whites 5 Pained.png in Resources */,
 				E5E4ACA21BC7883000BB5F65 /* 9000 8 Mouth 6 Sad.png in Resources */,
@@ -974,6 +1011,7 @@
 				E5E4ACD31BC7DDB600BB5F65 /* Slide 8 - initial.wav in Resources */,
 				E572C17B1BC3ABE000C4FCBB /* 1 13 Hair Front 0 Short.png in Resources */,
 				CAAF031E1BC95D1F005DBF61 /* 1 4 Shoes 2 Shoes A.png in Resources */,
+				CAAF03341BCA7B41005DBF61 /* background_island.png in Resources */,
 				E5E4AC661BC786DE00BB5F65 /* sunscreen.png in Resources */,
 				E5E4AC371BC766FA00BB5F65 /* Slide 13 - oily fish.wav in Resources */,
 				E525E5E91BC644AE00A1A28F /* background_grass.png in Resources */,
@@ -983,6 +1021,7 @@
 				E5E4AC341BC766FA00BB5F65 /* Slide 13 - incorrect.wav in Resources */,
 				E5E4ACA81BC7883000BB5F65 /* 9000 10 Eye Pupils 3 Thoughtful.png in Resources */,
 				50398CA81B7DBB8B00E39663 /* Images.xcassets in Resources */,
+				CAAF03281BCA5891005DBF61 /* sound Icon.png in Resources */,
 				E572C17C1BC3ABE000C4FCBB /* 1 13 Hair Front 1 Long.png in Resources */,
 				E5E4AC501BC77D0500BB5F65 /* SunSlider.png in Resources */,
 				E5E4AC8F1BC7883000BB5F65 /* 9000 1 Clothing Back 1 Cape.png in Resources */,
@@ -1002,6 +1041,7 @@
 				E5E4AC3B1BC766FA00BB5F65 /* Slide 15 - correct.wav in Resources */,
 				E525E5CC1BC619F300A1A28F /* 0 8 Mouth 0 Default.png in Resources */,
 				E5E4AC931BC7883000BB5F65 /* 9000 6 Clothing Front 1 Cape.png in Resources */,
+				CAAF03271BCA5891005DBF61 /* pause Icon.png in Resources */,
 				E5E4AC3D1BC766FA00BB5F65 /* Slide 15 - initial.wav in Resources */,
 				E572C1651BC3ABE000C4FCBB /* 1 5 Arms 0 Default.png in Resources */,
 				E5E4AC4E1BC77D0500BB5F65 /* SunNormal.png in Resources */,
