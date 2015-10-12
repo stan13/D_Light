@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6250" systemVersion="13F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6244"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -69,7 +69,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-668.25" y="81.75"/>
+            <point key="canvasLocation" x="-1907" y="93"/>
         </scene>
         <!--View Controller2-->
         <scene sceneID="m9p-wR-QdV">
@@ -365,7 +365,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="U40-0m-iAB" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="165" y="81.75"/>
+            <point key="canvasLocation" x="-837" y="93"/>
         </scene>
         <!--View Controller3-->
         <scene sceneID="UNI-3C-ye2">
@@ -539,6 +539,12 @@
                                     <rect key="frame" x="688" y="30" width="354" height="580"/>
                                 </variation>
                             </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="1 6 Clothing Front 8 Pants.png" translatesAutoresizingMaskIntoConstraints="NO" id="lHa-oJ-q0q">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="766" y="66" width="200" height="476"/>
+                                </variation>
+                            </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="1 6 Clothing Front 2 Dress.png" translatesAutoresizingMaskIntoConstraints="NO" id="6AB-DX-ORt">
                                 <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
                                 <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
@@ -563,28 +569,22 @@
                                     <rect key="frame" x="692" y="-233" width="344" height="794"/>
                                 </variation>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="9000 6 Clothing Front 6 Singlet.png" translatesAutoresizingMaskIntoConstraints="NO" id="D17-0j-0BU">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="1 6 Clothing Front 6 Singlet.png" translatesAutoresizingMaskIntoConstraints="NO" id="D17-0j-0BU">
                                 <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
                                 <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
                                     <rect key="frame" x="567" y="50" width="240" height="444"/>
                                 </variation>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="9000 6 Clothing Front 3 Shirt.png" translatesAutoresizingMaskIntoConstraints="NO" id="LvD-Rl-cbP">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="1 6 Clothing Front 3 Shirt.png" translatesAutoresizingMaskIntoConstraints="NO" id="LvD-Rl-cbP">
                                 <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
                                 <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
                                     <rect key="frame" x="747" y="40" width="240" height="444"/>
                                 </variation>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="9000 6 Clothing Front 4 Shorts.png" translatesAutoresizingMaskIntoConstraints="NO" id="Lzg-HK-a0l">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="1 6 Clothing Front 4 Shorts.png" translatesAutoresizingMaskIntoConstraints="NO" id="Lzg-HK-a0l">
                                 <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
                                 <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
                                     <rect key="frame" x="567" y="160" width="240" height="296"/>
-                                </variation>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="9000 6 Clothing Front 4 Shorts.png" translatesAutoresizingMaskIntoConstraints="NO" id="lHa-oJ-q0q">
-                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
-                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
-                                    <rect key="frame" x="747" y="160" width="240" height="296"/>
                                 </variation>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Scene4 - Clothes Customisation" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lEz-Dt-lAO">
@@ -650,7 +650,7 @@
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ugS-f0-TGe">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
-                                <state key="normal" title="Pants">
+                                <state key="normal">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
@@ -837,6 +837,7 @@
                                 <exclude reference="7ul-iz-cYT"/>
                                 <exclude reference="gUe-3G-2vj"/>
                                 <exclude reference="Nzw-KP-Ryc"/>
+                                <exclude reference="lHa-oJ-q0q"/>
                                 <exclude reference="6AB-DX-ORt"/>
                                 <exclude reference="hzr-U7-gdK"/>
                                 <exclude reference="Ai5-U8-295"/>
@@ -844,7 +845,6 @@
                                 <exclude reference="D17-0j-0BU"/>
                                 <exclude reference="LvD-Rl-cbP"/>
                                 <exclude reference="Lzg-HK-a0l"/>
-                                <exclude reference="lHa-oJ-q0q"/>
                                 <exclude reference="UFo-Li-jyh"/>
                                 <exclude reference="kLi-9A-LuO"/>
                                 <exclude reference="ThU-JE-YxI"/>
@@ -875,6 +875,7 @@
                                 <include reference="7ul-iz-cYT"/>
                                 <include reference="gUe-3G-2vj"/>
                                 <include reference="Nzw-KP-Ryc"/>
+                                <include reference="lHa-oJ-q0q"/>
                                 <include reference="6AB-DX-ORt"/>
                                 <include reference="hzr-U7-gdK"/>
                                 <include reference="Ai5-U8-295"/>
@@ -882,7 +883,6 @@
                                 <include reference="D17-0j-0BU"/>
                                 <include reference="LvD-Rl-cbP"/>
                                 <include reference="Lzg-HK-a0l"/>
-                                <include reference="lHa-oJ-q0q"/>
                                 <include reference="UFo-Li-jyh"/>
                                 <include reference="kLi-9A-LuO"/>
                                 <include reference="ThU-JE-YxI"/>
@@ -943,7 +943,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="eaO-MW-3fa" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1005.75" y="81.75"/>
+            <point key="canvasLocation" x="223" y="93"/>
         </scene>
         <!--Explanation Slide 1-->
         <scene sceneID="xxM-Fh-jp0">
@@ -1054,7 +1054,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ddd-8L-deN" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1900" y="75"/>
+            <point key="canvasLocation" x="1274" y="93"/>
         </scene>
         <!--Explanation Slide 2-->
         <scene sceneID="DNf-TR-OAW">
@@ -1146,7 +1146,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="pyG-n8-Ssq" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2706" y="81.75"/>
+            <point key="canvasLocation" x="2338" y="93"/>
         </scene>
         <!--Explanation Slide 3-->
         <scene sceneID="F72-zp-hS1">
@@ -1232,7 +1232,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4TS-MV-VIn" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3549" y="75.75"/>
+            <point key="canvasLocation" x="3405" y="93"/>
         </scene>
         <!--Explanation Slide 4-->
         <scene sceneID="1lt-bN-0md">
@@ -1318,7 +1318,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fjX-kJ-RlM" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4428" y="87"/>
+            <point key="canvasLocation" x="4522" y="93"/>
         </scene>
         <!--Explanation Slide 5-->
         <scene sceneID="DHx-Vd-D5W">
@@ -1410,7 +1410,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="QgD-xf-68M" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="5328" y="81.75"/>
+            <point key="canvasLocation" x="5648" y="93"/>
         </scene>
         <!--Explanation Slide 6-->
         <scene sceneID="xfe-r2-kCz">
@@ -1503,7 +1503,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="v9t-eT-4Wz" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="6219.75" y="81.75"/>
+            <point key="canvasLocation" x="6747" y="93"/>
         </scene>
         <!--Explanation Slide 7-->
         <scene sceneID="l1a-eZ-ql0">
@@ -1595,7 +1595,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ysM-t5-Dws" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="7086.75" y="87"/>
+            <point key="canvasLocation" x="7846" y="93"/>
         </scene>
         <!--Explanation Slide 8-->
         <scene sceneID="QQK-7l-M3X">
@@ -1658,7 +1658,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="e3h-Ch-8V5" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="7912.5" y="87"/>
+            <point key="canvasLocation" x="8968" y="93"/>
         </scene>
         <!--Decision Slide 1-->
         <scene sceneID="8hO-se-Zna">
@@ -1982,7 +1982,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="f4a-kM-uIM" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="8751.75" y="87"/>
+            <point key="canvasLocation" x="10087" y="87"/>
         </scene>
         <!--Answer Slide 1-->
         <scene sceneID="CyX-NS-IK0">
@@ -2002,11 +2002,15 @@
                                     <rect key="frame" x="-7" y="0.0" width="1031" height="779"/>
                                 </variation>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="m8x-sk-Z17">
+                            <label opaque="NO" userInteractionEnabled="NO" alpha="0.90000000000000002" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="m8x-sk-Z17">
                                 <rect key="frame" x="16" y="28" width="568" height="175"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="52" y="70" width="780" height="80"/>
+                                </variation>
                             </label>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="HealthBar.png" translatesAutoresizingMaskIntoConstraints="NO" id="L2I-Gf-Ewd">
                                 <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
@@ -2039,13 +2043,13 @@
                                     <segue destination="327-o1-09d" kind="presentation" id="UFl-Iv-vf9"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lmF-WU-BDn">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lmF-WU-BDn">
                                 <rect key="frame" x="215" y="211" width="81" height="58"/>
-                                <state key="normal" title="Listen">
+                                <state key="normal" title="Listen" image="sound Icon.png">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
-                                    <rect key="frame" x="315" y="211" width="81" height="58"/>
+                                    <rect key="frame" x="870" y="80" width="50" height="50"/>
                                 </variation>
                                 <connections>
                                     <action selector="listenToVoiceOver:" destination="LbW-FU-Aoh" eventType="touchUpInside" id="O5Q-6i-mEl"/>
@@ -2055,13 +2059,13 @@
                                     <action selector="listenToVoiceOver:" destination="7Li-CF-6gn" eventType="touchUpInside" id="wfg-Gh-ISg"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YRT-I1-CbP">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YRT-I1-CbP">
                                 <rect key="frame" x="304" y="211" width="81" height="58"/>
-                                <state key="normal" title="Stop">
+                                <state key="normal" title="Stop" image="pause Icon.png">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
-                                    <rect key="frame" x="404" y="211" width="81" height="58"/>
+                                    <rect key="frame" x="945" y="80" width="50" height="50"/>
                                 </variation>
                                 <connections>
                                     <action selector="listenToVoiceOver:" destination="LbW-FU-Aoh" eventType="touchUpInside" id="j3u-3t-Pyu"/>
@@ -2072,6 +2076,12 @@
                                     <action selector="stopVoiceOver:" destination="tS6-BI-SVO" eventType="touchUpInside" id="vSM-cC-RDZ"/>
                                 </connections>
                             </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="5fK-w0-UbW" userLabel="Villain">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="634" y="290" width="215" height="238"/>
+                                </variation>
+                            </imageView>
                             <imageView opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="UaT-Ch-NG3" userLabel="0 HAIR_BACK">
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
@@ -2082,7 +2092,7 @@
                                     <rect key="frame" x="0.0" y="0.0" width="0.0" height="0.0"/>
                                 </variation>
                                 <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
-                                    <rect key="frame" x="412" y="154" width="200" height="460"/>
+                                    <rect key="frame" x="259" y="376" width="100" height="230"/>
                                 </variation>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Flu-qg-zbE" userLabel="1 CAPE_BACK">
@@ -2090,7 +2100,7 @@
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
-                                    <rect key="frame" x="412" y="154" width="200" height="460"/>
+                                    <rect key="frame" x="259" y="376" width="100" height="230"/>
                                 </variation>
                             </imageView>
                             <imageView opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Ghj-2v-KGy" userLabel="2 TORSO">
@@ -2098,7 +2108,7 @@
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
-                                    <rect key="frame" x="412" y="154" width="200" height="460"/>
+                                    <rect key="frame" x="259" y="376" width="100" height="230"/>
                                 </variation>
                             </imageView>
                             <imageView opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="T3p-i9-Rjd" userLabel="3 LEGS">
@@ -2106,7 +2116,7 @@
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
-                                    <rect key="frame" x="412" y="154" width="200" height="460"/>
+                                    <rect key="frame" x="259" y="376" width="100" height="230"/>
                                 </variation>
                             </imageView>
                             <imageView opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Ag3-2x-XaY" userLabel="4 SHOES">
@@ -2119,7 +2129,7 @@
                                     <rect key="frame" x="0.0" y="0.0" width="0.0" height="0.0"/>
                                 </variation>
                                 <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
-                                    <rect key="frame" x="412" y="154" width="200" height="460"/>
+                                    <rect key="frame" x="259" y="376" width="100" height="230"/>
                                 </variation>
                             </imageView>
                             <imageView opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="fTX-PV-Tb1" userLabel="5 ARMS">
@@ -2127,7 +2137,7 @@
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
-                                    <rect key="frame" x="412" y="154" width="200" height="460"/>
+                                    <rect key="frame" x="259" y="376" width="100" height="230"/>
                                 </variation>
                             </imageView>
                             <imageView opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="2Nj-8u-CjD" userLabel="6 BOTTOM">
@@ -2135,7 +2145,7 @@
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
-                                    <rect key="frame" x="412" y="154" width="200" height="460"/>
+                                    <rect key="frame" x="259" y="376" width="100" height="230"/>
                                 </variation>
                             </imageView>
                             <imageView opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="JOt-10-vRl" userLabel="6B TOP">
@@ -2143,7 +2153,7 @@
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
-                                    <rect key="frame" x="412" y="154" width="200" height="460"/>
+                                    <rect key="frame" x="259" y="376" width="100" height="230"/>
                                 </variation>
                             </imageView>
                             <imageView opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="7UM-Tc-GOV" userLabel="7 HEAD">
@@ -2151,7 +2161,7 @@
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
-                                    <rect key="frame" x="412" y="154" width="200" height="460"/>
+                                    <rect key="frame" x="259" y="376" width="100" height="230"/>
                                 </variation>
                             </imageView>
                             <imageView opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="ek6-ll-jIA" userLabel="8 MOUTH">
@@ -2159,7 +2169,7 @@
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
-                                    <rect key="frame" x="412" y="154" width="200" height="460"/>
+                                    <rect key="frame" x="259" y="376" width="100" height="230"/>
                                 </variation>
                             </imageView>
                             <imageView opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="UI2-II-F9c" userLabel="9 EYES_WHITES">
@@ -2167,7 +2177,7 @@
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
-                                    <rect key="frame" x="412" y="154" width="200" height="460"/>
+                                    <rect key="frame" x="259" y="376" width="100" height="230"/>
                                 </variation>
                             </imageView>
                             <imageView opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="JkG-Ep-oeG" userLabel="91 EYES_PUPILS">
@@ -2175,7 +2185,7 @@
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
-                                    <rect key="frame" x="412" y="154" width="200" height="460"/>
+                                    <rect key="frame" x="259" y="376" width="100" height="230"/>
                                 </variation>
                             </imageView>
                             <imageView opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="fy3-MF-Fxu" userLabel="92 EYE_LASHES">
@@ -2183,7 +2193,7 @@
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
-                                    <rect key="frame" x="412" y="154" width="200" height="460"/>
+                                    <rect key="frame" x="259" y="376" width="100" height="230"/>
                                 </variation>
                             </imageView>
                             <imageView opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="nfL-Ms-Xe7" userLabel="93 EYE_BROWS">
@@ -2196,7 +2206,7 @@
                                     <rect key="frame" x="0.0" y="0.0" width="0.0" height="0.0"/>
                                 </variation>
                                 <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
-                                    <rect key="frame" x="412" y="154" width="200" height="460"/>
+                                    <rect key="frame" x="259" y="376" width="100" height="230"/>
                                 </variation>
                             </imageView>
                             <imageView opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Hz5-pa-zN4" userLabel="94 HAIR_FRONT">
@@ -2204,7 +2214,7 @@
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
-                                    <rect key="frame" x="412" y="154" width="200" height="460"/>
+                                    <rect key="frame" x="259" y="376" width="100" height="230"/>
                                 </variation>
                             </imageView>
                             <imageView opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="PTe-yU-3lo" userLabel="95 GLASSES">
@@ -2212,7 +2222,7 @@
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
-                                    <rect key="frame" x="412" y="154" width="200" height="460"/>
+                                    <rect key="frame" x="259" y="376" width="100" height="230"/>
                                 </variation>
                             </imageView>
                             <imageView opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="c6f-BL-foO" userLabel="96 HAT">
@@ -2220,7 +2230,7 @@
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
-                                    <rect key="frame" x="412" y="154" width="200" height="460"/>
+                                    <rect key="frame" x="259" y="376" width="100" height="230"/>
                                 </variation>
                             </imageView>
                         </subviews>
@@ -2229,6 +2239,7 @@
                             <mask key="subviews">
                                 <exclude reference="kw2-PH-u3s"/>
                                 <exclude reference="L2I-Gf-Ewd"/>
+                                <exclude reference="5fK-w0-UbW"/>
                                 <exclude reference="UaT-Ch-NG3"/>
                                 <exclude reference="Flu-qg-zbE"/>
                                 <exclude reference="Ghj-2v-KGy"/>
@@ -2252,6 +2263,7 @@
                             <mask key="subviews">
                                 <include reference="kw2-PH-u3s"/>
                                 <include reference="L2I-Gf-Ewd"/>
+                                <include reference="5fK-w0-UbW"/>
                                 <include reference="UaT-Ch-NG3"/>
                                 <include reference="Flu-qg-zbE"/>
                                 <include reference="Ghj-2v-KGy"/>
@@ -2277,6 +2289,7 @@
                     <size key="freeformSize" width="1024" height="768"/>
                     <connections>
                         <outlet property="HealthBar" destination="L2I-Gf-Ewd" id="YLO-Hh-rx9"/>
+                        <outlet property="VillainView" destination="5fK-w0-UbW" id="ljJ-oD-3PD"/>
                         <outlet property="answerLabel" destination="m8x-sk-Z17" id="nF7-Qi-vMz"/>
                         <outlet property="bottom" destination="2Nj-8u-CjD" id="UBe-Yy-Iuu"/>
                         <outlet property="capeBack" destination="Flu-qg-zbE" id="rjP-FL-PFD"/>
@@ -2300,7 +2313,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="AEM-Om-THu" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="8751.75" y="804.75"/>
+            <point key="canvasLocation" x="10086.75" y="1000.5"/>
         </scene>
         <!--Decision Slide 2-->
         <scene sceneID="jBW-1d-Ky8">
@@ -2700,7 +2713,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tzv-nI-EOp" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="9597.75" y="112.5"/>
+            <point key="canvasLocation" x="11205" y="87"/>
         </scene>
         <!--Answer Slide 2-->
         <scene sceneID="4Tl-dB-UN0">
@@ -2720,48 +2733,47 @@
                                     <rect key="frame" x="-13" y="0.0" width="1042" height="782"/>
                                 </variation>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1lR-Uh-kCq">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="URm-q4-HMA">
                                 <rect key="frame" x="215" y="211" width="81" height="58"/>
-                                <state key="normal" title="Listen">
+                                <state key="normal" title="Listen" image="sound Icon.png">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
-                                    <rect key="frame" x="315" y="203" width="81" height="58"/>
+                                    <rect key="frame" x="870" y="80" width="50" height="50"/>
                                 </variation>
                                 <connections>
-                                    <action selector="listenToVoiceOver:" destination="7Li-CF-6gn" eventType="touchUpInside" id="5nm-yy-dzf"/>
-                                    <action selector="listenToVoiceOver:" destination="jcp-Aj-XbN" eventType="touchUpInside" id="86W-HG-QGj"/>
-                                    <action selector="listenToVoiceOver:" destination="9Hz-or-0E6" eventType="touchUpInside" id="AXO-KT-eKS"/>
-                                    <action selector="listenToVoiceOver:" destination="tS6-BI-SVO" eventType="touchUpInside" id="Jhv-z3-gss"/>
-                                    <action selector="listenToVoiceOver:" destination="LbW-FU-Aoh" eventType="touchUpInside" id="aEj-CO-6ib"/>
-                                    <action selector="listenToVoiceOver:" destination="ohO-wC-Nsv" eventType="touchUpInside" id="sen-Mi-WWn"/>
+                                    <action selector="listenToVoiceOver:" destination="tS6-BI-SVO" eventType="touchUpInside" id="4KD-el-UKu"/>
+                                    <action selector="listenToVoiceOver:" destination="ohO-wC-Nsv" eventType="touchUpInside" id="Lki-hy-oh0"/>
+                                    <action selector="listenToVoiceOver:" destination="7Li-CF-6gn" eventType="touchUpInside" id="b8D-E7-Vye"/>
+                                    <action selector="listenToVoiceOver:" destination="9Hz-or-0E6" eventType="touchUpInside" id="dMi-VV-0pQ"/>
+                                    <action selector="listenToVoiceOver:" destination="LbW-FU-Aoh" eventType="touchUpInside" id="nqe-ut-LrO"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="W7c-us-BfY">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0qC-jR-zK1">
                                 <rect key="frame" x="304" y="211" width="81" height="58"/>
-                                <state key="normal" title="Stop">
+                                <state key="normal" title="Stop" image="pause Icon.png">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
-                                    <rect key="frame" x="404" y="203" width="81" height="58"/>
+                                    <rect key="frame" x="945" y="80" width="50" height="50"/>
                                 </variation>
                                 <connections>
-                                    <action selector="listenToVoiceOver:" destination="LbW-FU-Aoh" eventType="touchUpInside" id="fw3-L6-Cus"/>
-                                    <action selector="stopVoiceOver:" destination="7Li-CF-6gn" eventType="touchUpInside" id="ISl-Sd-hkO"/>
-                                    <action selector="stopVoiceOver:" destination="9Hz-or-0E6" eventType="touchUpInside" id="JHZ-Ly-Z7c"/>
-                                    <action selector="stopVoiceOver:" destination="tS6-BI-SVO" eventType="touchUpInside" id="QCf-4E-Rd3"/>
-                                    <action selector="stopVoiceOver:" destination="ohO-wC-Nsv" eventType="touchUpInside" id="QhH-sE-nZ3"/>
-                                    <action selector="stopVoiceOver:" destination="LbW-FU-Aoh" eventType="touchUpInside" id="Wau-XQ-cXL"/>
-                                    <action selector="stopVoiceOver:" destination="jcp-Aj-XbN" eventType="touchUpInside" id="cPj-tG-cl0"/>
+                                    <action selector="listenToVoiceOver:" destination="LbW-FU-Aoh" eventType="touchUpInside" id="A84-SB-wrX"/>
+                                    <action selector="stopVoiceOver:" destination="tS6-BI-SVO" eventType="touchUpInside" id="JDh-pi-u8Q"/>
+                                    <action selector="stopVoiceOver:" destination="ohO-wC-Nsv" eventType="touchUpInside" id="Ujh-Ee-Cx4"/>
+                                    <action selector="stopVoiceOver:" destination="LbW-FU-Aoh" eventType="touchUpInside" id="aFZ-S8-5KJ"/>
+                                    <action selector="stopVoiceOver:" destination="9Hz-or-0E6" eventType="touchUpInside" id="bXx-Lj-2Bt"/>
+                                    <action selector="stopVoiceOver:" destination="7Li-CF-6gn" eventType="touchUpInside" id="uQs-RG-5nY"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JYL-F7-eiq">
+                            <label opaque="NO" userInteractionEnabled="NO" alpha="0.90000000000000002" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JYL-F7-eiq">
                                 <rect key="frame" x="16" y="28" width="568" height="175"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                                 <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
-                                    <rect key="frame" x="16" y="20" width="768" height="175"/>
+                                    <rect key="frame" x="52" y="70" width="780" height="80"/>
                                 </variation>
                             </label>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="HealthBar.png" translatesAutoresizingMaskIntoConstraints="NO" id="3W6-L6-Roh">
@@ -2950,8 +2962,8 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <variation key="default">
                             <mask key="subviews">
-                                <exclude reference="1lR-Uh-kCq"/>
-                                <exclude reference="W7c-us-BfY"/>
+                                <exclude reference="URm-q4-HMA"/>
+                                <exclude reference="0qC-jR-zK1"/>
                                 <exclude reference="3W6-L6-Roh"/>
                                 <exclude reference="sml-rS-5GD"/>
                                 <exclude reference="2x2-Ys-imd"/>
@@ -2974,8 +2986,8 @@
                         </variation>
                         <variation key="heightClass=regular-widthClass=regular">
                             <mask key="subviews">
-                                <include reference="1lR-Uh-kCq"/>
-                                <include reference="W7c-us-BfY"/>
+                                <include reference="URm-q4-HMA"/>
+                                <include reference="0qC-jR-zK1"/>
                                 <include reference="3W6-L6-Roh"/>
                                 <include reference="sml-rS-5GD"/>
                                 <include reference="2x2-Ys-imd"/>
@@ -3025,7 +3037,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="TUs-V2-jYF" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="9597.75" y="804.75"/>
+            <point key="canvasLocation" x="11205" y="1001"/>
         </scene>
         <!--Decision Slide 3-->
         <scene sceneID="Sxg-RG-YOb">
@@ -3391,7 +3403,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Eu8-k2-BgU" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="10477.5" y="93.75"/>
+            <point key="canvasLocation" x="12309" y="87"/>
         </scene>
         <!--Answer Slide 3-->
         <scene sceneID="goM-BZ-51Y">
@@ -3423,13 +3435,14 @@
                                     <segue destination="rc7-u5-mAg" kind="show" id="Y4C-RA-HFM"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="This is a new label" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="odc-ZL-0hK">
+                            <label opaque="NO" userInteractionEnabled="NO" alpha="0.90000000000000002" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="This is a new label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="odc-ZL-0hK">
                                 <rect key="frame" x="16" y="28" width="568" height="175"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                                 <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
-                                    <rect key="frame" x="16" y="28" width="768" height="175"/>
+                                    <rect key="frame" x="52" y="70" width="780" height="80"/>
                                 </variation>
                             </label>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="HealthBar.png" translatesAutoresizingMaskIntoConstraints="NO" id="6Xi-5i-418">
@@ -3451,13 +3464,13 @@
                                     <segue destination="cu6-6a-4d8" kind="presentation" id="5GA-T9-COc"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vzd-PT-tgB">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vzd-PT-tgB">
                                 <rect key="frame" x="215" y="211" width="81" height="58"/>
-                                <state key="normal" title="Listen">
+                                <state key="normal" title="Listen" image="sound Icon.png">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
-                                    <rect key="frame" x="315" y="211" width="81" height="58"/>
+                                    <rect key="frame" x="870" y="80" width="50" height="50"/>
                                 </variation>
                                 <connections>
                                     <action selector="listenToVoiceOver:" destination="9Hz-or-0E6" eventType="touchUpInside" id="0oc-jS-aAv"/>
@@ -3469,13 +3482,13 @@
                                     <action selector="listenToVoiceOver:" destination="jcp-Aj-XbN" eventType="touchUpInside" id="tj5-kg-vKo"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tBL-Et-7iM">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tBL-Et-7iM">
                                 <rect key="frame" x="304" y="211" width="81" height="58"/>
-                                <state key="normal" title="Stop">
+                                <state key="normal" title="Stop" image="pause Icon.png">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
-                                    <rect key="frame" x="404" y="211" width="81" height="58"/>
+                                    <rect key="frame" x="945" y="80" width="50" height="50"/>
                                 </variation>
                                 <connections>
                                     <action selector="listenToVoiceOver:" destination="LbW-FU-Aoh" eventType="touchUpInside" id="DLi-Lv-F5x"/>
@@ -3720,7 +3733,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="XmA-Ej-sf0" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="10477.5" y="804.75"/>
+            <point key="canvasLocation" x="12309" y="1001"/>
         </scene>
         <!--Decision Slide 4-->
         <scene sceneID="2et-7n-rVN">
@@ -3747,18 +3760,48 @@
                                     <rect key="frame" x="50" y="20" width="406" height="36"/>
                                 </variation>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6Bi-5i-SZu" userLabel="HatButton">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <state key="normal">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="775" y="153" width="154" height="102"/>
+                                </variation>
+                                <connections>
+                                    <action selector="ChooseHat:" destination="cu6-6a-4d8" eventType="touchUpInside" id="iTT-1g-faF"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hhn-bJ-Ipm" userLabel="SunscreenButton">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <state key="normal">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="775" y="275" width="154" height="130"/>
+                                </variation>
+                                <connections>
+                                    <action selector="ChooseSunscreen:" destination="cu6-6a-4d8" eventType="touchUpInside" id="d7q-1q-4S4"/>
+                                </connections>
+                            </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="1 15 Hat 1 Wide-brimmed.png" translatesAutoresizingMaskIntoConstraints="NO" id="KI0-z3-ug0">
                                 <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
                                 <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
-                                    <rect key="frame" x="680" y="133" width="336" height="685"/>
+                                    <rect key="frame" x="683" y="132" width="336" height="686"/>
                                 </variation>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="sunscreen.png" translatesAutoresizingMaskIntoConstraints="NO" id="Ix6-nq-Cfg">
-                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="M7L-gS-S0b" userLabel="CoverButton">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <state key="normal" title="Cover Up" image="umbrella.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
                                 <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
-                                    <rect key="frame" x="777" y="276" width="146" height="128"/>
+                                    <rect key="frame" x="783" y="439" width="140" height="140"/>
                                 </variation>
-                            </imageView>
+                                <connections>
+                                    <action selector="ChooseCover:" destination="cu6-6a-4d8" eventType="touchUpInside" id="ao6-6f-Gv0"/>
+                                </connections>
+                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4Z2-TF-dGs">
                                 <rect key="frame" x="16" y="550" width="35" height="30"/>
                                 <state key="normal" title="Back" image="left arrow.png">
@@ -3836,42 +3879,6 @@ it takes hours getting here! You now only have an hour to enjoy the beach.</stri
                                     <action selector="stopVoiceOver:" destination="cu6-6a-4d8" eventType="touchUpInside" id="d4K-It-EiM"/>
                                     <action selector="stopVoiceOver:" destination="LbW-FU-Aoh" eventType="touchUpInside" id="iWI-0D-HgR"/>
                                     <action selector="stopVoiceOver:" destination="ohO-wC-Nsv" eventType="touchUpInside" id="uDC-31-UfW"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6Bi-5i-SZu">
-                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
-                                <state key="normal">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
-                                    <rect key="frame" x="777" y="153" width="153" height="102"/>
-                                </variation>
-                                <connections>
-                                    <action selector="ChooseHat:" destination="cu6-6a-4d8" eventType="touchUpInside" id="iTT-1g-faF"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hhn-bJ-Ipm">
-                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
-                                <state key="normal">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
-                                    <rect key="frame" x="777" y="275" width="153" height="129"/>
-                                </variation>
-                                <connections>
-                                    <action selector="ChooseSunscreen:" destination="cu6-6a-4d8" eventType="touchUpInside" id="d7q-1q-4S4"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="M7L-gS-S0b">
-                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
-                                <state key="normal" title="Cover Up">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
-                                    <rect key="frame" x="777" y="439" width="153" height="125"/>
-                                </variation>
-                                <connections>
-                                    <action selector="ChooseCover:" destination="cu6-6a-4d8" eventType="touchUpInside" id="cBM-5A-GWc"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Should you wear a hat?" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aKQ-AU-hPx">
@@ -4052,19 +4059,36 @@ it takes hours getting here! You now only have an hour to enjoy the beach.</stri
                                     <rect key="frame" x="110" y="212" width="200" height="460"/>
                                 </variation>
                             </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="tf0-1L-9aO" userLabel="SunscreenFace">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="196" y="305" width="33" height="11"/>
+                                </variation>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="2NE-KP-cA0">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="-27" y="88" width="344" height="466"/>
+                                </variation>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="sunscreen.png" translatesAutoresizingMaskIntoConstraints="NO" id="Ix6-nq-Cfg">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="777" y="276" width="146" height="128"/>
+                                </variation>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <variation key="default">
                             <mask key="subviews">
                                 <exclude reference="Lou-6C-gSZ"/>
                                 <exclude reference="MqC-nJ-huB"/>
-                                <exclude reference="KI0-z3-ug0"/>
-                                <exclude reference="Ix6-nq-Cfg"/>
-                                <exclude reference="qXn-fF-obg"/>
-                                <exclude reference="Trs-kL-Nw7"/>
                                 <exclude reference="6Bi-5i-SZu"/>
                                 <exclude reference="hhn-bJ-Ipm"/>
+                                <exclude reference="KI0-z3-ug0"/>
                                 <exclude reference="M7L-gS-S0b"/>
+                                <exclude reference="qXn-fF-obg"/>
+                                <exclude reference="Trs-kL-Nw7"/>
                                 <exclude reference="aKQ-AU-hPx"/>
                                 <exclude reference="kgM-v0-X72"/>
                                 <exclude reference="uo7-aM-koM"/>
@@ -4085,19 +4109,21 @@ it takes hours getting here! You now only have an hour to enjoy the beach.</stri
                                 <exclude reference="TqS-yD-mGT"/>
                                 <exclude reference="RdW-wq-Dgp"/>
                                 <exclude reference="nSq-V5-YeB"/>
+                                <exclude reference="tf0-1L-9aO"/>
+                                <exclude reference="2NE-KP-cA0"/>
+                                <exclude reference="Ix6-nq-Cfg"/>
                             </mask>
                         </variation>
                         <variation key="heightClass=regular-widthClass=regular">
                             <mask key="subviews">
                                 <include reference="Lou-6C-gSZ"/>
                                 <include reference="MqC-nJ-huB"/>
-                                <include reference="KI0-z3-ug0"/>
-                                <include reference="Ix6-nq-Cfg"/>
-                                <include reference="qXn-fF-obg"/>
-                                <include reference="Trs-kL-Nw7"/>
                                 <include reference="6Bi-5i-SZu"/>
                                 <include reference="hhn-bJ-Ipm"/>
+                                <include reference="KI0-z3-ug0"/>
                                 <include reference="M7L-gS-S0b"/>
+                                <include reference="qXn-fF-obg"/>
+                                <include reference="Trs-kL-Nw7"/>
                                 <include reference="aKQ-AU-hPx"/>
                                 <include reference="kgM-v0-X72"/>
                                 <include reference="uo7-aM-koM"/>
@@ -4118,6 +4144,9 @@ it takes hours getting here! You now only have an hour to enjoy the beach.</stri
                                 <include reference="TqS-yD-mGT"/>
                                 <include reference="RdW-wq-Dgp"/>
                                 <include reference="nSq-V5-YeB"/>
+                                <include reference="tf0-1L-9aO"/>
+                                <include reference="2NE-KP-cA0"/>
+                                <include reference="Ix6-nq-Cfg"/>
                             </mask>
                         </variation>
                     </view>
@@ -4125,7 +4154,12 @@ it takes hours getting here! You now only have an hour to enjoy the beach.</stri
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
                     <size key="freeformSize" width="1024" height="768"/>
                     <connections>
+                        <outlet property="CoverButton" destination="M7L-gS-S0b" id="znr-31-AW4"/>
+                        <outlet property="HatButton" destination="6Bi-5i-SZu" id="OGT-sm-lgn"/>
                         <outlet property="HeathBar" destination="MqC-nJ-huB" id="Bzd-xN-K2O"/>
+                        <outlet property="SunscreenButton" destination="M7L-gS-S0b" id="DAP-O7-7rE"/>
+                        <outlet property="SunscreenNoseImg" destination="tf0-1L-9aO" id="unT-Lo-O9v"/>
+                        <outlet property="UmbrellaImg" destination="2NE-KP-cA0" id="SA8-Jg-Vvf"/>
                         <outlet property="bottom" destination="d6N-rW-P6z" id="hfk-8i-dzA"/>
                         <outlet property="capeBack" destination="9GF-dN-q1s" id="OcJ-sf-jUF"/>
                         <outlet property="eyeBrows" destination="ED1-cf-YFy" id="JZ4-Wd-nUw"/>
@@ -4148,7 +4182,7 @@ it takes hours getting here! You now only have an hour to enjoy the beach.</stri
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cdh-YU-k5p" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="11354.25" y="93.75"/>
+            <point key="canvasLocation" x="13413" y="93"/>
         </scene>
         <!--Answer Slide 4-->
         <scene sceneID="l0l-GP-iLD">
@@ -4168,6 +4202,39 @@ it takes hours getting here! You now only have an hour to enjoy the beach.</stri
                                     <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
                                 </variation>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WKc-om-sRh">
+                                <rect key="frame" x="215" y="211" width="81" height="58"/>
+                                <state key="normal" title="Listen" image="sound Icon.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="870" y="80" width="50" height="50"/>
+                                </variation>
+                                <connections>
+                                    <action selector="listenToVoiceOver:" destination="9Hz-or-0E6" eventType="touchUpInside" id="4y8-tr-Qw1"/>
+                                    <action selector="listenToVoiceOver:" destination="7Li-CF-6gn" eventType="touchUpInside" id="BSW-SG-Ohe"/>
+                                    <action selector="listenToVoiceOver:" destination="tS6-BI-SVO" eventType="touchUpInside" id="Imx-1e-2SR"/>
+                                    <action selector="listenToVoiceOver:" destination="ohO-wC-Nsv" eventType="touchUpInside" id="S9a-mm-U6x"/>
+                                    <action selector="listenToVoiceOver:" destination="LbW-FU-Aoh" eventType="touchUpInside" id="sMf-QS-PDo"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0f9-vh-sdw">
+                                <rect key="frame" x="304" y="211" width="81" height="58"/>
+                                <state key="normal" title="Stop" image="pause Icon.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="945" y="80" width="50" height="50"/>
+                                </variation>
+                                <connections>
+                                    <action selector="listenToVoiceOver:" destination="LbW-FU-Aoh" eventType="touchUpInside" id="560-fD-TN2"/>
+                                    <action selector="stopVoiceOver:" destination="tS6-BI-SVO" eventType="touchUpInside" id="DT0-nh-4nf"/>
+                                    <action selector="stopVoiceOver:" destination="9Hz-or-0E6" eventType="touchUpInside" id="Q97-KN-4xA"/>
+                                    <action selector="stopVoiceOver:" destination="7Li-CF-6gn" eventType="touchUpInside" id="daB-Lp-YoE"/>
+                                    <action selector="stopVoiceOver:" destination="LbW-FU-Aoh" eventType="touchUpInside" id="r06-I4-30W"/>
+                                    <action selector="stopVoiceOver:" destination="ohO-wC-Nsv" eventType="touchUpInside" id="uhy-1g-AYM"/>
+                                </connections>
+                            </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="HealthBar.png" translatesAutoresizingMaskIntoConstraints="NO" id="bzC-Zy-38B">
                                 <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -4187,13 +4254,14 @@ it takes hours getting here! You now only have an hour to enjoy the beach.</stri
                                     <segue destination="cu6-6a-4d8" kind="show" id="MSS-3A-zlW"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="t5r-5g-GMR">
+                            <label opaque="NO" userInteractionEnabled="NO" alpha="0.90000000000000002" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="t5r-5g-GMR">
                                 <rect key="frame" x="16" y="28" width="568" height="175"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                                 <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
-                                    <rect key="frame" x="16" y="92" width="568" height="64"/>
+                                    <rect key="frame" x="50" y="92" width="574" height="64"/>
                                 </variation>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9iB-Sh-F8F">
@@ -4208,22 +4276,24 @@ it takes hours getting here! You now only have an hour to enjoy the beach.</stri
                                     <segue destination="eXg-CJ-cf5" kind="presentation" id="AVT-uC-7be"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label2" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MhS-Nn-1nu">
+                            <label opaque="NO" userInteractionEnabled="NO" alpha="0.90000000000000002" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label2" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MhS-Nn-1nu">
                                 <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                                 <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
-                                    <rect key="frame" x="14" y="234" width="610" height="70"/>
+                                    <rect key="frame" x="50" y="233" width="574" height="70"/>
                                 </variation>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label3" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iaz-ck-wdj">
+                            <label opaque="NO" userInteractionEnabled="NO" alpha="0.90000000000000002" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label3" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iaz-ck-wdj">
                                 <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                                 <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
-                                    <rect key="frame" x="16" y="381" width="608" height="70"/>
+                                    <rect key="frame" x="50" y="381" width="574" height="70"/>
                                 </variation>
                             </label>
                             <imageView opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="ZhJ-Pz-LMD" userLabel="0 HAIR_BACK">
@@ -4382,6 +4452,8 @@ it takes hours getting here! You now only have an hour to enjoy the beach.</stri
                         <variation key="default">
                             <mask key="subviews">
                                 <exclude reference="Zmp-QG-oeg"/>
+                                <exclude reference="WKc-om-sRh"/>
+                                <exclude reference="0f9-vh-sdw"/>
                                 <exclude reference="bzC-Zy-38B"/>
                                 <exclude reference="MhS-Nn-1nu"/>
                                 <exclude reference="iaz-ck-wdj"/>
@@ -4407,6 +4479,8 @@ it takes hours getting here! You now only have an hour to enjoy the beach.</stri
                         <variation key="heightClass=regular-widthClass=regular">
                             <mask key="subviews">
                                 <include reference="Zmp-QG-oeg"/>
+                                <include reference="WKc-om-sRh"/>
+                                <include reference="0f9-vh-sdw"/>
                                 <include reference="bzC-Zy-38B"/>
                                 <include reference="MhS-Nn-1nu"/>
                                 <include reference="iaz-ck-wdj"/>
@@ -4459,7 +4533,7 @@ it takes hours getting here! You now only have an hour to enjoy the beach.</stri
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="zH8-Vd-YDY" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="11358" y="823.5"/>
+            <point key="canvasLocation" x="13413" y="1006.5"/>
         </scene>
         <!--Decision Slide 5-->
         <scene sceneID="Kig-Om-Tuz">
@@ -4853,7 +4927,7 @@ it takes hours getting here! You now only have an hour to enjoy the beach.</stri
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="IJb-ka-7rG" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="12191.25" y="93.75"/>
+            <point key="canvasLocation" x="14535" y="87"/>
         </scene>
         <!--Answer Slide 5-->
         <scene sceneID="pBH-A0-TUu">
@@ -5036,11 +5110,15 @@ it takes hours getting here! You now only have an hour to enjoy the beach.</stri
                                     <segue destination="eXg-CJ-cf5" kind="show" id="Ogg-Jz-Ar9"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vic-hb-gBN">
+                            <label opaque="NO" userInteractionEnabled="NO" alpha="0.90000000000000002" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vic-hb-gBN">
                                 <rect key="frame" x="16" y="28" width="568" height="175"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="52" y="70" width="780" height="80"/>
+                                </variation>
                             </label>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="HealthBar.png" translatesAutoresizingMaskIntoConstraints="NO" id="spc-Sa-T3g">
                                 <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
@@ -5049,13 +5127,13 @@ it takes hours getting here! You now only have an hour to enjoy the beach.</stri
                                     <rect key="frame" x="50" y="20" width="406" height="36"/>
                                 </variation>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fQv-ig-SCc">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fQv-ig-SCc">
                                 <rect key="frame" x="304" y="128" width="81" height="58"/>
-                                <state key="normal" title="Stop">
+                                <state key="normal" title="Stop" image="pause Icon.png">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
-                                    <rect key="frame" x="304" y="236" width="81" height="58"/>
+                                    <rect key="frame" x="945" y="80" width="50" height="50"/>
                                 </variation>
                                 <connections>
                                     <action selector="listenToVoiceOver:" destination="LbW-FU-Aoh" eventType="touchUpInside" id="ldm-75-a19"/>
@@ -5074,7 +5152,7 @@ it takes hours getting here! You now only have an hour to enjoy the beach.</stri
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
-                                    <rect key="frame" x="400" y="120" width="50" height="50"/>
+                                    <rect key="frame" x="870" y="80" width="50" height="50"/>
                                 </variation>
                                 <connections>
                                     <action selector="listenToVoiceOver:" destination="yy7-Re-9Kd" eventType="touchUpInside" id="Fd9-kH-AyN"/>
@@ -5179,7 +5257,7 @@ it takes hours getting here! You now only have an hour to enjoy the beach.</stri
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hAy-qJ-efk" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="12191.25" y="823.5"/>
+            <point key="canvasLocation" x="14535" y="1001"/>
         </scene>
         <!--Decision Slide 6-->
         <scene sceneID="iWG-oA-hkW">
@@ -5330,7 +5408,7 @@ it takes hours getting here! You now only have an hour to enjoy the beach.</stri
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7ja-Kf-eQ4" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="13038" y="93.75"/>
+            <point key="canvasLocation" x="15654" y="93"/>
         </scene>
         <!--Answer Slide 6-->
         <scene sceneID="LG2-Th-z7w">
@@ -5344,6 +5422,45 @@ it takes hours getting here! You now only have an hour to enjoy the beach.</stri
                         <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background_planet.png" translatesAutoresizingMaskIntoConstraints="NO" id="6ce-YI-fZr">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                                </variation>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nBe-Gq-kw2">
+                                <rect key="frame" x="215" y="211" width="81" height="58"/>
+                                <state key="normal" title="Listen" image="sound Icon.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="870" y="80" width="50" height="50"/>
+                                </variation>
+                                <connections>
+                                    <action selector="listenToVoiceOver:" destination="ohO-wC-Nsv" eventType="touchUpInside" id="9WP-Ww-JBP"/>
+                                    <action selector="listenToVoiceOver:" destination="9Hz-or-0E6" eventType="touchUpInside" id="Kt9-RF-USg"/>
+                                    <action selector="listenToVoiceOver:" destination="LbW-FU-Aoh" eventType="touchUpInside" id="LrG-b9-g2c"/>
+                                    <action selector="listenToVoiceOver:" destination="tS6-BI-SVO" eventType="touchUpInside" id="pNH-M3-Coo"/>
+                                    <action selector="listenToVoiceOver:" destination="7Li-CF-6gn" eventType="touchUpInside" id="t1o-ag-Glk"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aAU-Ff-hew">
+                                <rect key="frame" x="304" y="211" width="81" height="58"/>
+                                <state key="normal" title="Stop" image="pause Icon.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="945" y="80" width="50" height="50"/>
+                                </variation>
+                                <connections>
+                                    <action selector="listenToVoiceOver:" destination="LbW-FU-Aoh" eventType="touchUpInside" id="hf7-Qq-Yq7"/>
+                                    <action selector="stopVoiceOver:" destination="LbW-FU-Aoh" eventType="touchUpInside" id="9DZ-lU-HUw"/>
+                                    <action selector="stopVoiceOver:" destination="7Li-CF-6gn" eventType="touchUpInside" id="RSz-NC-c7Y"/>
+                                    <action selector="stopVoiceOver:" destination="ohO-wC-Nsv" eventType="touchUpInside" id="byq-ry-vfG"/>
+                                    <action selector="stopVoiceOver:" destination="tS6-BI-SVO" eventType="touchUpInside" id="dU6-Yh-d19"/>
+                                    <action selector="stopVoiceOver:" destination="9Hz-or-0E6" eventType="touchUpInside" id="uAZ-tg-3EP"/>
+                                </connections>
+                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SpG-Bz-KgX">
                                 <rect key="frame" x="16" y="550" width="35" height="30"/>
                                 <state key="normal" title="Back" image="left arrow.png">
@@ -5356,11 +5473,15 @@ it takes hours getting here! You now only have an hour to enjoy the beach.</stri
                                     <segue destination="YiR-f4-jdd" kind="show" id="MPr-Bf-8n3"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yVr-cO-LNy">
+                            <label opaque="NO" userInteractionEnabled="NO" alpha="0.90000000000000002" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yVr-cO-LNy">
                                 <rect key="frame" x="16" y="28" width="568" height="175"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="52" y="70" width="780" height="80"/>
+                                </variation>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cQv-xO-OCp">
                                 <rect key="frame" x="552" y="550" width="32" height="30"/>
@@ -5536,6 +5657,9 @@ it takes hours getting here! You now only have an hour to enjoy the beach.</stri
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <variation key="default">
                             <mask key="subviews">
+                                <exclude reference="6ce-YI-fZr"/>
+                                <exclude reference="nBe-Gq-kw2"/>
+                                <exclude reference="aAU-Ff-hew"/>
                                 <exclude reference="WGW-yI-soG"/>
                                 <exclude reference="hRG-0G-Gql"/>
                                 <exclude reference="W3a-NZ-66w"/>
@@ -5558,6 +5682,9 @@ it takes hours getting here! You now only have an hour to enjoy the beach.</stri
                         </variation>
                         <variation key="heightClass=regular-widthClass=regular">
                             <mask key="subviews">
+                                <include reference="6ce-YI-fZr"/>
+                                <include reference="nBe-Gq-kw2"/>
+                                <include reference="aAU-Ff-hew"/>
                                 <include reference="WGW-yI-soG"/>
                                 <include reference="hRG-0G-Gql"/>
                                 <include reference="W3a-NZ-66w"/>
@@ -5606,7 +5733,7 @@ it takes hours getting here! You now only have an hour to enjoy the beach.</stri
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="L9m-1W-H45" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="13041.75" y="823.5"/>
+            <point key="canvasLocation" x="15657" y="1007"/>
         </scene>
         <!--Decision Slide 7-->
         <scene sceneID="gXT-y6-Eyu">
@@ -5624,6 +5751,30 @@ it takes hours getting here! You now only have an hour to enjoy the beach.</stri
                                 <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
                                 <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
                                     <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                                </variation>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Smoke.png" translatesAutoresizingMaskIntoConstraints="NO" id="ffm-oU-QQD">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="763" y="38" width="277" height="307"/>
+                                </variation>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Smoke.png" translatesAutoresizingMaskIntoConstraints="NO" id="MDQ-b9-4s6">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="-9" y="85" width="200" height="246"/>
+                                </variation>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Smoke2.png" translatesAutoresizingMaskIntoConstraints="NO" id="mbQ-Cq-rUl">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="199" y="156" width="240" height="306"/>
+                                </variation>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Smoke2.png" translatesAutoresizingMaskIntoConstraints="NO" id="XQa-gW-1i5">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="475" y="13" width="286" height="378"/>
                                 </variation>
                             </imageView>
                             <imageView opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="v8G-Ee-w8d" userLabel="0 HAIR_BACK">
@@ -5897,7 +6048,13 @@ it takes hours getting here! You now only have an hour to enjoy the beach.</stri
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="cage1.png" translatesAutoresizingMaskIntoConstraints="NO" id="i0z-OU-Uqj">
                                 <rect key="frame" x="158" y="342" width="344" height="295"/>
                                 <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
-                                    <rect key="frame" x="548" y="468" width="364" height="343"/>
+                                    <rect key="frame" x="515" y="499" width="257" height="303"/>
+                                </variation>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="VillainSuccess.png" translatesAutoresizingMaskIntoConstraints="NO" id="R7b-WS-THa">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="717" y="372" width="240" height="334"/>
                                 </variation>
                             </imageView>
                         </subviews>
@@ -5905,6 +6062,10 @@ it takes hours getting here! You now only have an hour to enjoy the beach.</stri
                         <variation key="default">
                             <mask key="subviews">
                                 <exclude reference="7Xz-PQ-60v"/>
+                                <exclude reference="ffm-oU-QQD"/>
+                                <exclude reference="MDQ-b9-4s6"/>
+                                <exclude reference="mbQ-Cq-rUl"/>
+                                <exclude reference="XQa-gW-1i5"/>
                                 <exclude reference="v8G-Ee-w8d"/>
                                 <exclude reference="vHm-Iv-xzj"/>
                                 <exclude reference="fce-Io-t6W"/>
@@ -5925,11 +6086,16 @@ it takes hours getting here! You now only have an hour to enjoy the beach.</stri
                                 <exclude reference="Z14-61-XiZ"/>
                                 <exclude reference="EW6-z9-YbN"/>
                                 <exclude reference="gco-gi-LT3"/>
+                                <exclude reference="R7b-WS-THa"/>
                             </mask>
                         </variation>
                         <variation key="heightClass=regular-widthClass=regular">
                             <mask key="subviews">
                                 <include reference="7Xz-PQ-60v"/>
+                                <include reference="ffm-oU-QQD"/>
+                                <include reference="MDQ-b9-4s6"/>
+                                <include reference="mbQ-Cq-rUl"/>
+                                <include reference="XQa-gW-1i5"/>
                                 <include reference="v8G-Ee-w8d"/>
                                 <include reference="vHm-Iv-xzj"/>
                                 <include reference="fce-Io-t6W"/>
@@ -5950,6 +6116,7 @@ it takes hours getting here! You now only have an hour to enjoy the beach.</stri
                                 <include reference="Z14-61-XiZ"/>
                                 <include reference="EW6-z9-YbN"/>
                                 <include reference="gco-gi-LT3"/>
+                                <include reference="R7b-WS-THa"/>
                             </mask>
                         </variation>
                     </view>
@@ -5983,7 +6150,7 @@ it takes hours getting here! You now only have an hour to enjoy the beach.</stri
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Qln-2N-Ani" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="13900.5" y="93.75"/>
+            <point key="canvasLocation" x="16795.5" y="93"/>
         </scene>
         <!--Answer Slide 7-->
         <scene sceneID="qPj-lI-gcd">
@@ -6003,6 +6170,39 @@ it takes hours getting here! You now only have an hour to enjoy the beach.</stri
                                     <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
                                 </variation>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="koA-TK-OTl">
+                                <rect key="frame" x="215" y="211" width="81" height="58"/>
+                                <state key="normal" title="Listen" image="sound Icon.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="870" y="80" width="50" height="50"/>
+                                </variation>
+                                <connections>
+                                    <action selector="listenToVoiceOver:" destination="tS6-BI-SVO" eventType="touchUpInside" id="ImS-fq-DXO"/>
+                                    <action selector="listenToVoiceOver:" destination="LbW-FU-Aoh" eventType="touchUpInside" id="NIf-Fh-qhV"/>
+                                    <action selector="listenToVoiceOver:" destination="7Li-CF-6gn" eventType="touchUpInside" id="cAf-cE-A2e"/>
+                                    <action selector="listenToVoiceOver:" destination="ohO-wC-Nsv" eventType="touchUpInside" id="dZW-ig-A4f"/>
+                                    <action selector="listenToVoiceOver:" destination="9Hz-or-0E6" eventType="touchUpInside" id="w1M-ik-Mgn"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="M7W-Q7-ME6">
+                                <rect key="frame" x="304" y="211" width="81" height="58"/>
+                                <state key="normal" title="Stop" image="pause Icon.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="945" y="80" width="50" height="50"/>
+                                </variation>
+                                <connections>
+                                    <action selector="listenToVoiceOver:" destination="LbW-FU-Aoh" eventType="touchUpInside" id="AFn-La-Ktc"/>
+                                    <action selector="stopVoiceOver:" destination="ohO-wC-Nsv" eventType="touchUpInside" id="DtT-3L-Vwm"/>
+                                    <action selector="stopVoiceOver:" destination="9Hz-or-0E6" eventType="touchUpInside" id="KpU-pD-kUv"/>
+                                    <action selector="stopVoiceOver:" destination="7Li-CF-6gn" eventType="touchUpInside" id="Sg5-hE-Fs4"/>
+                                    <action selector="stopVoiceOver:" destination="LbW-FU-Aoh" eventType="touchUpInside" id="vo6-Xh-VdX"/>
+                                    <action selector="stopVoiceOver:" destination="tS6-BI-SVO" eventType="touchUpInside" id="x8y-C5-Tjh"/>
+                                </connections>
+                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ofN-S7-uxf">
                                 <rect key="frame" x="16" y="550" width="35" height="30"/>
                                 <state key="normal" title="Back" image="left arrow.png">
@@ -6015,11 +6215,15 @@ it takes hours getting here! You now only have an hour to enjoy the beach.</stri
                                     <segue destination="SPC-EZ-u9d" kind="show" id="6GF-6v-d9i"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mkm-eB-JY5">
+                            <label opaque="NO" userInteractionEnabled="NO" alpha="0.90000000000000002" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mkm-eB-JY5">
                                 <rect key="frame" x="16" y="28" width="568" height="96"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="52" y="70" width="780" height="80"/>
+                                </variation>
                             </label>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="HealthBar.png" translatesAutoresizingMaskIntoConstraints="NO" id="Oto-am-SPD">
                                 <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
@@ -6196,6 +6400,8 @@ it takes hours getting here! You now only have an hour to enjoy the beach.</stri
                         <variation key="default">
                             <mask key="subviews">
                                 <exclude reference="8B6-ak-xw9"/>
+                                <exclude reference="koA-TK-OTl"/>
+                                <exclude reference="M7W-Q7-ME6"/>
                                 <exclude reference="Oto-am-SPD"/>
                                 <exclude reference="dtt-wY-qhf"/>
                                 <exclude reference="0AP-Ug-JPU"/>
@@ -6219,6 +6425,8 @@ it takes hours getting here! You now only have an hour to enjoy the beach.</stri
                         <variation key="heightClass=regular-widthClass=regular">
                             <mask key="subviews">
                                 <include reference="8B6-ak-xw9"/>
+                                <include reference="koA-TK-OTl"/>
+                                <include reference="M7W-Q7-ME6"/>
                                 <include reference="Oto-am-SPD"/>
                                 <include reference="dtt-wY-qhf"/>
                                 <include reference="0AP-Ug-JPU"/>
@@ -6267,7 +6475,7 @@ it takes hours getting here! You now only have an hour to enjoy the beach.</stri
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="MMX-zV-jnw" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="13900.5" y="823.5"/>
+            <point key="canvasLocation" x="16796" y="1007"/>
         </scene>
         <!--Decision Slide 8-->
         <scene sceneID="vi6-ef-c1p">
@@ -6623,7 +6831,7 @@ it takes hours getting here! You now only have an hour to enjoy the beach.</stri
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7ke-cd-Eeb" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="14787" y="93.75"/>
+            <point key="canvasLocation" x="17931" y="93"/>
         </scene>
         <!--Answer Slide 8-->
         <scene sceneID="zpt-mT-G4q">
@@ -6643,6 +6851,39 @@ it takes hours getting here! You now only have an hour to enjoy the beach.</stri
                                     <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
                                 </variation>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OLE-v6-Y1Z">
+                                <rect key="frame" x="215" y="211" width="81" height="58"/>
+                                <state key="normal" title="Listen" image="sound Icon.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="870" y="80" width="50" height="50"/>
+                                </variation>
+                                <connections>
+                                    <action selector="listenToVoiceOver:" destination="tS6-BI-SVO" eventType="touchUpInside" id="6d2-Xm-IXT"/>
+                                    <action selector="listenToVoiceOver:" destination="ohO-wC-Nsv" eventType="touchUpInside" id="EGg-lt-sPC"/>
+                                    <action selector="listenToVoiceOver:" destination="9Hz-or-0E6" eventType="touchUpInside" id="MiE-0m-vjG"/>
+                                    <action selector="listenToVoiceOver:" destination="LbW-FU-Aoh" eventType="touchUpInside" id="grm-H0-vHT"/>
+                                    <action selector="listenToVoiceOver:" destination="7Li-CF-6gn" eventType="touchUpInside" id="qfd-QM-sOV"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZNw-Ia-BgN">
+                                <rect key="frame" x="304" y="211" width="81" height="58"/>
+                                <state key="normal" title="Stop" image="pause Icon.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="945" y="80" width="50" height="50"/>
+                                </variation>
+                                <connections>
+                                    <action selector="listenToVoiceOver:" destination="LbW-FU-Aoh" eventType="touchUpInside" id="E1G-su-cXh"/>
+                                    <action selector="stopVoiceOver:" destination="tS6-BI-SVO" eventType="touchUpInside" id="MCA-MS-Xk0"/>
+                                    <action selector="stopVoiceOver:" destination="ohO-wC-Nsv" eventType="touchUpInside" id="Ntb-l1-fcu"/>
+                                    <action selector="stopVoiceOver:" destination="LbW-FU-Aoh" eventType="touchUpInside" id="vG4-dW-cmU"/>
+                                    <action selector="stopVoiceOver:" destination="7Li-CF-6gn" eventType="touchUpInside" id="viI-f4-3VU"/>
+                                    <action selector="stopVoiceOver:" destination="9Hz-or-0E6" eventType="touchUpInside" id="wXv-pA-1kd"/>
+                                </connections>
+                            </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="HealthBar.png" translatesAutoresizingMaskIntoConstraints="NO" id="SSV-hH-O4O">
                                 <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -6650,11 +6891,15 @@ it takes hours getting here! You now only have an hour to enjoy the beach.</stri
                                     <rect key="frame" x="50" y="20" width="406" height="36"/>
                                 </variation>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iDJ-MT-OAd">
+                            <label opaque="NO" userInteractionEnabled="NO" alpha="0.90000000000000002" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iDJ-MT-OAd">
                                 <rect key="frame" x="16" y="28" width="568" height="175"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="52" y="70" width="780" height="80"/>
+                                </variation>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="17g-aE-9nF">
                                 <rect key="frame" x="16" y="550" width="35" height="30"/>
@@ -6836,6 +7081,8 @@ it takes hours getting here! You now only have an hour to enjoy the beach.</stri
                         <variation key="default">
                             <mask key="subviews">
                                 <exclude reference="OYs-Lg-NPR"/>
+                                <exclude reference="OLE-v6-Y1Z"/>
+                                <exclude reference="ZNw-Ia-BgN"/>
                                 <exclude reference="SSV-hH-O4O"/>
                                 <exclude reference="Ic2-EF-vnH"/>
                                 <exclude reference="vwy-FE-DUP"/>
@@ -6859,6 +7106,8 @@ it takes hours getting here! You now only have an hour to enjoy the beach.</stri
                         <variation key="heightClass=regular-widthClass=regular">
                             <mask key="subviews">
                                 <include reference="OYs-Lg-NPR"/>
+                                <include reference="OLE-v6-Y1Z"/>
+                                <include reference="ZNw-Ia-BgN"/>
                                 <include reference="SSV-hH-O4O"/>
                                 <include reference="Ic2-EF-vnH"/>
                                 <include reference="vwy-FE-DUP"/>
@@ -6907,7 +7156,7 @@ it takes hours getting here! You now only have an hour to enjoy the beach.</stri
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="W6e-cc-lNN" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="14787" y="823.5"/>
+            <point key="canvasLocation" x="17931" y="1007"/>
         </scene>
         <!--Final Slide-->
         <scene sceneID="AsE-HQ-zBI">
@@ -6977,7 +7226,7 @@ it takes hours getting here! You now only have an hour to enjoy the beach.</stri
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Vdn-x1-f4r" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2085.75" y="-830.25"/>
+            <point key="canvasLocation" x="2042.25" y="-847.5"/>
         </scene>
     </scenes>
     <resources>
@@ -7006,20 +7255,23 @@ it takes hours getting here! You now only have an hour to enjoy the beach.</stri
         <image name="1 4 Shoes 3 Shoes B.png" width="1000" height="2300"/>
         <image name="1 5 Arms 0 Default.png" width="1000" height="2300"/>
         <image name="1 6 Clothing Front 2 Dress.png" width="1000" height="2300"/>
+        <image name="1 6 Clothing Front 3 Shirt.png" width="1000" height="2300"/>
         <image name="1 6 Clothing Front 4 Shorts.png" width="1000" height="2300"/>
+        <image name="1 6 Clothing Front 6 Singlet.png" width="1000" height="2300"/>
+        <image name="1 6 Clothing Front 8 Pants.png" width="1000" height="2300"/>
         <image name="1 7 Head 0 Default.png" width="1000" height="2300"/>
         <image name="1 8 Mouth 0 Default.png" width="1000" height="2300"/>
         <image name="1 9 Eye Whites 0 Default.png" width="1000" height="2300"/>
-        <image name="9000 6 Clothing Front 3 Shirt.png" width="1000" height="2300"/>
-        <image name="9000 6 Clothing Front 4 Shorts.png" width="1000" height="2300"/>
-        <image name="9000 6 Clothing Front 6 Singlet.png" width="1000" height="2300"/>
         <image name="Fish.png" width="312" height="110"/>
         <image name="Hamburger.png" width="160" height="145"/>
         <image name="HealthBar.png" width="406" height="36"/>
         <image name="Jail Bars.png" width="2292" height="1650"/>
         <image name="Jail_background.png" width="2292" height="1650"/>
         <image name="Pizza.png" width="456" height="336"/>
+        <image name="Smoke.png" width="567" height="838"/>
+        <image name="Smoke2.png" width="484" height="869"/>
         <image name="UFO.png" width="601" height="333"/>
+        <image name="VillainSuccess.png" width="1210" height="2034"/>
         <image name="VillainTongue1.png" width="925" height="2034"/>
         <image name="alien.png" width="1174" height="1630"/>
         <image name="background_beach.png" width="2000" height="1412"/>
@@ -7030,6 +7282,7 @@ it takes hours getting here! You now only have an hour to enjoy the beach.</stri
         <image name="background_forest.png" width="2000" height="1342"/>
         <image name="background_grass.png" width="2000" height="1125"/>
         <image name="background_island.png" width="1024" height="768"/>
+        <image name="background_planet.png" width="1024" height="768"/>
         <image name="background_room.png" width="2000" height="1412"/>
         <image name="buttonAfternoon.png" width="2075" height="485"/>
         <image name="buttonCar.png" width="2075" height="485"/>
@@ -7049,33 +7302,34 @@ it takes hours getting here! You now only have an hour to enjoy the beach.</stri
         <image name="right arrow.png" width="490" height="275"/>
         <image name="sound Icon.png" width="1247" height="1027"/>
         <image name="sunscreen.png" width="745" height="1053"/>
+        <image name="umbrella.png" width="2038" height="2400"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="tFT-K4-j4Z"/>
-        <segue reference="Ogg-Jz-Ar9"/>
-        <segue reference="P6f-oQ-ivq"/>
-        <segue reference="Y4C-RA-HFM"/>
-        <segue reference="Wcn-pK-AeW"/>
-        <segue reference="QuB-jU-5hG"/>
-        <segue reference="UoJ-Oq-EHp"/>
-        <segue reference="jXW-zi-QpK"/>
-        <segue reference="QnE-VF-aHs"/>
-        <segue reference="2YE-jA-yif"/>
-        <segue reference="730-eO-kLg"/>
-        <segue reference="gtJ-gJ-dms"/>
-        <segue reference="YVD-9f-fyu"/>
-        <segue reference="raE-9l-FqN"/>
-        <segue reference="J6b-Uu-fG9"/>
         <segue reference="6GF-6v-d9i"/>
-        <segue reference="iWB-yu-uBZ"/>
-        <segue reference="q5m-AR-iHb"/>
-        <segue reference="KI8-gQ-xcA"/>
-        <segue reference="udh-kP-udg"/>
+        <segue reference="PdL-iG-df5"/>
+        <segue reference="J6b-Uu-fG9"/>
         <segue reference="MPr-Bf-8n3"/>
-        <segue reference="oeO-9L-x2D"/>
+        <segue reference="HXE-c3-rDF"/>
+        <segue reference="6bh-Wl-hpC"/>
+        <segue reference="SfT-xc-8QN"/>
+        <segue reference="gtJ-gJ-dms"/>
+        <segue reference="730-eO-kLg"/>
+        <segue reference="2YE-jA-yif"/>
+        <segue reference="QnE-VF-aHs"/>
+        <segue reference="BFx-l4-4dp"/>
+        <segue reference="UoJ-Oq-EHp"/>
+        <segue reference="raE-9l-FqN"/>
+        <segue reference="I51-PT-CDk"/>
         <segue reference="S6r-9I-Rim"/>
+        <segue reference="oeO-9L-x2D"/>
+        <segue reference="axW-Dq-vLC"/>
         <segue reference="7Ul-wQ-XNy"/>
         <segue reference="Cha-hP-xda"/>
-        <segue reference="caU-3v-9bs"/>
+        <segue reference="KbB-w3-S4e"/>
+        <segue reference="MSS-3A-zlW"/>
+        <segue reference="Wcn-pK-AeW"/>
+        <segue reference="AVT-uC-7be"/>
+        <segue reference="KI8-gQ-xcA"/>
+        <segue reference="q5m-AR-iHb"/>
     </inferredMetricsTieBreakers>
 </document>
