@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Generator: Adobe Illustrator 19.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 256 592" style="enable-background:new 0 0 256 592;" xml:space="preserve">
+	 viewBox="0 -40 256 592" style="enable-background:new 0 -40 256 592;" xml:space="preserve">
 <style type="text/css">
 	.st0{fill:#1A1A1A;}
 	.st1{fill:#6AB0E3;}
@@ -48,93 +48,93 @@
 <glyph unicode="F" horiz-adv-x="1139" d="M419,1282l0,-533l247,0C723,749 764,762 791,787C817,812 834,861 843,935l37,0l0,-459l-37,0C842,529 836,567 823,592C810,617 792,635 769,648C746,660 711,666 666,666l-247,0l0,-426C419,171 423,126 432,104C439,87 453,73 474,61C503,45 534,37 566,37l49,0l0,-37l-582,0l0,37l48,0C137,37 178,53 203,86C219,107 227,159 227,240l0,876C227,1185 223,1230 214,1252C207,1269 194,1283 173,1295C144,1311 114,1319 81,1319l-48,0l0,37l1009,0l13,-298l-35,0C1003,1121 983,1168 960,1198C937,1227 908,1249 875,1262C841,1275 789,1282 718,1282z"/>
 </font>
 
-	<rect class="st0" width="256" height="592"/>
-<circle class="st1" cx="40" cy="40" r="24"/>
-<circle class="st2" cx="216" cy="40" r="24"/>
-<circle class="st3" cx="40" cy="104" r="24"/>
-<circle class="st4" cx="216" cy="104" r="24"/>
-<circle class="st5" cx="40" cy="168" r="24"/>
-<circle class="st6" cx="216" cy="168" r="24"/>
-<circle class="st7" cx="216" cy="360" r="24"/>
-<circle class="st8" cx="40" cy="360" r="24"/>
-<circle class="st9" cx="40" cy="232" r="24"/>
-<circle class="st10" cx="216" cy="232" r="24"/>
-<circle class="st11" cx="40" cy="296" r="24"/>
-<circle class="st12" cx="216" cy="296" r="24"/>
-<circle class="st13" cx="40" cy="424" r="24"/>
-<circle cx="216" cy="488" r="24"/>
-<circle class="st14" cx="216" cy="552" r="24"/>
-<circle class="st15" cx="40" cy="552" r="24"/>
-<circle class="st16" cx="216" cy="424" r="24"/>
-<circle class="st16" cx="40" cy="488" r="24"/>
-<rect x="64" y="32" class="st17" width="64" height="16"/>
-<text transform="matrix(1 0 0 1 73.9082 40.52)" class="st1 st18 st19">#6AB0E3</text>
+	<rect y="-40" class="st0" width="256" height="592"/>
+<circle class="st1" cx="40" cy="0" r="24"/>
+<circle class="st2" cx="216" cy="0" r="24"/>
+<circle class="st3" cx="40" cy="64" r="24"/>
+<circle class="st4" cx="216" cy="64" r="24"/>
+<circle class="st5" cx="40" cy="128" r="24"/>
+<circle class="st6" cx="216" cy="128" r="24"/>
+<circle class="st7" cx="216" cy="320" r="24"/>
+<circle class="st8" cx="40" cy="320" r="24"/>
+<circle class="st9" cx="40" cy="192" r="24"/>
+<circle class="st10" cx="216" cy="192" r="24"/>
+<circle class="st11" cx="40" cy="256" r="24"/>
+<circle class="st12" cx="216" cy="256" r="24"/>
+<circle class="st13" cx="40" cy="384" r="24"/>
+<circle cx="216" cy="448" r="24"/>
+<circle class="st14" cx="216" cy="512" r="24"/>
+<circle class="st15" cx="40" cy="512" r="24"/>
+<circle class="st16" cx="216" cy="384" r="24"/>
+<circle class="st16" cx="40" cy="448" r="24"/>
+<rect x="64" y="-8" class="st17" width="64" height="16"/>
+<text transform="matrix(1 0 0 1 73.9082 0.52)" class="st1 st18 st19">#6AB0E3</text>
 <g>
-	<rect x="64" y="96" class="st17" width="64" height="16"/>
-	<text transform="matrix(1 0 0 1 72.7686 104.52)" class="st3 st18 st19">#00AAA9</text>
+	<rect x="64" y="56" class="st17" width="64" height="16"/>
+	<text transform="matrix(1 0 0 1 72.7686 64.52)" class="st3 st18 st19">#00AAA9</text>
 </g>
 <g>
-	<rect x="64" y="160" class="st17" width="64" height="16"/>
-	<text transform="matrix(1 0 0 1 74.5024 168.52)" class="st5 st18 st19">#63B32E</text>
+	<rect x="64" y="120" class="st17" width="64" height="16"/>
+	<text transform="matrix(1 0 0 1 74.5024 128.52)" class="st5 st18 st19">#63B32E</text>
 </g>
 <g>
-	<rect x="64" y="224" class="st17" width="64" height="16"/>
-	<text transform="matrix(1 0 0 1 74.0703 232.52)" class="st9 st18 st19">#FFDE41</text>
+	<rect x="64" y="184" class="st17" width="64" height="16"/>
+	<text transform="matrix(1 0 0 1 74.0703 192.52)" class="st9 st18 st19">#FFDE41</text>
 </g>
 <g>
-	<rect x="64" y="416" class="st17" width="64" height="16"/>
-	<text transform="matrix(1 0 0 1 74.6768 424.52)" class="st13 st18 st19">#E94783</text>
+	<rect x="64" y="376" class="st17" width="64" height="16"/>
+	<text transform="matrix(1 0 0 1 74.6768 384.52)" class="st13 st18 st19">#E94783</text>
 </g>
 <g>
-	<rect x="64" y="288" class="st17" width="64" height="16"/>
-	<text transform="matrix(1 0 0 1 74.7065 296.52)" class="st11 st18 st19">#F19005</text>
+	<rect x="64" y="248" class="st17" width="64" height="16"/>
+	<text transform="matrix(1 0 0 1 74.7065 256.52)" class="st11 st18 st19">#F19005</text>
 </g>
 <g>
-	<rect x="64" y="480" class="st17" width="64" height="16"/>
-	<text transform="matrix(1 0 0 1 73.9385 488.52)" class="st16 st18 st19">#BF308A</text>
+	<rect x="64" y="440" class="st17" width="64" height="16"/>
+	<text transform="matrix(1 0 0 1 73.9385 448.52)" class="st16 st18 st19">#BF308A</text>
 </g>
 <g>
-	<rect x="128" y="544" class="st17" width="64" height="16"/>
-	<text transform="matrix(1 0 0 1 137.9565 552.52)" class="st14 st18 st19">#95969A</text>
+	<rect x="128" y="504" class="st17" width="64" height="16"/>
+	<text transform="matrix(1 0 0 1 137.9565 512.52)" class="st14 st18 st19">#95969A</text>
 </g>
 <g>
-	<rect x="64" y="544" class="st17" width="64" height="16"/>
-	<text transform="matrix(1 0 0 1 75.4858 552.52)" class="st15 st18 st19">#FFFFFF</text>
+	<rect x="64" y="504" class="st17" width="64" height="16"/>
+	<text transform="matrix(1 0 0 1 75.4858 512.52)" class="st15 st18 st19">#FFFFFF</text>
 </g>
 <g>
-	<rect x="128" y="480" class="st17" width="64" height="16"/>
-	<text transform="matrix(1 0 0 1 138.5508 488.52)" class="st18 st19">#000000</text>
+	<rect x="128" y="440" class="st17" width="64" height="16"/>
+	<text transform="matrix(1 0 0 1 138.5508 448.52)" class="st18 st19">#000000</text>
 </g>
 <g>
-	<rect x="128" y="416" class="st17" width="64" height="16"/>
-	<text transform="matrix(1 0 0 1 137.9385 424.52)" class="st16 st18 st19">#BF308A</text>
+	<rect x="128" y="376" class="st17" width="64" height="16"/>
+	<text transform="matrix(1 0 0 1 137.9385 384.52)" class="st16 st18 st19">#BF308A</text>
 </g>
 <g>
-	<rect x="128" y="288" class="st17" width="64" height="16"/>
-	<text transform="matrix(1 0 0 1 136.3125 296.52)" class="st12 st18 st19">#DD5C08</text>
+	<rect x="128" y="248" class="st17" width="64" height="16"/>
+	<text transform="matrix(1 0 0 1 136.3125 256.52)" class="st12 st18 st19">#DD5C08</text>
 </g>
 <g>
-	<rect x="64" y="352" class="st17" width="64" height="16"/>
-	<text transform="matrix(1 0 0 1 73.2305 360.52)" class="st8 st18 st19">#C1272D</text>
+	<rect x="64" y="312" class="st17" width="64" height="16"/>
+	<text transform="matrix(1 0 0 1 73.2305 320.52)" class="st8 st18 st19">#C1272D</text>
 </g>
 <g>
-	<rect x="128" y="352" class="st17" width="64" height="16"/>
-	<text transform="matrix(1 0 0 1 138.0825 360.52)" class="st7 st18 st19">#811A1E</text>
+	<rect x="128" y="312" class="st17" width="64" height="16"/>
+	<text transform="matrix(1 0 0 1 138.0825 320.52)" class="st7 st18 st19">#811A1E</text>
 </g>
 <g>
-	<rect x="128" y="224" class="st17" width="64" height="16"/>
-	<text transform="matrix(1 0 0 1 137.0205 232.52)" class="st10 st18 st19">#FAB62D</text>
+	<rect x="128" y="184" class="st17" width="64" height="16"/>
+	<text transform="matrix(1 0 0 1 137.0205 192.52)" class="st10 st18 st19">#FAB62D</text>
 </g>
 <g>
-	<rect x="128" y="160" class="st17" width="64" height="16"/>
-	<text transform="matrix(1 0 0 1 138.7065 168.52)" class="st6 st18 st19">#5F9324</text>
+	<rect x="128" y="120" class="st17" width="64" height="16"/>
+	<text transform="matrix(1 0 0 1 138.7065 128.52)" class="st6 st18 st19">#5F9324</text>
 </g>
 <g>
-	<rect x="128" y="96" class="st17" width="64" height="16"/>
-	<text transform="matrix(1 0 0 1 138.3047 104.52)" class="st4 st18 st19">#008C7F</text>
+	<rect x="128" y="56" class="st17" width="64" height="16"/>
+	<text transform="matrix(1 0 0 1 138.3047 64.52)" class="st4 st18 st19">#008C7F</text>
 </g>
 <g>
-	<rect x="128" y="32" class="st17" width="64" height="16"/>
-	<text transform="matrix(1 0 0 1 137.3804 40.52)" class="st2 st18 st19">#2C6AB3</text>
+	<rect x="128" y="-8" class="st17" width="64" height="16"/>
+	<text transform="matrix(1 0 0 1 137.3804 0.52)" class="st2 st18 st19">#2C6AB3</text>
 </g>
 </svg>
