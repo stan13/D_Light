@@ -71,6 +71,31 @@
         healthAmount.backgroundColor = [UIColor greenColor];
     }
     [self.HeathBar addSubview:healthAmount];
+    
+    if(health == 0) [self gameOver];
+}
+
+//dull the screen and force the player to return to the start if they get health = 0.
+-(void) gameOver {
+    
+    CGRect frame = CGRectMake(0, 0, self.view.frame.size.width, self.view.frame.size.height);
+    UIButton *gameOverButton = [[UIButton alloc] initWithFrame:frame];
+    [gameOverButton setBackgroundColor:[UIColor colorWithWhite:0.5 alpha:0.5]];
+    [gameOverButton addTarget:self action:@selector(youLose) forControlEvents:UIControlEventTouchUpInside];
+    
+    UILabel *gameOverLabel = [[UILabel alloc] initWithFrame:frame];
+    gameOverLabel.numberOfLines = 0;
+    [gameOverLabel setText:@"You have reached a score of less than 0. Your health is depleted. Tap to return to start."];
+    [gameOverLabel setFont:[UIFont systemFontOfSize:40]];
+    [gameOverButton addSubview:gameOverLabel];
+    [self.view addSubview:gameOverButton];
+    
+}
+
+//Method attached to the button in gameOver method. Sends the player back to the start menu.
+- (void) youLose {
+    ViewController *final = [[UIStoryboard storyboardWithName:@"Main" bundle:nil] instantiateViewControllerWithIdentifier:@"Start"];
+    [self presentViewController:final animated:YES completion:nil];
 }
 
 - (void)characterSettings: (int)scene {

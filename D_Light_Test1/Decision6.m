@@ -61,6 +61,9 @@
         food.image = [UIImage imageNamed:@"Fish"];
         [defaults setInteger:3 forKey:@"food"];
     }
+    
+    for (UIView *view in [self.plate subviews]) [view removeFromSuperview];
+    
     [self.plate addSubview:food];
     
     self.foodWithNone.center = CGPointMake(108, 209);
