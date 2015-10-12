@@ -15,13 +15,12 @@
 	.st9{fill:#F19005;}
 	.st10{fill:#DD5C08;}
 	.st11{fill:#E94783;}
-	.st12{fill:#A2177E;}
-	.st13{fill:#95969A;}
-	.st14{fill:#FFFFFF;}
-	.st15{fill:#BF308A;}
-	.st16{fill:none;}
-	.st17{font-family:'MyriadPro-Regular';}
-	.st18{font-size:12px;}
+	.st12{fill:#95969A;}
+	.st13{fill:#FFFFFF;}
+	.st14{fill:#BF308A;}
+	.st15{fill:none;}
+	.st16{font-family:'MyriadPro-Regular';}
+	.st17{font-size:12px;}
 </style>
 <font horiz-adv-x="2048">
 <!-- Times New Roman is a trademark of The Monotype Corporation. -->
@@ -59,71 +58,71 @@
 <circle class="st9" cx="40" cy="296" r="24"/>
 <circle class="st10" cx="216" cy="296" r="24"/>
 <circle class="st11" cx="40" cy="360" r="24"/>
-<circle class="st12" cx="216" cy="424" r="24"/>
-<circle class="st13" cx="216" cy="488" r="24"/>
-<circle class="st14" cx="40" cy="488" r="24"/>
-<circle class="st15" cx="216" cy="360" r="24"/>
-<circle class="st15" cx="40" cy="424" r="24"/>
-<rect x="64" y="32" class="st16" width="64" height="16"/>
-<text transform="matrix(1 0 0 1 73.9082 40.52)" class="st1 st17 st18">#6AB0E3</text>
+<circle cx="216" cy="424" r="24"/>
+<circle class="st12" cx="216" cy="488" r="24"/>
+<circle class="st13" cx="40" cy="488" r="24"/>
+<circle class="st14" cx="216" cy="360" r="24"/>
+<circle class="st14" cx="40" cy="424" r="24"/>
+<rect x="64" y="32" class="st15" width="64" height="16"/>
+<text transform="matrix(1 0 0 1 73.9082 40.52)" class="st1 st16 st17">#6AB0E3</text>
 <g>
-	<rect x="64" y="96" class="st16" width="64" height="16"/>
-	<text transform="matrix(1 0 0 1 72.7686 104.52)" class="st3 st17 st18">#00AAA9</text>
+	<rect x="64" y="96" class="st15" width="64" height="16"/>
+	<text transform="matrix(1 0 0 1 72.7686 104.52)" class="st3 st16 st17">#00AAA9</text>
 </g>
 <g>
-	<rect x="64" y="160" class="st16" width="64" height="16"/>
-	<text transform="matrix(1 0 0 1 74.5024 168.52)" class="st5 st17 st18">#63B32E</text>
+	<rect x="64" y="160" class="st15" width="64" height="16"/>
+	<text transform="matrix(1 0 0 1 74.5024 168.52)" class="st5 st16 st17">#63B32E</text>
 </g>
 <g>
-	<rect x="64" y="224" class="st16" width="64" height="16"/>
-	<text transform="matrix(1 0 0 1 74.0703 232.52)" class="st7 st17 st18">#FFDE41</text>
+	<rect x="64" y="224" class="st15" width="64" height="16"/>
+	<text transform="matrix(1 0 0 1 74.0703 232.52)" class="st7 st16 st17">#FFDE41</text>
 </g>
 <g>
-	<rect x="64" y="352" class="st16" width="64" height="16"/>
-	<text transform="matrix(1 0 0 1 74.6768 360.52)" class="st11 st17 st18">#E94783</text>
+	<rect x="64" y="352" class="st15" width="64" height="16"/>
+	<text transform="matrix(1 0 0 1 74.6768 360.52)" class="st11 st16 st17">#E94783</text>
 </g>
 <g>
-	<rect x="64" y="288" class="st16" width="64" height="16"/>
-	<text transform="matrix(1 0 0 1 74.7065 296.52)" class="st9 st17 st18">#F19005</text>
+	<rect x="64" y="288" class="st15" width="64" height="16"/>
+	<text transform="matrix(1 0 0 1 74.7065 296.52)" class="st9 st16 st17">#F19005</text>
 </g>
 <g>
-	<rect x="64" y="416" class="st16" width="64" height="16"/>
-	<text transform="matrix(1 0 0 1 73.9385 424.52)" class="st15 st17 st18">#BF308A</text>
+	<rect x="64" y="416" class="st15" width="64" height="16"/>
+	<text transform="matrix(1 0 0 1 73.9385 424.52)" class="st14 st16 st17">#BF308A</text>
 </g>
 <g>
-	<rect x="128" y="480" class="st16" width="64" height="16"/>
-	<text transform="matrix(1 0 0 1 137.9565 488.52)" class="st13 st17 st18">#95969A</text>
+	<rect x="128" y="480" class="st15" width="64" height="16"/>
+	<text transform="matrix(1 0 0 1 137.9565 488.52)" class="st12 st16 st17">#95969A</text>
 </g>
 <g>
-	<rect x="64" y="480" class="st16" width="64" height="16"/>
-	<text transform="matrix(1 0 0 1 75.4858 488.52)" class="st14 st17 st18">#FFFFFF</text>
+	<rect x="64" y="480" class="st15" width="64" height="16"/>
+	<text transform="matrix(1 0 0 1 75.4858 488.52)" class="st13 st16 st17">#FFFFFF</text>
 </g>
 <g>
-	<rect x="128" y="416" class="st16" width="64" height="16"/>
-	<text transform="matrix(1 0 0 1 138.0825 424.52)" class="st12 st17 st18">#A2177E</text>
+	<rect x="128" y="416" class="st15" width="64" height="16"/>
+	<text transform="matrix(1 0 0 1 138.5508 424.52)" class="st16 st17">#000000</text>
 </g>
 <g>
-	<rect x="128" y="352" class="st16" width="64" height="16"/>
-	<text transform="matrix(1 0 0 1 137.9385 360.52)" class="st15 st17 st18">#BF308A</text>
+	<rect x="128" y="352" class="st15" width="64" height="16"/>
+	<text transform="matrix(1 0 0 1 137.9385 360.52)" class="st14 st16 st17">#BF308A</text>
 </g>
 <g>
-	<rect x="128" y="288" class="st16" width="64" height="16"/>
-	<text transform="matrix(1 0 0 1 136.3125 296.52)" class="st10 st17 st18">#DD5C08</text>
+	<rect x="128" y="288" class="st15" width="64" height="16"/>
+	<text transform="matrix(1 0 0 1 136.3125 296.52)" class="st10 st16 st17">#DD5C08</text>
 </g>
 <g>
-	<rect x="128" y="224" class="st16" width="64" height="16"/>
-	<text transform="matrix(1 0 0 1 137.0205 232.52)" class="st8 st17 st18">#FAB62D</text>
+	<rect x="128" y="224" class="st15" width="64" height="16"/>
+	<text transform="matrix(1 0 0 1 137.0205 232.52)" class="st8 st16 st17">#FAB62D</text>
 </g>
 <g>
-	<rect x="128" y="160" class="st16" width="64" height="16"/>
-	<text transform="matrix(1 0 0 1 138.7065 168.52)" class="st6 st17 st18">#5F9324</text>
+	<rect x="128" y="160" class="st15" width="64" height="16"/>
+	<text transform="matrix(1 0 0 1 138.7065 168.52)" class="st6 st16 st17">#5F9324</text>
 </g>
 <g>
-	<rect x="128" y="96" class="st16" width="64" height="16"/>
-	<text transform="matrix(1 0 0 1 138.3047 104.52)" class="st4 st17 st18">#008C7F</text>
+	<rect x="128" y="96" class="st15" width="64" height="16"/>
+	<text transform="matrix(1 0 0 1 138.3047 104.52)" class="st4 st16 st17">#008C7F</text>
 </g>
 <g>
-	<rect x="128" y="32" class="st16" width="64" height="16"/>
-	<text transform="matrix(1 0 0 1 137.3804 40.52)" class="st2 st17 st18">#2C6AB3</text>
+	<rect x="128" y="32" class="st15" width="64" height="16"/>
+	<text transform="matrix(1 0 0 1 137.3804 40.52)" class="st2 st16 st17">#2C6AB3</text>
 </g>
 </svg>
