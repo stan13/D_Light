@@ -25,7 +25,7 @@
     self.nextButton.enabled = NO;
     [self healthBar];
     [self characterSettings:1];
-
+    [self animateCats];
 }
 
 - (IBAction)chooseMore:(UIButton *)sender {
@@ -72,6 +72,41 @@
         healthAmount.backgroundColor = [UIColor greenColor];
     }
     [self.HeathBar addSubview:healthAmount];
+}
+
+- (void) animateCats{
+    CGRect frame = CGRectMake(550, 0, 200, 200);
+    CGRect frameEnd = CGRectMake(550, 580, 200, 200);
+    CGRect frame2 = CGRectMake(700, 0, 200, 200);
+    CGRect frameEnd2 = CGRectMake(700, 580, 200, 200);
+    
+    UIView *cage = [self.view viewWithTag:1];
+    
+    UIImageView *cat = [[UIImageView alloc] initWithFrame:frame];
+    cat.image = [UIImage imageNamed:@"catColored.png"];
+    [self.view insertSubview:cat belowSubview:cage];
+    
+    UIImageView *cat2 = [[UIImageView alloc] initWithFrame:frame2];
+    cat2.image = [UIImage imageNamed:@"catColored2.png"];
+    [self.view insertSubview:cat2 belowSubview:cage];
+    
+    // altered from http://www.raywenderlich.com/2454/uiview-tutorial-for-ios-how-to-use-uiview-animation
+    [UIView beginAnimations:nil context:nil];
+    [UIView setAnimationDuration:0.5];
+    [UIView setAnimationDelay:1.0];
+    [UIView setAnimationCurve:UIViewAnimationCurveEaseIn];
+    
+    cat.frame = frameEnd;
+    
+    [UIView commitAnimations];
+    
+    [UIView beginAnimations:nil context:nil];
+    [UIView setAnimationDuration:0.5];
+    [UIView setAnimationDelay:1.2];
+    [UIView setAnimationCurve:UIViewAnimationCurveEaseIn];
+    cat2.frame = frameEnd2;
+    
+    [UIView commitAnimations];
 }
 
 - (void)characterSettings: (int)scene {
