@@ -65,6 +65,8 @@
     [self.HeathBar addSubview:healthAmount];
 }
 
+
+
 - (void)characterSettings: (int)scene {
     NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
     

@@ -173,6 +173,8 @@
 		E572C17C1BC3ABE000C4FCBB /* 1 13 Hair Front 1 Long.png in Resources */ = {isa = PBXBuildFile; fileRef = E572C1601BC3ABE000C4FCBB /* 1 13 Hair Front 1 Long.png */; };
 		E5E06BF31BCB763F008D7C6B /* Slide 8 - light skin incorrect.wav in Resources */ = {isa = PBXBuildFile; fileRef = E5E06BE61BCB763F008D7C6B /* Slide 8 - light skin incorrect.wav */; };
 		E5E06BF41BCB763F008D7C6B /* Slide 8 -light skin correct.wav in Resources */ = {isa = PBXBuildFile; fileRef = E5E06BE71BCB763F008D7C6B /* Slide 8 -light skin correct.wav */; };
+		E5E06BF71BCBBAAE008D7C6B /* catColored.png in Resources */ = {isa = PBXBuildFile; fileRef = E5E06BF51BCBBAAE008D7C6B /* catColored.png */; };
+		E5E06BF81BCBBAAE008D7C6B /* catColored2.png in Resources */ = {isa = PBXBuildFile; fileRef = E5E06BF61BCBBAAE008D7C6B /* catColored2.png */; };
 		E5E4AC2D1BC766FA00BB5F65 /* Slide 11 - no hat.wav in Resources */ = {isa = PBXBuildFile; fileRef = E5E4AC071BC766FA00BB5F65 /* Slide 11 - no hat.wav */; };
 		E5E4AC2E1BC766FA00BB5F65 /* Slide 11 - pick what to wear.wav in Resources */ = {isa = PBXBuildFile; fileRef = E5E4AC081BC766FA00BB5F65 /* Slide 11 - pick what to wear.wav */; };
 		E5E4AC2F1BC766FA00BB5F65 /* Slide 11 - sunscreens protect.wav in Resources */ = {isa = PBXBuildFile; fileRef = E5E4AC091BC766FA00BB5F65 /* Slide 11 - sunscreens protect.wav */; };
@@ -423,6 +425,8 @@
 		E572C1601BC3ABE000C4FCBB /* 1 13 Hair Front 1 Long.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "1 13 Hair Front 1 Long.png"; sourceTree = "<group>"; };
 		E5E06BE61BCB763F008D7C6B /* Slide 8 - light skin incorrect.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Slide 8 - light skin incorrect.wav"; sourceTree = "<group>"; };
 		E5E06BE71BCB763F008D7C6B /* Slide 8 -light skin correct.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Slide 8 -light skin correct.wav"; sourceTree = "<group>"; };
+		E5E06BF51BCBBAAE008D7C6B /* catColored.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = catColored.png; sourceTree = "<group>"; };
+		E5E06BF61BCBBAAE008D7C6B /* catColored2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = catColored2.png; sourceTree = "<group>"; };
 		E5E4AC071BC766FA00BB5F65 /* Slide 11 - no hat.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Slide 11 - no hat.wav"; sourceTree = "<group>"; };
 		E5E4AC081BC766FA00BB5F65 /* Slide 11 - pick what to wear.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Slide 11 - pick what to wear.wav"; sourceTree = "<group>"; };
 		E5E4AC091BC766FA00BB5F65 /* Slide 11 - sunscreens protect.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Slide 11 - sunscreens protect.wav"; sourceTree = "<group>"; };
@@ -992,6 +996,7 @@
 				E572C17C1BC3ABE000C4FCBB /* 1 13 Hair Front 1 Long.png in Resources */,
 				E5E4AC501BC77D0500BB5F65 /* SunSlider.png in Resources */,
 				E525E5CB1BC619F300A1A28F /* 0 7 Head 1 Egg.png in Resources */,
+				E5E06BF71BCBBAAE008D7C6B /* catColored.png in Resources */,
 				E572C1731BC3ABE000C4FCBB /* 1 9 Eye Whites 4 Tired.png in Resources */,
 				E5E4AC331BC766FA00BB5F65 /* Slide 12 - night.wav in Resources */,
 				E572C1641BC3ABE000C4FCBB /* 1 3 Legs 0 Default.png in Resources */,
