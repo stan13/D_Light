@@ -13,6 +13,7 @@
 @interface Answer6 : ViewController
 @property (weak, nonatomic) IBOutlet UIImageView *HeathBar;
 @property (weak, nonatomic) IBOutlet UILabel *answerLabel;
+@property (weak, nonatomic) IBOutlet UIImageView *VillainView;
 
 //Character Customisation
 //0 Hair Back

@@ -17,6 +17,7 @@
 - (IBAction)stopVoiceOver:(UIButton *)sender;
 @property (weak, nonatomic) IBOutlet UIButton *nextButton;
 @property (weak, nonatomic) IBOutlet UILabel *answerLabel;
+@property (weak, nonatomic) IBOutlet UIImageView *VillainView;
 
 //Character Customisation
 //0 Hair Back
