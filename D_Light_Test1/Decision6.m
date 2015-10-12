@@ -20,6 +20,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    self.nextButton.enabled = NO;
     [self healthBar];
 
 }
@@ -52,14 +53,17 @@
     if (CGRectIntersectsRect(self.foodWithNone.frame, self.plate.frame)) {
         food.image = [UIImage imageNamed:@"Hamburger.png"];
         [defaults setInteger:1 forKey:@"food"];
+        self.nextButton.enabled = YES;
     }
     if (CGRectIntersectsRect(self.foodWithSome.frame, self.plate.frame)) {
         food.image = [UIImage imageNamed:@"Pizza"];
         [defaults setInteger:2 forKey:@"food"];
+        self.nextButton.enabled = YES;
     }
     if (CGRectIntersectsRect(self.foodWithEnough.frame, self.plate.frame)) {
         food.image = [UIImage imageNamed:@"Fish"];
         [defaults setInteger:3 forKey:@"food"];
+        self.nextButton.enabled = YES;
     }
     
     for (UIView *view in [self.plate subviews]) [view removeFromSuperview];

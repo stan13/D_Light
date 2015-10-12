@@ -5325,6 +5325,7 @@ it takes hours getting here! You now only have an hour to enjoy the beach.</stri
                         <outlet property="foodWithEnough" destination="kxr-nW-fQ6" id="IPb-Du-IBV"/>
                         <outlet property="foodWithNone" destination="iVL-dC-WXK" id="beG-Rk-X32"/>
                         <outlet property="foodWithSome" destination="bWE-7z-lUi" id="gYO-fK-txL"/>
+                        <outlet property="nextButton" destination="s40-z8-oQ9" id="COF-X2-IrX"/>
                         <outlet property="plate" destination="3nJ-Wt-fyT" id="m9z-aX-G3H"/>
                     </connections>
                 </viewController>
@@ -7051,31 +7052,31 @@ it takes hours getting here! You now only have an hour to enjoy the beach.</stri
         <image name="sunscreen.png" width="745" height="1053"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="tFT-K4-j4Z"/>
+        <segue reference="HXE-c3-rDF"/>
+        <segue reference="MPr-Bf-8n3"/>
+        <segue reference="flJ-Uj-mxe"/>
         <segue reference="Ogg-Jz-Ar9"/>
         <segue reference="P6f-oQ-ivq"/>
         <segue reference="Y4C-RA-HFM"/>
         <segue reference="Wcn-pK-AeW"/>
         <segue reference="QuB-jU-5hG"/>
         <segue reference="UoJ-Oq-EHp"/>
-        <segue reference="jXW-zi-QpK"/>
+        <segue reference="BFx-l4-4dp"/>
+        <segue reference="raE-9l-FqN"/>
         <segue reference="QnE-VF-aHs"/>
         <segue reference="2YE-jA-yif"/>
         <segue reference="730-eO-kLg"/>
         <segue reference="gtJ-gJ-dms"/>
         <segue reference="YVD-9f-fyu"/>
-        <segue reference="J6b-Uu-fG9"/>
-        <segue reference="6GF-6v-d9i"/>
-        <segue reference="PdL-iG-df5"/>
-        <segue reference="MPr-Bf-8n3"/>
         <segue reference="oeO-9L-x2D"/>
         <segue reference="S6r-9I-Rim"/>
-        <segue reference="wVv-zj-ql1"/>
-        <segue reference="udh-kP-udg"/>
-        <segue reference="RO5-1v-MuV"/>
+        <segue reference="6GF-6v-d9i"/>
+        <segue reference="PdL-iG-df5"/>
         <segue reference="7Ul-wQ-XNy"/>
         <segue reference="Cha-hP-xda"/>
         <segue reference="caU-3v-9bs"/>
+        <segue reference="RO5-1v-MuV"/>
+        <segue reference="udh-kP-udg"/>
         <segue reference="q5m-AR-iHb"/>
     </inferredMetricsTieBreakers>
 </document>
