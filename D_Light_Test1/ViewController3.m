@@ -66,18 +66,18 @@
     NSString *currentHair, *currentHairBack;
     if (hairType == 0) {
         currentHair = @"1 13 Hair Front 0 Short.png";
-        currentHairBack = @"";
+        currentHairBack = nil;
     } else if (hairType == 1) {
         currentHair = @"1 13 Hair Front 1 Long.png";
         currentHairBack = @"1 0 Hair Back 1 Long.png";
-    } /* else if (hairType == 2) { 
-       currentHair = @"0 13 Hair Front 2 Long.png";
-       currentHairBack = @"0 0 Hair Back 2 Long.png";
+    } else if (hairType == 2) {
+        currentHair = @"1 13 Hair Front 2 Short B.png";
+        currentHairBack = nil;
     } else {
-       currentHair = @"0 13 Hair Front 3 Long.png";
-       currentHairBack = @"0 0 Hair Back 3 Long.png";
+        currentHair = @"1 13 Hair Front 3 Long B.png";
+        currentHairBack = @"1 0 Hair Back 3 Long B.png";
     }
-       */
+    
     //Set up images that wont be changed
     self.torsoView.image = [self changeImage:self.torsoView.image toColour:[UIColor colorWithRed:skinRed green:skinGreen blue:skinBlue alpha:1]];
     self.legsView.image = [self changeImage:self.legsView.image toColour:[UIColor colorWithRed:skinRed green:skinGreen blue:skinBlue alpha:1]];
@@ -90,27 +90,27 @@
     
     //default clothes
     //Top
-    self.currentTop = 0;
-    self.currentTopString = @"9000 6 Clothing Front 6 Singlet.png";
+    self.currentTop = 0; //singlet
+    self.currentTopString = @"1 6 Clothing Front 6 Singlet.png";
     self.currentTopHue = 0.5;
 
     //Bottom
-    self.currentBottom = 0;
-    self.currentBottomString = @"9000 6 Clothing Front 4 Shorts.png";
+    self.currentBottom = 1; //shorts
+    self.currentBottomString = @"1 6 Clothing Front 4 Shorts.png";
     self.currentBottomHue = 0.5;
     
     //Glasses
-    self.currentGlasses = -1;
+    self.currentGlasses = -1; //none
     self.currentGlassesString = nil;
     self.currentGlassesHue = 0.5;
     
     //Shoes
-    self.currentShoes = 0;
+    self.currentShoes = 1; //thongs
     self.currentShoeString = @"1 4 Shoes 1 Thongs.png";
     self.currentShoeHue = 0.5;
     
     //Hat
-    self.currentHat = -1;
+    self.currentHat = -1; //none
     self.currentHatHue = 0.5;
 
 }
@@ -157,28 +157,28 @@
 //Change to Dress
 - (IBAction)Dress:(UIButton *)sender {
     self.currentTop = 2;
-    self.currentTopString = @"9000 6 Clothing Front 2 Dress.png";
+    self.currentTopString = @"1 6 Clothing Front 2 Dress.png";
     self.currentBottomString = nil;
-    self.currentBottom = -1;
+    self.currentBottom = 0;
     [self updateLook];
 }
 
 - (IBAction)Singlet:(UIButton *)sender {
     self.currentTop = 0;
-    self.currentTopString = @"9000 6 Clothing Front 6 Singlet.png";
-    if (self.currentBottomString == nil) {
-        self.currentBottomString = @"9000 6 Clothing Front 4 Shorts.png";
-        self.currentBottom = 0;
+    self.currentTopString = @"1 6 Clothing Front 6 Singlet.png";
+    if (self.currentBottom == 0) {
+        self.currentBottomString = @"1 6 Clothing Front 4 Shorts.png";
+        self.currentBottom = 1;
     }
     [self updateLook];
 }
 
 - (IBAction)Shirt:(UIButton *)sender {
     self.currentTop = 1;
-    self.currentTopString = @"9000 6 Clothing Front 3 Shirt.png";
-    if (self.currentBottomString == nil) {
-        self.currentBottomString = @"9000 6 Clothing Front 4 Shorts.png";
-        self.currentBottom = 0;
+    self.currentTopString = @"1 6 Clothing Front 3 Shirt.png";
+    if (self.currentBottom == 0) {
+        self.currentBottomString = @"1 6 Clothing Front 4 Shorts.png";
+        self.currentBottom = 1;
     }
     [self updateLook];
 }
@@ -186,12 +186,12 @@
 //Change Bottoms
 - (IBAction)Shorts0:(UIButton *)sender {
     self.currentBottom = 1;
-    self.currentBottomString = @"9000 6 Clothing Front 4 Shorts.png";
+    self.currentBottomString = @"1 6 Clothing Front 4 Shorts.png";
     [self updateLook];
 }
 - (IBAction)Pants:(UIButton *)sender {
     self.currentBottom = 2;
-    self.currentBottomString = @"9000 6 Clothing Front 4 Shorts.png";
+    self.currentBottomString = @"1 6 Clothing Front 8 Pants.png";
     [self updateLook];
 }
 //Change Shoes

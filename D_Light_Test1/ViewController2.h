@@ -25,7 +25,7 @@
 @property (strong, nonatomic) IBOutletCollection(UIButton) NSArray *hairImages;
 - (IBAction)head1:(UIButton *)sender;
 - (IBAction)head2:(UIButton *)sender;
-- (IBAction)eyelashes:(UISwitch *)sender;
+
 
 
 

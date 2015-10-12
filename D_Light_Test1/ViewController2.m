@@ -125,13 +125,8 @@
     
     self.face.image = [self changeImage:[UIImage imageNamed:self.currentFace] toColour:[UIColor colorWithRed:self.currentSkinRed green:self.currentSkinGreen blue:self.currentSkinBlue alpha:1]];
     self.hair.image = [self changeImage:[UIImage imageNamed:self.currentHair] toColour:[UIColor colorWithHue:self.currentHairHue saturation:0.7 brightness:0.7 alpha:1]];
-    if(self.currentHairInt == 1){
-        self.hairBack.image = [self changeImage:[UIImage imageNamed:self.currentHairBack] toColour:[UIColor colorWithHue:self.currentHairHue saturation:0.7 brightness:0.7 alpha:1]];
-    } else {
-        self.hairBack.image = nil;
-    }
+    self.hairBack.image = [self changeImage:[UIImage imageNamed:self.currentHairBack] toColour:[UIColor colorWithHue:self.currentHairHue saturation:0.7 brightness:0.7 alpha:1]];
     self.eyes.image = [self changeImage:[UIImage imageNamed:@"0 10 Eye Pupils 0 Default"] toColour:[UIColor colorWithHue:self.currentEyeHue saturation:0.7 brightness:0.7 alpha:1]];
-    
 
 }
 
@@ -155,7 +150,7 @@
    
     
     self.currentHair = @"0 13 Hair Front 0 Short.png";
-    self.currentHairBack = @"";
+    self.currentHairBack = nil;
     self.currentHairInt = 0;
     [self setDefaults];
     [self updateLook];
@@ -169,11 +164,19 @@
     [self updateLook];
 }
 - (IBAction)hair3:(UIButton *)sender {
-    //TODO
+    self.currentHair = @"0 13 Hair Front 2 Short B.png";
+    self.currentHairBack = nil;
+    self.currentHairInt = 2;
+    [self setDefaults];
+    [self updateLook];
 }
 
 - (IBAction)hair4:(UIButton *)sender {
-    //TODO
+    self.currentHair = @"0 13 Hair Front 3 Long B.png";
+    self.currentHairBack = @"0 0 Hair Back 3 Long B.png";
+    self.currentHairInt = 3;
+    [self setDefaults];
+    [self updateLook];
 }
 
 //Change head shapes
