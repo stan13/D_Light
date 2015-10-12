@@ -10,6 +10,7 @@
 #import <Foundation/Foundation.h>
 
 @interface FinalSlide : ViewController
+@property (weak, nonatomic) IBOutlet UIImageView *HeathBar;
 
 @property (weak, nonatomic) IBOutlet UILabel *resultsLabel;
 @property (weak, nonatomic) IBOutlet UIProgressView *resultsProgress;
