@@ -15,7 +15,7 @@
 <AVAudioPlayerDelegate>
 @property (strong, nonatomic) AVAudioPlayer *audioPlayer;
 @property NSString *audioFile;
-
+@property int correct;
 
 @end
 
@@ -46,7 +46,7 @@
     }
     [self healthBar];
     [self characterSettings:1];
-
+    [self ChangeVillain:self.correct];
 
 }
 
@@ -60,11 +60,13 @@
             self.answerLabel.text = @"Correct! ☺ Clouds can reduce the UV index by up to a half! ";
             self.audioFile = @"Slide 9 - correct";
             health++;
+            self.correct = 1;
             break;
         case 2:
             self.answerLabel.text = @"Incorrect. ☹ Clouds can reduce the UV index by up to a half!";
             self.audioFile = @"Slide 9 - incorrect";
             health--;
+            self.correct = 0;
             break;
             
         default:
@@ -87,6 +89,13 @@
 - (void) audioPlayerDidFinishPlaying:(AVAudioPlayer *)player successfully:(BOOL)flag
 {
     self.nextButton.enabled = YES;
+}
+- (void) ChangeVillain: (int)correct {
+    if (correct == 1) {
+        self.VillainView.image = [UIImage imageNamed:@"VillainFailStanding.png"];
+    } else {
+        self.VillainView.image = [UIImage imageNamed:@"VillainSuccess.png"];
+    }
 }
 
 //Function that loads health bar

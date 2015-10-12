@@ -12,6 +12,9 @@
 
 @interface Decision4 : ViewController
 @property (weak, nonatomic) IBOutlet UIImageView *HeathBar;
+//Suncreen and umbrella toggle
+@property (weak, nonatomic) IBOutlet UIImageView *SunscreenNoseImg;
+@property (weak, nonatomic) IBOutlet UIImageView *UmbrellaImg;
 
 @property (weak, nonatomic) IBOutlet UIButton *nextButton;
 - (IBAction)listenToVoiceOver:(UIButton *)sender;
@@ -19,6 +22,9 @@
 - (IBAction)ChooseHat:(UIButton *)sender;
 - (IBAction)ChooseSunscreen:(UIButton *)sender;
 - (IBAction)ChooseCover:(UIButton *)sender;
+@property (weak, nonatomic) IBOutlet UIButton *HatButton;
+@property (weak, nonatomic) IBOutlet UIButton *SunscreenButton;
+@property (weak, nonatomic) IBOutlet UIButton *CoverButton;
 
 //Character Customisation
 //0 Hair Back

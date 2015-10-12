@@ -12,7 +12,7 @@
 <AVAudioPlayerDelegate>
 @property (strong, nonatomic) AVAudioPlayer *audioPlayer;
 //Private Variables
-
+@property int correct;
 
 @end
 
@@ -25,7 +25,7 @@
     [self showAnswer];
     [self healthBar];
     [self characterSettings:1];
-
+    [self ChangeVillain:self.correct];
 }
 
 -(void)showAnswer{
@@ -35,24 +35,32 @@
     switch (answer) {
         case 1:
             self.answerLabel.text = @"That’s right! Cover from smoke or air pollution reduces the amount of UV that gets through. You spend enough time in the sun, and can help put the fire out.";
-            self.drDastardly.image = [UIImage imageNamed:@"VillainFailStanding.png"];
             health++;
+            self.correct = 1;
             break;
         case 2:
             self.answerLabel.text = @" Cover from smoke or air pollution reduces the amount of UV that gets through. You don’t get quite enough vitamin D today. Dr. Dastardly escapes!";
-            self.drDastardly.image = [UIImage imageNamed:@"VillainSuccess.png"];
             health--;
+            self.correct = 0;
             break;
         case 3:
             self.answerLabel.text = @"Oh no! The smoke reduces the amount of sunlight that gets through, so you end up getting way less vitamin D than usual. Dr. Dastardly escapes!";
-            self.drDastardly.image = [UIImage imageNamed:@"VillainSuccess.png"];
             health-=2;
+            self.correct = 0;
             break;
             
         default:
             break;
     }
     [defaults setInteger:health forKey:@"health"];
+}
+
+- (void) ChangeVillain: (int)correct {
+    if (correct == 1) {
+        self.VillainView.image = [UIImage imageNamed:@"VillainAngry1.png"];
+    } else {
+        self.VillainView.image = [UIImage imageNamed:@"VillainSuccess.png"];
+    }
 }
 //Function that loads health bar
 - (void) healthBar {

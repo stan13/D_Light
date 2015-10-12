@@ -12,7 +12,7 @@
 <AVAudioPlayerDelegate>
 @property (strong, nonatomic) AVAudioPlayer *audioPlayer;
 //Private Variables
-
+@property int correct;
 
 @end
 
@@ -25,7 +25,7 @@
     [self showAnswer];
     [self healthBar];
     [self characterSettings:1];
-
+    [self ChangeVillain:self.correct];
 }
 
 -(void)showAnswer{
@@ -36,20 +36,30 @@
         case 1:
             self.answerLabel.text = @"that food has no vitamin D in it! ";
             health-=2;
+            self.correct = 0;
             break;
         case 2:
             self.answerLabel.text = @" Vitamin D is mostly in fish and meat, but especially in oily fish, like salmon. You got some vitamin D today, but not really enough.";
             health--;
+            self.correct = 0;
             break;
         case 3:
             self.answerLabel.text = @"Nice job! Oily fish is a great source of vitamin D, and mushrooms have some too";
             health++;
+            self.correct = 1;
             break;
             
         default:
             break;
     }
     [defaults setInteger:health forKey:@"health"];
+}
+- (void) ChangeVillain: (int)correct {
+    if (correct == 1) {
+        self.VillainView.image = [UIImage imageNamed:@"VillainFailSitting1.png"];
+    } else {
+        self.VillainView.image = [UIImage imageNamed:@"VillainSuccess.png"];
+    }
 }
 //Function that loads health bar
 - (void) healthBar {

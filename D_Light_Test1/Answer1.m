@@ -14,6 +14,7 @@
 <AVAudioPlayerDelegate>
 @property (strong, nonatomic) AVAudioPlayer *audioPlayer;
 @property NSString *audioFile;
+@property int correct;
 
 @end
 
@@ -42,6 +43,7 @@
     }
     [self healthBar];
     [self characterSettings:1];
+    [self ChangeVillain:self.correct];
 
 }
 
@@ -57,10 +59,12 @@
                 self.answerLabel.text = @"Correct! ☺ On a sunny day when the UV index is high, it takes a few minutes to make enough vitamin D if you have light coloured skin. Go capture Dr Dastardly!";
                 self.audioFile = @"Slide 8 - light skin correct";
                 health++;
+                self.correct = 1;
             }else{
                 self.answerLabel.text = @"Incorrect. ☹ Even on a sunny day when the UV index is high, it takes more than a few minutes to make enough vitamin D if you do not have light coloured skin. ";
                 self.audioFile = @"Slide 8 - dark skin incorrect";
                 health--;
+                self.correct = 0;
             }
             break;
         case 2:
@@ -68,10 +72,12 @@
                 self.answerLabel.text = @"Incorrect. ☹ On a sunny day when the UV index is high, it takes a few minutes to make enough vitamin D if you have light coloured skin. ";
                 self.audioFile = @"Slide 8 - light skin incorrect";
                 health--;
+                self.correct = 0;
             }else{
                 self.answerLabel.text = @"Correct! ☺ On a sunny day when the UV index is high, it takes more than a few minutes to make enough vitamin D if you do not have light coloured skin. Go capture Dr Dastardly!";
                 self.audioFile = @"Slide 8 - dark skin correct";
                 health++;
+                self.correct = 1;
             }
             break;
             
@@ -79,7 +85,6 @@
             break;
     }
     [defaults setInteger:health forKey:@"health"];
-
 }
 
 - (IBAction)listenToVoiceOver:(UIButton *)sender {
@@ -120,6 +125,14 @@
     [self.HealthBar addSubview:healthAmount];
     
     if(health == 0) [self gameOver];
+}
+
+- (void) ChangeVillain: (int)correct {
+    if (correct == 1) {
+        self.VillainView.image = [UIImage imageNamed:@"VillainFailStanding.png"];
+    } else {
+        self.VillainView.image = [UIImage imageNamed:@"VillainSuccess.png"];
+    }
 }
 
 //dull the screen and force the player to return to the start if they get health = 0.

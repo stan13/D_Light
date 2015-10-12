@@ -14,7 +14,7 @@
 <AVAudioPlayerDelegate>
 @property (strong, nonatomic) AVAudioPlayer *audioPlayer;
 @property NSString *audioFile;
-
+@property int correct;
 
 @end
 
@@ -60,6 +60,7 @@
             self.eyeBrows.image = [UIImage imageNamed:@"9000 12 Eye Brows 0 Default.png"];
             [self characterSettings:1];
             health++;
+            self.correct = 1;
             break;
         case 2:
             self.answerLabel.text = @"☹ Incorrect. The UV index is lower at this time of day. You didn’t make enough vitamin D today!";
@@ -71,6 +72,7 @@
             self.eyeBrows.image = [UIImage imageNamed:@"9000 12 Eye Brows 4 Tired.png"];
             [self characterSettings:1];
             health--;
+            self.correct = 0;
             break;
         case 3:
             self.answerLabel.text = @"☹ Incorrect. You can’t make vitamin D when the sun isn’t there! ";
@@ -82,12 +84,21 @@
             self.eyeBrows.image = [UIImage imageNamed:@"9000 12 Eye Brows 6 Sad.png"];
             [self characterSettings:1];
             health -= 2;
+            self.correct = 0;
             break;
             
         default:
             break;
     }
     [defaults setInteger:health forKey:@"health"];
+}
+
+- (void) ChangeVillain: (int)correct {
+    if (correct == 1) {
+        self.VillainView.image = [UIImage imageNamed:@"VillainFailSitting1.png"];
+    } else {
+        self.VillainView.image = [UIImage imageNamed:@"VillainSuccess.png"];
+    }
 }
 
 - (UIImage *) changeImage: (UIImage *)img toColour: (UIColor *)colour

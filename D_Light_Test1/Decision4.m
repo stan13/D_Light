@@ -15,9 +15,8 @@
 
 @property NSInteger sunscreen;
 @property NSInteger hatInt;
+@property CGFloat hatHue;
 @property NSInteger cover;
-
-
 
 @end
 
@@ -51,6 +50,7 @@
     [defaults setInteger:self.sunscreen forKey:@"sunscreen"];
     //load in hat
     self.hatInt = [defaults floatForKey:@"hat"];
+    self.hatHue = [defaults floatForKey:@"hatHue"];
     //Cover
     self.cover = 0;
     [defaults setInteger:self.cover forKey:@"cover"];
@@ -66,35 +66,45 @@
 }
 - (IBAction)stopVoiceOver:(UIButton *)sender {
     [_audioPlayer stop];
-    //if(self.choiceMade) self.nextButton.enabled = YES;
+    self.nextButton.enabled = YES;
 }
 - (void) audioPlayerDidFinishPlaying:(AVAudioPlayer *)player successfully:(BOOL)flag
 {
-    //if(self.choiceMade) self.nextButton.enabled = YES;
+    self.nextButton.enabled = YES;
 }
 
 //Buttons to decide if wearing sunscreen, hat, cover
 - (IBAction)ChooseHat:(UIButton *)sender {
-    if (self.hatInt == 0) {
+    if (self.hatInt == -1) {
         self.hatInt = 1;
+        self.HatButton.backgroundColor = [UIColor grayColor];
+        self.hat.image = [self changeImage:[UIImage imageNamed:@"1 15 Hat 1 Wide-brimmed.png"] toColour:[UIColor colorWithHue:self.hatHue saturation:0.5 brightness:0.5 alpha:1]];
     } else {
-        self.hatInt = 0;
+        self.hatInt = -1;
+        self.HatButton.backgroundColor =nil;
+        self.hat.image = nil;
     }
     [self setDefaults];
 }
 - (IBAction)ChooseSunscreen:(UIButton *)sender {
     if (self.sunscreen == 0) {
         self.sunscreen = 1;
+        self.SunscreenNoseImg.image = [UIImage imageNamed:@"SunscreenNose.png"];
     } else {
         self.sunscreen = 0;
+        self.SunscreenNoseImg.image = nil;
     }
     [self setDefaults];
 }
 - (IBAction)ChooseCover:(UIButton *)sender {
     if (self.cover == 0) {
         self.cover = 1;
+        self.UmbrellaImg.image = [UIImage imageNamed:@"umbrella.png"];
+        self.CoverButton.backgroundColor = [UIColor grayColor];
     } else {
         self.cover = 0;
+        self.UmbrellaImg.image = nil;
+        self.CoverButton.backgroundColor = nil;
     }
     [self setDefaults];
 }

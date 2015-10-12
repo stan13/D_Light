@@ -90,6 +90,7 @@
     self.nightButton.backgroundColor = [UIColor clearColor];
     self.background.backgroundColor = [UIColor yellowColor];
     self.background.alpha = 0.2;
+    self.choiceMade = true;
     NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
     [defaults setInteger:1 forKey:@"Decision5"];
     
@@ -102,6 +103,7 @@
     self.nightButton.backgroundColor = [UIColor clearColor];
     self.background.backgroundColor = [UIColor grayColor];
     self.background.alpha = 0.3;
+    self.choiceMade = true;
     NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
     [defaults setInteger:2 forKey:@"Decision5"];
 }
@@ -113,6 +115,7 @@
     self.nightButton.backgroundColor = [UIColor blackColor];
     self.background.backgroundColor = [UIColor blackColor];
     self.background.alpha = 0.5;
+    self.choiceMade = true;
     NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
     [defaults setInteger:3 forKey:@"Decision5"];
 }
