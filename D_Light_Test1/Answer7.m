@@ -11,6 +11,7 @@
 @interface Answer7 ()
 <AVAudioPlayerDelegate>
 @property (strong, nonatomic) AVAudioPlayer *audioPlayer;
+@property NSString *audioFile;
 //Private Variables
 @property int correct;
 
@@ -23,6 +24,23 @@
     [super viewDidLoad];
     //put code here or call another method
     [self showAnswer];
+    
+    NSURL *url = [NSURL fileURLWithPath:[[NSBundle mainBundle]
+                                         pathForResource:self.audioFile
+                                         ofType:@"wav"]];
+    
+    NSError *error;
+    _audioPlayer = [[AVAudioPlayer alloc]
+                    initWithContentsOfURL:url
+                    error:&error];
+    if (error)
+    {
+        NSLog(@"Error in audioPlayer: %@",
+              [error localizedDescription]);
+    } else {
+        _audioPlayer.delegate = self;
+        [_audioPlayer prepareToPlay];
+    }
     [self healthBar];
     [self characterSettings:1];
     [self ChangeVillain:self.correct];
@@ -37,16 +55,19 @@
             self.answerLabel.text = @"That’s right! Cover from smoke or air pollution reduces the amount of UV that gets through. You spend enough time in the sun, and can help put the fire out.";
             health++;
             self.correct = 1;
+                        self.audioFile = @"Slide 14 - correct";
             break;
         case 2:
             self.answerLabel.text = @" Cover from smoke or air pollution reduces the amount of UV that gets through. You don’t get quite enough vitamin D today. Dr. Dastardly escapes!";
             health--;
             self.correct = 0;
+            self.audioFile = @"Slide 14 - incorrect";
             break;
         case 3:
             self.answerLabel.text = @"Oh no! The smoke reduces the amount of sunlight that gets through, so you end up getting way less vitamin D than usual. Dr. Dastardly escapes!";
             health-=2;
             self.correct = 0;
+            self.audioFile = @"Slide 14 - incorrect";
             break;
             
         default:
@@ -242,5 +263,20 @@
     return newImg;
 }
 
+- (IBAction)listenToVoiceOver:(UIButton *)sender {
+    
+    self.nextButton.enabled = NO;
+    [_audioPlayer play];
+}
+
+- (IBAction)stopVoiceOver:(UIButton *)sender {
+    [_audioPlayer stop];
+    self.nextButton.enabled = YES;
+}
+
+- (void) audioPlayerDidFinishPlaying:(AVAudioPlayer *)player successfully:(BOOL)flag
+{
+    self.nextButton.enabled = YES;
+}
 
 @end

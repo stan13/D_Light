@@ -13,6 +13,7 @@
 @interface Answer4 ()
 <AVAudioPlayerDelegate>
 @property (strong, nonatomic) AVAudioPlayer *audioPlayer;
+@property NSString *audioFile;
 //Private Variables
 
 
@@ -23,8 +24,26 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    //put code here or call another method
     [self showAnswer];
+    //put code here or call another method
+    NSURL *url = [NSURL fileURLWithPath:[[NSBundle mainBundle]
+                                         pathForResource:self.audioFile
+                                         ofType:@"wav"]];
+    
+    NSError *error;
+    _audioPlayer = [[AVAudioPlayer alloc]
+                    initWithContentsOfURL:url
+                    error:&error];
+    if (error)
+    {
+        NSLog(@"Error in audioPlayer: %@",
+              [error localizedDescription]);
+    } else {
+        _audioPlayer.delegate = self;
+        [_audioPlayer prepareToPlay];
+    }
+    
+
     [self healthBar];
     [self characterSettings:1];
 
@@ -42,6 +61,7 @@
     if (sunscreen == 0) { //sunscreen good
         health--;
         self.SunscreenLabel.text = @"Incorrect! Sunscreen protects your skin from getting burnt but allows it to make vitamin D.";
+        self.audioFile = @"Slide 11 - sunscreens protect";
     } else {
         health ++;
         self.SunscreenLabel.text = @"Correct! Sunscreen protects your skin from getting burnt but allows it to make vitamin D.";
@@ -49,6 +69,9 @@
     if (hat == -1) { //hat good
         health--;
         self.HatLabel.text = @"Incorrect. It is important to protect your face by wearing a hat.";
+        if (!self.audioFile) {
+            self.audioFile = @"Slide 11 - no hat";
+        }
     } else {
         health++;
         self.HatLabel.text = @"Correct. It is important to protect your face by wearing a hat.";
@@ -56,9 +79,13 @@
     if (cover == 0) { //cover bad
         health++;
         self.CoverLabel.text = @"Correct. You need to expose some skin to make vitamin D.";
+        if (!self.audioFile) {
+            self.audioFile = @"Slide 11 - arms and legs exposed";
+        }
     } else {
         health--;
         self.CoverLabel.text = @"Incorrect. You need to expose some skin to make vitamin D.";
+        self.audioFile = @"Slide 11 - all covered";
     }
     
     [defaults setInteger:health forKey:@"health"];
@@ -240,6 +267,22 @@
     UIImage *newImg = UIGraphicsGetImageFromCurrentImageContext();
     UIGraphicsEndImageContext();
     return newImg;
+}
+
+- (IBAction)listenToVoiceOver:(UIButton *)sender {
+    
+    self.nextButton.enabled = NO;
+    [_audioPlayer play];
+}
+
+- (IBAction)stopVoiceOver:(UIButton *)sender {
+    [_audioPlayer stop];
+    self.nextButton.enabled = YES;
+}
+
+- (void) audioPlayerDidFinishPlaying:(AVAudioPlayer *)player successfully:(BOOL)flag
+{
+    self.nextButton.enabled = YES;
 }
 
 @end

@@ -87,16 +87,16 @@
 
 - (IBAction)chooseInside:(UIButton *)sender {
     self.nextButton.enabled = YES;
-    self.insideButton.backgroundColor = [UIColor grayColor];
-    self.outsideButton.backgroundColor = [UIColor clearColor];
+    [self.insideButton setImage:[self changeImage:[UIImage imageNamed:@"buttonCar"] toColour:[UIColor colorWithWhite:0.5 alpha:0.5]] forState:UIControlStateNormal];
+    [self.outsideButton setImage:[UIImage imageNamed:@"buttonStayOutside"] forState:UIControlStateNormal];
     NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
     [defaults setInteger:1 forKey:@"Decision3"];
 }
 
 - (IBAction)chooseOutside:(UIButton *)sender {
     self.nextButton.enabled = YES;
-    self.outsideButton.backgroundColor = [UIColor grayColor];
-    self.insideButton.backgroundColor = [UIColor clearColor];
+    [self.insideButton setImage:[UIImage imageNamed:@"buttonCar"] forState:UIControlStateNormal];
+    [self.outsideButton setImage:[self changeImage:[UIImage imageNamed:@"buttonStayOutside"] toColour:[UIColor colorWithWhite:0.5 alpha:0.5]] forState:UIControlStateNormal];
     NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
     [defaults setInteger:2 forKey:@"Decision3"];
 }

@@ -18,6 +18,7 @@
 @property CGFloat hatHue;
 @property NSInteger cover;
 
+
 @end
 
 @implementation Decision4

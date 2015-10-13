@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6250" systemVersion="13F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6244"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -2941,6 +2941,7 @@
                                 <state key="normal" title="MORE" image="buttonMore.png">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <state key="highlighted" image="buttonMore.png"/>
                                 <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
                                     <rect key="frame" x="243" y="654" width="200" height="75"/>
                                 </variation>
@@ -3098,6 +3099,7 @@
                                     <action selector="listenToVoiceOver:" destination="7Li-CF-6gn" eventType="touchUpInside" id="b8D-E7-Vye"/>
                                     <action selector="listenToVoiceOver:" destination="9Hz-or-0E6" eventType="touchUpInside" id="dMi-VV-0pQ"/>
                                     <action selector="listenToVoiceOver:" destination="LbW-FU-Aoh" eventType="touchUpInside" id="nqe-ut-LrO"/>
+                                    <action selector="listenToVoiceOver:" destination="jcp-Aj-XbN" eventType="touchUpInside" id="pge-lt-3Hg"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0qC-jR-zK1">
@@ -3111,6 +3113,7 @@
                                 <connections>
                                     <action selector="listenToVoiceOver:" destination="LbW-FU-Aoh" eventType="touchUpInside" id="A84-SB-wrX"/>
                                     <action selector="stopVoiceOver:" destination="tS6-BI-SVO" eventType="touchUpInside" id="JDh-pi-u8Q"/>
+                                    <action selector="stopVoiceOver:" destination="jcp-Aj-XbN" eventType="touchUpInside" id="Qn2-Mg-SU8"/>
                                     <action selector="stopVoiceOver:" destination="ohO-wC-Nsv" eventType="touchUpInside" id="Ujh-Ee-Cx4"/>
                                     <action selector="stopVoiceOver:" destination="LbW-FU-Aoh" eventType="touchUpInside" id="aFZ-S8-5KJ"/>
                                     <action selector="stopVoiceOver:" destination="9Hz-or-0E6" eventType="touchUpInside" id="bXx-Lj-2Bt"/>
@@ -3495,7 +3498,6 @@
                                     <action selector="listenToVoiceOver:" destination="LbW-FU-Aoh" eventType="touchUpInside" id="CXZ-I4-4B0"/>
                                     <action selector="stopVoiceOver:" destination="ohO-wC-Nsv" eventType="touchUpInside" id="C7y-Xd-W1c"/>
                                     <action selector="stopVoiceOver:" destination="7Li-CF-6gn" eventType="touchUpInside" id="CNX-5I-kV7"/>
-                                    <action selector="stopVoiceOver:" destination="jcp-Aj-XbN" eventType="touchUpInside" id="GLG-d8-GPW"/>
                                     <action selector="stopVoiceOver:" destination="tS6-BI-SVO" eventType="touchUpInside" id="Kw7-KC-IPC"/>
                                     <action selector="stopVoiceOver:" destination="9Hz-or-0E6" eventType="touchUpInside" id="adM-QU-FEB"/>
                                     <action selector="stopVoiceOver:" destination="LbW-FU-Aoh" eventType="touchUpInside" id="mZE-TY-bZl"/>
@@ -3512,7 +3514,6 @@
                                 </variation>
                                 <connections>
                                     <action selector="listenToVoiceOver:" destination="rc7-u5-mAg" eventType="touchUpInside" id="5d9-x1-iwN"/>
-                                    <action selector="listenToVoiceOver:" destination="jcp-Aj-XbN" eventType="touchUpInside" id="70a-43-uuy"/>
                                     <action selector="listenToVoiceOver:" destination="7Li-CF-6gn" eventType="touchUpInside" id="U0U-qf-tsV"/>
                                     <action selector="listenToVoiceOver:" destination="LbW-FU-Aoh" eventType="touchUpInside" id="YK7-5E-t9J"/>
                                     <action selector="listenToVoiceOver:" destination="9Hz-or-0E6" eventType="touchUpInside" id="kDF-Ws-jfr"/>
@@ -3879,7 +3880,6 @@
                                     <action selector="listenToVoiceOver:" destination="LbW-FU-Aoh" eventType="touchUpInside" id="MW0-16-4yM"/>
                                     <action selector="listenToVoiceOver:" destination="tS6-BI-SVO" eventType="touchUpInside" id="O0e-pT-QWF"/>
                                     <action selector="listenToVoiceOver:" destination="ohO-wC-Nsv" eventType="touchUpInside" id="aSj-ac-XLu"/>
-                                    <action selector="listenToVoiceOver:" destination="jcp-Aj-XbN" eventType="touchUpInside" id="tj5-kg-vKo"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tBL-Et-7iM">
@@ -3895,7 +3895,6 @@
                                     <action selector="stopVoiceOver:" destination="LbW-FU-Aoh" eventType="touchUpInside" id="7DQ-rS-UQO"/>
                                     <action selector="stopVoiceOver:" destination="tS6-BI-SVO" eventType="touchUpInside" id="BKL-L6-PF8"/>
                                     <action selector="stopVoiceOver:" destination="ohO-wC-Nsv" eventType="touchUpInside" id="IG0-JO-H8d"/>
-                                    <action selector="stopVoiceOver:" destination="jcp-Aj-XbN" eventType="touchUpInside" id="RGO-J8-mLs"/>
                                     <action selector="stopVoiceOver:" destination="7Li-CF-6gn" eventType="touchUpInside" id="Sik-Ly-Gl3"/>
                                     <action selector="stopVoiceOver:" destination="9Hz-or-0E6" eventType="touchUpInside" id="YEG-N8-dSE"/>
                                     <action selector="stopVoiceOver:" destination="BVh-UC-gvu" eventType="touchUpInside" id="ZQI-zU-L1Y"/>
@@ -4268,7 +4267,6 @@ it takes hours getting here! You now only have an hour to enjoy the beach.</stri
                                     <action selector="listenToVoiceOver:" destination="LbW-FU-Aoh" eventType="touchUpInside" id="W16-L3-x6z"/>
                                     <action selector="listenToVoiceOver:" destination="ohO-wC-Nsv" eventType="touchUpInside" id="gDs-R6-Aw0"/>
                                     <action selector="listenToVoiceOver:" destination="rc7-u5-mAg" eventType="touchUpInside" id="m9b-UC-Kwb"/>
-                                    <action selector="listenToVoiceOver:" destination="jcp-Aj-XbN" eventType="touchUpInside" id="osh-Oc-Uzy"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Trs-kL-Nw7">
@@ -4284,7 +4282,6 @@ it takes hours getting here! You now only have an hour to enjoy the beach.</stri
                                     <action selector="stopVoiceOver:" destination="rc7-u5-mAg" eventType="touchUpInside" id="3w5-M6-Srq"/>
                                     <action selector="stopVoiceOver:" destination="7Li-CF-6gn" eventType="touchUpInside" id="F6i-Uq-wef"/>
                                     <action selector="stopVoiceOver:" destination="tS6-BI-SVO" eventType="touchUpInside" id="FaS-jR-ZJq"/>
-                                    <action selector="stopVoiceOver:" destination="jcp-Aj-XbN" eventType="touchUpInside" id="LU7-Ye-e3Z"/>
                                     <action selector="stopVoiceOver:" destination="9Hz-or-0E6" eventType="touchUpInside" id="Zly-pZ-nxX"/>
                                     <action selector="stopVoiceOver:" destination="cu6-6a-4d8" eventType="touchUpInside" id="d4K-It-EiM"/>
                                     <action selector="stopVoiceOver:" destination="LbW-FU-Aoh" eventType="touchUpInside" id="iWI-0D-HgR"/>
@@ -4632,6 +4629,7 @@ it takes hours getting here! You now only have an hour to enjoy the beach.</stri
                                     <action selector="listenToVoiceOver:" destination="9Hz-or-0E6" eventType="touchUpInside" id="4y8-tr-Qw1"/>
                                     <action selector="listenToVoiceOver:" destination="7Li-CF-6gn" eventType="touchUpInside" id="BSW-SG-Ohe"/>
                                     <action selector="listenToVoiceOver:" destination="tS6-BI-SVO" eventType="touchUpInside" id="Imx-1e-2SR"/>
+                                    <action selector="listenToVoiceOver:" destination="F46-dU-CqZ" eventType="touchUpInside" id="Pc4-KL-Fvz"/>
                                     <action selector="listenToVoiceOver:" destination="ohO-wC-Nsv" eventType="touchUpInside" id="S9a-mm-U6x"/>
                                     <action selector="listenToVoiceOver:" destination="LbW-FU-Aoh" eventType="touchUpInside" id="sMf-QS-PDo"/>
                                 </connections>
@@ -4646,6 +4644,7 @@ it takes hours getting here! You now only have an hour to enjoy the beach.</stri
                                 </variation>
                                 <connections>
                                     <action selector="listenToVoiceOver:" destination="LbW-FU-Aoh" eventType="touchUpInside" id="560-fD-TN2"/>
+                                    <action selector="stopVoiceOver:" destination="F46-dU-CqZ" eventType="touchUpInside" id="6nz-gA-AEZ"/>
                                     <action selector="stopVoiceOver:" destination="tS6-BI-SVO" eventType="touchUpInside" id="DT0-nh-4nf"/>
                                     <action selector="stopVoiceOver:" destination="9Hz-or-0E6" eventType="touchUpInside" id="Q97-KN-4xA"/>
                                     <action selector="stopVoiceOver:" destination="7Li-CF-6gn" eventType="touchUpInside" id="daB-Lp-YoE"/>
@@ -4943,6 +4942,7 @@ it takes hours getting here! You now only have an hour to enjoy the beach.</stri
                         <outlet property="hairFront" destination="kEg-jK-GsN" id="vN8-pw-tSE"/>
                         <outlet property="hat" destination="qDS-ZM-Ybu" id="Lla-XG-R8w"/>
                         <outlet property="mouth" destination="WdZ-gi-1JV" id="XW8-y4-cZM"/>
+                        <outlet property="nextButton" destination="9iB-Sh-F8F" id="NCF-CS-A2k"/>
                         <outlet property="shoes" destination="1ix-kd-Jea" id="OZs-75-1GB"/>
                         <outlet property="skinArms" destination="Euu-aT-HgI" id="FMf-IA-Rla"/>
                         <outlet property="skinHead" destination="8Qh-sZ-hdT" id="VEs-gd-74q"/>
@@ -5804,7 +5804,7 @@ it takes hours getting here! You now only have an hour to enjoy the beach.</stri
                                     <rect key="frame" x="664" y="178" width="260" height="167"/>
                                 </variation>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="s40-z8-oQ9">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="s40-z8-oQ9">
                                 <rect key="frame" x="552" y="550" width="32" height="30"/>
                                 <state key="normal" title="Next" image="right arrow.png">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
@@ -5827,6 +5827,7 @@ it takes hours getting here! You now only have an hour to enjoy the beach.</stri
                                 <connections>
                                     <action selector="listenToVoiceOver:" destination="LbW-FU-Aoh" eventType="touchUpInside" id="oxr-e9-34F"/>
                                     <action selector="stopVoiceOver:" destination="7Li-CF-6gn" eventType="touchUpInside" id="2bN-Jc-6bJ"/>
+                                    <action selector="stopVoiceOver:" destination="YiR-f4-jdd" eventType="touchUpInside" id="4NM-Xi-kFx"/>
                                     <action selector="stopVoiceOver:" destination="ohO-wC-Nsv" eventType="touchUpInside" id="Cgf-QO-g9y"/>
                                     <action selector="stopVoiceOver:" destination="tS6-BI-SVO" eventType="touchUpInside" id="HQW-u0-Rva"/>
                                     <action selector="stopVoiceOver:" destination="327-o1-09d" eventType="touchUpInside" id="ch6-l6-m1d"/>
@@ -5845,6 +5846,7 @@ it takes hours getting here! You now only have an hour to enjoy the beach.</stri
                                 <connections>
                                     <action selector="listenToVoiceOver:" destination="LbW-FU-Aoh" eventType="touchUpInside" id="HSk-c6-meu"/>
                                     <action selector="listenToVoiceOver:" destination="7Li-CF-6gn" eventType="touchUpInside" id="HYN-pJ-fEG"/>
+                                    <action selector="listenToVoiceOver:" destination="YiR-f4-jdd" eventType="touchUpInside" id="XXH-PJ-mRb"/>
                                     <action selector="listenToVoiceOver:" destination="327-o1-09d" eventType="touchUpInside" id="bto-LT-tcx"/>
                                     <action selector="listenToVoiceOver:" destination="ohO-wC-Nsv" eventType="touchUpInside" id="fvF-oj-Mh7"/>
                                     <action selector="listenToVoiceOver:" destination="eXg-CJ-cf5" eventType="touchUpInside" id="gg9-Qt-zCH"/>
@@ -5931,6 +5933,7 @@ it takes hours getting here! You now only have an hour to enjoy the beach.</stri
                                     <rect key="frame" x="870" y="80" width="50" height="50"/>
                                 </variation>
                                 <connections>
+                                    <action selector="listenToVoiceOver:" destination="sOW-Jp-z0S" eventType="touchUpInside" id="7lP-SO-fds"/>
                                     <action selector="listenToVoiceOver:" destination="ohO-wC-Nsv" eventType="touchUpInside" id="9WP-Ww-JBP"/>
                                     <action selector="listenToVoiceOver:" destination="9Hz-or-0E6" eventType="touchUpInside" id="Kt9-RF-USg"/>
                                     <action selector="listenToVoiceOver:" destination="LbW-FU-Aoh" eventType="touchUpInside" id="LrG-b9-g2c"/>
@@ -5952,6 +5955,7 @@ it takes hours getting here! You now only have an hour to enjoy the beach.</stri
                                     <action selector="stopVoiceOver:" destination="7Li-CF-6gn" eventType="touchUpInside" id="RSz-NC-c7Y"/>
                                     <action selector="stopVoiceOver:" destination="ohO-wC-Nsv" eventType="touchUpInside" id="byq-ry-vfG"/>
                                     <action selector="stopVoiceOver:" destination="tS6-BI-SVO" eventType="touchUpInside" id="dU6-Yh-d19"/>
+                                    <action selector="stopVoiceOver:" destination="sOW-Jp-z0S" eventType="touchUpInside" id="jam-YH-aJF"/>
                                     <action selector="stopVoiceOver:" destination="9Hz-or-0E6" eventType="touchUpInside" id="uAZ-tg-3EP"/>
                                 </connections>
                             </button>
@@ -6230,6 +6234,7 @@ it takes hours getting here! You now only have an hour to enjoy the beach.</stri
                         <outlet property="hairFront" destination="rLJ-Re-R5q" id="ljk-H0-N9X"/>
                         <outlet property="hat" destination="YDr-sz-NOo" id="l9H-Pv-Aww"/>
                         <outlet property="mouth" destination="hf2-r8-bng" id="j03-cs-wA0"/>
+                        <outlet property="nextButton" destination="cQv-xO-OCp" id="CzJ-bn-B3U"/>
                         <outlet property="shoes" destination="RDj-dV-WKK" id="FsG-cd-bn6"/>
                         <outlet property="skinArms" destination="Qek-u4-Us9" id="bTu-WW-XdZ"/>
                         <outlet property="skinHead" destination="9qv-fM-LdF" id="BM5-Kh-H2h"/>
@@ -6539,6 +6544,7 @@ it takes hours getting here! You now only have an hour to enjoy the beach.</stri
                                     <action selector="stopVoiceOver:" destination="tS6-BI-SVO" eventType="touchUpInside" id="QE1-Th-6Jo"/>
                                     <action selector="stopVoiceOver:" destination="327-o1-09d" eventType="touchUpInside" id="VLY-dA-MW8"/>
                                     <action selector="stopVoiceOver:" destination="7Li-CF-6gn" eventType="touchUpInside" id="YSD-8q-FEm"/>
+                                    <action selector="stopVoiceOver:" destination="SPC-EZ-u9d" eventType="touchUpInside" id="xPO-v3-h6v"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gco-gi-LT3">
@@ -6552,6 +6558,7 @@ it takes hours getting here! You now only have an hour to enjoy the beach.</stri
                                 <connections>
                                     <action selector="listenToVoiceOver:" destination="tS6-BI-SVO" eventType="touchUpInside" id="5x3-gK-RA0"/>
                                     <action selector="listenToVoiceOver:" destination="LbW-FU-Aoh" eventType="touchUpInside" id="PDk-5S-pwE"/>
+                                    <action selector="listenToVoiceOver:" destination="SPC-EZ-u9d" eventType="touchUpInside" id="SQz-Gb-D0K"/>
                                     <action selector="listenToVoiceOver:" destination="7Li-CF-6gn" eventType="touchUpInside" id="Wpb-YK-QzQ"/>
                                     <action selector="listenToVoiceOver:" destination="327-o1-09d" eventType="touchUpInside" id="i21-1W-vXa"/>
                                     <action selector="listenToVoiceOver:" destination="ohO-wC-Nsv" eventType="touchUpInside" id="lbj-8Q-CpC"/>
@@ -6691,22 +6698,6 @@ it takes hours getting here! You now only have an hour to enjoy the beach.</stri
                                     <rect key="frame" x="480" y="15" width="100" height="45"/>
                                 </variation>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="koA-TK-OTl">
-                                <rect key="frame" x="215" y="211" width="81" height="58"/>
-                                <state key="normal" title="Listen" image="sound Icon.png">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
-                                    <rect key="frame" x="870" y="80" width="50" height="50"/>
-                                </variation>
-                                <connections>
-                                    <action selector="listenToVoiceOver:" destination="tS6-BI-SVO" eventType="touchUpInside" id="ImS-fq-DXO"/>
-                                    <action selector="listenToVoiceOver:" destination="LbW-FU-Aoh" eventType="touchUpInside" id="NIf-Fh-qhV"/>
-                                    <action selector="listenToVoiceOver:" destination="7Li-CF-6gn" eventType="touchUpInside" id="cAf-cE-A2e"/>
-                                    <action selector="listenToVoiceOver:" destination="ohO-wC-Nsv" eventType="touchUpInside" id="dZW-ig-A4f"/>
-                                    <action selector="listenToVoiceOver:" destination="9Hz-or-0E6" eventType="touchUpInside" id="w1M-ik-Mgn"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="M7W-Q7-ME6">
                                 <rect key="frame" x="304" y="211" width="81" height="58"/>
                                 <state key="normal" title="Stop" image="pause Icon.png">
@@ -6717,6 +6708,7 @@ it takes hours getting here! You now only have an hour to enjoy the beach.</stri
                                 </variation>
                                 <connections>
                                     <action selector="listenToVoiceOver:" destination="LbW-FU-Aoh" eventType="touchUpInside" id="AFn-La-Ktc"/>
+                                    <action selector="stopVoiceOver:" destination="FUU-vk-SNg" eventType="touchUpInside" id="2C0-j6-DNc"/>
                                     <action selector="stopVoiceOver:" destination="ohO-wC-Nsv" eventType="touchUpInside" id="DtT-3L-Vwm"/>
                                     <action selector="stopVoiceOver:" destination="9Hz-or-0E6" eventType="touchUpInside" id="KpU-pD-kUv"/>
                                     <action selector="stopVoiceOver:" destination="7Li-CF-6gn" eventType="touchUpInside" id="Sg5-hE-Fs4"/>
@@ -6922,13 +6914,29 @@ it takes hours getting here! You now only have an hour to enjoy the beach.</stri
                                     <rect key="frame" x="641" y="403" width="302" height="326"/>
                                 </variation>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="koA-TK-OTl">
+                                <rect key="frame" x="215" y="211" width="81" height="58"/>
+                                <state key="normal" title="Listen" image="sound Icon.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="870" y="80" width="50" height="50"/>
+                                </variation>
+                                <connections>
+                                    <action selector="listenToVoiceOver:" destination="FUU-vk-SNg" eventType="touchUpInside" id="9bh-le-l18"/>
+                                    <action selector="listenToVoiceOver:" destination="tS6-BI-SVO" eventType="touchUpInside" id="ImS-fq-DXO"/>
+                                    <action selector="listenToVoiceOver:" destination="LbW-FU-Aoh" eventType="touchUpInside" id="NIf-Fh-qhV"/>
+                                    <action selector="listenToVoiceOver:" destination="7Li-CF-6gn" eventType="touchUpInside" id="cAf-cE-A2e"/>
+                                    <action selector="listenToVoiceOver:" destination="ohO-wC-Nsv" eventType="touchUpInside" id="dZW-ig-A4f"/>
+                                    <action selector="listenToVoiceOver:" destination="9Hz-or-0E6" eventType="touchUpInside" id="w1M-ik-Mgn"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <variation key="default">
                             <mask key="subviews">
                                 <exclude reference="8B6-ak-xw9"/>
                                 <exclude reference="Gdh-XT-AI2"/>
-                                <exclude reference="koA-TK-OTl"/>
                                 <exclude reference="M7W-Q7-ME6"/>
                                 <exclude reference="Oto-am-SPD"/>
                                 <exclude reference="dtt-wY-qhf"/>
@@ -6949,13 +6957,13 @@ it takes hours getting here! You now only have an hour to enjoy the beach.</stri
                                 <exclude reference="G7w-2w-2xV"/>
                                 <exclude reference="cMx-Rq-udO"/>
                                 <exclude reference="YMO-wD-eod"/>
+                                <exclude reference="koA-TK-OTl"/>
                             </mask>
                         </variation>
                         <variation key="heightClass=regular-widthClass=regular">
                             <mask key="subviews">
                                 <include reference="8B6-ak-xw9"/>
                                 <include reference="Gdh-XT-AI2"/>
-                                <include reference="koA-TK-OTl"/>
                                 <include reference="M7W-Q7-ME6"/>
                                 <include reference="Oto-am-SPD"/>
                                 <include reference="dtt-wY-qhf"/>
@@ -6976,6 +6984,7 @@ it takes hours getting here! You now only have an hour to enjoy the beach.</stri
                                 <include reference="G7w-2w-2xV"/>
                                 <include reference="cMx-Rq-udO"/>
                                 <include reference="YMO-wD-eod"/>
+                                <include reference="koA-TK-OTl"/>
                             </mask>
                         </variation>
                     </view>
@@ -6997,6 +7006,7 @@ it takes hours getting here! You now only have an hour to enjoy the beach.</stri
                         <outlet property="hairFront" destination="W28-xF-Pm6" id="s8q-Wt-eKk"/>
                         <outlet property="hat" destination="cMx-Rq-udO" id="Qr1-XG-CRw"/>
                         <outlet property="mouth" destination="e6K-Fk-4PG" id="S5e-y1-Gab"/>
+                        <outlet property="nextButton" destination="0sa-04-5Cm" id="AWa-Xb-Q0R"/>
                         <outlet property="shoes" destination="zDP-0e-ofy" id="E0B-Nq-kaY"/>
                         <outlet property="skinArms" destination="113-bv-9Si" id="JYP-6C-Cca"/>
                         <outlet property="skinHead" destination="hmm-vx-8xG" id="9AZ-vf-8uS"/>
@@ -7207,6 +7217,7 @@ it takes hours getting here! You now only have an hour to enjoy the beach.</stri
                                     <action selector="stopVoiceOver:" destination="LbW-FU-Aoh" eventType="touchUpInside" id="NkY-7R-NEU"/>
                                     <action selector="stopVoiceOver:" destination="327-o1-09d" eventType="touchUpInside" id="SrN-zu-oC5"/>
                                     <action selector="stopVoiceOver:" destination="eXg-CJ-cf5" eventType="touchUpInside" id="fl2-8I-YPj"/>
+                                    <action selector="stopVoiceOver:" destination="Dv3-9o-dtw" eventType="touchUpInside" id="oD0-x2-ed4"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0JN-Hf-WPC">
@@ -7220,6 +7231,7 @@ it takes hours getting here! You now only have an hour to enjoy the beach.</stri
                                 <connections>
                                     <action selector="listenToVoiceOver:" destination="tS6-BI-SVO" eventType="touchUpInside" id="0Zw-IU-JTe"/>
                                     <action selector="listenToVoiceOver:" destination="eXg-CJ-cf5" eventType="touchUpInside" id="6j5-zu-E2z"/>
+                                    <action selector="listenToVoiceOver:" destination="Dv3-9o-dtw" eventType="touchUpInside" id="FEc-rd-c7y"/>
                                     <action selector="listenToVoiceOver:" destination="327-o1-09d" eventType="touchUpInside" id="NQt-Ml-e4x"/>
                                     <action selector="listenToVoiceOver:" destination="7Li-CF-6gn" eventType="touchUpInside" id="bFh-iL-9oM"/>
                                     <action selector="listenToVoiceOver:" destination="ohO-wC-Nsv" eventType="touchUpInside" id="k2K-er-y4T"/>
@@ -7409,6 +7421,7 @@ it takes hours getting here! You now only have an hour to enjoy the beach.</stri
                                     <action selector="listenToVoiceOver:" destination="tS6-BI-SVO" eventType="touchUpInside" id="6d2-Xm-IXT"/>
                                     <action selector="listenToVoiceOver:" destination="ohO-wC-Nsv" eventType="touchUpInside" id="EGg-lt-sPC"/>
                                     <action selector="listenToVoiceOver:" destination="9Hz-or-0E6" eventType="touchUpInside" id="MiE-0m-vjG"/>
+                                    <action selector="listenToVoiceOver:" destination="eoX-W4-8Q0" eventType="touchUpInside" id="gmT-V9-YR1"/>
                                     <action selector="listenToVoiceOver:" destination="LbW-FU-Aoh" eventType="touchUpInside" id="grm-H0-vHT"/>
                                     <action selector="listenToVoiceOver:" destination="7Li-CF-6gn" eventType="touchUpInside" id="qfd-QM-sOV"/>
                                 </connections>
@@ -7425,6 +7438,7 @@ it takes hours getting here! You now only have an hour to enjoy the beach.</stri
                                     <action selector="listenToVoiceOver:" destination="LbW-FU-Aoh" eventType="touchUpInside" id="E1G-su-cXh"/>
                                     <action selector="stopVoiceOver:" destination="tS6-BI-SVO" eventType="touchUpInside" id="MCA-MS-Xk0"/>
                                     <action selector="stopVoiceOver:" destination="ohO-wC-Nsv" eventType="touchUpInside" id="Ntb-l1-fcu"/>
+                                    <action selector="stopVoiceOver:" destination="eoX-W4-8Q0" eventType="touchUpInside" id="hKh-sH-ise"/>
                                     <action selector="stopVoiceOver:" destination="LbW-FU-Aoh" eventType="touchUpInside" id="vG4-dW-cmU"/>
                                     <action selector="stopVoiceOver:" destination="7Li-CF-6gn" eventType="touchUpInside" id="viI-f4-3VU"/>
                                     <action selector="stopVoiceOver:" destination="9Hz-or-0E6" eventType="touchUpInside" id="wXv-pA-1kd"/>
@@ -7694,6 +7708,7 @@ it takes hours getting here! You now only have an hour to enjoy the beach.</stri
                         <outlet property="hairFront" destination="Gw4-tB-Q0i" id="xsF-Hx-puF"/>
                         <outlet property="hat" destination="Rmc-dZ-B1m" id="Wes-s2-wcx"/>
                         <outlet property="mouth" destination="eks-HG-tur" id="gZq-1f-HjR"/>
+                        <outlet property="nextButton" destination="yQz-lY-4OH" id="ojX-Fo-zBT"/>
                         <outlet property="shoes" destination="eod-Fy-bi1" id="iVW-g1-0tJ"/>
                         <outlet property="skinArms" destination="Gc3-ek-lVU" id="HdJ-kv-n9u"/>
                         <outlet property="skinHead" destination="wpI-d6-PtL" id="CD0-Kg-ctM"/>
@@ -7873,31 +7888,31 @@ it takes hours getting here! You now only have an hour to enjoy the beach.</stri
         <image name="umbrella.png" width="2038" height="2400"/>
     </resources>
     <inferredMetricsTieBreakers>
+        <segue reference="q5m-AR-iHb"/>
+        <segue reference="iWB-yu-uBZ"/>
         <segue reference="6GF-6v-d9i"/>
-        <segue reference="PdL-iG-df5"/>
-        <segue reference="IHS-3h-TWr"/>
         <segue reference="KI8-gQ-xcA"/>
         <segue reference="udh-kP-udg"/>
+        <segue reference="KbB-w3-S4e"/>
+        <segue reference="MSS-3A-zlW"/>
+        <segue reference="Wcn-pK-AeW"/>
+        <segue reference="raE-9l-FqN"/>
+        <segue reference="UoJ-Oq-EHp"/>
+        <segue reference="BFx-l4-4dp"/>
+        <segue reference="flJ-Uj-mxe"/>
+        <segue reference="MPr-Bf-8n3"/>
+        <segue reference="HXE-c3-rDF"/>
+        <segue reference="Ogg-Jz-Ar9"/>
+        <segue reference="oeO-9L-x2D"/>
+        <segue reference="S6r-9I-Rim"/>
+        <segue reference="axW-Dq-vLC"/>
+        <segue reference="H3j-T1-rY0"/>
+        <segue reference="730-eO-kLg"/>
+        <segue reference="pjI-mo-aoE"/>
+        <segue reference="GiL-OM-iIk"/>
+        <segue reference="QnE-VF-aHs"/>
         <segue reference="6bh-Wl-hpC"/>
         <segue reference="SfT-xc-8QN"/>
         <segue reference="D4F-0t-lYV"/>
-        <segue reference="Cha-hP-xda"/>
-        <segue reference="730-eO-kLg"/>
-        <segue reference="pjI-mo-aoE"/>
-        <segue reference="BFx-l4-4dp"/>
-        <segue reference="UoJ-Oq-EHp"/>
-        <segue reference="raE-9l-FqN"/>
-        <segue reference="S6r-9I-Rim"/>
-        <segue reference="oeO-9L-x2D"/>
-        <segue reference="Y4C-RA-HFM"/>
-        <segue reference="KbB-w3-S4e"/>
-        <segue reference="5GA-T9-COc"/>
-        <segue reference="tFT-K4-j4Z"/>
-        <segue reference="Ogg-Jz-Ar9"/>
-        <segue reference="z3u-Mt-DTG"/>
-        <segue reference="QnE-VF-aHs"/>
-        <segue reference="GiL-OM-iIk"/>
-        <segue reference="MPr-Bf-8n3"/>
-        <segue reference="flJ-Uj-mxe"/>
     </inferredMetricsTieBreakers>
 </document>

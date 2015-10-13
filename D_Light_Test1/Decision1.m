@@ -181,8 +181,8 @@
 
 - (IBAction)chooseYes:(UIButton *)sender {
     self.nextButton.enabled = YES;
-    self.yesButton.backgroundColor = [UIColor grayColor];
-    self.noButton.backgroundColor = [UIColor clearColor];
+    [self.yesButton setImage:[self changeImage:[UIImage imageNamed:@"buttonYes"] toColour:[UIColor colorWithWhite:0.5 alpha:0.5]] forState:UIControlStateNormal];
+    [self.noButton setImage:[UIImage imageNamed:@"buttonNo"] forState:UIControlStateNormal];
     NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
     [defaults setInteger:1 forKey:@"Decision1"];
     self.choiceMade = YES;
@@ -190,8 +190,8 @@
 
 - (IBAction)chooseNo:(UIButton *)sender {
     self.nextButton.enabled = YES;
-    self.yesButton.backgroundColor = [UIColor clearColor];
-    self.noButton.backgroundColor = [UIColor grayColor];
+    [self.yesButton setImage:[UIImage imageNamed:@"buttonYes"] forState:UIControlStateNormal];
+    [self.noButton setImage:[self changeImage:[UIImage imageNamed:@"buttonNo"] toColour:[UIColor colorWithWhite:0.5 alpha:0.5]] forState:UIControlStateNormal];
     NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
     [defaults setInteger:2 forKey:@"Decision1"];
     self.choiceMade = NO;

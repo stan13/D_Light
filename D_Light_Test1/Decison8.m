@@ -22,6 +22,22 @@
 {
     [super viewDidLoad];
     //put code here or call another method
+    NSURL *url = [NSURL fileURLWithPath:[[NSBundle mainBundle]
+                                         pathForResource:@"Slide 15 - initial"
+                                         ofType:@"wav"]];
+    
+    NSError *error;
+    _audioPlayer = [[AVAudioPlayer alloc]
+                    initWithContentsOfURL:url
+                    error:&error];
+    if (error)
+    {
+        NSLog(@"Error in audioPlayer: %@",
+              [error localizedDescription]);
+    } else {
+        _audioPlayer.delegate = self;
+        [_audioPlayer prepareToPlay];
+    }
     self.nextButton.enabled = NO;
     [self healthBar];
     [self characterSettings:1];
@@ -31,15 +47,15 @@
 
 - (IBAction)chooseMore:(UIButton *)sender {
     self.nextButton.enabled = YES;
-    self.moreButton.backgroundColor = [UIColor grayColor];
+    [self.moreButton setImage:[self changeImage:[UIImage imageNamed:@"buttonMore"] toColour:[UIColor colorWithWhite:0.5 alpha:0.5]] forState:UIControlStateNormal];
     self.lessButton.backgroundColor = [UIColor clearColor];
     NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
     [defaults setInteger:1 forKey:@"equator"];
 }
 - (IBAction)chooseLess:(UIButton *)sender {
     self.nextButton.enabled = YES;
-    self.moreButton.backgroundColor = [UIColor clearColor];
-    self.lessButton.backgroundColor = [UIColor grayColor];
+    [self.moreButton setImage:[UIImage imageNamed:@"buttonMore"] forState:UIControlStateNormal];
+    [self.lessButton setImage:[self changeImage:[UIImage imageNamed:@"buttonLess"] toColour:[UIColor colorWithWhite:0.5 alpha:0.5]] forState:UIControlStateNormal];
     NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
     [defaults setInteger:2 forKey:@"equator"];
 }
@@ -197,6 +213,22 @@
     UIImage *newImg = UIGraphicsGetImageFromCurrentImageContext();
     UIGraphicsEndImageContext();
     return newImg;
+}
+
+- (IBAction)listenToVoiceOver:(UIButton *)sender {
+    
+    self.nextButton.enabled = NO;
+    [_audioPlayer play];
+}
+
+- (IBAction)stopVoiceOver:(UIButton *)sender {
+    [_audioPlayer stop];
+    self.nextButton.enabled = YES;
+}
+
+- (void) audioPlayerDidFinishPlaying:(AVAudioPlayer *)player successfully:(BOOL)flag
+{
+    self.nextButton.enabled = YES;
 }
 
 @end

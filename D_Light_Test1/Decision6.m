@@ -11,6 +11,7 @@
 @interface Decision6 ()
 <AVAudioPlayerDelegate>
 @property (strong, nonatomic) AVAudioPlayer *audioPlayer;
+@property BOOL choiceMade;
 //Private Variables
 
 @end
@@ -20,7 +21,23 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    self.nextButton.enabled = NO;
+    NSURL *url = [NSURL fileURLWithPath:[[NSBundle mainBundle]
+                                         pathForResource:@"Slide 13 - initial"
+                                         ofType:@"wav"]];
+    
+    NSError *error;
+    _audioPlayer = [[AVAudioPlayer alloc]
+                    initWithContentsOfURL:url
+                    error:&error];
+    if (error)
+    {
+        NSLog(@"Error in audioPlayer: %@",
+              [error localizedDescription]);
+    } else {
+        _audioPlayer.delegate = self;
+        [_audioPlayer prepareToPlay];
+    }
+    //self.nextButton.enabled = NO;
     [self healthBar];
 
 }
@@ -54,16 +71,19 @@
         food.image = [UIImage imageNamed:@"Hamburger.png"];
         [defaults setInteger:1 forKey:@"food"];
         self.nextButton.enabled = YES;
+        self.choiceMade = YES;
     }
     if (CGRectIntersectsRect(self.foodWithSome.frame, self.plate.frame)) {
         food.image = [UIImage imageNamed:@"Pizza"];
         [defaults setInteger:2 forKey:@"food"];
         self.nextButton.enabled = YES;
+        self.choiceMade = YES;
     }
     if (CGRectIntersectsRect(self.foodWithEnough.frame, self.plate.frame)) {
         food.image = [UIImage imageNamed:@"Fish"];
         [defaults setInteger:3 forKey:@"food"];
         self.nextButton.enabled = YES;
+        self.choiceMade = YES;
     }
     
     for (UIView *view in [self.plate subviews]) [view removeFromSuperview];
@@ -95,4 +115,21 @@
     }
     [self.HeathBar addSubview:healthAmount];
 }
+
+- (IBAction)listenToVoiceOver:(UIButton *)sender {
+    
+    self.nextButton.enabled = NO;
+    [_audioPlayer play];
+}
+
+- (IBAction)stopVoiceOver:(UIButton *)sender {
+    [_audioPlayer stop];
+    if(self.choiceMade) self.nextButton.enabled = YES;
+}
+
+- (void) audioPlayerDidFinishPlaying:(AVAudioPlayer *)player successfully:(BOOL)flag
+{
+    if(self.choiceMade) self.nextButton.enabled = YES;
+}
+
 @end

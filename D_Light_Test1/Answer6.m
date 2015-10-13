@@ -11,6 +11,7 @@
 @interface Answer6 ()
 <AVAudioPlayerDelegate>
 @property (strong, nonatomic) AVAudioPlayer *audioPlayer;
+@property NSString *audioFile;
 //Private Variables
 @property int correct;
 
@@ -23,6 +24,23 @@
     [super viewDidLoad];
     //put code here or call another method
     [self showAnswer];
+    NSURL *url = [NSURL fileURLWithPath:[[NSBundle mainBundle]
+                                         pathForResource:self.audioFile
+                                         ofType:@"wav"]];
+    
+    NSError *error;
+    _audioPlayer = [[AVAudioPlayer alloc]
+                    initWithContentsOfURL:url
+                    error:&error];
+    if (error)
+    {
+        NSLog(@"Error in audioPlayer: %@",
+              [error localizedDescription]);
+    } else {
+        _audioPlayer.delegate = self;
+        [_audioPlayer prepareToPlay];
+    }
+    
     [self healthBar];
     [self characterSettings:1];
     [self ChangeVillain:self.correct];
@@ -37,16 +55,19 @@
             self.answerLabel.text = @"that food has no vitamin D in it! ";
             health-=2;
             self.correct = 0;
+            self.audioFile = @"Slide 13 - incorrect";
             break;
         case 2:
             self.answerLabel.text = @" Vitamin D is mostly in fish and meat, but especially in oily fish, like salmon. You got some vitamin D today, but not really enough.";
             health--;
             self.correct = 0;
+            self.audioFile = @"Slide 13 - mushrooms";
             break;
         case 3:
             self.answerLabel.text = @"Nice job! Oily fish is a great source of vitamin D, and mushrooms have some too";
             health++;
             self.correct = 1;
+            self.audioFile = @"Slide 13 - oily fish";
             break;
             
         default:
@@ -240,4 +261,21 @@
     UIGraphicsEndImageContext();
     return newImg;
 }
+
+- (IBAction)listenToVoiceOver:(UIButton *)sender {
+    
+    self.nextButton.enabled = NO;
+    [_audioPlayer play];
+}
+
+- (IBAction)stopVoiceOver:(UIButton *)sender {
+    [_audioPlayer stop];
+    self.nextButton.enabled = YES;
+}
+
+- (void) audioPlayerDidFinishPlaying:(AVAudioPlayer *)player successfully:(BOOL)flag
+{
+    self.nextButton.enabled = YES;
+}
+
 @end

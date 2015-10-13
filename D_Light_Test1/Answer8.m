@@ -12,6 +12,7 @@
 @interface Answer8 ()
 <AVAudioPlayerDelegate>
 @property (strong, nonatomic) AVAudioPlayer *audioPlayer;
+@property NSString *audioFile;
 //Private Variables
 
 
@@ -24,6 +25,23 @@
     [super viewDidLoad];
     //put code here or call another method
     [self showAnswer];
+    
+    NSURL *url = [NSURL fileURLWithPath:[[NSBundle mainBundle]
+                                         pathForResource:self.audioFile
+                                         ofType:@"wav"]];
+    
+    NSError *error;
+    _audioPlayer = [[AVAudioPlayer alloc]
+                    initWithContentsOfURL:url
+                    error:&error];
+    if (error)
+    {
+        NSLog(@"Error in audioPlayer: %@",
+              [error localizedDescription]);
+    } else {
+        _audioPlayer.delegate = self;
+        [_audioPlayer prepareToPlay];
+    }
     [self healthBar];
     [self characterSettings:1];
 
@@ -35,11 +53,13 @@
     NSInteger health = [defaults integerForKey:@"health"];
     switch (answer) {
         case 1:
-            self.answerLabel.text = @"That’s right! Closer to the equator, UV rays from the sun have an easier time getting through the atmosphere. Add one to the success count.";
+            self.answerLabel.text = @"That’s right! Closer to the equator, UV rays from the sun have an easier time getting through the atmosphere.";
+            self.audioFile = @"Slide 15 - correct";
             health++;
             break;
         case 2:
             self.answerLabel.text = @"Close to the equator, UV rays from the sun have an easier time getting through the atmosphere, so you create more vitamin D from the sun on your skin, not less. ";
+            self.audioFile = @"Slide 15 - incorrect";
             health--;
             break;
             
@@ -230,5 +250,20 @@
     return newImg;
 }
 
+- (IBAction)listenToVoiceOver:(UIButton *)sender {
+    
+    self.nextButton.enabled = NO;
+    [_audioPlayer play];
+}
+
+- (IBAction)stopVoiceOver:(UIButton *)sender {
+    [_audioPlayer stop];
+    self.nextButton.enabled = YES;
+}
+
+- (void) audioPlayerDidFinishPlaying:(AVAudioPlayer *)player successfully:(BOOL)flag
+{
+    self.nextButton.enabled = YES;
+}
 
 @end

@@ -109,8 +109,8 @@
 
 - (IBAction)chooseMore:(UIButton *)sender {
     self.nextButton.enabled = YES;
-    self.moreButton.backgroundColor = [UIColor grayColor];
-    self.lessButton.backgroundColor = [UIColor clearColor];
+    [self.moreButton setImage:[self changeImage:[UIImage imageNamed:@"buttonMore"] toColour:[UIColor colorWithWhite:0.5 alpha:0.5]] forState:UIControlStateNormal];
+    [self.lessButton setImage:[UIImage imageNamed:@"buttonLess"] forState:UIControlStateNormal];
     NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
     [defaults setInteger:1 forKey:@"Decision2"];
     self.choiceMade = YES;
@@ -118,8 +118,8 @@
 
 - (IBAction)chooseLess:(UIButton *)sender {
     self.nextButton.enabled = YES;
-    self.moreButton.backgroundColor = [UIColor clearColor];
-    self.lessButton.backgroundColor = [UIColor grayColor];
+    [self.moreButton setImage:[UIImage imageNamed:@"buttonMore"] forState:UIControlStateNormal];
+    [self.lessButton setImage:[self changeImage:[UIImage imageNamed:@"buttonLess"] toColour:[UIColor colorWithWhite:0.5 alpha:0.5]] forState:UIControlStateNormal];
     NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
     [defaults setInteger:2 forKey:@"Decision2"];
     self.choiceMade = YES;

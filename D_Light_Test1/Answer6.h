@@ -15,6 +15,10 @@
 @property (weak, nonatomic) IBOutlet UILabel *answerLabel;
 @property (weak, nonatomic) IBOutlet UIImageView *VillainView;
 
+- (IBAction)listenToVoiceOver:(UIButton *)sender;
+- (IBAction)stopVoiceOver:(UIButton *)sender;
+@property (weak, nonatomic) IBOutlet UIButton *nextButton;
+
 //Character Customisation
 //0 Hair Back
 @property (weak, nonatomic) IBOutlet UIImageView *hairBack;

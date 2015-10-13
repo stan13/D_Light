@@ -15,6 +15,9 @@
 @property (weak, nonatomic) IBOutlet UIImageView *foodWithNone;
 @property (weak, nonatomic) IBOutlet UIImageView *foodWithSome;
 @property (weak, nonatomic) IBOutlet UIImageView *foodWithEnough;
+
+- (IBAction)listenToVoiceOver:(UIButton *)sender;
+- (IBAction)stopVoiceOver:(UIButton *)sender;
 @property (weak, nonatomic) IBOutlet UIButton *nextButton;
 
 @property (weak, nonatomic) IBOutlet UIImageView *plate;

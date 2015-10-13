@@ -22,6 +22,22 @@
 {
     [super viewDidLoad];
     //put code here or call another method
+    NSURL *url = [NSURL fileURLWithPath:[[NSBundle mainBundle]
+                                         pathForResource:@"Slide 14 - initial"
+                                         ofType:@"wav"]];
+    
+    NSError *error;
+    _audioPlayer = [[AVAudioPlayer alloc]
+                    initWithContentsOfURL:url
+                    error:&error];
+    if (error)
+    {
+        NSLog(@"Error in audioPlayer: %@",
+              [error localizedDescription]);
+    } else {
+        _audioPlayer.delegate = self;
+        [_audioPlayer prepareToPlay];
+    }
     self.nextButton.enabled = NO;
     [self healthBar];
     [self characterSettings:1];
@@ -30,25 +46,25 @@
 
 - (IBAction)chooseMore:(UIButton *)sender {
     self.nextButton.enabled = YES;
-    self.moreButton.backgroundColor = [UIColor grayColor];
-    self.sameButton.backgroundColor = [UIColor clearColor];
-    self.lessButton.backgroundColor = [UIColor clearColor];
+    [self.moreButton setImage:[self changeImage:[UIImage imageNamed:@"buttonMore"] toColour:[UIColor colorWithWhite:0.5 alpha:0.5]] forState:UIControlStateNormal];
+    [self.sameButton setImage:[UIImage imageNamed:@"buttonSame"] forState:UIControlStateNormal];
+    [self.lessButton setImage:[UIImage imageNamed:@"buttonLess"] forState:UIControlStateNormal];
     NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
     [defaults setInteger:1 forKey:@"timeInSunSmoke"];
 }
 - (IBAction)chooseSame:(UIButton *)sender {
     self.nextButton.enabled = YES;
-    self.moreButton.backgroundColor = [UIColor clearColor];
-    self.sameButton.backgroundColor = [UIColor grayColor];
-    self.lessButton.backgroundColor = [UIColor clearColor];
+    [self.moreButton setImage:[UIImage imageNamed:@"buttonMore"] forState:UIControlStateNormal];
+    [self.sameButton setImage:[self changeImage:[UIImage imageNamed:@"buttonSame"] toColour:[UIColor colorWithWhite:0.5 alpha:0.5]] forState:UIControlStateNormal];
+    [self.lessButton setImage:[UIImage imageNamed:@"buttonLess"] forState:UIControlStateNormal];
     NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
     [defaults setInteger:2 forKey:@"timeInSunSmoke"];
 }
 - (IBAction)chooseLess:(UIButton *)sender {
     self.nextButton.enabled = YES;
-    self.moreButton.backgroundColor = [UIColor clearColor];
-    self.sameButton.backgroundColor = [UIColor clearColor];
-    self.lessButton.backgroundColor = [UIColor grayColor];
+    [self.moreButton setImage:[UIImage imageNamed:@"buttonMore"] forState:UIControlStateNormal];
+    [self.sameButton setImage:[UIImage imageNamed:@"buttonSame"] forState:UIControlStateNormal];
+    [self.lessButton setImage:[self changeImage:[UIImage imageNamed:@"buttonLess"] toColour:[UIColor colorWithWhite:0.5 alpha:0.5]] forState:UIControlStateNormal];
     NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
     [defaults setInteger:3 forKey:@"timeInSunSmoke"];
 }
@@ -239,6 +255,22 @@
     UIImage *newImg = UIGraphicsGetImageFromCurrentImageContext();
     UIGraphicsEndImageContext();
     return newImg;
+}
+
+- (IBAction)listenToVoiceOver:(UIButton *)sender {
+    
+    self.nextButton.enabled = NO;
+    [_audioPlayer play];
+}
+
+- (IBAction)stopVoiceOver:(UIButton *)sender {
+    [_audioPlayer stop];
+    self.nextButton.enabled = YES;
+}
+
+- (void) audioPlayerDidFinishPlaying:(AVAudioPlayer *)player successfully:(BOOL)flag
+{
+    self.nextButton.enabled = YES;
 }
 
 @end

@@ -18,6 +18,9 @@
 - (IBAction)chooseMore:(UIButton *)sender;
 @property (weak, nonatomic) IBOutlet UIButton *lessButton;
 - (IBAction)chooseLess:(UIButton *)sender;
+
+- (IBAction)listenToVoiceOver:(UIButton *)sender;
+- (IBAction)stopVoiceOver:(UIButton *)sender;
 @property (weak, nonatomic) IBOutlet UIButton *nextButton;
 
 //Character Customisation
