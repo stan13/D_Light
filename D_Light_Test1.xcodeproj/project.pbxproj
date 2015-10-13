@@ -29,6 +29,13 @@
 		C14EA5371BB526AF00B9661F /* Decision6.m in Sources */ = {isa = PBXBuildFile; fileRef = C14EA5361BB526AF00B9661F /* Decision6.m */; };
 		C14EA5411BB543BE00B9661F /* Answer6.m in Sources */ = {isa = PBXBuildFile; fileRef = C14EA5401BB543BE00B9661F /* Answer6.m */; };
 		CA717A1C1BCD092700DE403F /* catColored.png in Resources */ = {isa = PBXBuildFile; fileRef = CA717A1B1BCD092700DE403F /* catColored.png */; };
+		CA717A1E1BCD727D00DE403F /* GameOverScreen.png in Resources */ = {isa = PBXBuildFile; fileRef = CA717A1D1BCD727D00DE403F /* GameOverScreen.png */; };
+		CA717A201BCD7C4A00DE403F /* button-menu.png in Resources */ = {isa = PBXBuildFile; fileRef = CA717A1F1BCD7C4A00DE403F /* button-menu.png */; };
+		CA717A221BCD8DE700DE403F /* HealthBarGreen.png in Resources */ = {isa = PBXBuildFile; fileRef = CA717A211BCD8DE700DE403F /* HealthBarGreen.png */; };
+		CA717A241BCD9FCD00DE403F /* StartScreen.png in Resources */ = {isa = PBXBuildFile; fileRef = CA717A231BCD9FCD00DE403F /* StartScreen.png */; };
+		CA717A261BCDA05400DE403F /* button-start.png in Resources */ = {isa = PBXBuildFile; fileRef = CA717A251BCDA05400DE403F /* button-start.png */; };
+		CA717A281BCDABEB00DE403F /* 1 6 Clothing Front 7 Hero Suit.png in Resources */ = {isa = PBXBuildFile; fileRef = CA717A271BCDABEB00DE403F /* 1 6 Clothing Front 7 Hero Suit.png */; };
+		CA717A2A1BCDB1DD00DE403F /* cloud.png in Resources */ = {isa = PBXBuildFile; fileRef = CA717A291BCDB1DD00DE403F /* cloud.png */; };
 		CAAF03161BC95D08005DBF61 /* 1 14 Accessories 1 Aviators.png in Resources */ = {isa = PBXBuildFile; fileRef = CAAF03131BC95D08005DBF61 /* 1 14 Accessories 1 Aviators.png */; };
 		CAAF03171BC95D08005DBF61 /* 1 14 Accessories 2 Ray Bans.png in Resources */ = {isa = PBXBuildFile; fileRef = CAAF03141BC95D08005DBF61 /* 1 14 Accessories 2 Ray Bans.png */; };
 		CAAF03181BC95D08005DBF61 /* 1 15 Hat 1 Wide-brimmed.png in Resources */ = {isa = PBXBuildFile; fileRef = CAAF03151BC95D08005DBF61 /* 1 15 Hat 1 Wide-brimmed.png */; };
@@ -268,6 +275,13 @@
 		C14EA5401BB543BE00B9661F /* Answer6.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Answer6.m; sourceTree = "<group>"; };
 		C14EA5421BB543D300B9661F /* Answer6.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Answer6.h; sourceTree = "<group>"; };
 		CA717A1B1BCD092700DE403F /* catColored.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = catColored.png; sourceTree = "<group>"; };
+		CA717A1D1BCD727D00DE403F /* GameOverScreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GameOverScreen.png; sourceTree = "<group>"; };
+		CA717A1F1BCD7C4A00DE403F /* button-menu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button-menu.png"; sourceTree = "<group>"; };
+		CA717A211BCD8DE700DE403F /* HealthBarGreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = HealthBarGreen.png; sourceTree = "<group>"; };
+		CA717A231BCD9FCD00DE403F /* StartScreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = StartScreen.png; sourceTree = "<group>"; };
+		CA717A251BCDA05400DE403F /* button-start.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "button-start.png"; path = "Art/UI/images/button-start.png"; sourceTree = SOURCE_ROOT; };
+		CA717A271BCDABEB00DE403F /* 1 6 Clothing Front 7 Hero Suit.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "1 6 Clothing Front 7 Hero Suit.png"; path = "Art/Characters/Scenes/1 6 Clothing Front 7 Hero Suit.png"; sourceTree = SOURCE_ROOT; };
+		CA717A291BCDB1DD00DE403F /* cloud.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = cloud.png; path = "../../My Art/cloud.png"; sourceTree = "<group>"; };
 		CAAF03131BC95D08005DBF61 /* 1 14 Accessories 1 Aviators.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "1 14 Accessories 1 Aviators.png"; path = "Art/Characters/Scenes/1 14 Accessories 1 Aviators.png"; sourceTree = SOURCE_ROOT; };
 		CAAF03141BC95D08005DBF61 /* 1 14 Accessories 2 Ray Bans.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "1 14 Accessories 2 Ray Bans.png"; path = "Art/Characters/Scenes/1 14 Accessories 2 Ray Bans.png"; sourceTree = SOURCE_ROOT; };
 		CAAF03151BC95D08005DBF61 /* 1 15 Hat 1 Wide-brimmed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "1 15 Hat 1 Wide-brimmed.png"; path = "Art/Characters/Scenes/1 15 Hat 1 Wide-brimmed.png"; sourceTree = SOURCE_ROOT; };
@@ -575,14 +589,17 @@
 				E532F33F1BBA6F14004406B8 /* FinalSlide.h */,
 				E532F3401BBA6F23004406B8 /* FinalSlide.m */,
 				50398CA71B7DBB8B00E39663 /* Images.xcassets */,
+				CA717A1D1BCD727D00DE403F /* GameOverScreen.png */,
 				CAAF03811BCC1842005DBF61 /* UVExtreme.png */,
 				CAAF03821BCC1842005DBF61 /* UVHigh.png */,
 				CAAF03831BCC1842005DBF61 /* UVLow.png */,
+				CA717A291BCDB1DD00DE403F /* cloud.png */,
 				CAAF03841BCC1842005DBF61 /* UVModerate.png */,
 				CAAF03851BCC1842005DBF61 /* UVVeryHigh.png */,
 				CAAF03371BCAE53B005DBF61 /* HealthBar.png */,
 				CAAF03251BCA5891005DBF61 /* pause Icon.png */,
 				CAAF03261BCA5891005DBF61 /* sound Icon.png */,
+				CA717A1F1BCD7C4A00DE403F /* button-menu.png */,
 				CAAF03211BC9B4FD005DBF61 /* left arrow.png */,
 				CAAF03351BCA88B8005DBF61 /* alien.png */,
 				CAAF03221BC9B4FD005DBF61 /* right arrow.png */,
@@ -593,6 +610,7 @@
 				CAAF037A1BCBEFBB005DBF61 /* Smoke2.png */,
 				CAAF03311BCA7481005DBF61 /* plate1.png */,
 				CAAF034F1BCB3F80005DBF61 /* cage1.png */,
+				CA717A211BCD8DE700DE403F /* HealthBarGreen.png */,
 				E5E4AC561BC786DE00BB5F65 /* FlyingSaucer.png */,
 				E5E4AC571BC786DE00BB5F65 /* Hamburger.png */,
 				CAAF032B1BCA6828005DBF61 /* Fish.png */,
@@ -607,6 +625,7 @@
 				CAAF035E1BCB4593005DBF61 /* buttonYes.png */,
 				CAAF03591BCB43D2005DBF61 /* buttonCar.png */,
 				CAAF035A1BCB43D2005DBF61 /* buttonStayOutside.png */,
+				CA717A251BCDA05400DE403F /* button-start.png */,
 				CAAF034B1BCB3E70005DBF61 /* buttonLess.png */,
 				CAAF03511BCB4065005DBF61 /* buttonSame.png */,
 				CAAF034C1BCB3E70005DBF61 /* buttonMore.png */,
@@ -661,6 +680,7 @@
 				E572C14C1BC3ABE000C4FCBB /* 1 6 Clothing Front 3 Shirt.png */,
 				E572C14D1BC3ABE000C4FCBB /* 1 6 Clothing Front 4 Shorts.png */,
 				CAAF03451BCB1BCD005DBF61 /* 1 6 Clothing Front 6 Singlet.png */,
+				CA717A271BCDABEB00DE403F /* 1 6 Clothing Front 7 Hero Suit.png */,
 				CAAF03471BCB1BDB005DBF61 /* 1 6 Clothing Front 8 Pants.png */,
 				E572C14E1BC3ABE000C4FCBB /* 1 7 Head 0 Default.png */,
 				E572C14F1BC3ABE000C4FCBB /* 1 7 Head 1 Egg.png */,
@@ -693,6 +713,7 @@
 				E54EFF5A1BC2686E00AD1EEA /* VillainSuccess.png */,
 				E54EFF5B1BC2686E00AD1EEA /* VillainTongue1.png */,
 				C14EA52A1BB50D6300B9661F /* sunscreen.gif */,
+				CA717A231BCD9FCD00DE403F /* StartScreen.png */,
 				E525E5DD1BC644AE00A1A28F /* background_beach.png */,
 				E525E5DE1BC644AE00A1A28F /* background_castle.png */,
 				CAAF032F1BCA7387005DBF61 /* background_food.png */,
@@ -913,6 +934,8 @@
 				E525E5D11BC619F300A1A28F /* 0 8 Mouth 5 Pained.png in Resources */,
 				E5E4AC2D1BC766FA00BB5F65 /* Slide 11 - no hat.wav in Resources */,
 				E572C16E1BC3ABE000C4FCBB /* 1 8 Mouth 2 Worried.png in Resources */,
+				CA717A201BCD7C4A00DE403F /* button-menu.png in Resources */,
+				CA717A221BCD8DE700DE403F /* HealthBarGreen.png in Resources */,
 				E5E4AC611BC786DE00BB5F65 /* FlyingSaucer.png in Resources */,
 				E572C1661BC3ABE000C4FCBB /* 1 6 Clothing Front 1 Cape.png in Resources */,
 				E5E4AC361BC766FA00BB5F65 /* Slide 13 - mushrooms.wav in Resources */,
@@ -953,6 +976,7 @@
 				E525E5D31BC619F300A1A28F /* 0 9 Eye Whites 4 Tired.png in Resources */,
 				CAAF03891BCC1842005DBF61 /* UVModerate.png in Resources */,
 				E5E4AC311BC766FA00BB5F65 /* Slide 12 - initial.wav in Resources */,
+				CA717A1E1BCD727D00DE403F /* GameOverScreen.png in Resources */,
 				CAAF036E1BCBACD6005DBF61 /* Slide 3.wav in Resources */,
 				E572C1611BC3ABE000C4FCBB /* 1 0 Hair Back 1 Long.png in Resources */,
 				E572C1701BC3ABE000C4FCBB /* 1 8 Mouth 4 Tired.png in Resources */,
@@ -974,6 +998,7 @@
 				E525E5CD1BC619F300A1A28F /* 0 8 Mouth 1 Happy.png in Resources */,
 				CAAF03721BCBACD6005DBF61 /* Slide 7.wav in Resources */,
 				CAAF03461BCB1BCD005DBF61 /* 1 6 Clothing Front 6 Singlet.png in Resources */,
+				CA717A241BCD9FCD00DE403F /* StartScreen.png in Resources */,
 				CA717A1C1BCD092700DE403F /* catColored.png in Resources */,
 				E525E5D81BC619F300A1A28F /* 0 12 Eye Brows 0 Default.png in Resources */,
 				E572C1791BC3ABE000C4FCBB /* 1 12 Eye Brows 3 Thoughtful.png in Resources */,
@@ -983,6 +1008,7 @@
 				CAAF031E1BC95D1F005DBF61 /* 1 4 Shoes 2 Shoes A.png in Resources */,
 				CAAF03501BCB3F80005DBF61 /* cage1.png in Resources */,
 				CAAF03341BCA7B41005DBF61 /* background_island.png in Resources */,
+				CA717A2A1BCDB1DD00DE403F /* cloud.png in Resources */,
 				E5E4AC661BC786DE00BB5F65 /* sunscreen.png in Resources */,
 				E5E4AC371BC766FA00BB5F65 /* Slide 13 - oily fish.wav in Resources */,
 				E525E5E91BC644AE00A1A28F /* background_grass.png in Resources */,
@@ -1013,6 +1039,7 @@
 				E5E4AC3D1BC766FA00BB5F65 /* Slide 15 - initial.wav in Resources */,
 				E5E06BF41BCB763F008D7C6B /* Slide 8 -light skin correct.wav in Resources */,
 				E572C1651BC3ABE000C4FCBB /* 1 5 Arms 0 Default.png in Resources */,
+				CA717A261BCDA05400DE403F /* button-start.png in Resources */,
 				E5E4AC4E1BC77D0500BB5F65 /* SunNormal.png in Resources */,
 				E525E5C61BC619F300A1A28F /* 0 6 Clothing Front 1 Cape.png in Resources */,
 				E525E5DB1BC619F300A1A28F /* 0 13 Hair Front 0 Short.png in Resources */,
@@ -1023,6 +1050,7 @@
 				CAAF035C1BCB43D2005DBF61 /* buttonStayOutside.png in Resources */,
 				E54EFF5F1BC2686E00AD1EEA /* VillainFailStanding.png in Resources */,
 				CAAF036F1BCBACD6005DBF61 /* Slide 4.wav in Resources */,
+				CA717A281BCDABEB00DE403F /* 1 6 Clothing Front 7 Hero Suit.png in Resources */,
 				E572C1621BC3ABE000C4FCBB /* 1 1 Clothing Back 1 Cape.png in Resources */,
 				E5E4ACDA1BC7DDB600BB5F65 /* Slide 10 - initial.wav in Resources */,
 				E572C17A1BC3ABE000C4FCBB /* 1 12 Eye Brows 4 Tired.png in Resources */,

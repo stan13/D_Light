@@ -42,8 +42,11 @@
         [_audioPlayer prepareToPlay];
     }
     [self healthBar];
-    [self characterSettings:1];
-}
+    if (self.correct == 0) {
+        [self characterSettings:5];
+    } else {
+        [self characterSettings:1];
+    }}
 
 -(void)showAnswer{
     NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
@@ -150,7 +153,7 @@
     }
     [defaults setInteger:health forKey:@"health"];
     //make rectangle inside - green with size = health*40
-    UIImageView *healthAmount = [[UIImageView alloc] initWithFrame:CGRectMake(6, 6, health*39, 24)];
+    UIImageView *healthAmount = [[UIImageView alloc] initWithFrame:CGRectMake(10, 10, health*38, 10)];
     if (health <= 3) {
         healthAmount.backgroundColor = [UIColor redColor];
     } else {
@@ -166,14 +169,9 @@
     
     CGRect frame = CGRectMake(0, 0, self.view.frame.size.width, self.view.frame.size.height);
     UIButton *gameOverButton = [[UIButton alloc] initWithFrame:frame];
-    [gameOverButton setBackgroundColor:[UIColor colorWithWhite:0.5 alpha:0.5]];
+    UIImage *gameOverImage = [UIImage imageNamed:@"GameOverScreen.png"];
+    [gameOverButton setImage: gameOverImage forState:UIControlStateNormal];
     [gameOverButton addTarget:self action:@selector(youLose) forControlEvents:UIControlEventTouchUpInside];
-    
-    UILabel *gameOverLabel = [[UILabel alloc] initWithFrame:frame];
-    gameOverLabel.numberOfLines = 0;
-    [gameOverLabel setText:@"You have reached a score of less than 0. Your health is depleted. Tap to return to start."];
-    [gameOverLabel setFont:[UIFont systemFontOfSize:40]];
-    [gameOverButton addSubview:gameOverLabel];
     [self.view addSubview:gameOverButton];
     
 }
@@ -184,11 +182,12 @@
     [self presentViewController:final animated:YES completion:nil];
 }
 
+//Hero costume Version
 - (void)characterSettings: (int)scene {
     NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
     
     //cape 1
-    //self.capeBack.image = [self changeImage:[UIImage imageNamed:@"1 1 Clothing Back 1 Cape.png"] toColour:[UIColor colorWithHue:0.7 saturation:0.5 brightness:0.5 alpha:1]];
+    self.capeBack.image = [self changeImage:[UIImage imageNamed:@"1 1 Clothing Back 1 Cape.png"] toColour:[UIColor colorWithHue:0.7 saturation:0.5 brightness:0.5 alpha:1]];
     //skin 2,3,5,7
     UIColor *skinColour = [UIColor colorWithRed:[defaults floatForKey:@"skinRed"] green:[defaults floatForKey:@"skinGreen"] blue:[defaults floatForKey: @"skinBlue"] alpha:1.0];
     int head = (int)[defaults integerForKey:@"head"];
@@ -223,56 +222,46 @@
             break;
     }
     //Shoes 4
-    int shoesInt = (int)[defaults integerForKey:@"shoes"];
-    UIColor *shoeColor = [UIColor colorWithHue:[defaults floatForKey:@"shoeHue"] saturation:0.7 brightness:0.7 alpha:1];
-    switch (shoesInt) {
-        case 1:
-            self.shoes.image = [self changeImage:[UIImage imageNamed:@"1 4 Shoes 1 Thongs.png"] toColour:shoeColor];
-            break;
-        case 2:
-            self.shoes.image = [self changeImage:[UIImage imageNamed:@"1 4 Shoes 2 Shoes A.png"] toColour:shoeColor];
-            break;
-        case 3:
-            self.shoes.image = [self changeImage:[UIImage imageNamed:@"1 4 Shoes 3 Shoes B.png"] toColour:shoeColor];
-            break;
-    }
+    self.shoes.image = [UIImage imageNamed:@"1 4 Shoes 4 Hero Boots.png"];
+    //Cape front
+    self.eyeLashes.image = [self changeImage:[UIImage imageNamed:@"1 6 Clothing Front 1 Cape.png"] toColour:[UIColor colorWithHue:0.7 saturation:0.7 brightness:0.7 alpha:1]];
     //clothing top 6B
-    UIColor *topColor = [UIColor colorWithHue:[defaults floatForKey:@"topHue"] saturation:0.7 brightness:0.8 alpha:1];
-    int topInt = (int)[defaults integerForKey:@"top"];
-    switch (topInt) {
-        case 2: //dress
-            self.top.image = [self changeImage:[UIImage imageNamed:@"1 6 Clothing Front 2 Dress.png"] toColour:topColor];
-            break;
-        case 0: //singlet
-            self.top.image = [self changeImage:[UIImage imageNamed:@"1 6 Clothing Front 6 Singlet.png"] toColour:topColor];
-            break;
-        case 1: //shirt
-            self.top.image = [self changeImage:[UIImage imageNamed:@"1 6 Clothing Front 3 Shirt.png"] toColour:topColor];
-            break;
-    }
-    //clothing bot 6A
-    UIColor *bottomColor = [UIColor colorWithHue:[defaults floatForKey:@"bottomHue"] saturation:0.7 brightness:0.7 alpha:1];
-    int bottomInt = (int)[defaults integerForKey:@"bottom"];
-    switch (bottomInt) {
-        case 0: //dress
-            self.bottom.image = [self changeImage:nil toColour:nil];
-            break;
-        case 1: //shorts
-            self.bottom.image = [self changeImage:[UIImage imageNamed:@"1 6 Clothing Front 4 Shorts.png"] toColour:bottomColor];
-            break;
-        case 2: //pants
-            self.bottom.image = [self changeImage:[UIImage imageNamed:@"1 6 Clothing Front 8 Pants.png"] toColour:bottomColor];
-            break;
-    }
-    //Mouth 8
-    self.mouth.image = [self changeImage:[UIImage imageNamed:@"1 8 Mouth 0 Default.png"] toColour:[UIColor blackColor]];
+    self.top.image = [UIImage imageNamed:@"1 6 Clothing Front 7 Hero Suit.png"];
+    //clothing bot 6A - no pants
+    self.bottom.image = [self changeImage:nil toColour:nil];
     
-    //eyes 9, 10, 11, 12
+    //Expression changes
     UIColor *eyeColor = [UIColor colorWithHue:[defaults floatForKey:@"eyeHue"] saturation:0.7 brightness:0.7 alpha:1];
     self.eyes.image = [self changeImage:[UIImage imageNamed:@"1 10 Eye Pupils 0 Default.png"] toColour:eyeColor];
     self.eyesWhites.image = [self changeImage:[UIImage imageNamed:@"1 9 Eye Whites 0 Default.png"] toColour:[UIColor whiteColor]];
     self.eyeBrows.image = [self changeImage:[UIImage imageNamed:@"1 12 Eye Brows 0 Default.png"] toColour:[UIColor blackColor]];
-    
+    //Changes based on expression 8,9,10,12
+    switch (scene) {
+        case 0: //Default
+            self.mouth.image = [self changeImage:[UIImage imageNamed:@"1 8 Mouth 0 Default.png"] toColour:[UIColor blackColor]];
+            break;
+        case 1: //Happy
+            self.mouth.image = [self changeImage:[UIImage imageNamed:@"1 8 Mouth 1 Happy.png"] toColour:[UIColor blackColor]];
+            break;
+        case 2: //Worried
+            self.mouth.image = [self changeImage:[UIImage imageNamed:@"1 8 Mouth 2 Worried.png"] toColour:[UIColor blackColor]];
+            break;
+        case 3: //Thoughtful
+            self.mouth.image = [self changeImage:[UIImage imageNamed:@"1 8 Mouth 3 Thoughtful.png"] toColour:[UIColor blackColor]];
+            self.eyes.image = [self changeImage:[UIImage imageNamed:@"1 10 Eye Pupils 3 Thoughtful.png"] toColour:eyeColor];
+            self.eyeBrows.image = [self changeImage:[UIImage imageNamed:@"1 12 Eye Brows 3 Thoughtful.png"] toColour:[UIColor blackColor]];
+            break;
+        case 4: //Tired
+            self.mouth.image = [self changeImage:[UIImage imageNamed:@"1 8 Mouth 4 Tired.png"] toColour:[UIColor blackColor]];
+            self.eyes.image = [self changeImage:[UIImage imageNamed:@"1 10 Eye Pupils 4 Tired.png"] toColour:eyeColor];
+            self.eyesWhites.image = [self changeImage:[UIImage imageNamed:@"1 9 Eye Whites 4 Tired.png"] toColour:[UIColor whiteColor]];
+            self.eyeBrows.image = [self changeImage:[UIImage imageNamed:@"1 12 Eye Brows 4 Tired.png"] toColour:[UIColor blackColor]];
+            break;
+        case 5: //Pained
+            self.mouth.image = [self changeImage:[UIImage imageNamed:@"1 8 Mouth 5 Pained.png"] toColour:[UIColor blackColor]];
+            break;
+            
+    }
     //Glasses 14
     UIColor *glassesColor = [UIColor colorWithHue:[defaults floatForKey:@"glassesHue"] saturation:0.7 brightness:0.7 alpha:1];
     int glassesInt = (int)[defaults integerForKey:@"glasses"];
@@ -288,13 +277,7 @@
             break;
     }
     //Hat
-    UIColor *hatColor = [UIColor colorWithHue:[defaults floatForKey:@"hatHue"] saturation:0.7 brightness:0.5 alpha:1];
-    int hatInt = (int)[defaults integerForKey:@"hat"];
-    if (hatInt == 1) {
-        self.hat.image = [self changeImage:[UIImage imageNamed:@"1 15 Hat 1 Wide-brimmed.png"] toColour:hatColor];
-    } else {
-        self.hat.image = [self changeImage:nil toColour:nil];
-    }
+    self.hat.image = [self changeImage:nil toColour:nil];
 }
 
 
