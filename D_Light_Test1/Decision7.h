@@ -21,6 +21,9 @@
 - (IBAction)chooseLess:(UIButton *)sender;
 @property (weak, nonatomic) IBOutlet UIButton *nextButton;
 
+- (IBAction)listenToVoiceOver:(UIButton *)sender;
+- (IBAction)stopVoiceOver:(UIButton *)sender;
+
 //Character Customisation
 //0 Hair Back
 @property (weak, nonatomic) IBOutlet UIImageView *hairBack;

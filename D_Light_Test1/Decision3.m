@@ -42,7 +42,7 @@
     
     self.nextButton.enabled = NO;
     self.choiceMade = NO;
-    [self characterSettings:1];
+    [self characterSettings:3];
     [self healthBar];
 
 }
@@ -87,16 +87,16 @@
 
 - (IBAction)chooseInside:(UIButton *)sender {
     self.nextButton.enabled = YES;
-    self.insideButton.backgroundColor = [UIColor grayColor];
-    self.outsideButton.backgroundColor = [UIColor clearColor];
+    [self.insideButton setImage:[self changeImage:[UIImage imageNamed:@"buttonCar"] toColour:[UIColor colorWithWhite:0.5 alpha:0.5]] forState:UIControlStateNormal];
+    [self.outsideButton setImage:[UIImage imageNamed:@"buttonStayOutside"] forState:UIControlStateNormal];
     NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
     [defaults setInteger:1 forKey:@"Decision3"];
 }
 
 - (IBAction)chooseOutside:(UIButton *)sender {
     self.nextButton.enabled = YES;
-    self.outsideButton.backgroundColor = [UIColor grayColor];
-    self.insideButton.backgroundColor = [UIColor clearColor];
+    [self.insideButton setImage:[UIImage imageNamed:@"buttonCar"] forState:UIControlStateNormal];
+    [self.outsideButton setImage:[self changeImage:[UIImage imageNamed:@"buttonStayOutside"] toColour:[UIColor colorWithWhite:0.5 alpha:0.5]] forState:UIControlStateNormal];
     NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
     [defaults setInteger:2 forKey:@"Decision3"];
 }
@@ -114,7 +114,7 @@
     }
     [defaults setInteger:health forKey:@"health"];
     //make rectangle inside - green with size = health*40
-    UIImageView *healthAmount = [[UIImageView alloc] initWithFrame:CGRectMake(6, 6, health*39, 24)];
+    UIImageView *healthAmount = [[UIImageView alloc] initWithFrame:CGRectMake(10, 10, health*38, 10)];
     if (health <= 3) {
         healthAmount.backgroundColor = [UIColor redColor];
     } else {
@@ -204,15 +204,37 @@
             self.bottom.image = [self changeImage:[UIImage imageNamed:@"1 6 Clothing Front 8 Pants.png"] toColour:bottomColor];
             break;
     }
-    //Mouth 8
-    self.mouth.image = [self changeImage:[UIImage imageNamed:@"1 8 Mouth 0 Default.png"] toColour:[UIColor blackColor]];
-    
-    //eyes 9, 10, 11, 12
     UIColor *eyeColor = [UIColor colorWithHue:[defaults floatForKey:@"eyeHue"] saturation:0.7 brightness:0.7 alpha:1];
     self.eyes.image = [self changeImage:[UIImage imageNamed:@"1 10 Eye Pupils 0 Default.png"] toColour:eyeColor];
     self.eyesWhites.image = [self changeImage:[UIImage imageNamed:@"1 9 Eye Whites 0 Default.png"] toColour:[UIColor whiteColor]];
     self.eyeBrows.image = [self changeImage:[UIImage imageNamed:@"1 12 Eye Brows 0 Default.png"] toColour:[UIColor blackColor]];
-    
+    //Changes based on expression 8,9,10,12
+    switch (scene) {
+        case 0: //Default
+            self.mouth.image = [self changeImage:[UIImage imageNamed:@"1 8 Mouth 0 Default.png"] toColour:[UIColor blackColor]];
+            break;
+        case 1: //Happy
+            self.mouth.image = [self changeImage:[UIImage imageNamed:@"1 8 Mouth 1 Happy.png"] toColour:[UIColor blackColor]];
+            break;
+        case 2: //Worried
+            self.mouth.image = [self changeImage:[UIImage imageNamed:@"1 8 Mouth 2 Worried.png"] toColour:[UIColor blackColor]];
+            break;
+        case 3: //Thoughtful
+            self.mouth.image = [self changeImage:[UIImage imageNamed:@"1 8 Mouth 3 Thoughtful.png"] toColour:[UIColor blackColor]];
+            self.eyes.image = [self changeImage:[UIImage imageNamed:@"1 10 Eye Pupils 3 Thoughtful.png"] toColour:eyeColor];
+            self.eyeBrows.image = [self changeImage:[UIImage imageNamed:@"1 12 Eye Brows 3 Thoughtful.png"] toColour:[UIColor blackColor]];
+            break;
+        case 4: //Tired
+            self.mouth.image = [self changeImage:[UIImage imageNamed:@"1 8 Mouth 4 Tired.png"] toColour:[UIColor blackColor]];
+            self.eyes.image = [self changeImage:[UIImage imageNamed:@"1 10 Eye Pupils 4 Tired.png"] toColour:eyeColor];
+            self.eyesWhites.image = [self changeImage:[UIImage imageNamed:@"1 9 Eye Whites 4 Tired.png"] toColour:[UIColor whiteColor]];
+            self.eyeBrows.image = [self changeImage:[UIImage imageNamed:@"1 12 Eye Brows 4 Tired.png"] toColour:[UIColor blackColor]];
+            break;
+        case 5: //Pained
+            self.mouth.image = [self changeImage:[UIImage imageNamed:@"1 8 Mouth 5 Pained.png"] toColour:[UIColor blackColor]];
+            break;
+            
+    }
     //Glasses 14
     UIColor *glassesColor = [UIColor colorWithHue:[defaults floatForKey:@"glassesHue"] saturation:0.7 brightness:0.7 alpha:1];
     int glassesInt = (int)[defaults integerForKey:@"glasses"];

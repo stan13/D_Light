@@ -13,6 +13,7 @@
 @interface Answer4 ()
 <AVAudioPlayerDelegate>
 @property (strong, nonatomic) AVAudioPlayer *audioPlayer;
+@property NSString *audioFile;
 //Private Variables
 
 
@@ -23,8 +24,26 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    //put code here or call another method
     [self showAnswer];
+    //put code here or call another method
+    NSURL *url = [NSURL fileURLWithPath:[[NSBundle mainBundle]
+                                         pathForResource:self.audioFile
+                                         ofType:@"wav"]];
+    
+    NSError *error;
+    _audioPlayer = [[AVAudioPlayer alloc]
+                    initWithContentsOfURL:url
+                    error:&error];
+    if (error)
+    {
+        NSLog(@"Error in audioPlayer: %@",
+              [error localizedDescription]);
+    } else {
+        _audioPlayer.delegate = self;
+        [_audioPlayer prepareToPlay];
+    }
+    
+
     [self healthBar];
     [self characterSettings:1];
 
@@ -42,6 +61,7 @@
     if (sunscreen == 0) { //sunscreen good
         health--;
         self.SunscreenLabel.text = @"Incorrect! Sunscreen protects your skin from getting burnt but allows it to make vitamin D.";
+        self.audioFile = @"Slide 11 - sunscreens protect";
     } else {
         health ++;
         self.SunscreenLabel.text = @"Correct! Sunscreen protects your skin from getting burnt but allows it to make vitamin D.";
@@ -49,6 +69,9 @@
     if (hat == -1) { //hat good
         health--;
         self.HatLabel.text = @"Incorrect. It is important to protect your face by wearing a hat.";
+        if (!self.audioFile) {
+            self.audioFile = @"Slide 11 - no hat";
+        }
     } else {
         health++;
         self.HatLabel.text = @"Correct. It is important to protect your face by wearing a hat.";
@@ -56,9 +79,13 @@
     if (cover == 0) { //cover bad
         health++;
         self.CoverLabel.text = @"Correct. You need to expose some skin to make vitamin D.";
+        if (!self.audioFile) {
+            self.audioFile = @"Slide 11 - arms and legs exposed";
+        }
     } else {
         health--;
         self.CoverLabel.text = @"Incorrect. You need to expose some skin to make vitamin D.";
+        self.audioFile = @"Slide 11 - all covered";
     }
     
     [defaults setInteger:health forKey:@"health"];
@@ -76,7 +103,7 @@
     }
     [defaults setInteger:health forKey:@"health"];
     //make rectangle inside - green with size = health*40
-    UIImageView *healthAmount = [[UIImageView alloc] initWithFrame:CGRectMake(6, 6, health*39, 24)];
+    UIImageView *healthAmount = [[UIImageView alloc] initWithFrame:CGRectMake(10, 10, health*38, 10)];
     if (health <= 3) {
         healthAmount.backgroundColor = [UIColor redColor];
     } else {
@@ -92,14 +119,9 @@
     
     CGRect frame = CGRectMake(0, 0, self.view.frame.size.width, self.view.frame.size.height);
     UIButton *gameOverButton = [[UIButton alloc] initWithFrame:frame];
-    [gameOverButton setBackgroundColor:[UIColor colorWithWhite:0.5 alpha:0.5]];
+    UIImage *gameOverImage = [UIImage imageNamed:@"GameOverScreen.png"];
+    [gameOverButton setImage: gameOverImage forState:UIControlStateNormal];
     [gameOverButton addTarget:self action:@selector(youLose) forControlEvents:UIControlEventTouchUpInside];
-    
-    UILabel *gameOverLabel = [[UILabel alloc] initWithFrame:frame];
-    gameOverLabel.numberOfLines = 0;
-    [gameOverLabel setText:@"You have reached a score of less than 0. Your health is depleted. Tap to return to start."];
-    [gameOverLabel setFont:[UIFont systemFontOfSize:40]];
-    [gameOverButton addSubview:gameOverLabel];
     [self.view addSubview:gameOverButton];
     
 }
@@ -190,15 +212,37 @@
             self.bottom.image = [self changeImage:[UIImage imageNamed:@"1 6 Clothing Front 8 Pants.png"] toColour:bottomColor];
             break;
     }
-    //Mouth 8
-    self.mouth.image = [self changeImage:[UIImage imageNamed:@"1 8 Mouth 0 Default.png"] toColour:[UIColor blackColor]];
-    
-    //eyes 9, 10, 11, 12
     UIColor *eyeColor = [UIColor colorWithHue:[defaults floatForKey:@"eyeHue"] saturation:0.7 brightness:0.7 alpha:1];
     self.eyes.image = [self changeImage:[UIImage imageNamed:@"1 10 Eye Pupils 0 Default.png"] toColour:eyeColor];
     self.eyesWhites.image = [self changeImage:[UIImage imageNamed:@"1 9 Eye Whites 0 Default.png"] toColour:[UIColor whiteColor]];
     self.eyeBrows.image = [self changeImage:[UIImage imageNamed:@"1 12 Eye Brows 0 Default.png"] toColour:[UIColor blackColor]];
-    
+    //Changes based on expression 8,9,10,12
+    switch (scene) {
+        case 0: //Default
+            self.mouth.image = [self changeImage:[UIImage imageNamed:@"1 8 Mouth 0 Default.png"] toColour:[UIColor blackColor]];
+            break;
+        case 1: //Happy
+            self.mouth.image = [self changeImage:[UIImage imageNamed:@"1 8 Mouth 1 Happy.png"] toColour:[UIColor blackColor]];
+            break;
+        case 2: //Worried
+            self.mouth.image = [self changeImage:[UIImage imageNamed:@"1 8 Mouth 2 Worried.png"] toColour:[UIColor blackColor]];
+            break;
+        case 3: //Thoughtful
+            self.mouth.image = [self changeImage:[UIImage imageNamed:@"1 8 Mouth 3 Thoughtful.png"] toColour:[UIColor blackColor]];
+            self.eyes.image = [self changeImage:[UIImage imageNamed:@"1 10 Eye Pupils 3 Thoughtful.png"] toColour:eyeColor];
+            self.eyeBrows.image = [self changeImage:[UIImage imageNamed:@"1 12 Eye Brows 3 Thoughtful.png"] toColour:[UIColor blackColor]];
+            break;
+        case 4: //Tired
+            self.mouth.image = [self changeImage:[UIImage imageNamed:@"1 8 Mouth 4 Tired.png"] toColour:[UIColor blackColor]];
+            self.eyes.image = [self changeImage:[UIImage imageNamed:@"1 10 Eye Pupils 4 Tired.png"] toColour:eyeColor];
+            self.eyesWhites.image = [self changeImage:[UIImage imageNamed:@"1 9 Eye Whites 4 Tired.png"] toColour:[UIColor whiteColor]];
+            self.eyeBrows.image = [self changeImage:[UIImage imageNamed:@"1 12 Eye Brows 4 Tired.png"] toColour:[UIColor blackColor]];
+            break;
+        case 5: //Pained
+            self.mouth.image = [self changeImage:[UIImage imageNamed:@"1 8 Mouth 5 Pained.png"] toColour:[UIColor blackColor]];
+            break;
+            
+    }
     //Glasses 14
     UIColor *glassesColor = [UIColor colorWithHue:[defaults floatForKey:@"glassesHue"] saturation:0.7 brightness:0.7 alpha:1];
     int glassesInt = (int)[defaults integerForKey:@"glasses"];
@@ -222,6 +266,7 @@
         self.hat.image = [self changeImage:nil toColour:nil];
     }
 }
+
 - (UIImage *) changeImage: (UIImage *)img toColour: (UIColor *)colour
 {
     //code modified from https://coffeeshopped.com/2010/09/iphone-how-to-dynamically-color-a-uiimage
@@ -240,6 +285,22 @@
     UIImage *newImg = UIGraphicsGetImageFromCurrentImageContext();
     UIGraphicsEndImageContext();
     return newImg;
+}
+
+- (IBAction)listenToVoiceOver:(UIButton *)sender {
+    
+    self.nextButton.enabled = NO;
+    [_audioPlayer play];
+}
+
+- (IBAction)stopVoiceOver:(UIButton *)sender {
+    [_audioPlayer stop];
+    self.nextButton.enabled = YES;
+}
+
+- (void) audioPlayerDidFinishPlaying:(AVAudioPlayer *)player successfully:(BOOL)flag
+{
+    self.nextButton.enabled = YES;
 }
 
 @end
