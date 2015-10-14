@@ -35,7 +35,7 @@
 		CA717A241BCD9FCD00DE403F /* StartScreen.png in Resources */ = {isa = PBXBuildFile; fileRef = CA717A231BCD9FCD00DE403F /* StartScreen.png */; };
 		CA717A261BCDA05400DE403F /* button-start.png in Resources */ = {isa = PBXBuildFile; fileRef = CA717A251BCDA05400DE403F /* button-start.png */; };
 		CA717A281BCDABEB00DE403F /* 1 6 Clothing Front 7 Hero Suit.png in Resources */ = {isa = PBXBuildFile; fileRef = CA717A271BCDABEB00DE403F /* 1 6 Clothing Front 7 Hero Suit.png */; };
-		CA717A2A1BCDB1DD00DE403F /* cloud.png in Resources */ = {isa = PBXBuildFile; fileRef = CA717A291BCDB1DD00DE403F /* cloud.png */; };
+		CA717A2C1BCE2C0200DE403F /* cloud.png in Resources */ = {isa = PBXBuildFile; fileRef = CA717A2B1BCE2C0200DE403F /* cloud.png */; };
 		CAAF03161BC95D08005DBF61 /* 1 14 Accessories 1 Aviators.png in Resources */ = {isa = PBXBuildFile; fileRef = CAAF03131BC95D08005DBF61 /* 1 14 Accessories 1 Aviators.png */; };
 		CAAF03171BC95D08005DBF61 /* 1 14 Accessories 2 Ray Bans.png in Resources */ = {isa = PBXBuildFile; fileRef = CAAF03141BC95D08005DBF61 /* 1 14 Accessories 2 Ray Bans.png */; };
 		CAAF03181BC95D08005DBF61 /* 1 15 Hat 1 Wide-brimmed.png in Resources */ = {isa = PBXBuildFile; fileRef = CAAF03151BC95D08005DBF61 /* 1 15 Hat 1 Wide-brimmed.png */; };
@@ -282,6 +282,7 @@
 		CA717A251BCDA05400DE403F /* button-start.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "button-start.png"; path = "Art/UI/images/button-start.png"; sourceTree = SOURCE_ROOT; };
 		CA717A271BCDABEB00DE403F /* 1 6 Clothing Front 7 Hero Suit.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "1 6 Clothing Front 7 Hero Suit.png"; path = "Art/Characters/Scenes/1 6 Clothing Front 7 Hero Suit.png"; sourceTree = SOURCE_ROOT; };
 		CA717A291BCDB1DD00DE403F /* cloud.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = cloud.png; path = "../../My Art/cloud.png"; sourceTree = "<group>"; };
+		CA717A2B1BCE2C0200DE403F /* cloud.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = cloud.png; path = Art/Objects/cloud.png; sourceTree = SOURCE_ROOT; };
 		CAAF03131BC95D08005DBF61 /* 1 14 Accessories 1 Aviators.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "1 14 Accessories 1 Aviators.png"; path = "Art/Characters/Scenes/1 14 Accessories 1 Aviators.png"; sourceTree = SOURCE_ROOT; };
 		CAAF03141BC95D08005DBF61 /* 1 14 Accessories 2 Ray Bans.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "1 14 Accessories 2 Ray Bans.png"; path = "Art/Characters/Scenes/1 14 Accessories 2 Ray Bans.png"; sourceTree = SOURCE_ROOT; };
 		CAAF03151BC95D08005DBF61 /* 1 15 Hat 1 Wide-brimmed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "1 15 Hat 1 Wide-brimmed.png"; path = "Art/Characters/Scenes/1 15 Hat 1 Wide-brimmed.png"; sourceTree = SOURCE_ROOT; };
@@ -611,6 +612,7 @@
 				CAAF03311BCA7481005DBF61 /* plate1.png */,
 				CAAF034F1BCB3F80005DBF61 /* cage1.png */,
 				CA717A211BCD8DE700DE403F /* HealthBarGreen.png */,
+				CA717A2B1BCE2C0200DE403F /* cloud.png */,
 				E5E4AC561BC786DE00BB5F65 /* FlyingSaucer.png */,
 				E5E4AC571BC786DE00BB5F65 /* Hamburger.png */,
 				CAAF032B1BCA6828005DBF61 /* Fish.png */,
@@ -1008,7 +1010,7 @@
 				CAAF031E1BC95D1F005DBF61 /* 1 4 Shoes 2 Shoes A.png in Resources */,
 				CAAF03501BCB3F80005DBF61 /* cage1.png in Resources */,
 				CAAF03341BCA7B41005DBF61 /* background_island.png in Resources */,
-				CA717A2A1BCDB1DD00DE403F /* cloud.png in Resources */,
+				CA717A2C1BCE2C0200DE403F /* cloud.png in Resources */,
 				E5E4AC661BC786DE00BB5F65 /* sunscreen.png in Resources */,
 				E5E4AC371BC766FA00BB5F65 /* Slide 13 - oily fish.wav in Resources */,
 				E525E5E91BC644AE00A1A28F /* background_grass.png in Resources */,
