@@ -61,7 +61,7 @@
         case 1:
             if (skinTone < SKIN_TONE_CUT_OFF) {
                 self.answerLabel.text = @"Correct! ☺ On a sunny day when the UV index is high, it takes a few minutes to make enough vitamin D if you have light coloured skin. Go capture Dr Dastardly!";
-                self.audioFile = @"Slide 8 - light skin correct";
+                self.audioFile = @"Slide 8 -light skin correct";
                 health++;
                 self.correct = 1;
             }else{

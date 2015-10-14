@@ -1274,7 +1274,7 @@
 				);
 				INFOPLIST_FILE = D_Light_Test1Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "$(TARGET_NAME";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/D_Light_Test1.app/D_Light_Test1";
 			};
 			name = Debug;
@@ -1289,7 +1289,7 @@
 				);
 				INFOPLIST_FILE = D_Light_Test1Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "$(TARGET_NAME";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/D_Light_Test1.app/D_Light_Test1";
 			};
 			name = Release;

@@ -73,17 +73,21 @@
         self.nextButton.enabled = YES;
         self.choiceMade = YES;
     }
-    if (CGRectIntersectsRect(self.foodWithSome.frame, self.plate.frame)) {
+     else if (CGRectIntersectsRect(self.foodWithSome.frame, self.plate.frame)) {
         food.image = [UIImage imageNamed:@"Pizza"];
         [defaults setInteger:2 forKey:@"food"];
         self.nextButton.enabled = YES;
         self.choiceMade = YES;
     }
-    if (CGRectIntersectsRect(self.foodWithEnough.frame, self.plate.frame)) {
+    else if (CGRectIntersectsRect(self.foodWithEnough.frame, self.plate.frame)) {
         food.image = [UIImage imageNamed:@"Fish"];
         [defaults setInteger:3 forKey:@"food"];
         self.nextButton.enabled = YES;
         self.choiceMade = YES;
+    } else {
+        self.nextButton.enabled = NO;
+        self.choiceMade = NO;
+        
     }
     
     for (UIView *view in [self.plate subviews]) [view removeFromSuperview];
