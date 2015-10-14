@@ -65,7 +65,7 @@
             self.correct = 0;
             break;
         case 2:
-            self.answerLabel.text = @"well done! The tinting in car windows stops sunlight from making vitamin d, so you had to make it up after. ";
+            self.answerLabel.text = @"well done! The car windows stops sunlight from making vitamin d, so you had to make it up after. ";
             self.audioFile = @"Slide 10 - after choice";
             health++;
             self.correct = 1;

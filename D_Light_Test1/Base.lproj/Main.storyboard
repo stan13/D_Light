@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -8303,31 +8304,31 @@ it takes hours getting here! You now only have an hour to enjoy the beach.</stri
         <image name="umbrella.png" width="2038" height="2400"/>
     </resources>
     <inferredMetricsTieBreakers>
+        <segue reference="8EK-Rt-s2P"/>
+        <segue reference="flJ-Uj-mxe"/>
+        <segue reference="7Tj-fy-I7o"/>
         <segue reference="tFT-K4-j4Z"/>
         <segue reference="Ogg-Jz-Ar9"/>
-        <segue reference="z3u-Mt-DTG"/>
-        <segue reference="7Tj-fy-I7o"/>
-        <segue reference="flJ-Uj-mxe"/>
-        <segue reference="8EK-Rt-s2P"/>
+        <segue reference="D4F-0t-lYV"/>
+        <segue reference="caU-3v-9bs"/>
+        <segue reference="SfT-xc-8QN"/>
+        <segue reference="Cha-hP-xda"/>
+        <segue reference="iWB-yu-uBZ"/>
+        <segue reference="q5m-AR-iHb"/>
+        <segue reference="KI8-gQ-xcA"/>
+        <segue reference="udh-kP-udg"/>
+        <segue reference="S6r-9I-Rim"/>
+        <segue reference="oeO-9L-x2D"/>
         <segue reference="raE-9l-FqN"/>
         <segue reference="UoJ-Oq-EHp"/>
         <segue reference="BFx-l4-4dp"/>
-        <segue reference="KI8-gQ-xcA"/>
-        <segue reference="q5m-AR-iHb"/>
-        <segue reference="iWB-yu-uBZ"/>
-        <segue reference="udh-kP-udg"/>
+        <segue reference="KbB-w3-S4e"/>
+        <segue reference="MSS-3A-zlW"/>
+        <segue reference="Wcn-pK-AeW"/>
+        <segue reference="Y4C-RA-HFM"/>
         <segue reference="QnE-VF-aHs"/>
         <segue reference="GiL-OM-iIk"/>
-        <segue reference="pjI-mo-aoE"/>
         <segue reference="730-eO-kLg"/>
-        <segue reference="SfT-xc-8QN"/>
-        <segue reference="caU-3v-9bs"/>
-        <segue reference="D4F-0t-lYV"/>
-        <segue reference="Y4C-RA-HFM"/>
-        <segue reference="P6f-oQ-ivq"/>
-        <segue reference="5GA-T9-COc"/>
-        <segue reference="S6r-9I-Rim"/>
-        <segue reference="oeO-9L-x2D"/>
-        <segue reference="H3j-T1-rY0"/>
+        <segue reference="pjI-mo-aoE"/>
     </inferredMetricsTieBreakers>
 </document>

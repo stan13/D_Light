@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		089984FD1BCE71DE00109A4C /* D_Light_Test1Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 089984FC1BCE71DE00109A4C /* D_Light_Test1Tests.m */; settings = {ASSET_TAGS = (); }; };
+		08AB4D351BCE6884007E4C62 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 08AB4D331BCE6884007E4C62 /* Info.plist */; settings = {ASSET_TAGS = (); }; };
 		501029671B7E068E00118A4F /* ViewController3.m in Sources */ = {isa = PBXBuildFile; fileRef = 501029661B7E068E00118A4F /* ViewController3.m */; };
 		50398C9D1B7DBB8B00E39663 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 50398C9C1B7DBB8B00E39663 /* main.m */; };
 		50398CA01B7DBB8B00E39663 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 50398C9F1B7DBB8B00E39663 /* AppDelegate.m */; };
@@ -14,7 +16,6 @@
 		50398CA61B7DBB8B00E39663 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50398CA41B7DBB8B00E39663 /* Main.storyboard */; };
 		50398CA81B7DBB8B00E39663 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50398CA71B7DBB8B00E39663 /* Images.xcassets */; };
 		50398CAB1B7DBB8B00E39663 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 50398CA91B7DBB8B00E39663 /* LaunchScreen.xib */; };
-		50398CB71B7DBB8B00E39663 /* D_Light_Test1Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 50398CB61B7DBB8B00E39663 /* D_Light_Test1Tests.m */; };
 		508540F91B7DCE2600CE867C /* ViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = 508540F81B7DCE2600CE867C /* ViewController2.m */; };
 		C14EA51A1BABE29500B9661F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C14EA5191BABE29500B9661F /* UIKit.framework */; };
 		C14EA51C1BABE49800B9661F /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C14EA51B1BABE49800B9661F /* AVFoundation.framework */; };
@@ -236,6 +237,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		089984FC1BCE71DE00109A4C /* D_Light_Test1Tests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = D_Light_Test1Tests.m; path = "../../../../../Volumes/USB DISK/D_Light-master/D_Light_Test1Tests/D_Light_Test1Tests.m"; sourceTree = "<group>"; };
+		08AB4D331BCE6884007E4C62 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = "../../../../../Volumes/USB DISK/D_Light-master/D_Light_Test1Tests/Info.plist"; sourceTree = "<group>"; };
 		501029661B7E068E00118A4F /* ViewController3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController3.m; sourceTree = "<group>"; };
 		501029681B7E069F00118A4F /* ViewController3.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController3.h; sourceTree = "<group>"; };
 		50398C971B7DBB8B00E39663 /* D_Light_Test1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = D_Light_Test1.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -250,7 +253,6 @@
 		50398CAA1B7DBB8B00E39663 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		50398CB01B7DBB8B00E39663 /* D_Light_Test1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = D_Light_Test1Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		50398CB51B7DBB8B00E39663 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		50398CB61B7DBB8B00E39663 /* D_Light_Test1Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = D_Light_Test1Tests.m; sourceTree = "<group>"; };
 		508540F81B7DCE2600CE867C /* ViewController2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController2.m; sourceTree = "<group>"; };
 		508540FA1B7DD0A300CE867C /* ViewController2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController2.h; sourceTree = "<group>"; };
 		C14EA5191BABE29500B9661F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -789,7 +791,8 @@
 		50398CB31B7DBB8B00E39663 /* D_Light_Test1Tests */ = {
 			isa = PBXGroup;
 			children = (
-				50398CB61B7DBB8B00E39663 /* D_Light_Test1Tests.m */,
+				089984FC1BCE71DE00109A4C /* D_Light_Test1Tests.m */,
+				08AB4D331BCE6884007E4C62 /* Info.plist */,
 				50398CB41B7DBB8B00E39663 /* Supporting Files */,
 			);
 			path = D_Light_Test1Tests;
@@ -1074,6 +1077,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				08AB4D351BCE6884007E4C62 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1120,7 +1124,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				50398CB71B7DBB8B00E39663 /* D_Light_Test1Tests.m in Sources */,
+				089984FD1BCE71DE00109A4C /* D_Light_Test1Tests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
