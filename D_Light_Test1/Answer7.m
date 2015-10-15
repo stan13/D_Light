@@ -60,9 +60,18 @@
             health++;
             self.correct = 1;
                         self.audioFile = @"Slide 14 - correct";
+            //set pollution to off
+            self.cloud1.image = nil;
+            self.cloud2.image = nil;
+            self.cloud3.image = nil;
+            self.cloud4.image = nil;
+            self.smoke1.image = nil;
+            self.smoke2.image = nil;
+            self.smoke3.image = nil;
+            self.smoke4.image = nil;
             break;
         case 2:
-            self.answerLabel.text = @" Cover from smoke or air pollution reduces the amount of UV that gets through. You don’t get quite enough vitamin D today. Dr. Dastardly escapes!";
+            self.answerLabel.text = @"Cover from smoke or air pollution reduces the amount of UV that gets through. You don’t get quite enough vitamin D today. Dr. Dastardly escapes!";
             health--;
             self.correct = 0;
             self.audioFile = @"Slide 14 - incorrect";

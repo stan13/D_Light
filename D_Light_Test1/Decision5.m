@@ -91,6 +91,7 @@
     self.background.backgroundColor = [UIColor yellowColor];
     self.background.alpha = 0.2;
     self.choiceMade = true;
+    self.UVIndicator.image = [UIImage imageNamed:@"UVHigh.png"];
     NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
     [defaults setInteger:1 forKey:@"Decision5"];
     
@@ -104,6 +105,7 @@
     self.background.backgroundColor = [UIColor grayColor];
     self.background.alpha = 0.3;
     self.choiceMade = true;
+    self.UVIndicator.image = [UIImage imageNamed:@"UVModerate.png"];
     NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
     [defaults setInteger:2 forKey:@"Decision5"];
 }
@@ -116,6 +118,7 @@
     self.background.backgroundColor = [UIColor blackColor];
     self.background.alpha = 0.5;
     self.choiceMade = true;
+    self.UVIndicator.image = [UIImage imageNamed:@"UVLow.png"];
     NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
     [defaults setInteger:3 forKey:@"Decision5"];
 }

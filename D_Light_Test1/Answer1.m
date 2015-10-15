@@ -7,7 +7,7 @@
 //
 
 #import "Answer1.h"
-#define SKIN_TONE_CUT_OFF 0.5
+#define SKIN_TONE_CUT_OFF 0.2
 
 
 @interface Answer1 ()

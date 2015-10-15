@@ -57,10 +57,7 @@
             self.answerLabel.text = @"Correct! ☺ The UV index is greatest at this time of the day. You are powered up! You escape!!";
             self.audioFile = @"Slide 12 - midday";
             self.view.backgroundColor = [UIColor cyanColor];
-            self.mouth.image = [UIImage imageNamed:@"9000 8 Mouth 1 Happy.png"];
-            self.eyesWhites.image = [UIImage imageNamed:@"9000 9 Eye Whites 0 Default.png"];
-            self.eyes.image = [UIImage imageNamed:@"9000 10 Eye Pupils 0 Default.png"];
-            self.eyeBrows.image = [UIImage imageNamed:@"9000 12 Eye Brows 0 Default.png"];
+            self.UVIndicator.image = [UIImage imageNamed:@"UVHigh.png"];
             [self characterSettings:1];
             health++;
             self.correct = 1;
@@ -69,22 +66,16 @@
             self.answerLabel.text = @"☹ Incorrect. The UV index is lower at this time of day. You didn’t make enough vitamin D today!";
             self.audioFile = @"Slide 12 - afternoon";
             self.view.backgroundColor = [UIColor blueColor];
-            self.mouth.image = [UIImage imageNamed:@"9000 8 Mouth 4 Tired.png"];
-            self.eyesWhites.image = [UIImage imageNamed:@"9000 9 Eye Whites 4 Tired.png"];
-            self.eyes.image = [UIImage imageNamed:@"9000 10 Eye Pupils 4 Tired.png"];
-            self.eyeBrows.image = [UIImage imageNamed:@"9000 12 Eye Brows 4 Tired.png"];
+            self.UVIndicator.image = [UIImage imageNamed:@"UVMedium.png"];
             [self characterSettings:1];
             health--;
             self.correct = 0;
             break;
         case 3:
-            self.answerLabel.text = @"☹ Incorrect. You can’t make vitamin D when the sun isn’t there! ";
+            self.answerLabel.text = @"☹ Incorrect. You can’t make vitamin D when the sun isn’t there!";
             self.audioFile = @"Slide 12 - night";
             self.view.backgroundColor = [UIColor blackColor];
-            self.mouth.image = [UIImage imageNamed:@"9000 8 Mouth 0 Default.png"];
-            self.eyesWhites.image = [UIImage imageNamed:@"9000 9 Eye Whites 0 Default.png"];
-            self.eyes.image = [UIImage imageNamed:@"9000 10 Eye Pupils 0 Default.png"];
-            self.eyeBrows.image = [UIImage imageNamed:@"9000 12 Eye Brows 6 Sad.png"];
+            self.UVIndicator.image = [UIImage imageNamed:@"UVLow.png"];
             [self characterSettings:1];
             health -= 2;
             self.correct = 0;

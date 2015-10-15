@@ -59,13 +59,13 @@
     NSInteger health = [defaults integerForKey:@"health"];
     switch (answer) {
         case 1:
-            self.answerLabel.text = @"unfortunately, the car windows stop the sunlight from making vitamin d, so you didn't get any today.";
+            self.answerLabel.text = @"Unfortunately, the car windows stop the sunlight from making vitamin D, so you did not get any today.";
             self.audioFile = @"Slide 10 - after choice";
             health--;
             self.correct = 0;
             break;
         case 2:
-            self.answerLabel.text = @"well done! The tinting in car windows stops sunlight from making vitamin d, so you had to make it up after. ";
+            self.answerLabel.text = @"Well done! The tinting in car windows stops sunlight from making vitamin D, so you had to make it up after.";
             self.audioFile = @"Slide 10 - after choice";
             health++;
             self.correct = 1;

@@ -19,6 +19,15 @@
 - (IBAction)stopVoiceOver:(UIButton *)sender;
 @property (weak, nonatomic) IBOutlet UIButton *nextButton;
 
+//pollution
+@property (weak, nonatomic) IBOutlet UIImageView *cloud1;
+@property (weak, nonatomic) IBOutlet UIImageView *cloud2;
+@property (weak, nonatomic) IBOutlet UIImageView *cloud3;
+@property (weak, nonatomic) IBOutlet UIImageView *cloud4;
+@property (weak, nonatomic) IBOutlet UIImageView *smoke1;
+@property (weak, nonatomic) IBOutlet UIImageView *smoke2;
+@property (weak, nonatomic) IBOutlet UIImageView *smoke3;
+@property (weak, nonatomic) IBOutlet UIImageView *smoke4;
 
 //Character Customisation
 //0 Hair Back

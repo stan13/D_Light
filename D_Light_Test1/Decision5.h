@@ -24,6 +24,7 @@
 @property (weak, nonatomic) IBOutlet UIButton *nightButton;
 - (IBAction)chooseNight:(UIButton *)sender;
 @property (weak, nonatomic) IBOutlet UIImageView *background;
+@property (weak, nonatomic) IBOutlet UIImageView *UVIndicator;
 
 //Character Customisation
 //0 Hair Back
