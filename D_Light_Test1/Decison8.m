@@ -47,6 +47,7 @@
 
 - (IBAction)chooseMore:(UIButton *)sender {
     self.nextButton.enabled = YES;
+    [self.lessButton setImage:[UIImage imageNamed:@"buttonLess"] forState:UIControlStateNormal];
     [self.moreButton setImage:[self changeImage:[UIImage imageNamed:@"buttonMore"] toColour:[UIColor colorWithWhite:0.5 alpha:0.5]] forState:UIControlStateNormal];
     self.lessButton.backgroundColor = [UIColor clearColor];
     NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
