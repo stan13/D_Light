@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6250" systemVersion="13F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6244"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -5702,7 +5702,7 @@ it takes hours getting here! You now only have an hour to enjoy the beach.</stri
                                     <action selector="chooseMidday:" destination="eXg-CJ-cf5" eventType="touchUpInside" id="dGE-2m-XfN"/>
                                 </connections>
                             </button>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" alpha="0.90000000000000002" contentMode="scaleToFill" fixedFrame="YES" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="ewN-a4-BVr">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" alpha="0.90000000000000002" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ewN-a4-BVr">
                                 <rect key="frame" x="16" y="28" width="554" height="128"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <string key="text">You’ve been captured by Dr. Dastardly’s minions! While you carefully plan your escape, his guards only let you out for five minutes a day! At least you get to pick the time, though. What time of day should you pick to get the most vitamin D out of your time in the sunlight?</string>
@@ -8303,31 +8303,31 @@ it takes hours getting here! You now only have an hour to enjoy the beach.</stri
         <image name="umbrella.png" width="2038" height="2400"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="tFT-K4-j4Z"/>
-        <segue reference="Ogg-Jz-Ar9"/>
-        <segue reference="z3u-Mt-DTG"/>
-        <segue reference="7Tj-fy-I7o"/>
-        <segue reference="flJ-Uj-mxe"/>
-        <segue reference="8EK-Rt-s2P"/>
-        <segue reference="raE-9l-FqN"/>
-        <segue reference="UoJ-Oq-EHp"/>
-        <segue reference="BFx-l4-4dp"/>
-        <segue reference="KI8-gQ-xcA"/>
         <segue reference="q5m-AR-iHb"/>
         <segue reference="iWB-yu-uBZ"/>
+        <segue reference="KI8-gQ-xcA"/>
         <segue reference="udh-kP-udg"/>
         <segue reference="QnE-VF-aHs"/>
         <segue reference="GiL-OM-iIk"/>
-        <segue reference="pjI-mo-aoE"/>
-        <segue reference="730-eO-kLg"/>
-        <segue reference="SfT-xc-8QN"/>
-        <segue reference="caU-3v-9bs"/>
-        <segue reference="D4F-0t-lYV"/>
+        <segue reference="raE-9l-FqN"/>
+        <segue reference="UoJ-Oq-EHp"/>
+        <segue reference="BFx-l4-4dp"/>
+        <segue reference="oeO-9L-x2D"/>
+        <segue reference="0uv-YX-gsc"/>
         <segue reference="Y4C-RA-HFM"/>
         <segue reference="P6f-oQ-ivq"/>
         <segue reference="5GA-T9-COc"/>
-        <segue reference="S6r-9I-Rim"/>
-        <segue reference="oeO-9L-x2D"/>
         <segue reference="H3j-T1-rY0"/>
+        <segue reference="730-eO-kLg"/>
+        <segue reference="pjI-mo-aoE"/>
+        <segue reference="SfT-xc-8QN"/>
+        <segue reference="caU-3v-9bs"/>
+        <segue reference="D4F-0t-lYV"/>
+        <segue reference="z3u-Mt-DTG"/>
+        <segue reference="Ogg-Jz-Ar9"/>
+        <segue reference="tFT-K4-j4Z"/>
+        <segue reference="7Tj-fy-I7o"/>
+        <segue reference="flJ-Uj-mxe"/>
+        <segue reference="8EK-Rt-s2P"/>
     </inferredMetricsTieBreakers>
 </document>
