@@ -16,6 +16,11 @@
 		50398CAB1B7DBB8B00E39663 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 50398CA91B7DBB8B00E39663 /* LaunchScreen.xib */; };
 		50398CB71B7DBB8B00E39663 /* D_Light_Test1Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 50398CB61B7DBB8B00E39663 /* D_Light_Test1Tests.m */; };
 		508540F91B7DCE2600CE867C /* ViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = 508540F81B7DCE2600CE867C /* ViewController2.m */; };
+		522A44D11BCF504400579063 /* sunscreen.png in Resources */ = {isa = PBXBuildFile; fileRef = 522A44D01BCF504400579063 /* sunscreen.png */; };
+		522A44D31BCF554B00579063 /* button-stay-outside.png in Resources */ = {isa = PBXBuildFile; fileRef = 522A44D21BCF554B00579063 /* button-stay-outside.png */; };
+		522A44D51BCF55D300579063 /* button-back-to-car.png in Resources */ = {isa = PBXBuildFile; fileRef = 522A44D41BCF55D300579063 /* button-back-to-car.png */; };
+		522A44D71BCF566D00579063 /* button-skip-tutorial.png in Resources */ = {isa = PBXBuildFile; fileRef = 522A44D61BCF566D00579063 /* button-skip-tutorial.png */; };
+		522A44D91BCF58A400579063 /* screen-start.png in Resources */ = {isa = PBXBuildFile; fileRef = 522A44D81BCF58A400579063 /* screen-start.png */; };
 		C14EA51A1BABE29500B9661F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C14EA5191BABE29500B9661F /* UIKit.framework */; };
 		C14EA51C1BABE49800B9661F /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C14EA51B1BABE49800B9661F /* AVFoundation.framework */; };
 		C14EA51F1BAC03B300B9661F /* Decision2.m in Sources */ = {isa = PBXBuildFile; fileRef = C14EA51E1BAC03B300B9661F /* Decision2.m */; };
@@ -213,7 +218,6 @@
 		E5E4AC621BC786DE00BB5F65 /* Hamburger.png in Resources */ = {isa = PBXBuildFile; fileRef = E5E4AC571BC786DE00BB5F65 /* Hamburger.png */; };
 		E5E4AC631BC786DE00BB5F65 /* Ice Cream.png in Resources */ = {isa = PBXBuildFile; fileRef = E5E4AC581BC786DE00BB5F65 /* Ice Cream.png */; };
 		E5E4AC641BC786DE00BB5F65 /* Orange Slice.png in Resources */ = {isa = PBXBuildFile; fileRef = E5E4AC591BC786DE00BB5F65 /* Orange Slice.png */; };
-		E5E4AC661BC786DE00BB5F65 /* sunscreen.png in Resources */ = {isa = PBXBuildFile; fileRef = E5E4AC5B1BC786DE00BB5F65 /* sunscreen.png */; };
 		E5E4AC671BC786DE00BB5F65 /* UFO.png in Resources */ = {isa = PBXBuildFile; fileRef = E5E4AC5C1BC786DE00BB5F65 /* UFO.png */; };
 		E5E4ACD61BC7DDB600BB5F65 /* Slide 9 - correct.wav in Resources */ = {isa = PBXBuildFile; fileRef = E5E4ACC11BC7DDB600BB5F65 /* Slide 9 - correct.wav */; };
 		E5E4ACD71BC7DDB600BB5F65 /* Slide 9 - incorrect.wav in Resources */ = {isa = PBXBuildFile; fileRef = E5E4ACC21BC7DDB600BB5F65 /* Slide 9 - incorrect.wav */; };
@@ -253,6 +257,11 @@
 		50398CB61B7DBB8B00E39663 /* D_Light_Test1Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = D_Light_Test1Tests.m; sourceTree = "<group>"; };
 		508540F81B7DCE2600CE867C /* ViewController2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController2.m; sourceTree = "<group>"; };
 		508540FA1B7DD0A300CE867C /* ViewController2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController2.h; sourceTree = "<group>"; };
+		522A44D01BCF504400579063 /* sunscreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = sunscreen.png; path = Art/Objects/sunscreen.png; sourceTree = SOURCE_ROOT; };
+		522A44D21BCF554B00579063 /* button-stay-outside.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "button-stay-outside.png"; path = "Art/UI/images/button-stay-outside.png"; sourceTree = SOURCE_ROOT; };
+		522A44D41BCF55D300579063 /* button-back-to-car.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "button-back-to-car.png"; path = "Art/UI/images/button-back-to-car.png"; sourceTree = SOURCE_ROOT; };
+		522A44D61BCF566D00579063 /* button-skip-tutorial.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button-skip-tutorial.png"; sourceTree = SOURCE_ROOT; };
+		522A44D81BCF58A400579063 /* screen-start.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "screen-start.png"; path = "Art/UI/images/screen-start.png"; sourceTree = SOURCE_ROOT; };
 		C14EA5191BABE29500B9661F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		C14EA51B1BABE49800B9661F /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		C14EA51D1BAC039000B9661F /* Decision2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Decision2.h; sourceTree = "<group>"; };
@@ -475,7 +484,6 @@
 		E5E4AC571BC786DE00BB5F65 /* Hamburger.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Hamburger.png; sourceTree = "<group>"; };
 		E5E4AC581BC786DE00BB5F65 /* Ice Cream.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Ice Cream.png"; sourceTree = "<group>"; };
 		E5E4AC591BC786DE00BB5F65 /* Orange Slice.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Orange Slice.png"; sourceTree = "<group>"; };
-		E5E4AC5B1BC786DE00BB5F65 /* sunscreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sunscreen.png; sourceTree = "<group>"; };
 		E5E4AC5C1BC786DE00BB5F65 /* UFO.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = UFO.png; sourceTree = "<group>"; };
 		E5E4ACC11BC7DDB600BB5F65 /* Slide 9 - correct.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Slide 9 - correct.wav"; sourceTree = "<group>"; };
 		E5E4ACC21BC7DDB600BB5F65 /* Slide 9 - incorrect.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Slide 9 - incorrect.wav"; sourceTree = "<group>"; };
@@ -601,6 +609,7 @@
 				CAAF03251BCA5891005DBF61 /* pause Icon.png */,
 				CAAF03261BCA5891005DBF61 /* sound Icon.png */,
 				CA717A1F1BCD7C4A00DE403F /* button-menu.png */,
+				522A44D61BCF566D00579063 /* button-skip-tutorial.png */,
 				CAAF03211BC9B4FD005DBF61 /* left arrow.png */,
 				CAAF03351BCA88B8005DBF61 /* alien.png */,
 				CAAF03221BC9B4FD005DBF61 /* right arrow.png */,
@@ -610,6 +619,7 @@
 				CAAF03791BCBEFBB005DBF61 /* Smoke.png */,
 				CAAF037A1BCBEFBB005DBF61 /* Smoke2.png */,
 				CAAF03311BCA7481005DBF61 /* plate1.png */,
+				522A44D81BCF58A400579063 /* screen-start.png */,
 				CAAF034F1BCB3F80005DBF61 /* cage1.png */,
 				CA717A211BCD8DE700DE403F /* HealthBarGreen.png */,
 				CA717A2B1BCE2C0200DE403F /* cloud.png */,
@@ -619,7 +629,7 @@
 				CAAF032C1BCA6828005DBF61 /* Pizza.png */,
 				E5E4AC581BC786DE00BB5F65 /* Ice Cream.png */,
 				E5E4AC591BC786DE00BB5F65 /* Orange Slice.png */,
-				E5E4AC5B1BC786DE00BB5F65 /* sunscreen.png */,
+				522A44D01BCF504400579063 /* sunscreen.png */,
 				CAAF037F1BCC06C3005DBF61 /* umbrella.png */,
 				CA717A1B1BCD092700DE403F /* catColored.png */,
 				CAAF03491BCB3E26005DBF61 /* car1.png */,
@@ -627,6 +637,8 @@
 				CAAF035E1BCB4593005DBF61 /* buttonYes.png */,
 				CAAF03591BCB43D2005DBF61 /* buttonCar.png */,
 				CAAF035A1BCB43D2005DBF61 /* buttonStayOutside.png */,
+				522A44D21BCF554B00579063 /* button-stay-outside.png */,
+				522A44D41BCF55D300579063 /* button-back-to-car.png */,
 				CA717A251BCDA05400DE403F /* button-start.png */,
 				CAAF034B1BCB3E70005DBF61 /* buttonLess.png */,
 				CAAF03511BCB4065005DBF61 /* buttonSame.png */,
@@ -950,7 +962,9 @@
 				E525E5D51BC619F300A1A28F /* 0 10 Eye Pupils 3 Thoughtful.png in Resources */,
 				E572C1721BC3ABE000C4FCBB /* 1 9 Eye Whites 0 Default.png in Resources */,
 				50398CAB1B7DBB8B00E39663 /* LaunchScreen.xib in Resources */,
+				522A44D71BCF566D00579063 /* button-skip-tutorial.png in Resources */,
 				E54EFF5E1BC2686E00AD1EEA /* VillainFailSitting2.png in Resources */,
+				522A44D51BCF55D300579063 /* button-back-to-car.png in Resources */,
 				E5E4ACD61BC7DDB600BB5F65 /* Slide 9 - correct.wav in Resources */,
 				E5E4AC5D1BC786DE00BB5F65 /* Apple.png in Resources */,
 				E5E06BF31BCB763F008D7C6B /* Slide 8 - light skin incorrect.wav in Resources */,
@@ -989,6 +1003,7 @@
 				E5E4AC5E1BC786DE00BB5F65 /* bouncycastle.png in Resources */,
 				E572C1741BC3ABE000C4FCBB /* 1 10 Eye Pupils 0 Default.png in Resources */,
 				CAAF036C1BCBACD6005DBF61 /* Slide 1.wav in Resources */,
+				522A44D91BCF58A400579063 /* screen-start.png in Resources */,
 				E525E5CA1BC619F300A1A28F /* 0 7 Head 0 Default.png in Resources */,
 				CAAF032D1BCA6828005DBF61 /* Fish.png in Resources */,
 				CAAF031F1BC95D1F005DBF61 /* 1 4 Shoes 3 Shoes B.png in Resources */,
@@ -1011,7 +1026,6 @@
 				CAAF03501BCB3F80005DBF61 /* cage1.png in Resources */,
 				CAAF03341BCA7B41005DBF61 /* background_island.png in Resources */,
 				CA717A2C1BCE2C0200DE403F /* cloud.png in Resources */,
-				E5E4AC661BC786DE00BB5F65 /* sunscreen.png in Resources */,
 				E5E4AC371BC766FA00BB5F65 /* Slide 13 - oily fish.wav in Resources */,
 				E525E5E91BC644AE00A1A28F /* background_grass.png in Resources */,
 				E5E4AC621BC786DE00BB5F65 /* Hamburger.png in Resources */,
@@ -1035,6 +1049,7 @@
 				E525E5C51BC619F300A1A28F /* 0 5 Arms 0 Default.png in Resources */,
 				CAAF03201BC95D1F005DBF61 /* 1 4 Shoes 4 Hero Boots.png in Resources */,
 				E5E4AC3B1BC766FA00BB5F65 /* Slide 15 - correct.wav in Resources */,
+				522A44D31BCF554B00579063 /* button-stay-outside.png in Resources */,
 				E525E5CC1BC619F300A1A28F /* 0 8 Mouth 0 Default.png in Resources */,
 				CAAF03881BCC1842005DBF61 /* UVLow.png in Resources */,
 				CAAF03271BCA5891005DBF61 /* pause Icon.png in Resources */,
@@ -1042,6 +1057,7 @@
 				E5E06BF41BCB763F008D7C6B /* Slide 8 -light skin correct.wav in Resources */,
 				E572C1651BC3ABE000C4FCBB /* 1 5 Arms 0 Default.png in Resources */,
 				CA717A261BCDA05400DE403F /* button-start.png in Resources */,
+				522A44D11BCF504400579063 /* sunscreen.png in Resources */,
 				E5E4AC4E1BC77D0500BB5F65 /* SunNormal.png in Resources */,
 				E525E5C61BC619F300A1A28F /* 0 6 Clothing Front 1 Cape.png in Resources */,
 				E525E5DB1BC619F300A1A28F /* 0 13 Hair Front 0 Short.png in Resources */,

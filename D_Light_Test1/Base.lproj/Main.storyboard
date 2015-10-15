@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6250" systemVersion="13F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6244"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -23,30 +23,12 @@
                                     <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
                                 </variation>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="StartScreen.png" translatesAutoresizingMaskIntoConstraints="NO" id="edc-Wy-rWe">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="screen-start.png" translatesAutoresizingMaskIntoConstraints="NO" id="edc-Wy-rWe">
                                 <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
                                 <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
                                     <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
                                 </variation>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="D-Light" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HXb-7h-FO2">
-                                <rect key="frame" x="157" y="80" width="287" height="84"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="73"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
-                                    <rect key="frame" x="369" y="53" width="287" height="84"/>
-                                </variation>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Education Game for Kids" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uWp-KY-60h">
-                                <rect key="frame" x="167" y="162" width="267" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
-                                    <rect key="frame" x="379" y="145" width="267" height="21"/>
-                                </variation>
-                            </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WAi-xu-oMn">
                                 <rect key="frame" x="222" y="426" width="156" height="141"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="24"/>
@@ -77,9 +59,6 @@
                     </view>
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
                     <size key="freeformSize" width="1024" height="768"/>
-                    <connections>
-                        <outlet property="FirstScene" destination="HXb-7h-FO2" id="Dxt-rl-4w9"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -1024,7 +1003,7 @@
                                     <action selector="stopVoiceOver:" destination="LbW-FU-Aoh" eventType="touchUpInside" id="Exf-cq-kvv"/>
                                 </connections>
                             </button>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" alpha="0.90000000000000002" contentMode="scaleToFill" fixedFrame="YES" text="You need vitamin D for healthy bones. The main way you make vitamin D is by exposing your skin to the UV rays in sunlight. " textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="a39-3z-2Gl">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" alpha="0.90000000000000002" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="You need vitamin D for healthy bones. The main way you make vitamin D is by exposing your skin to the UV rays in sunlight. " textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="a39-3z-2Gl">
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="22"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -1050,13 +1029,13 @@
                                     <segue destination="443-tj-wG7" kind="presentation" id="BFx-l4-4dp"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bz9-jH-krW">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bz9-jH-krW">
                                 <rect key="frame" x="100" y="100" width="46" height="30"/>
-                                <state key="normal" title="Skip To Current">
+                                <state key="normal" image="button-skip-tutorial.png">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
-                                    <rect key="frame" x="647" y="429" width="240" height="151"/>
+                                    <rect key="frame" x="427" y="715" width="170" height="40"/>
                                 </variation>
                                 <connections>
                                     <segue destination="ohO-wC-Nsv" kind="showDetail" id="13O-eM-zHb"/>
@@ -1118,7 +1097,7 @@
                                     <segue destination="LbW-FU-Aoh" kind="show" id="UoJ-Oq-EHp"/>
                                 </connections>
                             </button>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" alpha="0.90000000000000002" contentMode="scaleToFill" fixedFrame="YES" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="RBh-em-XhP">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" alpha="0.90000000000000002" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RBh-em-XhP">
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <string key="text">Your skin type determines how much time it takes to make the vitamin D your body needs. People with darker skin need to spend more time in the sun to make vitamin D.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="22"/>
@@ -1226,7 +1205,7 @@
                                     <segue destination="443-tj-wG7" kind="show" id="jXW-zi-QpK"/>
                                 </connections>
                             </button>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" alpha="0.90000000000000002" contentMode="scaleToFill" fixedFrame="YES" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="Uaj-cJ-vWb">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" alpha="0.90000000000000002" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Uaj-cJ-vWb">
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <string key="text">How you make vitamin D also depends on how much UV light your skin is exposed to. Levels of UV light change throughout each day, and time of the year. </string>
                                 <fontDescription key="fontDescription" type="system" pointSize="22"/>
@@ -1328,7 +1307,7 @@
                                     <segue destination="Y42-qM-Okw" kind="show" id="QnE-VF-aHs"/>
                                 </connections>
                             </button>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" alpha="0.90000000000000002" contentMode="scaleToFill" fixedFrame="YES" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="hQg-X3-Mpd">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" alpha="0.90000000000000002" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hQg-X3-Mpd">
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <string key="text">We use the UV index to show how levels of UV change on the earth’s surface. The greater the number, the higher the levels of UV present in sunlight.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="22"/>
@@ -1518,19 +1497,7 @@
                                     <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
                                 </variation>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1cD-cs-nbF">
-                                <rect key="frame" x="16" y="550" width="35" height="30"/>
-                                <state key="normal" title="Back" image="left arrow.png">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
-                                    <rect key="frame" x="14" y="715" width="75" height="40"/>
-                                </variation>
-                                <connections>
-                                    <segue destination="tS6-BI-SVO" kind="show" id="2YE-jA-yif"/>
-                                </connections>
-                            </button>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" alpha="0.90000000000000002" contentMode="scaleToFill" fixedFrame="YES" text="Clothes or shade that cover lots of skin reduce how much vitamin D you make. " textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="vGB-yR-oEA">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" alpha="0.90000000000000002" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="Clothes or shade that cover lots of skin reduce how much vitamin D you make. " textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vGB-yR-oEA">
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="22"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -1598,6 +1565,18 @@
                                     <rect key="frame" x="509" y="172" width="302" height="335"/>
                                 </variation>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1cD-cs-nbF">
+                                <rect key="frame" x="16" y="550" width="35" height="30"/>
+                                <state key="normal" title="Back" image="left arrow.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="16" y="715" width="75" height="40"/>
+                                </variation>
+                                <connections>
+                                    <segue destination="tS6-BI-SVO" kind="show" id="2YE-jA-yif"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <variation key="default">
@@ -1655,7 +1634,7 @@
                                     <segue destination="jVo-m4-N9d" kind="show" id="730-eO-kLg"/>
                                 </connections>
                             </button>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" alpha="0.90000000000000002" contentMode="scaleToFill" fixedFrame="YES" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="Bs3-pr-D6M">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" alpha="0.90000000000000002" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Bs3-pr-D6M">
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <string key="text">For this adventure, you are a superhero powered by Vitamin-D! Remember, if you're in the sun for a long period of time, “slip, slop, slap, seek and slide” </string>
                                 <fontDescription key="fontDescription" type="system" pointSize="22"/>
@@ -2007,7 +1986,7 @@
                                     <segue destination="MSc-Up-Wkt" kind="presentation" id="6bh-Wl-hpC"/>
                                 </connections>
                             </button>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" alpha="0.90000000000000002" contentMode="scaleToFill" fixedFrame="YES" text="Remember not to spend too long in the sun! Sunburn increases your chance of skin cancer later in life. " textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="fTf-Ho-yhI">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" alpha="0.90000000000000002" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="Remember not to spend too long in the sun! Sunburn increases your chance of skin cancer later in life. " textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fTf-Ho-yhI">
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="22"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -2453,7 +2432,7 @@
                                     <rect key="frame" x="50" y="20" width="400" height="30"/>
                                 </variation>
                             </imageView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" alpha="0.90000000000000002" contentMode="scaleToFill" fixedFrame="YES" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="jY6-IU-PRJ">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" alpha="0.90000000000000002" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jY6-IU-PRJ">
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <string key="text">It's a beautiful summer’s day! You only have 5 minutes before you battle Dr Dastardly in his castle at the centre of the earth. With your skin, is there time to get your vitamin D?</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
@@ -3932,7 +3911,7 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wmO-r0-P8j">
                                 <rect key="frame" x="319" y="126" width="251" height="72"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="22"/>
-                                <state key="normal" title="Stay outside" image="buttonStayOutside.png">
+                                <state key="normal" title="Stay outside" image="button-stay-outside.png">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
@@ -4152,9 +4131,9 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AV4-Dr-Pnd">
                                 <rect key="frame" x="16" y="126" width="251" height="72"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="22"/>
-                                <state key="normal" title="Go Back to Car" image="buttonCar.png"/>
+                                <state key="normal" title="Go Back to Car" image="button-back-to-car.png"/>
                                 <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
-                                    <rect key="frame" x="719" y="428" width="200" height="75"/>
+                                    <rect key="frame" x="720" y="428" width="200" height="75"/>
                                 </variation>
                                 <connections>
                                     <action selector="chooseInside:" destination="rc7-u5-mAg" eventType="touchUpInside" id="A5P-9L-UaR"/>
@@ -4285,16 +4264,6 @@
                                     <segue destination="rc7-u5-mAg" kind="show" id="Y4C-RA-HFM"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" alpha="0.90000000000000002" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="This is a new label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="odc-ZL-0hK">
-                                <rect key="frame" x="16" y="28" width="568" height="175"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
-                                    <rect key="frame" x="52" y="70" width="780" height="80"/>
-                                </variation>
-                            </label>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="HealthBar.png" translatesAutoresizingMaskIntoConstraints="NO" id="6Xi-5i-418">
                                 <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
@@ -4500,6 +4469,16 @@
                                     <rect key="frame" x="153" y="250" width="200" height="460"/>
                                 </variation>
                             </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" alpha="0.90000000000000002" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="This is a new label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="odc-ZL-0hK">
+                                <rect key="frame" x="16" y="28" width="568" height="175"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="50" y="68" width="780" height="80"/>
+                                </variation>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="0.0" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                         <variation key="default">
@@ -4670,7 +4649,7 @@
                                     <segue destination="BVh-UC-gvu" kind="show" id="KbB-w3-S4e"/>
                                 </connections>
                             </button>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" alpha="0.90000000000000002" contentMode="scaleToFill" fixedFrame="YES" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="CWU-5u-Cn0">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" alpha="0.90000000000000002" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CWU-5u-Cn0">
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <string key="text">Your school class goes for a day trip to the beach, but the driver gets the directions wrong
 it takes hours getting here! You now only have an hour to enjoy the beach.</string>
@@ -5013,7 +4992,7 @@ it takes hours getting here! You now only have an hour to enjoy the beach.</stri
                         <outlet property="CoverButton" destination="M7L-gS-S0b" id="znr-31-AW4"/>
                         <outlet property="HatButton" destination="6Bi-5i-SZu" id="OGT-sm-lgn"/>
                         <outlet property="HeathBar" destination="MqC-nJ-huB" id="Bzd-xN-K2O"/>
-                        <outlet property="SunscreenButton" destination="M7L-gS-S0b" id="DAP-O7-7rE"/>
+                        <outlet property="SunscreenButton" destination="hhn-bJ-Ipm" id="ZqJ-7d-Wyb"/>
                         <outlet property="SunscreenNoseImg" destination="tf0-1L-9aO" id="unT-Lo-O9v"/>
                         <outlet property="UmbrellaImg" destination="2NE-KP-cA0" id="SA8-Jg-Vvf"/>
                         <outlet property="bottom" destination="d6N-rW-P6z" id="hfk-8i-dzA"/>
@@ -5702,7 +5681,7 @@ it takes hours getting here! You now only have an hour to enjoy the beach.</stri
                                     <action selector="chooseMidday:" destination="eXg-CJ-cf5" eventType="touchUpInside" id="dGE-2m-XfN"/>
                                 </connections>
                             </button>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" alpha="0.90000000000000002" contentMode="scaleToFill" fixedFrame="YES" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="ewN-a4-BVr">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" alpha="0.90000000000000002" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ewN-a4-BVr">
                                 <rect key="frame" x="16" y="28" width="554" height="128"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <string key="text">You’ve been captured by Dr. Dastardly’s minions! While you carefully plan your escape, his guards only let you out for five minutes a day! At least you get to pick the time, though. What time of day should you pick to get the most vitamin D out of your time in the sunlight?</string>
@@ -6187,7 +6166,7 @@ it takes hours getting here! You now only have an hour to enjoy the beach.</stri
                                     <segue destination="yy7-Re-9Kd" kind="show" id="HXE-c3-rDF"/>
                                 </connections>
                             </button>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" alpha="0.90000000000000002" contentMode="scaleToFill" fixedFrame="YES" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="fhZ-c1-DrM">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" alpha="0.90000000000000002" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fhZ-c1-DrM">
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <string key="text">It’s dinnertime, and you’ve spent all day inside making a new rocket to fly to Neptune to fight the Neptu-men. You’re pretty hungry, and you need to power-up with vitamin D. What food should you choose to make it up?</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
@@ -6864,7 +6843,7 @@ it takes hours getting here! You now only have an hour to enjoy the beach.</stri
                                     <rect key="frame" x="50" y="20" width="400" height="30"/>
                                 </variation>
                             </imageView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" alpha="0.90000000000000002" contentMode="scaleToFill" fixedFrame="YES" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="jRv-HJ-EP8">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" alpha="0.90000000000000002" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jRv-HJ-EP8">
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <string key="text">Dr Dastardly has set a massive fire to distract you while he steals all the kittens. Before putting it out, you need to power up. To get your vitamin D, how much time should you spend outside compared to usual?</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
@@ -7661,7 +7640,7 @@ it takes hours getting here! You now only have an hour to enjoy the beach.</stri
                                     <segue destination="FUU-vk-SNg" kind="show" id="iWB-yu-uBZ"/>
                                 </connections>
                             </button>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" alpha="0.90000000000000002" contentMode="scaleToFill" fixedFrame="YES" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="VJO-6Q-Y57">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" alpha="0.90000000000000002" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VJO-6Q-Y57">
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <string key="text">After defeating Dr Dastardly, you’re on holidays! You head to tropical islands close to the equator. Do you make more or less vitamin D from sunlight here?</string>
@@ -8258,7 +8237,6 @@ it takes hours getting here! You now only have an hour to enjoy the beach.</stri
         <image name="Pizza.png" width="456" height="336"/>
         <image name="Smoke.png" width="567" height="838"/>
         <image name="Smoke2.png" width="484" height="869"/>
-        <image name="StartScreen.png" width="1024" height="768"/>
         <image name="UFO.png" width="601" height="333"/>
         <image name="UVExtreme.png" width="800" height="360"/>
         <image name="UVHigh.png" width="800" height="360"/>
@@ -8279,17 +8257,18 @@ it takes hours getting here! You now only have an hour to enjoy the beach.</stri
         <image name="background_island.png" width="1024" height="768"/>
         <image name="background_planet.png" width="1024" height="768"/>
         <image name="background_room.png" width="2000" height="1412"/>
+        <image name="button-back-to-car.png" width="800" height="300"/>
         <image name="button-menu.png" width="300" height="160"/>
+        <image name="button-skip-tutorial.png" width="600" height="160"/>
         <image name="button-start.png" width="800" height="300"/>
+        <image name="button-stay-outside.png" width="800" height="300"/>
         <image name="buttonAfternoon.png" width="800" height="300"/>
-        <image name="buttonCar.png" width="2075" height="485"/>
         <image name="buttonLess.png" width="800" height="300"/>
         <image name="buttonMidday.png" width="800" height="300"/>
         <image name="buttonMore.png" width="800" height="300"/>
         <image name="buttonNight.png" width="800" height="300"/>
         <image name="buttonNo.png" width="800" height="300"/>
         <image name="buttonSame.png" width="800" height="300"/>
-        <image name="buttonStayOutside.png" width="2074" height="485"/>
         <image name="buttonYes.png" width="800" height="300"/>
         <image name="cage1.png" width="376" height="235"/>
         <image name="car1.png" width="244" height="123"/>
@@ -8298,36 +8277,37 @@ it takes hours getting here! You now only have an hour to enjoy the beach.</stri
         <image name="pause Icon.png" width="300" height="300"/>
         <image name="plate1.png" width="721" height="491"/>
         <image name="right arrow.png" width="300" height="160"/>
+        <image name="screen-start.png" width="2048" height="1536"/>
         <image name="sound Icon.png" width="300" height="300"/>
-        <image name="sunscreen.png" width="745" height="1053"/>
+        <image name="sunscreen.png" width="626" height="916"/>
         <image name="umbrella.png" width="2038" height="2400"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="tFT-K4-j4Z"/>
-        <segue reference="Ogg-Jz-Ar9"/>
-        <segue reference="z3u-Mt-DTG"/>
-        <segue reference="7Tj-fy-I7o"/>
-        <segue reference="flJ-Uj-mxe"/>
-        <segue reference="8EK-Rt-s2P"/>
-        <segue reference="raE-9l-FqN"/>
-        <segue reference="UoJ-Oq-EHp"/>
-        <segue reference="BFx-l4-4dp"/>
-        <segue reference="KI8-gQ-xcA"/>
         <segue reference="q5m-AR-iHb"/>
         <segue reference="iWB-yu-uBZ"/>
+        <segue reference="KI8-gQ-xcA"/>
         <segue reference="udh-kP-udg"/>
+        <segue reference="UoJ-Oq-EHp"/>
+        <segue reference="jXW-zi-QpK"/>
         <segue reference="QnE-VF-aHs"/>
-        <segue reference="GiL-OM-iIk"/>
-        <segue reference="pjI-mo-aoE"/>
+        <segue reference="2YE-jA-yif"/>
         <segue reference="730-eO-kLg"/>
-        <segue reference="SfT-xc-8QN"/>
+        <segue reference="pjI-mo-aoE"/>
+        <segue reference="13O-eM-zHb"/>
+        <segue reference="raE-9l-FqN"/>
         <segue reference="caU-3v-9bs"/>
-        <segue reference="D4F-0t-lYV"/>
-        <segue reference="Y4C-RA-HFM"/>
+        <segue reference="SfT-xc-8QN"/>
+        <segue reference="oeO-9L-x2D"/>
+        <segue reference="0uv-YX-gsc"/>
+        <segue reference="axW-Dq-vLC"/>
         <segue reference="P6f-oQ-ivq"/>
         <segue reference="5GA-T9-COc"/>
-        <segue reference="S6r-9I-Rim"/>
-        <segue reference="oeO-9L-x2D"/>
         <segue reference="H3j-T1-rY0"/>
+        <segue reference="z3u-Mt-DTG"/>
+        <segue reference="Ogg-Jz-Ar9"/>
+        <segue reference="HXE-c3-rDF"/>
+        <segue reference="7Tj-fy-I7o"/>
+        <segue reference="J6b-Uu-fG9"/>
+        <segue reference="8EK-Rt-s2P"/>
     </inferredMetricsTieBreakers>
 </document>

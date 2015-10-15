@@ -90,9 +90,11 @@
 - (IBAction)ChooseSunscreen:(UIButton *)sender {
     if (self.sunscreen == 0) {
         self.sunscreen = 1;
+        self.SunscreenButton.backgroundColor = [UIColor grayColor];
         self.SunscreenNoseImg.image = [UIImage imageNamed:@"SunscreenNose.png"];
     } else {
         self.sunscreen = 0;
+        self.SunscreenButton.backgroundColor = nil;
         self.SunscreenNoseImg.image = nil;
     }
     [self setDefaults];
