@@ -1,0 +1,27 @@
+
+In order to open and run the app in the xCode simulator:
+
+1. Download the latest version of Xcode from the App Store (if not already done)
+2. Open the D-Light folder and click on the icon called D_Light_Test1.xcodeproj
+3. Select one of the iPad options from the simulator drop down menu
+4. Press the play button
+
+In order to upload the app to the App Store:
+
+The following youtube video provides detailed instructions on how to send an app to the app store: https://www.youtube.com/watch?v=fbzZRw9Hx10
+
+In order to download the app onto a device:
+
+1. Go to the app store on that device
+2. Go to the search section
+3. Search for D-Light
+4. Tap the ‘get’ button and the app will begin downloading.
+
+In order to use the app:
+
+1. If this is your first time using the app, tap ‘Start story’
+2. Customise your character by tapping the different hair styles and sliding the sliders to change the colours. Tap the arrow in the bottom right hand corner to continue.
+3. Customise your character’s clothes in the same way.
+4. Read the information slides. To listen to a voice over of the text, tap the sound button. You can stop the voice over at any time by tapping the pause button
+5. For each decision, you will be prompted to choose an answer by tapping one of the buttons. When you have made your selection, tap the arrow at the bottom right hand corner. Your health will either increase or decrease depending on whether you have answered correctly or incorrectly.
+6. If your health gets too low, you will be sent back to the start menu.
